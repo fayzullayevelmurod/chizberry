@@ -14,3 +14,293 @@
     font-family: 'Golos UI';
     src: url('../fonts/Golos-UI_VF.ttf');
 }
+*{
+    list-style: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Golos UI', sans-serif;
+}
+a,
+input,
+label,
+textarea,
+span,
+button{
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.container{
+    max-width: 1320px;
+}
+// h1,
+// h2,
+// h3,
+// h4,
+// h5,
+// h6{
+//     margin-bottom: 0;
+// }
+ul{
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.list_link{
+    margin-top: 28.5px;
+    gap: 8px;
+    color: #F64909;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.6px;
+}
+
+// contact
+.contact{
+    padding-bottom: 56px;
+    .contact_title{
+        .contact_title_in{
+            margin-top: 40px;
+            margin-bottom: 40px;
+            margin-left: 26px;
+            color: #000;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: 3.6px;
+            text-transform: uppercase;
+        }
+    }
+    .contact_wrapper{
+        margin-bottom: 24px;
+        .contact_card_wrapper{
+            .contact_card{
+                padding: 38px 32px 49px 26px;
+                border-radius: 16px;
+                background: #F64909;
+                h4{
+                    margin-bottom: 51px;
+                    margin-top: 26px;
+                    color: #FFF;
+                    font-size: 36px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                    letter-spacing: 3.6px;
+                    text-transform: uppercase;
+                }
+                p{
+                    color: #FFF;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                    letter-spacing: 2.4px;
+                }
+                a{
+                    color: #FFF;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                    letter-spacing: 2.4px;
+                }
+                .contact_location{
+                    margin-bottom: 67px;
+                    p{
+                        margin-left: 6px;
+                    }
+                }
+                .contact_phone{
+                    margin-bottom: 36px;
+                    img{
+                        margin-right: 20px;
+                        display: block;
+                    }
+                }
+                .contact_whatsapp{
+                    margin-bottom: 36px;
+                    img{
+                        margin-right: 20px;
+                        display: block;
+                    }
+                }
+                .contact_mail{
+                    margin-bottom: 59px;
+                    img{
+                        margin-right: 20px;
+                        display: block;
+                    }
+                }
+                .button_groups{
+                    .contact_btn{
+                        cursor: pointer;
+                        transition: .5s linear;
+                        height: 40px;
+                        color: #FFF;
+                        text-align: center;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                        letter-spacing: 1.6px;
+                        text-transform: uppercase;
+                        flex-basis: 350px;
+                        background-color: transparent; 
+                        border-radius: 35px;
+                        border: 2px solid white;
+                        &:hover{
+                            background-color: white;
+                            color: #F64909;
+                        }
+                        &:active{
+                            border-radius: 100px;
+                            border: 2px solid #FFF;
+                            background: #FFF;
+                            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+                        }
+                    }
+                    .media_social{
+                        white-space: nowrap;
+                        margin-left: auto;
+                    }
+                }
+            }
+            .contact_card_map{
+                overflow: hidden;
+                border-radius: 16px;
+                height: 100%;
+                iframe{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+}
+// contact
+
+@media screen and (max-width:992px){
+    .contact{
+        .contact_title{
+            .contact_title_in{
+                font-size: 26px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                letter-spacing: 2.6px;
+            }
+        }
+        .contact_wrapper{
+            .contact_card_wrapper{
+                .contact_card{
+                    margin-bottom: 20px;
+                    padding: 50px 18px 54px 27px;
+                    a{
+                        img{
+                            width: 70px;
+                            height: 70px;
+                        }
+                    }
+                    h4{
+                        margin-top: 30px;
+                        margin-bottom: 62px;
+                        font-size: 32px;
+                    }
+                    p{
+                        font-size: 24px;
+                    }
+                    a{
+                        font-size: 24px;
+                    }
+                    .contact_location{
+                        margin-bottom: 89px;
+                    }
+                    .button_groups{
+                        .contact_btn{
+                            flex-basis: 270px;
+                            font-size: 13px;
+                        }
+                    }
+                }
+                .contact_card_map{
+                    height: 602px;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:768px){
+    .contact{
+        .contact_title{
+            .contact_title_in{
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                letter-spacing: 2.6px;
+            }
+        }
+        .contact_wrapper{
+            .contact_card_wrapper{
+                .contact_card{
+                    padding: 30px 10px 35px 16px;
+                    a{
+                        img{
+                            width: 70px;
+                            height: 70px;
+                        }
+                    }
+                    h4{
+                        margin-top: 12px;
+                        margin-bottom: 39px;
+                        font-size: 26px;
+                    }
+                    p{
+                        font-size: 20px;
+                    }
+                    a{
+                        font-size: 20px;
+                    }
+                    .contact_location{
+                        img{
+                            width: 54px;
+                            height: 54px;
+                        }
+                        margin-bottom: 58px;
+                    }
+                    .contact_phone{
+                        margin-bottom: 28px;
+                    }
+                    .contact_whatsapp{
+                        margin-bottom: 28px;
+                    }
+                    .button_groups{
+                        .contact_btn{
+                            flex-basis: 240px;
+                            font-size: 12px;
+                        }
+                        .media_social{
+                            a{
+                                img{
+                                    width: 40px;
+                                    height: 40px;
+                                }
+                            }
+                        }
+                    }
+                }
+                .contact_card_map{
+                    height: 602px;
+                }
+            }
+        }
+    }
+}
+
+@import url('_responsive.scss');
