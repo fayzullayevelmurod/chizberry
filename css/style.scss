@@ -601,70 +601,208 @@ ul{
 }
 // team
 
-// cheesecakes
-.cheesecakes{
-    margin-top: 40px;
-    .cheesecakes_main{
-        position: relative;
-        .cheesecakes_img{
-            border-radius: 20px;
-            width: 100%;
-            height: 100%;
-        }
-        .cheesecakes_content{
-            position: absolute;
-            left: 0;
-            top: 0;
-            padding: 42px 50px 42px 50px;
-            h4{
-                margin-top: 30px;
-                margin-bottom: 54px;
-                max-width: 734px;
-                color: #FFF;
-                font-size: 50px;
-                font-style: normal;
-                font-weight: 500;
-                line-height: normal;
-                letter-spacing: 5px;
-                text-transform: uppercase;
-            }
-            .cheesecakes_btn{
-                border: none;
-                width: 390px;
-                height: 98px;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                color: #FFF;
-                text-align: center;
-                font-size: 24px;
+// bestsellers
+.bestseller{
+    ul{
+        margin-top: 125px;
+        li{
+            margin-bottom: 26px;
+            .bestsellers_link{
+                color: #000;
+                font-size: 20px;
                 font-style: normal;
                 font-weight: 700;
                 line-height: normal;
-                letter-spacing: 2.4px;
+                letter-spacing: 2px;
                 text-transform: uppercase;
+            }
+            .bestsellers_link_active{
+                color: #F64909;
+            }
+        }
+    }
+    .bestseller_title{
+        h4{
+            margin-top: 40px;
+            margin-bottom: 36px;
+            color: #000;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: 3.6px;
+            text-transform: uppercase;
+        }
+        .bestseller_menu{
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            .bestseller_menu_link{
+                padding: 18px 21px;
+                border-radius: 16px;
+                border: 3px solid #F64909;
+                background: #FFF;
+                color: #F64909;
+                text-align: center;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+                transition: .5s linear;
+                &:active{
+                    border-radius: 16px;
+                    border: 3px solid #F64909;
+                    background: #F64909;
+                    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+                }
+                &:hover{
+                    color: white;
+                    background: #F64909;
+                }
+            }
+            .menu_link_active{
+                color: white;
+                border-radius: 16px;
+                border: 3px solid #F64909;
+                background: #F64909;
+                box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+            }
+            .menu_link_full{
+                padding: 18px 0;
+                flex-basis: 400px;
+            }
+        }
+    }
+    .bestseller_in{
+        margin-top: 44px;
+        .bestseller_card{
+            margin-bottom: 80px;
+            position: relative;
+            .bestseller_card_img{
+                width: 100%;
+                overflow: hidden;
+                border-radius: 20px;
+            }
+            .bestseller_xit{
+                width: 50px;
+                height: 50px;
+                position: absolute;
+                left: 30px;
+                top: 0;
+            }
+            h5{
+                // height: 48px;
+                margin: 28px 0;
+                color: #000;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                letter-spacing: 1px;
+                text-transform: uppercase;
+            }
+            .bestseller_line{
+                width: 156px;
+                height: 3px;
+                background-color: #F64909;
+                margin-bottom: 28px;
+            }
+            p{
+                margin-bottom: 20px;
+                overflow: hidden;
+                color: #000;
+                text-overflow: ellipsis;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                letter-spacing: 2px;
+            }
+            .bestseller_btn{
+                width: 224px;
+                height: 40px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
                 border-radius: 100px;
                 background: #F64909;
+                color: #FFF;
+                text-align: center;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                letter-spacing: 1.6px;
+                text-transform: uppercase;
                 transition: .5s linear;
+                border: 3px solid transparent;
                 &:hover{
+                    border: 3px solid #F64909;
                     background: #F64909;
-                    box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.15) inset;
-                }
-                img{
-                    margin-right: 20px;
+                    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
                 }
             }
         }
     }
 }
-// cheesecakes
+// bestsellers
 
 
 
 
 
 
+@media screen and (max-width:1200px){
+    .bestseller{
+        ul{
+            li{
+                margin-bottom: 12px;
+                .bestsellers_link   {
+                    font-size: 14px;
+                }
+            }
+        }
+        .bestseller_title{
+            h4{
+                font-size: 24px;
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+            .bestseller_menu{
+                .bestseller_menu_link{
+                    padding: 10px 15px;
+                    font-size: 15px;
+                }
+                .menu_link_full{
+                    padding: 10px 0;
+                }
+            }
+        }
+        .bestseller_in{
+            margin-top: 30px;
+            .bestseller_card{
+                margin-bottom: 40px;
+                .bestseller_xit{
+                    width: 30px;
+                    height: 30px;
+                }
+                h5{
+                    font-size: 17px;
+                }
+                p{
+                    font-size: 14px;
+                }
+                .bestseller_btn{
+                    width: 170px;
+                    height: 35px;
+                }
+            }
 
+        }
+    }
+}
 
 @media screen and (max-width:992px){
     .contact{
@@ -824,6 +962,25 @@ ul{
                 }
             }
         }
+    }
+    .bestseller{
+        ul{
+            margin-top: 40px;
+        }
+        .bestseller_in{
+            .bestseller_card{
+                .bestseller_xit{
+                    width: 50px;
+                    height: 50px;
+                }
+                h5{
+                    margin: 20px 0;
+                }
+                .bestseller_line{
+                    margin-bottom: 20px;
+                }
+            } 
+        }    
     }
 }
 
