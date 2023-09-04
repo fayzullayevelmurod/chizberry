@@ -1,19 +1,18 @@
 @charset "UTF-8";
 @font-face {
   font-family: "Golos UI";
+  font-weight: 700;
   src: url("../fonts/Golos-UI_Bold.ttf");
 }
 @font-face {
   font-family: "Golos UI";
+  font-weight: 500;
   src: url("../fonts/Golos-UI_Medium.ttf");
 }
 @font-face {
   font-family: "Golos UI";
+  font-weight: 400;
   src: url("../fonts/Golos-UI_Regular.ttf");
-}
-@font-face {
-  font-family: "Golos UI";
-  src: url("../fonts/Golos-UI_VF.ttf");
 }
 * {
   list-style: none;
