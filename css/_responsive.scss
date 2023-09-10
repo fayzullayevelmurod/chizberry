@@ -1148,6 +1148,21 @@
         }
     }
 
+    #header_link_list {
+        margin-left: 12px;
+        margin-right: 12px;
+
+        .container {
+            a, span {
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                letter-spacing: 1.2px;
+            }
+        }
+    }
+
     .index {
         #home {
             margin-top: 20px;
