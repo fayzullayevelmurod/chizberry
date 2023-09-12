@@ -100,6 +100,7 @@ ul {
 
 @mixin by_chizberry {
     margin-top: 56px;
+    margin-bottom: 80px;
 
     .title {
         color: #000;
@@ -259,6 +260,8 @@ ul {
     }
 
     @media only screen and (max-width: 1400px) {
+        margin-bottom: 70px;
+
         .title {
             margin-left: 22px;
             margin-bottom: 58px;
@@ -350,6 +353,8 @@ ul {
     }
 
     @media only screen and (max-width: 1200px) {
+        margin-bottom: 60px;
+
         .title {
             margin-left: 16px;
             margin-bottom: 40px;
@@ -454,6 +459,8 @@ ul {
     }
 
     @media only screen and (max-width: 992px) {
+        margin-bottom: 50px;
+
         .title {
             margin-left: 22px;
             margin-bottom: 40px;
@@ -559,6 +566,8 @@ ul {
     }
 
     @media only screen and (max-width: 768px) {
+        margin-bottom: 40px;
+
         .title {
             margin-left: 12px;
             margin-bottom: 30px;
@@ -5570,8 +5579,6 @@ header {
     }
 
     #opinions {
-        margin-top: 80px;
-
         @include index_opinions();
     }
 
@@ -5608,7 +5615,6 @@ header {
 
     #buy_cheeseberry {
         @include by_chizberry();
-        margin-bottom: 80px;
     }
 
     #opinions {
@@ -5648,7 +5654,6 @@ header {
 
     #buy_cheeseberry {
         @include by_chizberry();
-        margin-bottom: 80px;
     }
 
     #opinions {
@@ -5688,7 +5693,6 @@ header {
 
     #buy_cheeseberry {
         @include by_chizberry();
-        margin-bottom: 80px;
     }
 
     #opinions {
@@ -5728,7 +5732,6 @@ header {
 
     #buy_cheeseberry {
         @include by_chizberry();
-        margin-bottom: 80px;
     }
 
     #opinions {
@@ -5768,7 +5771,6 @@ header {
 
     #buy_cheeseberry {
         @include by_chizberry();
-        margin-bottom: 80px;
     }
 
     #opinions {
@@ -5808,7 +5810,6 @@ header {
 
     #buy_cheeseberry {
         @include by_chizberry();
-        margin-bottom: 80px;
     }
 
     #opinions {
@@ -5848,7 +5849,6 @@ header {
 
     #buy_cheeseberry {
         @include by_chizberry();
-        margin-bottom: 80px;
     }
 
     #opinions {
@@ -5888,7 +5888,6 @@ header {
 
     #buy_cheeseberry {
         @include by_chizberry();
-        margin-bottom: 80px;
     }
 
     #opinions {
@@ -6480,7 +6479,6 @@ footer {
 
     #buy_cheeseberry {
         @include by_chizberry();
-        margin-bottom: 80px;
     }
 
     #opinions {

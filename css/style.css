@@ -2139,6 +2139,7 @@ header .header_foot .header_foot_link_right .link_title {
 }
 .index #buy_cheeseberry {
   margin-top: 56px;
+  margin-bottom: 80px;
 }
 .index #buy_cheeseberry .title {
   color: #000;
@@ -2281,6 +2282,9 @@ header .header_foot .header_foot_link_right .link_title {
   text-transform: uppercase;
 }
 @media only screen and (max-width: 1400px) {
+  .index #buy_cheeseberry {
+    margin-bottom: 70px;
+  }
   .index #buy_cheeseberry .title {
     margin-left: 22px;
     margin-bottom: 58px;
@@ -2358,6 +2362,9 @@ header .header_foot .header_foot_link_right .link_title {
   }
 }
 @media only screen and (max-width: 1200px) {
+  .index #buy_cheeseberry {
+    margin-bottom: 60px;
+  }
   .index #buy_cheeseberry .title {
     margin-left: 16px;
     margin-bottom: 40px;
@@ -2447,6 +2454,9 @@ header .header_foot .header_foot_link_right .link_title {
   }
 }
 @media only screen and (max-width: 992px) {
+  .index #buy_cheeseberry {
+    margin-bottom: 50px;
+  }
   .index #buy_cheeseberry .title {
     margin-left: 22px;
     margin-bottom: 40px;
@@ -2537,6 +2547,9 @@ header .header_foot .header_foot_link_right .link_title {
   }
 }
 @media only screen and (max-width: 768px) {
+  .index #buy_cheeseberry {
+    margin-bottom: 40px;
+  }
   .index #buy_cheeseberry .title {
     margin-left: 12px;
     margin-bottom: 30px;
@@ -4163,6 +4176,7 @@ header .header_foot .header_foot_link_right .link_title {
 }
 .products #buy_cheeseberry {
   margin-top: 56px;
+  margin-bottom: 80px;
 }
 .products #buy_cheeseberry .title {
   color: #000;
@@ -4305,6 +4319,9 @@ header .header_foot .header_foot_link_right .link_title {
   text-transform: uppercase;
 }
 @media only screen and (max-width: 1400px) {
+  .products #buy_cheeseberry {
+    margin-bottom: 70px;
+  }
   .products #buy_cheeseberry .title {
     margin-left: 22px;
     margin-bottom: 58px;
@@ -4382,6 +4399,9 @@ header .header_foot .header_foot_link_right .link_title {
   }
 }
 @media only screen and (max-width: 1200px) {
+  .products #buy_cheeseberry {
+    margin-bottom: 60px;
+  }
   .products #buy_cheeseberry .title {
     margin-left: 16px;
     margin-bottom: 40px;
@@ -4471,6 +4491,9 @@ header .header_foot .header_foot_link_right .link_title {
   }
 }
 @media only screen and (max-width: 992px) {
+  .products #buy_cheeseberry {
+    margin-bottom: 50px;
+  }
   .products #buy_cheeseberry .title {
     margin-left: 22px;
     margin-bottom: 40px;
@@ -4561,6 +4584,9 @@ header .header_foot .header_foot_link_right .link_title {
   }
 }
 @media only screen and (max-width: 768px) {
+  .products #buy_cheeseberry {
+    margin-bottom: 40px;
+  }
   .products #buy_cheeseberry .title {
     margin-left: 12px;
     margin-bottom: 30px;
@@ -4802,7 +4828,6 @@ header .header_foot .header_foot_link_right .link_title {
   }
 }
 .products #opinions {
-  margin-top: 80px;
   overflow: hidden;
   margin-bottom: 70px;
 }
@@ -9633,6 +9658,9 @@ header .header_foot .header_foot_link_right .link_title {
   text-transform: uppercase;
 }
 @media only screen and (max-width: 1400px) {
+  .cheesecakes_sufle #buy_cheeseberry {
+    margin-bottom: 70px;
+  }
   .cheesecakes_sufle #buy_cheeseberry .title {
     margin-left: 22px;
     margin-bottom: 58px;
@@ -9710,6 +9738,9 @@ header .header_foot .header_foot_link_right .link_title {
   }
 }
 @media only screen and (max-width: 1200px) {
+  .cheesecakes_sufle #buy_cheeseberry {
+    margin-bottom: 60px;
+  }
   .cheesecakes_sufle #buy_cheeseberry .title {
     margin-left: 16px;
     margin-bottom: 40px;
@@ -9799,6 +9830,9 @@ header .header_foot .header_foot_link_right .link_title {
   }
 }
 @media only screen and (max-width: 992px) {
+  .cheesecakes_sufle #buy_cheeseberry {
+    margin-bottom: 50px;
+  }
   .cheesecakes_sufle #buy_cheeseberry .title {
     margin-left: 22px;
     margin-bottom: 40px;
@@ -9889,6 +9923,9 @@ header .header_foot .header_foot_link_right .link_title {
   }
 }
 @media only screen and (max-width: 768px) {
+  .cheesecakes_sufle #buy_cheeseberry {
+    margin-bottom: 40px;
+  }
   .cheesecakes_sufle #buy_cheeseberry .title {
     margin-left: 12px;
     margin-bottom: 30px;
@@ -14960,6 +14997,9 @@ header .header_foot .header_foot_link_right .link_title {
   text-transform: uppercase;
 }
 @media only screen and (max-width: 1400px) {
+  .cakes #buy_cheeseberry {
+    margin-bottom: 70px;
+  }
   .cakes #buy_cheeseberry .title {
     margin-left: 22px;
     margin-bottom: 58px;
@@ -15037,6 +15077,9 @@ header .header_foot .header_foot_link_right .link_title {
   }
 }
 @media only screen and (max-width: 1200px) {
+  .cakes #buy_cheeseberry {
+    margin-bottom: 60px;
+  }
   .cakes #buy_cheeseberry .title {
     margin-left: 16px;
     margin-bottom: 40px;
@@ -15126,6 +15169,9 @@ header .header_foot .header_foot_link_right .link_title {
   }
 }
 @media only screen and (max-width: 992px) {
+  .cakes #buy_cheeseberry {
+    margin-bottom: 50px;
+  }
   .cakes #buy_cheeseberry .title {
     margin-left: 22px;
     margin-bottom: 40px;
@@ -15216,6 +15262,9 @@ header .header_foot .header_foot_link_right .link_title {
   }
 }
 @media only screen and (max-width: 768px) {
+  .cakes #buy_cheeseberry {
+    margin-bottom: 40px;
+  }
   .cakes #buy_cheeseberry .title {
     margin-left: 12px;
     margin-bottom: 30px;
@@ -20287,6 +20336,9 @@ header .header_foot .header_foot_link_right .link_title {
   text-transform: uppercase;
 }
 @media only screen and (max-width: 1400px) {
+  .cookies #buy_cheeseberry {
+    margin-bottom: 70px;
+  }
   .cookies #buy_cheeseberry .title {
     margin-left: 22px;
     margin-bottom: 58px;
@@ -20364,6 +20416,9 @@ header .header_foot .header_foot_link_right .link_title {
   }
 }
 @media only screen and (max-width: 1200px) {
+  .cookies #buy_cheeseberry {
+    margin-bottom: 60px;
+  }
   .cookies #buy_cheeseberry .title {
     margin-left: 16px;
     margin-bottom: 40px;
@@ -20453,6 +20508,9 @@ header .header_foot .header_foot_link_right .link_title {
   }
 }
 @media only screen and (max-width: 992px) {
+  .cookies #buy_cheeseberry {
+    margin-bottom: 50px;
+  }
   .cookies #buy_cheeseberry .title {
     margin-left: 22px;
     margin-bottom: 40px;
@@ -20543,6 +20601,9 @@ header .header_foot .header_foot_link_right .link_title {
   }
 }
 @media only screen and (max-width: 768px) {
+  .cookies #buy_cheeseberry {
+    margin-bottom: 40px;
+  }
   .cookies #buy_cheeseberry .title {
     margin-left: 12px;
     margin-bottom: 30px;
@@ -25614,6 +25675,9 @@ header .header_foot .header_foot_link_right .link_title {
   text-transform: uppercase;
 }
 @media only screen and (max-width: 1400px) {
+  .small_items #buy_cheeseberry {
+    margin-bottom: 70px;
+  }
   .small_items #buy_cheeseberry .title {
     margin-left: 22px;
     margin-bottom: 58px;
@@ -25691,6 +25755,9 @@ header .header_foot .header_foot_link_right .link_title {
   }
 }
 @media only screen and (max-width: 1200px) {
+  .small_items #buy_cheeseberry {
+    margin-bottom: 60px;
+  }
   .small_items #buy_cheeseberry .title {
     margin-left: 16px;
     margin-bottom: 40px;
@@ -25780,6 +25847,9 @@ header .header_foot .header_foot_link_right .link_title {
   }
 }
 @media only screen and (max-width: 992px) {
+  .small_items #buy_cheeseberry {
+    margin-bottom: 50px;
+  }
   .small_items #buy_cheeseberry .title {
     margin-left: 22px;
     margin-bottom: 40px;
@@ -25870,6 +25940,9 @@ header .header_foot .header_foot_link_right .link_title {
   }
 }
 @media only screen and (max-width: 768px) {
+  .small_items #buy_cheeseberry {
+    margin-bottom: 40px;
+  }
   .small_items #buy_cheeseberry .title {
     margin-left: 12px;
     margin-bottom: 30px;
@@ -30941,6 +31014,9 @@ header .header_foot .header_foot_link_right .link_title {
   text-transform: uppercase;
 }
 @media only screen and (max-width: 1400px) {
+  .chees_cream #buy_cheeseberry {
+    margin-bottom: 70px;
+  }
   .chees_cream #buy_cheeseberry .title {
     margin-left: 22px;
     margin-bottom: 58px;
@@ -31018,6 +31094,9 @@ header .header_foot .header_foot_link_right .link_title {
   }
 }
 @media only screen and (max-width: 1200px) {
+  .chees_cream #buy_cheeseberry {
+    margin-bottom: 60px;
+  }
   .chees_cream #buy_cheeseberry .title {
     margin-left: 16px;
     margin-bottom: 40px;
@@ -31107,6 +31186,9 @@ header .header_foot .header_foot_link_right .link_title {
   }
 }
 @media only screen and (max-width: 992px) {
+  .chees_cream #buy_cheeseberry {
+    margin-bottom: 50px;
+  }
   .chees_cream #buy_cheeseberry .title {
     margin-left: 22px;
     margin-bottom: 40px;
@@ -31197,6 +31279,9 @@ header .header_foot .header_foot_link_right .link_title {
   }
 }
 @media only screen and (max-width: 768px) {
+  .chees_cream #buy_cheeseberry {
+    margin-bottom: 40px;
+  }
   .chees_cream #buy_cheeseberry .title {
     margin-left: 12px;
     margin-bottom: 30px;
@@ -36268,6 +36353,9 @@ header .header_foot .header_foot_link_right .link_title {
   text-transform: uppercase;
 }
 @media only screen and (max-width: 1400px) {
+  .retail #buy_cheeseberry {
+    margin-bottom: 70px;
+  }
   .retail #buy_cheeseberry .title {
     margin-left: 22px;
     margin-bottom: 58px;
@@ -36345,6 +36433,9 @@ header .header_foot .header_foot_link_right .link_title {
   }
 }
 @media only screen and (max-width: 1200px) {
+  .retail #buy_cheeseberry {
+    margin-bottom: 60px;
+  }
   .retail #buy_cheeseberry .title {
     margin-left: 16px;
     margin-bottom: 40px;
@@ -36434,6 +36525,9 @@ header .header_foot .header_foot_link_right .link_title {
   }
 }
 @media only screen and (max-width: 992px) {
+  .retail #buy_cheeseberry {
+    margin-bottom: 50px;
+  }
   .retail #buy_cheeseberry .title {
     margin-left: 22px;
     margin-bottom: 40px;
@@ -36524,6 +36618,9 @@ header .header_foot .header_foot_link_right .link_title {
   }
 }
 @media only screen and (max-width: 768px) {
+  .retail #buy_cheeseberry {
+    margin-bottom: 40px;
+  }
   .retail #buy_cheeseberry .title {
     margin-left: 12px;
     margin-bottom: 30px;
@@ -41595,6 +41692,9 @@ header .header_foot .header_foot_link_right .link_title {
   text-transform: uppercase;
 }
 @media only screen and (max-width: 1400px) {
+  .horeca #buy_cheeseberry {
+    margin-bottom: 70px;
+  }
   .horeca #buy_cheeseberry .title {
     margin-left: 22px;
     margin-bottom: 58px;
@@ -41672,6 +41772,9 @@ header .header_foot .header_foot_link_right .link_title {
   }
 }
 @media only screen and (max-width: 1200px) {
+  .horeca #buy_cheeseberry {
+    margin-bottom: 60px;
+  }
   .horeca #buy_cheeseberry .title {
     margin-left: 16px;
     margin-bottom: 40px;
@@ -41761,6 +41864,9 @@ header .header_foot .header_foot_link_right .link_title {
   }
 }
 @media only screen and (max-width: 992px) {
+  .horeca #buy_cheeseberry {
+    margin-bottom: 50px;
+  }
   .horeca #buy_cheeseberry .title {
     margin-left: 22px;
     margin-bottom: 40px;
@@ -41851,6 +41957,9 @@ header .header_foot .header_foot_link_right .link_title {
   }
 }
 @media only screen and (max-width: 768px) {
+  .horeca #buy_cheeseberry {
+    margin-bottom: 40px;
+  }
   .horeca #buy_cheeseberry .title {
     margin-left: 12px;
     margin-bottom: 30px;
@@ -46922,6 +47031,9 @@ header .header_foot .header_foot_link_right .link_title {
   text-transform: uppercase;
 }
 @media only screen and (max-width: 1400px) {
+  .range #buy_cheeseberry {
+    margin-bottom: 70px;
+  }
   .range #buy_cheeseberry .title {
     margin-left: 22px;
     margin-bottom: 58px;
@@ -46999,6 +47111,9 @@ header .header_foot .header_foot_link_right .link_title {
   }
 }
 @media only screen and (max-width: 1200px) {
+  .range #buy_cheeseberry {
+    margin-bottom: 60px;
+  }
   .range #buy_cheeseberry .title {
     margin-left: 16px;
     margin-bottom: 40px;
@@ -47088,6 +47203,9 @@ header .header_foot .header_foot_link_right .link_title {
   }
 }
 @media only screen and (max-width: 992px) {
+  .range #buy_cheeseberry {
+    margin-bottom: 50px;
+  }
   .range #buy_cheeseberry .title {
     margin-left: 22px;
     margin-bottom: 40px;
@@ -47178,6 +47296,9 @@ header .header_foot .header_foot_link_right .link_title {
   }
 }
 @media only screen and (max-width: 768px) {
+  .range #buy_cheeseberry {
+    margin-bottom: 40px;
+  }
   .range #buy_cheeseberry .title {
     margin-left: 12px;
     margin-bottom: 30px;
@@ -51257,6 +51378,9 @@ footer .footer_bottom .footer_texts .first_text2 {
   text-transform: uppercase;
 }
 @media only screen and (max-width: 1400px) {
+  .team #buy_cheeseberry {
+    margin-bottom: 70px;
+  }
   .team #buy_cheeseberry .title {
     margin-left: 22px;
     margin-bottom: 58px;
@@ -51334,6 +51458,9 @@ footer .footer_bottom .footer_texts .first_text2 {
   }
 }
 @media only screen and (max-width: 1200px) {
+  .team #buy_cheeseberry {
+    margin-bottom: 60px;
+  }
   .team #buy_cheeseberry .title {
     margin-left: 16px;
     margin-bottom: 40px;
@@ -51423,6 +51550,9 @@ footer .footer_bottom .footer_texts .first_text2 {
   }
 }
 @media only screen and (max-width: 992px) {
+  .team #buy_cheeseberry {
+    margin-bottom: 50px;
+  }
   .team #buy_cheeseberry .title {
     margin-left: 22px;
     margin-bottom: 40px;
@@ -51513,6 +51643,9 @@ footer .footer_bottom .footer_texts .first_text2 {
   }
 }
 @media only screen and (max-width: 768px) {
+  .team #buy_cheeseberry {
+    margin-bottom: 40px;
+  }
   .team #buy_cheeseberry .title {
     margin-left: 12px;
     margin-bottom: 30px;
@@ -55805,7 +55938,7 @@ footer .footer_bottom .footer_texts .first_text2 {
     height: 470px;
     padding: 22px 18px 26px 22px;
     border: none;
-    border-bottom: 3px solid #F64909;
+    border-top: 3px solid #F64909;
     border-radius: 0px;
   }
   .discount .discount_card .card_right img {
