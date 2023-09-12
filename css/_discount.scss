@@ -1,0 +1,769 @@
+.discount {
+    margin-bottom: 56px;
+
+    .title {
+        color: #000;
+        font-family: "Golos UI", sans-serif;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 3.6px;
+        text-transform: uppercase;
+        margin-bottom: 28px;
+        padding-left: 26px;
+    }
+
+    .subtitle {
+        color: #000;
+        font-family: "Golos UI", sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 2.4px;
+        margin-bottom: 58px;
+        padding-left: 26px;
+    }
+
+    .discount_card {
+        margin-bottom: 24px;
+
+        .card_left {
+            width: 100%;
+            height: 648px;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-radius: 16px;
+            }
+        }
+
+        .card_right {
+            border-radius: 16px;
+            border: 3px solid #F64909;
+            background: #FFF;
+            padding: 38px 36px 48px 26px;
+            height: 648px;
+
+            img {
+                width: 80px;
+                height: 80px;
+                margin-bottom: 24px;
+                object-fit: cover;
+            }
+
+            .card_title {
+                color: #000;
+                font-family: "Golos UI", sans-serif;
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                letter-spacing: 3.6px;
+                text-transform: uppercase;
+                margin-bottom: 14px;
+                height: 86px;
+            }
+
+            .card_description {
+                color: #000;
+                font-family: "Golos UI", sans-serif;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                letter-spacing: 2.4px;
+                margin-bottom: 60px;
+            }
+
+            .line {
+                width: 200px;
+                height: 3px;
+                background: #F64909;
+                margin-bottom: 42px;
+            }
+
+            .data {
+                display: flex;
+                align-items: flex-start;
+                gap: 40px;
+
+                .data_title {
+                    color: #F64909;
+                    font-family: "Golos UI", sans-serif;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                    letter-spacing: 2.4px;
+                    min-width: 210px;
+                }
+
+                .data_value {
+                    color: #000;
+                    font-family: "Golos UI", sans-serif;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                    letter-spacing: 2px;
+                    transform: translateY(3px);
+                }
+            }
+
+            .first_child {
+                height: 78px;
+            }
+
+            a {
+                border-radius: 100px;
+                background: #F64909;
+                display: flex;
+                width: 336px;
+                height: 40px;
+                padding: 0px 56px;
+                justify-content: center;
+                align-items: center;
+                margin-top: 42px;
+                color: #FFF;
+                text-align: center;
+                font-family: "Golos UI", sans-serif;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                letter-spacing: 1.6px;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+
+@media (max-width: 1400px) {
+    .discount {
+        margin-bottom: 46px;
+
+        .title {
+            padding-left: 22px;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: 3.6px;
+            margin-bottom: 28px;
+        }
+
+        .subtitle {
+            padding-left: 22px;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            letter-spacing: 2.4px;
+            margin-bottom: 40px;
+        }
+
+        .discount_card {
+            .card_left {
+                height: 558px;
+            }
+
+            .card_right {
+                height: 558px;
+                padding: 30px 16px 32px 26px;
+
+                img {
+                    width: 80px;
+                    height: 80px;
+                    margin-bottom: 18px;
+                }
+
+                .card_title {
+                    height: 76px;
+                    margin-bottom: 16px;
+                    font-size: 32px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                    letter-spacing: 3.2px;
+                }
+
+                .card_description {
+                    margin-bottom: 51px;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                    letter-spacing: 2.4px;
+                }
+
+                .line {
+                    margin-bottom: 22px;
+                }
+
+                .data {
+                    gap: 12px;
+
+                    .data_title {
+                        min-width: 210px;
+                        font-size: 24px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                        letter-spacing: 2.4px;
+                    }
+
+                    .data_value {
+                        font-size: 19px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                        letter-spacing: 1.9px;
+                    }
+                }
+
+                .first_child {
+                    height: 89px;
+                }
+
+                a {
+                    width: 294px;
+                    height: 40px;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                    letter-spacing: 1.6px;
+                    margin-top: 18px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    .discount {
+        margin-bottom: 4px;
+
+        .title {
+            padding-left: 16px;
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: 3px;
+            margin-bottom: 20px;
+        }
+
+        .subtitle {
+            padding-left: 16px;
+            font-size: 19px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            letter-spacing: 1.9px;
+            margin-bottom: 40px;
+        }
+
+        .discount_card {
+            margin-bottom: 16px;
+
+            .card_left {
+                height: 472px;
+            }
+
+            .card_right {
+                height: 472px;
+                padding: 14px 14px 26px 16px;
+
+                img {
+                    width: 80px;
+                    height: 80px;
+                    margin-bottom: 10px;
+                }
+
+                .card_title {
+                    height: 70px;
+                    margin-bottom: 32px;
+                    font-size: 29px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                    letter-spacing: 2.9px;
+                }
+
+                .card_description {
+                    margin-bottom: 31px;
+                    font-size: 19px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                    letter-spacing: 1.9px;
+                }
+
+                .line {
+                    margin-bottom: 20px;
+                    width: 164px;
+                }
+
+                .data {
+                    gap: 14px;
+
+                    .data_title {
+                        min-width: 162px;
+                        font-size: 19px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                        letter-spacing: 1.9px;
+                    }
+
+                    .data_value {
+                        font-size: 17px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                        letter-spacing: 1.7px;
+                    }
+                }
+
+                .first_child {
+                    height: 84px;
+                }
+
+                a {
+                    width: 266px;
+                    height: 30px;
+                    font-size: 13px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                    letter-spacing: 1.3px;
+                    margin-top: 13px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .discount {
+        margin-bottom: 0;
+
+        .title {
+            padding-left: 22px;
+            font-size: 26px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: 2.6px;
+            margin-bottom: 20px;
+        }
+
+        .subtitle {
+            padding-left: 22px;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            letter-spacing: 2.4px;
+            margin-bottom: 40px;
+        }
+
+        .discount_card {
+            margin-bottom: 50px;
+            border-radius: 12px;
+            border: 3px solid #F64909;
+            overflow: hidden;
+
+            .card_left {
+                height: 540px;
+
+                img {
+                    border-radius: 0;
+                }
+            }
+
+            .card_right {
+                height: 470px;
+                padding: 22px 18px 26px 22px;
+                border: none;
+                border-bottom: 3px solid #F64909;
+                border-radius: 0px;
+
+                img {
+                    width: 70px;
+                    height: 70px;
+                    margin-bottom: 10px;
+                }
+
+                .card_title {
+                    height: 38px;
+                    margin-bottom: 46px;
+                    font-size: 32px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                    letter-spacing: 3.2px;
+                }
+
+                .card_description {
+                    margin-bottom: 37px;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                    letter-spacing: 2.4px;
+                }
+
+                .line {
+                    margin-bottom: 16px;
+                    width: 206px;
+                }
+
+                .data {
+                    gap: 18px;
+
+                    .data_title {
+                        min-width: 206px;
+                        font-size: 24px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                        letter-spacing: 2.4px;
+                    }
+
+                    .data_value {
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                        letter-spacing: 1.8px;
+                    }
+                }
+
+                .first_child {
+                    height: 68px;
+                }
+
+                a {
+                    width: 456px;
+                    height: 30px;
+                    font-size: 13px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                    letter-spacing: 1.3px;
+                    margin-top: 18px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .discount {
+        .title {
+            padding-left: 12px;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: 2.4px;
+            margin-bottom: 20px;
+        }
+
+        .subtitle {
+            padding-left: 12px;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            letter-spacing: 2px;
+            margin-bottom: 40px;
+        }
+
+        .discount_card {
+            margin-bottom: 40px;
+            border-radius: 10px;
+            border: 3px solid #F64909;
+            overflow: hidden;
+
+            .card_left {
+                height: 412px;
+            }
+
+            .card_right {
+                height: 412px;
+                padding: 12px 12px 18px 16px;
+
+                img {
+                    width: 70px;
+                    height: 70px;
+                    margin-bottom: 8px;
+                }
+
+                .card_title {
+                    height: 62px;
+                    margin-bottom: 14px;
+                    font-size: 26px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                    letter-spacing: 2.6px;
+                }
+
+                .card_description {
+                    margin-bottom: 33px;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                    letter-spacing: 2px;
+                }
+
+                .line {
+                    margin-bottom: 18px;
+                    width: 170px;
+                }
+
+                .data {
+                    gap: 14px;
+
+                    .data_title {
+                        min-width: 170px;
+                        font-size: 20px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                        letter-spacing: 2px;
+                    }
+
+                    .data_value {
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                        letter-spacing: 1.4px;
+                    }
+                }
+
+                .first_child {
+                    height: 54px;
+                }
+
+                a {
+                    width: 328px;
+                    height: 30px;
+                    font-size: 13px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                    letter-spacing: 1.3px;
+                    margin-top: 19px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .discount {
+        margin-left: 12px;
+        margin-right: 12px;
+        width: calc(100% - 24px);
+
+        .title {
+            padding-left: 12px;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: 2px;
+            margin-bottom: 20px;
+        }
+
+        .subtitle {
+            padding-left: 12px;
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            letter-spacing: 1.3px;
+            margin-bottom: 30px;
+        }
+
+        .discount_card {
+            margin-bottom: 40px;
+            border-radius: 10px;
+            border: 3px solid #F64909;
+            overflow: hidden;
+
+            .card_left {
+                height: 330px;
+            }
+
+            .card_right {
+                height: auto;
+                padding: 16px 19px 20px 12px;
+
+                img {
+                    width: 36px;
+                    height: 36px;
+                    margin-bottom: 12px;
+                }
+
+                .card_title {
+                    height: auto;
+                    margin-bottom: 35px;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                    letter-spacing: 1.6px;
+                }
+
+                .card_description {
+                    margin-bottom: 37px;
+                    font-size: 13px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                    letter-spacing: 1.3px;
+                }
+
+                .line {
+                    margin-bottom: 16px;
+                    width: 176px;
+                }
+
+                .data {
+                    gap: 20px;
+
+                    .data_title {
+                        min-width: 176px;
+                        font-size: 13px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                        letter-spacing: 1.3px;
+                    }
+
+                    .data_value {
+                        font-size: 13px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                        letter-spacing: 1.3px;
+                        transform: translateY(0);
+                    }
+                }
+
+                .first_child {
+                    height: 68px;
+                }
+
+                a {
+                    width: 324px;
+                    height: 30px;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                    letter-spacing: 1.2px;
+                    margin-top: 16px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 440px) {
+    .discount {
+        .discount_card {
+            .card_right {
+
+                .line {
+                    width: 122px;
+                }
+
+                .data {
+                    gap: 12px;
+
+                    .data_title {
+                        min-width: 122px;
+                    }
+                }
+
+                .first_child {
+                    height: 78px;
+                }
+
+                a {
+                    width: 232px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 380px) {
+    .discount {
+        .discount_card {
+            .card_right {
+
+                .line {
+                    width: 110px;
+                }
+
+                .data {
+                    gap: 10px;
+
+                    .data_title {
+                        min-width: 110px;
+                    }
+                }
+
+                .first_child {
+                    height: 88px;
+                }
+
+                a {
+                    width: 208px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 330px) {
+    .discount {
+        .discount_card {
+            .card_right {
+
+                .line {
+                    width: 90px;
+                }
+
+                .data {
+                    gap: 10px;
+
+                    .data_title {
+                        min-width: 90px;
+                    }
+                }
+
+                .first_child {
+                    height: 88px;
+                }
+
+                a {
+                    width: 176px;
+                }
+            }
+        }
+    }
+}
