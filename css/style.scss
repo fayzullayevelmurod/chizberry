@@ -6729,7 +6729,53 @@ footer {
 }
 // bestsellers
 
-
+@media screen and (max-width:1400px){
+    .team{
+        .team_title{
+            margin-left: 22px;
+            h4{
+                font-size: 36px;
+                letter-spacing: 3.6px;
+                margin-bottom: 28px;
+            }
+            p{
+                font-size: 24px;
+                letter-spacing: 2.4px;
+                margin-bottom: 40px;
+            }
+        }
+        .team_wrapper{
+            .team_card{
+                img{
+                    width: 100%;
+                    max-height: 364px;
+                }
+                .team_content{
+                    padding: 28px 14px 0 14px;
+                    h5{
+                        font-size: 21px;
+                        letter-spacing: 2.4px;
+                    }
+                    .team_line{
+                        width: 156px;
+                    }
+                    h3{
+                        font-size: 24px;
+                    }
+                    p{
+                        font-size: 19px;
+                        letter-spacing: 1.9px;
+                    }
+                    .team_btn{
+                        font-size: 16px;
+                        letter-spacing: 1.6px;
+                        height: 40px;
+                    }
+                }
+            }
+        }
+    }
+}
 @media screen and (max-width:1200px){
     .bestseller{
         ul{
@@ -6856,6 +6902,51 @@ footer {
             }
         }
     }
+    .team{
+        .team_title{
+            margin-left: 22px;
+            h4{
+                font-size: 30px;
+                letter-spacing: 3px;
+                margin-bottom: 20px;
+            }
+            p{
+                font-size: 19px;
+                letter-spacing: 1.9px;
+                margin-bottom: 40px;
+            }
+        }
+        .team_wrapper{
+            .team_card{
+                .team_content{
+                    padding: 20px 12px 0 12px;
+                    h5{
+                        height: 50px;
+                        font-size: 21px;
+                        letter-spacing: 2.1px;
+                    }
+                    .team_line{
+                        width: 134px;
+                    }
+                    h3{
+                        height: 40px;
+                        font-size: 19px;
+                        letter-spacing: 1.9px;
+                    }
+                    p{
+                        height: 40px;
+                        font-size: 17px;
+                        letter-spacing: 1.7px;
+                    }
+                    .team_btn{
+                        font-size: 13px;
+                        letter-spacing: 1.3px;
+                        height: 30px;
+                    }
+                }
+            }
+        }
+    }
 }
 @media screen and (max-width:992px){
     .contact{
@@ -6944,7 +7035,6 @@ footer {
     }
     .team{
         .team_title{
-            margin-left: 0;
             h4{
                 font-size: 24px;
                 margin-top: 20px;
@@ -7003,6 +7093,9 @@ footer {
                 font-weight: 700;
                 line-height: normal;
                 letter-spacing: 2.6px;
+                margin-top: 30px;
+                margin-bottom: 30px;
+                margin-left: 17px;
             }
         }
         .contact_wrapper{
@@ -7055,7 +7148,11 @@ footer {
                     }
                 }
                 .contact_card_map{
-                    height: 602px;
+                    height: 540px;
+                    iframe{
+                        height: 540px;
+
+                    }
                 }
             }
         }
@@ -7097,8 +7194,8 @@ footer {
                 }
                 .bestseller_xit_new{
                     top: 0px;
-                    width: 84px;
-                    height: 44px;
+                    width: 72px;
+                    height: 38px;
                 }
                 h5{
                     margin: 20px 0;
@@ -7201,6 +7298,31 @@ footer {
             }
         }
     }
+    .team{
+        .team_title{
+            margin-left: 17px;
+            h4{
+                font-size: 24px;
+                margin-top: 30px;
+                margin-bottom: 20px;
+                letter-spacing: 2.4px;
+            }
+            p{
+                font-size: 20px;
+                letter-spacing: 2px;
+                margin-bottom: 40px;
+            }
+        }
+        .team_wrapper{
+            .team_card{
+                .team_content{
+                    h3{
+                        height: 60px;
+                    }
+                }
+            }
+        }
+    }
 }
 @media screen and (max-width:576px){
     .list_link{
@@ -7271,29 +7393,41 @@ footer {
             padding: 4px;
         }
         .team_title{
+            margin-left: 12px;
             h4{
+                margin-top: 20px;
                 font-size: 20px;
                 letter-spacing: 2px;
             }
             p{
                 font-size: 13px;
+                margin-bottom: 30px;
                 letter-spacing: 1.3px;
             }
         }
         .team_wrapper{
             .team_card{
                 margin-bottom: 50px;
+                img{
+                    border-radius: 10px;
+                }
                 .team_content{
                     padding: 16px 10px 0 8px;
                     h5{
+                        margin-bottom: 16px;
+                        height: 36px;
                         font-size: 14px;
                         letter-spacing: 1.4px;
                     }
                     h3{
+                        margin-top: 16px;
+                        height: 36px;
                         font-size: 13px;
                         letter-spacing: 1.3px;
                     }
                     p{
+                        margin-top: 16px;
+                        height: 36px;
                         font-size: 13px;
                         letter-spacing: 1.3px;
                     }
@@ -7370,7 +7504,7 @@ footer {
                         text-transform: uppercase;
                         transition: .5s linear;
                         &:active{
-                            border-radius: 16px;
+                            border-radius: 10px;
                             border: 3px solid #F64909;
                             background: #F64909;
                             box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
@@ -7382,7 +7516,7 @@ footer {
                     }
                     .menu_link_active{
                         color: white;
-                        border-radius: 16px;
+                        border-radius: 10px;
                         border: 3px solid #F64909;
                         background: #F64909;
                         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
@@ -7408,13 +7542,22 @@ footer {
         }
         .bestseller_in{
             .bestseller_card {
+                height: 470px;
+                display: flex;
+                flex-direction: column;
+                position: relative;
                 h5{
+                    margin: 16px 0;
                     font-size: 13px;
+                    letter-spacing: 1.3px;
                 }
                 p{
                     font-size: 12px;
+                    letter-spacing: 1.2px;
                 }
                 .bestseller_btn{
+                    position: absolute;
+                    bottom: 0;
                     width: 95%;
                     height: 30px;
                     font-size: 13px;
@@ -7424,10 +7567,16 @@ footer {
                     height: 2px;
                 }
                 .bestseller_xit{
-                    top: 2px    ;
+                    top: 2px;
                     left: 12px;
                     width: 34px;
                     height: 34px;
+                }
+                .bestseller_xit_new{
+                    top: 3px;
+                    left: 5px;
+                    width: 54px;
+                    height: 28px;
                 }
                 .bestseller_card_img{
                     border-radius: 10px;
@@ -7436,38 +7585,70 @@ footer {
         } 
     }
     .contact{
+        .contact_title{
+            .contact_title_in{
+                margin-left: 12px;
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+        }
         .contact_wrapper{
             .contact_card_wrapper{
                 .contact_card{
                     padding: 22px 12px 16px 12px;
+                    a{
+                        .logo_media{
+                            display: block;
+                        }
+                        .logo_desktop{
+                            display: none;
+                        }
+                    }
                     h4{
                         font-size: 16px;
                         margin-bottom: 26px;
                     }
                     .contact_location{
-                        margin-bottom: 29px;
+                        margin-bottom: 24px;
                         img{
-                            width: 40px;
-                            height: 40px;
+                            margin-right: 12px;
+                            width: 34px;
+                            height: 34px;
                         }
                         p{
+                            margin: 0;
                             font-size: 12px;
                         }
                     }
                     .contact_phone{
-                        margin-bottom: 16px;
+                        margin-bottom: 6px;
+                        img{
+                            width: 30px;
+                            height: 30px;
+                            margin-right: 12px;
+                        }
                         a{
                             font-size: 13px;
                         }
                     }
                     .contact_whatsapp{
-                        margin-bottom: 16px;
+                        img{
+                            width: 30px;
+                            height: 30px;
+                            margin-right: 12px;
+                        }
+                        margin-bottom: 6px;
                         a{
                             font-size: 13px;
                         }
                     }
                     .contact_mail{
-                        margin-bottom: 16px;
+                        img{
+                            width: 30px;
+                            height: 30px;
+                            margin-right: 12px;
+                        }
+                        margin-bottom: 14px;
                         a{
                             font-size: 13px;
                         }
@@ -7477,13 +7658,14 @@ footer {
                             display: none;
                         }
                         .contact_btn{
+                            height: 36px;
                             font-size: 12px;
                             width: 246px;
                         }
                     }
                     .media_social_media{
                         margin-top: 15px;
-                        display: block;
+                        display: flex;
                         gap: 22px;
                         a{
                             img{
@@ -7493,14 +7675,18 @@ footer {
                         }
                     }
                 }
+                .contact_card_map{
+                    height: 400px;
+                    iframe{
+                        height: 400px;
+
+                    }
+                }
             }
         }
     }
 }
 @media screen and (max-width: 320px){
-    .container-fuild{
-        border: 1px solid red;
-    }
     .bestseller{
         .bestseller_title{
             h4{
@@ -7568,9 +7754,11 @@ footer {
             .bestseller_card {
                 h5{
                     font-size: 13px;
+
                 }
                 p{
                     font-size: 12px;
+                    letter-spacing: 1.2px;
                 }
                 .bestseller_btn{
                     width: 95%;
@@ -7591,6 +7779,18 @@ footer {
                 }
             }
         } 
+    }
+    .team{
+        .team_wrapper{
+            .team_card{
+                .team_content{
+                    h5{
+                        height: 52px;
+                    }
+
+                }
+            }
+        }
     }
 }
 
