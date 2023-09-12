@@ -53584,7 +53584,7 @@ footer .footer_bottom .footer_texts .first_text2 {
     letter-spacing: 2.6px;
   }
   .contact .contact_wrapper .contact_card_wrapper .contact_card {
-    margin-bottom: 20px;
+    border-radius: 16px 16px 0 0;
     padding: 50px 18px 54px 27px;
   }
   .contact .contact_wrapper .contact_card_wrapper .contact_card .logo_contact img {
@@ -53614,6 +53614,7 @@ footer .footer_bottom .footer_texts .first_text2 {
     font-size: 13px;
   }
   .contact .contact_wrapper .contact_card_wrapper .contact_card_map {
+    border-radius: 0 0 16px 16px;
     height: 602px;
   }
   .certificates .certificates_title {
