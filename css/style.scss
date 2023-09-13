@@ -718,22 +718,22 @@ ul {
             img {
                 width: 36px;
                 height: 36px;
-                margin-bottom: 4px;
+                margin-bottom: 18px;
             }
 
             .title {
                 max-width: 399px;
-                margin-bottom: 8px;
-                font-size: 22px;
+                margin-bottom: 22px;
+                font-size: 20px;
                 font-style: normal;
                 font-weight: 700;
                 line-height: normal;
-                letter-spacing: 2.2px;
+                letter-spacing: 2px;
             }
 
             p {
                 max-width: 306px;
-                margin-bottom: 45px;
+                margin-bottom: 39px;
                 font-size: 14px;
                 font-style: normal;
                 font-weight: 700;
@@ -748,7 +748,7 @@ ul {
                 line-height: normal;
                 letter-spacing: 1.3px;
                 width: 188px;
-                min-height: 30px;
+                min-height: 36px;
             }
         }
 
@@ -840,6 +840,28 @@ ul {
                 line-height: normal;
                 letter-spacing: 1.2px;
                 text-transform: uppercase;
+            }
+        }
+    }
+
+    @media only screen and (max-width: 455px) {
+        .chizberry_card {
+            background: url("../images/index/chizberry_media_image.png") no-repeat;
+            background-size: cover;
+            background-position: center;
+
+            img {
+                margin-bottom: 6px;
+            }
+
+            .title {
+                margin-bottom: 10px;
+                max-width: 278px;
+            }
+
+            p {
+                margin-bottom: 22px;
+                max-width: 212px;
             }
         }
     }
@@ -1666,7 +1688,7 @@ ul {
                         font-weight: 500;
                         line-height: normal;
                         letter-spacing: 1.3px;
-                        margin-bottom: 14px;
+                        margin-bottom: 8px;
                     }
 
                     a {
@@ -1674,7 +1696,7 @@ ul {
                         border: 2px solid #FFF;
                         display: flex;
                         width: 240px;
-                        height: 30px;
+                        min-height: 36px;
                         justify-content: center;
                         align-items: center;
                         color: #FFF;
@@ -1704,7 +1726,7 @@ ul {
                         background: #FFF;
                         display: flex;
                         width: 180px;
-                        height: 30px;
+                        height: 36px;
                         justify-content: center;
                         align-items: center;
                         color: #F64909;
@@ -1736,7 +1758,7 @@ ul {
             }
 
             h1 {
-                margin-bottom: 48px;
+                margin-bottom: 42px;
                 max-width: 314px;
                 color: #FFF;
                 font-family: "Golos UI", sans-serif;
@@ -1753,7 +1775,7 @@ ul {
                 background: #F64909;
                 display: flex;
                 width: 180px;
-                height: 30px;
+                height: 36px;
                 justify-content: center;
                 align-items: center;
                 color: #FFF;
@@ -1773,7 +1795,7 @@ ul {
         .big_cards_mobile {
             h1 {
                 max-width: 220px;
-                margin-bottom: 29px;
+                margin-bottom: 23px;
             }
         }
     }

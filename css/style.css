@@ -778,14 +778,14 @@ header .header_foot .header_foot_link_right .link_title {
     font-weight: 500;
     line-height: normal;
     letter-spacing: 1.3px;
-    margin-bottom: 14px;
+    margin-bottom: 8px;
   }
   .index #cards .cards_top_slider .swiper-slide .card_item a {
     border-radius: 100px;
     border: 2px solid #FFF;
     display: flex;
     width: 240px;
-    height: 30px;
+    min-height: 36px;
     justify-content: center;
     align-items: center;
     color: #FFF;
@@ -811,7 +811,7 @@ header .header_foot .header_foot_link_right .link_title {
     background: #FFF;
     display: flex;
     width: 180px;
-    height: 30px;
+    height: 36px;
     justify-content: center;
     align-items: center;
     color: #F64909;
@@ -838,7 +838,7 @@ header .header_foot .header_foot_link_right .link_title {
     margin-bottom: 18px;
   }
   .index #cards .big_cards_mobile h1 {
-    margin-bottom: 48px;
+    margin-bottom: 42px;
     max-width: 314px;
     color: #FFF;
     font-family: "Golos UI", sans-serif;
@@ -854,7 +854,7 @@ header .header_foot .header_foot_link_right .link_title {
     background: #F64909;
     display: flex;
     width: 180px;
-    height: 30px;
+    height: 36px;
     justify-content: center;
     align-items: center;
     color: #FFF;
@@ -871,7 +871,7 @@ header .header_foot .header_foot_link_right .link_title {
 @media only screen and (max-width: 415px) {
   .index #cards .big_cards_mobile h1 {
     max-width: 220px;
-    margin-bottom: 29px;
+    margin-bottom: 23px;
   }
 }
 .index #half_slider {
@@ -2676,20 +2676,20 @@ header .header_foot .header_foot_link_right .link_title {
   .index #buy_cheeseberry .chizberry_card img {
     width: 36px;
     height: 36px;
-    margin-bottom: 4px;
+    margin-bottom: 18px;
   }
   .index #buy_cheeseberry .chizberry_card .title {
     max-width: 399px;
-    margin-bottom: 8px;
-    font-size: 22px;
+    margin-bottom: 22px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    letter-spacing: 2.2px;
+    letter-spacing: 2px;
   }
   .index #buy_cheeseberry .chizberry_card p {
     max-width: 306px;
-    margin-bottom: 45px;
+    margin-bottom: 39px;
     font-size: 14px;
     font-style: normal;
     font-weight: 700;
@@ -2703,7 +2703,7 @@ header .header_foot .header_foot_link_right .link_title {
     line-height: normal;
     letter-spacing: 1.3px;
     width: 188px;
-    min-height: 30px;
+    min-height: 36px;
   }
   .index #buy_cheeseberry .chizberry_card_bottom {
     margin-bottom: 40px;
@@ -2783,6 +2783,24 @@ header .header_foot .header_foot_link_right .link_title {
     line-height: normal;
     letter-spacing: 1.2px;
     text-transform: uppercase;
+  }
+}
+@media only screen and (max-width: 455px) {
+  .index #buy_cheeseberry .chizberry_card {
+    background: url("../images/index/chizberry_media_image.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .index #buy_cheeseberry .chizberry_card img {
+    margin-bottom: 6px;
+  }
+  .index #buy_cheeseberry .chizberry_card .title {
+    margin-bottom: 10px;
+    max-width: 278px;
+  }
+  .index #buy_cheeseberry .chizberry_card p {
+    margin-bottom: 22px;
+    max-width: 212px;
   }
 }
 @media only screen and (max-width: 420px) {
@@ -4713,20 +4731,20 @@ header .header_foot .header_foot_link_right .link_title {
   .products #buy_cheeseberry .chizberry_card img {
     width: 36px;
     height: 36px;
-    margin-bottom: 4px;
+    margin-bottom: 18px;
   }
   .products #buy_cheeseberry .chizberry_card .title {
     max-width: 399px;
-    margin-bottom: 8px;
-    font-size: 22px;
+    margin-bottom: 22px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    letter-spacing: 2.2px;
+    letter-spacing: 2px;
   }
   .products #buy_cheeseberry .chizberry_card p {
     max-width: 306px;
-    margin-bottom: 45px;
+    margin-bottom: 39px;
     font-size: 14px;
     font-style: normal;
     font-weight: 700;
@@ -4740,7 +4758,7 @@ header .header_foot .header_foot_link_right .link_title {
     line-height: normal;
     letter-spacing: 1.3px;
     width: 188px;
-    min-height: 30px;
+    min-height: 36px;
   }
   .products #buy_cheeseberry .chizberry_card_bottom {
     margin-bottom: 40px;
@@ -4820,6 +4838,24 @@ header .header_foot .header_foot_link_right .link_title {
     line-height: normal;
     letter-spacing: 1.2px;
     text-transform: uppercase;
+  }
+}
+@media only screen and (max-width: 455px) {
+  .products #buy_cheeseberry .chizberry_card {
+    background: url("../images/index/chizberry_media_image.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .products #buy_cheeseberry .chizberry_card img {
+    margin-bottom: 6px;
+  }
+  .products #buy_cheeseberry .chizberry_card .title {
+    margin-bottom: 10px;
+    max-width: 278px;
+  }
+  .products #buy_cheeseberry .chizberry_card p {
+    margin-bottom: 22px;
+    max-width: 212px;
   }
 }
 @media only screen and (max-width: 420px) {
@@ -8885,14 +8921,14 @@ header .header_foot .header_foot_link_right .link_title {
     font-weight: 500;
     line-height: normal;
     letter-spacing: 1.3px;
-    margin-bottom: 14px;
+    margin-bottom: 8px;
   }
   .cheesecakes_sufle #cards .cards_top_slider .swiper-slide .card_item a {
     border-radius: 100px;
     border: 2px solid #FFF;
     display: flex;
     width: 240px;
-    height: 30px;
+    min-height: 36px;
     justify-content: center;
     align-items: center;
     color: #FFF;
@@ -8918,7 +8954,7 @@ header .header_foot .header_foot_link_right .link_title {
     background: #FFF;
     display: flex;
     width: 180px;
-    height: 30px;
+    height: 36px;
     justify-content: center;
     align-items: center;
     color: #F64909;
@@ -8945,7 +8981,7 @@ header .header_foot .header_foot_link_right .link_title {
     margin-bottom: 18px;
   }
   .cheesecakes_sufle #cards .big_cards_mobile h1 {
-    margin-bottom: 48px;
+    margin-bottom: 42px;
     max-width: 314px;
     color: #FFF;
     font-family: "Golos UI", sans-serif;
@@ -8961,7 +8997,7 @@ header .header_foot .header_foot_link_right .link_title {
     background: #F64909;
     display: flex;
     width: 180px;
-    height: 30px;
+    height: 36px;
     justify-content: center;
     align-items: center;
     color: #FFF;
@@ -8978,7 +9014,7 @@ header .header_foot .header_foot_link_right .link_title {
 @media only screen and (max-width: 415px) {
   .cheesecakes_sufle #cards .big_cards_mobile h1 {
     max-width: 220px;
-    margin-bottom: 29px;
+    margin-bottom: 23px;
   }
 }
 .cheesecakes_sufle #half_slider2 {
@@ -10053,20 +10089,20 @@ header .header_foot .header_foot_link_right .link_title {
   .cheesecakes_sufle #buy_cheeseberry .chizberry_card img {
     width: 36px;
     height: 36px;
-    margin-bottom: 4px;
+    margin-bottom: 18px;
   }
   .cheesecakes_sufle #buy_cheeseberry .chizberry_card .title {
     max-width: 399px;
-    margin-bottom: 8px;
-    font-size: 22px;
+    margin-bottom: 22px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    letter-spacing: 2.2px;
+    letter-spacing: 2px;
   }
   .cheesecakes_sufle #buy_cheeseberry .chizberry_card p {
     max-width: 306px;
-    margin-bottom: 45px;
+    margin-bottom: 39px;
     font-size: 14px;
     font-style: normal;
     font-weight: 700;
@@ -10080,7 +10116,7 @@ header .header_foot .header_foot_link_right .link_title {
     line-height: normal;
     letter-spacing: 1.3px;
     width: 188px;
-    min-height: 30px;
+    min-height: 36px;
   }
   .cheesecakes_sufle #buy_cheeseberry .chizberry_card_bottom {
     margin-bottom: 40px;
@@ -10160,6 +10196,24 @@ header .header_foot .header_foot_link_right .link_title {
     line-height: normal;
     letter-spacing: 1.2px;
     text-transform: uppercase;
+  }
+}
+@media only screen and (max-width: 455px) {
+  .cheesecakes_sufle #buy_cheeseberry .chizberry_card {
+    background: url("../images/index/chizberry_media_image.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .cheesecakes_sufle #buy_cheeseberry .chizberry_card img {
+    margin-bottom: 6px;
+  }
+  .cheesecakes_sufle #buy_cheeseberry .chizberry_card .title {
+    margin-bottom: 10px;
+    max-width: 278px;
+  }
+  .cheesecakes_sufle #buy_cheeseberry .chizberry_card p {
+    margin-bottom: 22px;
+    max-width: 212px;
   }
 }
 @media only screen and (max-width: 420px) {
@@ -14225,14 +14279,14 @@ header .header_foot .header_foot_link_right .link_title {
     font-weight: 500;
     line-height: normal;
     letter-spacing: 1.3px;
-    margin-bottom: 14px;
+    margin-bottom: 8px;
   }
   .cakes #cards .cards_top_slider .swiper-slide .card_item a {
     border-radius: 100px;
     border: 2px solid #FFF;
     display: flex;
     width: 240px;
-    height: 30px;
+    min-height: 36px;
     justify-content: center;
     align-items: center;
     color: #FFF;
@@ -14258,7 +14312,7 @@ header .header_foot .header_foot_link_right .link_title {
     background: #FFF;
     display: flex;
     width: 180px;
-    height: 30px;
+    height: 36px;
     justify-content: center;
     align-items: center;
     color: #F64909;
@@ -14285,7 +14339,7 @@ header .header_foot .header_foot_link_right .link_title {
     margin-bottom: 18px;
   }
   .cakes #cards .big_cards_mobile h1 {
-    margin-bottom: 48px;
+    margin-bottom: 42px;
     max-width: 314px;
     color: #FFF;
     font-family: "Golos UI", sans-serif;
@@ -14301,7 +14355,7 @@ header .header_foot .header_foot_link_right .link_title {
     background: #F64909;
     display: flex;
     width: 180px;
-    height: 30px;
+    height: 36px;
     justify-content: center;
     align-items: center;
     color: #FFF;
@@ -14318,7 +14372,7 @@ header .header_foot .header_foot_link_right .link_title {
 @media only screen and (max-width: 415px) {
   .cakes #cards .big_cards_mobile h1 {
     max-width: 220px;
-    margin-bottom: 29px;
+    margin-bottom: 23px;
   }
 }
 .cakes #half_slider2 {
@@ -15393,20 +15447,20 @@ header .header_foot .header_foot_link_right .link_title {
   .cakes #buy_cheeseberry .chizberry_card img {
     width: 36px;
     height: 36px;
-    margin-bottom: 4px;
+    margin-bottom: 18px;
   }
   .cakes #buy_cheeseberry .chizberry_card .title {
     max-width: 399px;
-    margin-bottom: 8px;
-    font-size: 22px;
+    margin-bottom: 22px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    letter-spacing: 2.2px;
+    letter-spacing: 2px;
   }
   .cakes #buy_cheeseberry .chizberry_card p {
     max-width: 306px;
-    margin-bottom: 45px;
+    margin-bottom: 39px;
     font-size: 14px;
     font-style: normal;
     font-weight: 700;
@@ -15420,7 +15474,7 @@ header .header_foot .header_foot_link_right .link_title {
     line-height: normal;
     letter-spacing: 1.3px;
     width: 188px;
-    min-height: 30px;
+    min-height: 36px;
   }
   .cakes #buy_cheeseberry .chizberry_card_bottom {
     margin-bottom: 40px;
@@ -15500,6 +15554,24 @@ header .header_foot .header_foot_link_right .link_title {
     line-height: normal;
     letter-spacing: 1.2px;
     text-transform: uppercase;
+  }
+}
+@media only screen and (max-width: 455px) {
+  .cakes #buy_cheeseberry .chizberry_card {
+    background: url("../images/index/chizberry_media_image.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .cakes #buy_cheeseberry .chizberry_card img {
+    margin-bottom: 6px;
+  }
+  .cakes #buy_cheeseberry .chizberry_card .title {
+    margin-bottom: 10px;
+    max-width: 278px;
+  }
+  .cakes #buy_cheeseberry .chizberry_card p {
+    margin-bottom: 22px;
+    max-width: 212px;
   }
 }
 @media only screen and (max-width: 420px) {
@@ -19565,14 +19637,14 @@ header .header_foot .header_foot_link_right .link_title {
     font-weight: 500;
     line-height: normal;
     letter-spacing: 1.3px;
-    margin-bottom: 14px;
+    margin-bottom: 8px;
   }
   .cookies #cards .cards_top_slider .swiper-slide .card_item a {
     border-radius: 100px;
     border: 2px solid #FFF;
     display: flex;
     width: 240px;
-    height: 30px;
+    min-height: 36px;
     justify-content: center;
     align-items: center;
     color: #FFF;
@@ -19598,7 +19670,7 @@ header .header_foot .header_foot_link_right .link_title {
     background: #FFF;
     display: flex;
     width: 180px;
-    height: 30px;
+    height: 36px;
     justify-content: center;
     align-items: center;
     color: #F64909;
@@ -19625,7 +19697,7 @@ header .header_foot .header_foot_link_right .link_title {
     margin-bottom: 18px;
   }
   .cookies #cards .big_cards_mobile h1 {
-    margin-bottom: 48px;
+    margin-bottom: 42px;
     max-width: 314px;
     color: #FFF;
     font-family: "Golos UI", sans-serif;
@@ -19641,7 +19713,7 @@ header .header_foot .header_foot_link_right .link_title {
     background: #F64909;
     display: flex;
     width: 180px;
-    height: 30px;
+    height: 36px;
     justify-content: center;
     align-items: center;
     color: #FFF;
@@ -19658,7 +19730,7 @@ header .header_foot .header_foot_link_right .link_title {
 @media only screen and (max-width: 415px) {
   .cookies #cards .big_cards_mobile h1 {
     max-width: 220px;
-    margin-bottom: 29px;
+    margin-bottom: 23px;
   }
 }
 .cookies #half_slider2 {
@@ -20733,20 +20805,20 @@ header .header_foot .header_foot_link_right .link_title {
   .cookies #buy_cheeseberry .chizberry_card img {
     width: 36px;
     height: 36px;
-    margin-bottom: 4px;
+    margin-bottom: 18px;
   }
   .cookies #buy_cheeseberry .chizberry_card .title {
     max-width: 399px;
-    margin-bottom: 8px;
-    font-size: 22px;
+    margin-bottom: 22px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    letter-spacing: 2.2px;
+    letter-spacing: 2px;
   }
   .cookies #buy_cheeseberry .chizberry_card p {
     max-width: 306px;
-    margin-bottom: 45px;
+    margin-bottom: 39px;
     font-size: 14px;
     font-style: normal;
     font-weight: 700;
@@ -20760,7 +20832,7 @@ header .header_foot .header_foot_link_right .link_title {
     line-height: normal;
     letter-spacing: 1.3px;
     width: 188px;
-    min-height: 30px;
+    min-height: 36px;
   }
   .cookies #buy_cheeseberry .chizberry_card_bottom {
     margin-bottom: 40px;
@@ -20840,6 +20912,24 @@ header .header_foot .header_foot_link_right .link_title {
     line-height: normal;
     letter-spacing: 1.2px;
     text-transform: uppercase;
+  }
+}
+@media only screen and (max-width: 455px) {
+  .cookies #buy_cheeseberry .chizberry_card {
+    background: url("../images/index/chizberry_media_image.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .cookies #buy_cheeseberry .chizberry_card img {
+    margin-bottom: 6px;
+  }
+  .cookies #buy_cheeseberry .chizberry_card .title {
+    margin-bottom: 10px;
+    max-width: 278px;
+  }
+  .cookies #buy_cheeseberry .chizberry_card p {
+    margin-bottom: 22px;
+    max-width: 212px;
   }
 }
 @media only screen and (max-width: 420px) {
@@ -24905,14 +24995,14 @@ header .header_foot .header_foot_link_right .link_title {
     font-weight: 500;
     line-height: normal;
     letter-spacing: 1.3px;
-    margin-bottom: 14px;
+    margin-bottom: 8px;
   }
   .small_items #cards .cards_top_slider .swiper-slide .card_item a {
     border-radius: 100px;
     border: 2px solid #FFF;
     display: flex;
     width: 240px;
-    height: 30px;
+    min-height: 36px;
     justify-content: center;
     align-items: center;
     color: #FFF;
@@ -24938,7 +25028,7 @@ header .header_foot .header_foot_link_right .link_title {
     background: #FFF;
     display: flex;
     width: 180px;
-    height: 30px;
+    height: 36px;
     justify-content: center;
     align-items: center;
     color: #F64909;
@@ -24965,7 +25055,7 @@ header .header_foot .header_foot_link_right .link_title {
     margin-bottom: 18px;
   }
   .small_items #cards .big_cards_mobile h1 {
-    margin-bottom: 48px;
+    margin-bottom: 42px;
     max-width: 314px;
     color: #FFF;
     font-family: "Golos UI", sans-serif;
@@ -24981,7 +25071,7 @@ header .header_foot .header_foot_link_right .link_title {
     background: #F64909;
     display: flex;
     width: 180px;
-    height: 30px;
+    height: 36px;
     justify-content: center;
     align-items: center;
     color: #FFF;
@@ -24998,7 +25088,7 @@ header .header_foot .header_foot_link_right .link_title {
 @media only screen and (max-width: 415px) {
   .small_items #cards .big_cards_mobile h1 {
     max-width: 220px;
-    margin-bottom: 29px;
+    margin-bottom: 23px;
   }
 }
 .small_items #half_slider2 {
@@ -26073,20 +26163,20 @@ header .header_foot .header_foot_link_right .link_title {
   .small_items #buy_cheeseberry .chizberry_card img {
     width: 36px;
     height: 36px;
-    margin-bottom: 4px;
+    margin-bottom: 18px;
   }
   .small_items #buy_cheeseberry .chizberry_card .title {
     max-width: 399px;
-    margin-bottom: 8px;
-    font-size: 22px;
+    margin-bottom: 22px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    letter-spacing: 2.2px;
+    letter-spacing: 2px;
   }
   .small_items #buy_cheeseberry .chizberry_card p {
     max-width: 306px;
-    margin-bottom: 45px;
+    margin-bottom: 39px;
     font-size: 14px;
     font-style: normal;
     font-weight: 700;
@@ -26100,7 +26190,7 @@ header .header_foot .header_foot_link_right .link_title {
     line-height: normal;
     letter-spacing: 1.3px;
     width: 188px;
-    min-height: 30px;
+    min-height: 36px;
   }
   .small_items #buy_cheeseberry .chizberry_card_bottom {
     margin-bottom: 40px;
@@ -26180,6 +26270,24 @@ header .header_foot .header_foot_link_right .link_title {
     line-height: normal;
     letter-spacing: 1.2px;
     text-transform: uppercase;
+  }
+}
+@media only screen and (max-width: 455px) {
+  .small_items #buy_cheeseberry .chizberry_card {
+    background: url("../images/index/chizberry_media_image.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .small_items #buy_cheeseberry .chizberry_card img {
+    margin-bottom: 6px;
+  }
+  .small_items #buy_cheeseberry .chizberry_card .title {
+    margin-bottom: 10px;
+    max-width: 278px;
+  }
+  .small_items #buy_cheeseberry .chizberry_card p {
+    margin-bottom: 22px;
+    max-width: 212px;
   }
 }
 @media only screen and (max-width: 420px) {
@@ -30245,14 +30353,14 @@ header .header_foot .header_foot_link_right .link_title {
     font-weight: 500;
     line-height: normal;
     letter-spacing: 1.3px;
-    margin-bottom: 14px;
+    margin-bottom: 8px;
   }
   .chees_cream #cards .cards_top_slider .swiper-slide .card_item a {
     border-radius: 100px;
     border: 2px solid #FFF;
     display: flex;
     width: 240px;
-    height: 30px;
+    min-height: 36px;
     justify-content: center;
     align-items: center;
     color: #FFF;
@@ -30278,7 +30386,7 @@ header .header_foot .header_foot_link_right .link_title {
     background: #FFF;
     display: flex;
     width: 180px;
-    height: 30px;
+    height: 36px;
     justify-content: center;
     align-items: center;
     color: #F64909;
@@ -30305,7 +30413,7 @@ header .header_foot .header_foot_link_right .link_title {
     margin-bottom: 18px;
   }
   .chees_cream #cards .big_cards_mobile h1 {
-    margin-bottom: 48px;
+    margin-bottom: 42px;
     max-width: 314px;
     color: #FFF;
     font-family: "Golos UI", sans-serif;
@@ -30321,7 +30429,7 @@ header .header_foot .header_foot_link_right .link_title {
     background: #F64909;
     display: flex;
     width: 180px;
-    height: 30px;
+    height: 36px;
     justify-content: center;
     align-items: center;
     color: #FFF;
@@ -30338,7 +30446,7 @@ header .header_foot .header_foot_link_right .link_title {
 @media only screen and (max-width: 415px) {
   .chees_cream #cards .big_cards_mobile h1 {
     max-width: 220px;
-    margin-bottom: 29px;
+    margin-bottom: 23px;
   }
 }
 .chees_cream #half_slider2 {
@@ -31413,20 +31521,20 @@ header .header_foot .header_foot_link_right .link_title {
   .chees_cream #buy_cheeseberry .chizberry_card img {
     width: 36px;
     height: 36px;
-    margin-bottom: 4px;
+    margin-bottom: 18px;
   }
   .chees_cream #buy_cheeseberry .chizberry_card .title {
     max-width: 399px;
-    margin-bottom: 8px;
-    font-size: 22px;
+    margin-bottom: 22px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    letter-spacing: 2.2px;
+    letter-spacing: 2px;
   }
   .chees_cream #buy_cheeseberry .chizberry_card p {
     max-width: 306px;
-    margin-bottom: 45px;
+    margin-bottom: 39px;
     font-size: 14px;
     font-style: normal;
     font-weight: 700;
@@ -31440,7 +31548,7 @@ header .header_foot .header_foot_link_right .link_title {
     line-height: normal;
     letter-spacing: 1.3px;
     width: 188px;
-    min-height: 30px;
+    min-height: 36px;
   }
   .chees_cream #buy_cheeseberry .chizberry_card_bottom {
     margin-bottom: 40px;
@@ -31520,6 +31628,24 @@ header .header_foot .header_foot_link_right .link_title {
     line-height: normal;
     letter-spacing: 1.2px;
     text-transform: uppercase;
+  }
+}
+@media only screen and (max-width: 455px) {
+  .chees_cream #buy_cheeseberry .chizberry_card {
+    background: url("../images/index/chizberry_media_image.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .chees_cream #buy_cheeseberry .chizberry_card img {
+    margin-bottom: 6px;
+  }
+  .chees_cream #buy_cheeseberry .chizberry_card .title {
+    margin-bottom: 10px;
+    max-width: 278px;
+  }
+  .chees_cream #buy_cheeseberry .chizberry_card p {
+    margin-bottom: 22px;
+    max-width: 212px;
   }
 }
 @media only screen and (max-width: 420px) {
@@ -35585,14 +35711,14 @@ header .header_foot .header_foot_link_right .link_title {
     font-weight: 500;
     line-height: normal;
     letter-spacing: 1.3px;
-    margin-bottom: 14px;
+    margin-bottom: 8px;
   }
   .retail #cards .cards_top_slider .swiper-slide .card_item a {
     border-radius: 100px;
     border: 2px solid #FFF;
     display: flex;
     width: 240px;
-    height: 30px;
+    min-height: 36px;
     justify-content: center;
     align-items: center;
     color: #FFF;
@@ -35618,7 +35744,7 @@ header .header_foot .header_foot_link_right .link_title {
     background: #FFF;
     display: flex;
     width: 180px;
-    height: 30px;
+    height: 36px;
     justify-content: center;
     align-items: center;
     color: #F64909;
@@ -35645,7 +35771,7 @@ header .header_foot .header_foot_link_right .link_title {
     margin-bottom: 18px;
   }
   .retail #cards .big_cards_mobile h1 {
-    margin-bottom: 48px;
+    margin-bottom: 42px;
     max-width: 314px;
     color: #FFF;
     font-family: "Golos UI", sans-serif;
@@ -35661,7 +35787,7 @@ header .header_foot .header_foot_link_right .link_title {
     background: #F64909;
     display: flex;
     width: 180px;
-    height: 30px;
+    height: 36px;
     justify-content: center;
     align-items: center;
     color: #FFF;
@@ -35678,7 +35804,7 @@ header .header_foot .header_foot_link_right .link_title {
 @media only screen and (max-width: 415px) {
   .retail #cards .big_cards_mobile h1 {
     max-width: 220px;
-    margin-bottom: 29px;
+    margin-bottom: 23px;
   }
 }
 .retail #half_slider2 {
@@ -36753,20 +36879,20 @@ header .header_foot .header_foot_link_right .link_title {
   .retail #buy_cheeseberry .chizberry_card img {
     width: 36px;
     height: 36px;
-    margin-bottom: 4px;
+    margin-bottom: 18px;
   }
   .retail #buy_cheeseberry .chizberry_card .title {
     max-width: 399px;
-    margin-bottom: 8px;
-    font-size: 22px;
+    margin-bottom: 22px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    letter-spacing: 2.2px;
+    letter-spacing: 2px;
   }
   .retail #buy_cheeseberry .chizberry_card p {
     max-width: 306px;
-    margin-bottom: 45px;
+    margin-bottom: 39px;
     font-size: 14px;
     font-style: normal;
     font-weight: 700;
@@ -36780,7 +36906,7 @@ header .header_foot .header_foot_link_right .link_title {
     line-height: normal;
     letter-spacing: 1.3px;
     width: 188px;
-    min-height: 30px;
+    min-height: 36px;
   }
   .retail #buy_cheeseberry .chizberry_card_bottom {
     margin-bottom: 40px;
@@ -36860,6 +36986,24 @@ header .header_foot .header_foot_link_right .link_title {
     line-height: normal;
     letter-spacing: 1.2px;
     text-transform: uppercase;
+  }
+}
+@media only screen and (max-width: 455px) {
+  .retail #buy_cheeseberry .chizberry_card {
+    background: url("../images/index/chizberry_media_image.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .retail #buy_cheeseberry .chizberry_card img {
+    margin-bottom: 6px;
+  }
+  .retail #buy_cheeseberry .chizberry_card .title {
+    margin-bottom: 10px;
+    max-width: 278px;
+  }
+  .retail #buy_cheeseberry .chizberry_card p {
+    margin-bottom: 22px;
+    max-width: 212px;
   }
 }
 @media only screen and (max-width: 420px) {
@@ -40925,14 +41069,14 @@ header .header_foot .header_foot_link_right .link_title {
     font-weight: 500;
     line-height: normal;
     letter-spacing: 1.3px;
-    margin-bottom: 14px;
+    margin-bottom: 8px;
   }
   .horeca #cards .cards_top_slider .swiper-slide .card_item a {
     border-radius: 100px;
     border: 2px solid #FFF;
     display: flex;
     width: 240px;
-    height: 30px;
+    min-height: 36px;
     justify-content: center;
     align-items: center;
     color: #FFF;
@@ -40958,7 +41102,7 @@ header .header_foot .header_foot_link_right .link_title {
     background: #FFF;
     display: flex;
     width: 180px;
-    height: 30px;
+    height: 36px;
     justify-content: center;
     align-items: center;
     color: #F64909;
@@ -40985,7 +41129,7 @@ header .header_foot .header_foot_link_right .link_title {
     margin-bottom: 18px;
   }
   .horeca #cards .big_cards_mobile h1 {
-    margin-bottom: 48px;
+    margin-bottom: 42px;
     max-width: 314px;
     color: #FFF;
     font-family: "Golos UI", sans-serif;
@@ -41001,7 +41145,7 @@ header .header_foot .header_foot_link_right .link_title {
     background: #F64909;
     display: flex;
     width: 180px;
-    height: 30px;
+    height: 36px;
     justify-content: center;
     align-items: center;
     color: #FFF;
@@ -41018,7 +41162,7 @@ header .header_foot .header_foot_link_right .link_title {
 @media only screen and (max-width: 415px) {
   .horeca #cards .big_cards_mobile h1 {
     max-width: 220px;
-    margin-bottom: 29px;
+    margin-bottom: 23px;
   }
 }
 .horeca #half_slider2 {
@@ -42093,20 +42237,20 @@ header .header_foot .header_foot_link_right .link_title {
   .horeca #buy_cheeseberry .chizberry_card img {
     width: 36px;
     height: 36px;
-    margin-bottom: 4px;
+    margin-bottom: 18px;
   }
   .horeca #buy_cheeseberry .chizberry_card .title {
     max-width: 399px;
-    margin-bottom: 8px;
-    font-size: 22px;
+    margin-bottom: 22px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    letter-spacing: 2.2px;
+    letter-spacing: 2px;
   }
   .horeca #buy_cheeseberry .chizberry_card p {
     max-width: 306px;
-    margin-bottom: 45px;
+    margin-bottom: 39px;
     font-size: 14px;
     font-style: normal;
     font-weight: 700;
@@ -42120,7 +42264,7 @@ header .header_foot .header_foot_link_right .link_title {
     line-height: normal;
     letter-spacing: 1.3px;
     width: 188px;
-    min-height: 30px;
+    min-height: 36px;
   }
   .horeca #buy_cheeseberry .chizberry_card_bottom {
     margin-bottom: 40px;
@@ -42200,6 +42344,24 @@ header .header_foot .header_foot_link_right .link_title {
     line-height: normal;
     letter-spacing: 1.2px;
     text-transform: uppercase;
+  }
+}
+@media only screen and (max-width: 455px) {
+  .horeca #buy_cheeseberry .chizberry_card {
+    background: url("../images/index/chizberry_media_image.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .horeca #buy_cheeseberry .chizberry_card img {
+    margin-bottom: 6px;
+  }
+  .horeca #buy_cheeseberry .chizberry_card .title {
+    margin-bottom: 10px;
+    max-width: 278px;
+  }
+  .horeca #buy_cheeseberry .chizberry_card p {
+    margin-bottom: 22px;
+    max-width: 212px;
   }
 }
 @media only screen and (max-width: 420px) {
@@ -46265,14 +46427,14 @@ header .header_foot .header_foot_link_right .link_title {
     font-weight: 500;
     line-height: normal;
     letter-spacing: 1.3px;
-    margin-bottom: 14px;
+    margin-bottom: 8px;
   }
   .range #cards .cards_top_slider .swiper-slide .card_item a {
     border-radius: 100px;
     border: 2px solid #FFF;
     display: flex;
     width: 240px;
-    height: 30px;
+    min-height: 36px;
     justify-content: center;
     align-items: center;
     color: #FFF;
@@ -46298,7 +46460,7 @@ header .header_foot .header_foot_link_right .link_title {
     background: #FFF;
     display: flex;
     width: 180px;
-    height: 30px;
+    height: 36px;
     justify-content: center;
     align-items: center;
     color: #F64909;
@@ -46325,7 +46487,7 @@ header .header_foot .header_foot_link_right .link_title {
     margin-bottom: 18px;
   }
   .range #cards .big_cards_mobile h1 {
-    margin-bottom: 48px;
+    margin-bottom: 42px;
     max-width: 314px;
     color: #FFF;
     font-family: "Golos UI", sans-serif;
@@ -46341,7 +46503,7 @@ header .header_foot .header_foot_link_right .link_title {
     background: #F64909;
     display: flex;
     width: 180px;
-    height: 30px;
+    height: 36px;
     justify-content: center;
     align-items: center;
     color: #FFF;
@@ -46358,7 +46520,7 @@ header .header_foot .header_foot_link_right .link_title {
 @media only screen and (max-width: 415px) {
   .range #cards .big_cards_mobile h1 {
     max-width: 220px;
-    margin-bottom: 29px;
+    margin-bottom: 23px;
   }
 }
 .range #half_slider2 {
@@ -47433,20 +47595,20 @@ header .header_foot .header_foot_link_right .link_title {
   .range #buy_cheeseberry .chizberry_card img {
     width: 36px;
     height: 36px;
-    margin-bottom: 4px;
+    margin-bottom: 18px;
   }
   .range #buy_cheeseberry .chizberry_card .title {
     max-width: 399px;
-    margin-bottom: 8px;
-    font-size: 22px;
+    margin-bottom: 22px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    letter-spacing: 2.2px;
+    letter-spacing: 2px;
   }
   .range #buy_cheeseberry .chizberry_card p {
     max-width: 306px;
-    margin-bottom: 45px;
+    margin-bottom: 39px;
     font-size: 14px;
     font-style: normal;
     font-weight: 700;
@@ -47460,7 +47622,7 @@ header .header_foot .header_foot_link_right .link_title {
     line-height: normal;
     letter-spacing: 1.3px;
     width: 188px;
-    min-height: 30px;
+    min-height: 36px;
   }
   .range #buy_cheeseberry .chizberry_card_bottom {
     margin-bottom: 40px;
@@ -47540,6 +47702,24 @@ header .header_foot .header_foot_link_right .link_title {
     line-height: normal;
     letter-spacing: 1.2px;
     text-transform: uppercase;
+  }
+}
+@media only screen and (max-width: 455px) {
+  .range #buy_cheeseberry .chizberry_card {
+    background: url("../images/index/chizberry_media_image.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .range #buy_cheeseberry .chizberry_card img {
+    margin-bottom: 6px;
+  }
+  .range #buy_cheeseberry .chizberry_card .title {
+    margin-bottom: 10px;
+    max-width: 278px;
+  }
+  .range #buy_cheeseberry .chizberry_card p {
+    margin-bottom: 22px;
+    max-width: 212px;
   }
 }
 @media only screen and (max-width: 420px) {
@@ -50614,14 +50794,14 @@ footer .footer_bottom .footer_texts .first_text2 {
     font-weight: 500;
     line-height: normal;
     letter-spacing: 1.3px;
-    margin-bottom: 14px;
+    margin-bottom: 8px;
   }
   .team #cards .cards_top_slider .swiper-slide .card_item a {
     border-radius: 100px;
     border: 2px solid #FFF;
     display: flex;
     width: 240px;
-    height: 30px;
+    min-height: 36px;
     justify-content: center;
     align-items: center;
     color: #FFF;
@@ -50647,7 +50827,7 @@ footer .footer_bottom .footer_texts .first_text2 {
     background: #FFF;
     display: flex;
     width: 180px;
-    height: 30px;
+    height: 36px;
     justify-content: center;
     align-items: center;
     color: #F64909;
@@ -50674,7 +50854,7 @@ footer .footer_bottom .footer_texts .first_text2 {
     margin-bottom: 18px;
   }
   .team #cards .big_cards_mobile h1 {
-    margin-bottom: 48px;
+    margin-bottom: 42px;
     max-width: 314px;
     color: #FFF;
     font-family: "Golos UI", sans-serif;
@@ -50690,7 +50870,7 @@ footer .footer_bottom .footer_texts .first_text2 {
     background: #F64909;
     display: flex;
     width: 180px;
-    height: 30px;
+    height: 36px;
     justify-content: center;
     align-items: center;
     color: #FFF;
@@ -50707,7 +50887,7 @@ footer .footer_bottom .footer_texts .first_text2 {
 @media only screen and (max-width: 415px) {
   .team #cards .big_cards_mobile h1 {
     max-width: 220px;
-    margin-bottom: 29px;
+    margin-bottom: 23px;
   }
 }
 .team #half_slider2 {
@@ -51782,20 +51962,20 @@ footer .footer_bottom .footer_texts .first_text2 {
   .team #buy_cheeseberry .chizberry_card img {
     width: 36px;
     height: 36px;
-    margin-bottom: 4px;
+    margin-bottom: 18px;
   }
   .team #buy_cheeseberry .chizberry_card .title {
     max-width: 399px;
-    margin-bottom: 8px;
-    font-size: 22px;
+    margin-bottom: 22px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    letter-spacing: 2.2px;
+    letter-spacing: 2px;
   }
   .team #buy_cheeseberry .chizberry_card p {
     max-width: 306px;
-    margin-bottom: 45px;
+    margin-bottom: 39px;
     font-size: 14px;
     font-style: normal;
     font-weight: 700;
@@ -51809,7 +51989,7 @@ footer .footer_bottom .footer_texts .first_text2 {
     line-height: normal;
     letter-spacing: 1.3px;
     width: 188px;
-    min-height: 30px;
+    min-height: 36px;
   }
   .team #buy_cheeseberry .chizberry_card_bottom {
     margin-bottom: 40px;
@@ -51889,6 +52069,24 @@ footer .footer_bottom .footer_texts .first_text2 {
     line-height: normal;
     letter-spacing: 1.2px;
     text-transform: uppercase;
+  }
+}
+@media only screen and (max-width: 455px) {
+  .team #buy_cheeseberry .chizberry_card {
+    background: url("../images/index/chizberry_media_image.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .team #buy_cheeseberry .chizberry_card img {
+    margin-bottom: 6px;
+  }
+  .team #buy_cheeseberry .chizberry_card .title {
+    margin-bottom: 10px;
+    max-width: 278px;
+  }
+  .team #buy_cheeseberry .chizberry_card p {
+    margin-bottom: 22px;
+    max-width: 212px;
   }
 }
 @media only screen and (max-width: 420px) {
