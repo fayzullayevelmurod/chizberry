@@ -54079,7 +54079,6 @@ footer .footer_bottom .footer_texts .first_text2 {
 }
 @media screen and (max-width: 576px) {
   .list_link {
-    margin-left: 12px;
     font-size: 12px;
   }
   .news .news_title h4 {
