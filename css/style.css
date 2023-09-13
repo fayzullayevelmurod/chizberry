@@ -49290,6 +49290,11 @@ footer .footer_bottom .footer_texts .first_text2 {
   margin-right: 20px;
   display: block;
 }
+.contact .contact_wrapper .contact_card_wrapper .contact_card .contact_whatsapp svg {
+  width: 35px;
+  height: 35px;
+  margin-right: 30px;
+}
 .contact .contact_wrapper .contact_card_wrapper .contact_card .contact_mail {
   margin-bottom: 59px;
 }
@@ -54485,6 +54490,11 @@ footer .footer_bottom .footer_texts .first_text2 {
     width: 30px;
     height: 30px;
     margin-right: 12px;
+  }
+  .contact .contact_wrapper .contact_card_wrapper .contact_card .contact_whatsapp svg {
+    width: 25px;
+    height: 25px;
+    margin-right: 13px;
   }
   .contact .contact_wrapper .contact_card_wrapper .contact_card .contact_whatsapp a {
     font-size: 13px;
