@@ -54129,9 +54129,6 @@ footer .footer_bottom .footer_texts .first_text2 {
     height: 25px;
     font-size: 8px;
   }
-  .team {
-    padding: 0 12px !important;
-  }
   .team .col-6 {
     padding: 4px;
   }
@@ -54147,6 +54144,9 @@ footer .footer_bottom .footer_texts .first_text2 {
     font-size: 13px;
     margin-bottom: 30px;
     letter-spacing: 1.3px;
+  }
+  .team .team_wrapper {
+    padding: 0 10px !important;
   }
   .team .team_wrapper .team_card {
     margin-bottom: 50px;
