@@ -6811,7 +6811,7 @@ footer {
                     height: 30px;
                 }
                 .bestseller_xit_new{
-                    top: -2px;
+                    top: -3px;
                     width: 54px;
                     height: 34px;
                 }
@@ -7196,7 +7196,11 @@ footer {
                     height: 38px;
                 }
                 h5{
+                    height: 66px;
                     margin: 20px 0;
+                }
+                p{
+                    height: 170px;
                 }
                 .bestseller_line{
                     margin-bottom: 20px;
@@ -7324,6 +7328,7 @@ footer {
 }
 @media screen and (max-width:576px){
     .list_link{
+        margin-left: 12px; 
         font-size: 12px;
     }
     .news{
@@ -7387,6 +7392,7 @@ footer {
         }
     }
     .team{
+        padding: 0 12px !important;
         .col-6{
             padding: 4px;
         }
@@ -7418,13 +7424,13 @@ footer {
                         letter-spacing: 1.4px;
                     }
                     h3{
-                        margin-top: 16px;
+                        margin-bottom: 16px;
                         height: 36px;
                         font-size: 13px;
                         letter-spacing: 1.3px;
                     }
                     p{
-                        margin-top: 16px;
+                        margin-bottom: 16px;
                         height: 36px;
                         font-size: 13px;
                         letter-spacing: 1.3px;
@@ -7539,8 +7545,9 @@ footer {
             padding: 4px;
         }
         .bestseller_in{
+            padding: 0 12px;
             .bestseller_card {
-                height: 470px;
+                // height: 480px;
                 display: flex;
                 flex-direction: column;
                 position: relative;
@@ -7550,6 +7557,7 @@ footer {
                     letter-spacing: 1.3px;
                 }
                 p{
+                    height: 150px;
                     font-size: 12px;
                     letter-spacing: 1.2px;
                 }
@@ -7565,7 +7573,7 @@ footer {
                     height: 2px;
                 }
                 .bestseller_xit{
-                    top: 2px;
+                    top: 5px;
                     left: 12px;
                     width: 34px;
                     height: 34px;
@@ -7684,6 +7692,30 @@ footer {
         }
     }
 }
+@media screen and (max-width:435px){
+    .bestseller{
+        .bestseller_in{
+            .bestseller_card{
+                p{
+                    height: 200px;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 369px){
+    .team{
+        .team_wrapper{
+            .team_card{
+                .team_content{
+                    h5{
+                        height: 52px;
+                    }
+                }
+            }
+        }
+    }
+}
 @media screen and (max-width: 320px){
     .bestseller{
         .bestseller_title{
@@ -7736,25 +7768,25 @@ footer {
                     width: 100%;
                     .bestseller_menu_link{
                         flex: 1;
-                        padding: 12px 0;
+                        padding: 10px 0;
                         // width: 100%;
                     }
                 }
             }
         }
-        .row{
-            padding-right: 0px;
-        }
+
         .col-6{
             padding: 2px;
         }
         .bestseller_in{
             .bestseller_card {
                 h5{
+                    height: 64px;
                     font-size: 13px;
 
                 }
                 p{
+                    height: 200px;
                     font-size: 12px;
                     letter-spacing: 1.2px;
                 }
@@ -7768,9 +7800,14 @@ footer {
                     height: 2px;
                 }
                 .bestseller_xit{
+                    top: 2px;
                     left: 12px;
                     width: 34px;
                     height: 34px;
+                }
+                .bestseller_xit_new{
+                    left: 2px;
+                    top: 2px;
                 }
                 .bestseller_card_img{
                     border-radius: 10px;

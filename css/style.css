@@ -53679,7 +53679,7 @@ footer .footer_bottom .footer_texts .first_text2 {
     height: 30px;
   }
   .bestseller .bestseller_in .bestseller_card .bestseller_xit_new {
-    top: -2px;
+    top: -3px;
     width: 54px;
     height: 34px;
   }
@@ -53974,7 +53974,11 @@ footer .footer_bottom .footer_texts .first_text2 {
     height: 38px;
   }
   .bestseller .bestseller_in .bestseller_card h5 {
+    height: 66px;
     margin: 20px 0;
+  }
+  .bestseller .bestseller_in .bestseller_card p {
+    height: 170px;
   }
   .bestseller .bestseller_in .bestseller_card .bestseller_line {
     margin-bottom: 20px;
@@ -54075,6 +54079,7 @@ footer .footer_bottom .footer_texts .first_text2 {
 }
 @media screen and (max-width: 576px) {
   .list_link {
+    margin-left: 12px;
     font-size: 12px;
   }
   .news .news_title h4 {
@@ -54125,6 +54130,9 @@ footer .footer_bottom .footer_texts .first_text2 {
     height: 25px;
     font-size: 8px;
   }
+  .team {
+    padding: 0 12px !important;
+  }
   .team .col-6 {
     padding: 4px;
   }
@@ -54157,13 +54165,13 @@ footer .footer_bottom .footer_texts .first_text2 {
     letter-spacing: 1.4px;
   }
   .team .team_wrapper .team_card .team_content h3 {
-    margin-top: 16px;
+    margin-bottom: 16px;
     height: 36px;
     font-size: 13px;
     letter-spacing: 1.3px;
   }
   .team .team_wrapper .team_card .team_content p {
-    margin-top: 16px;
+    margin-bottom: 16px;
     height: 36px;
     font-size: 13px;
     letter-spacing: 1.3px;
@@ -54258,8 +54266,10 @@ footer .footer_bottom .footer_texts .first_text2 {
   .bestseller .col-6 {
     padding: 4px;
   }
+  .bestseller .bestseller_in {
+    padding: 0 12px;
+  }
   .bestseller .bestseller_in .bestseller_card {
-    height: 470px;
     display: flex;
     flex-direction: column;
     position: relative;
@@ -54270,6 +54280,7 @@ footer .footer_bottom .footer_texts .first_text2 {
     letter-spacing: 1.3px;
   }
   .bestseller .bestseller_in .bestseller_card p {
+    height: 150px;
     font-size: 12px;
     letter-spacing: 1.2px;
   }
@@ -54285,7 +54296,7 @@ footer .footer_bottom .footer_texts .first_text2 {
     height: 2px;
   }
   .bestseller .bestseller_in .bestseller_card .bestseller_xit {
-    top: 2px;
+    top: 5px;
     left: 12px;
     width: 34px;
     height: 34px;
@@ -54386,6 +54397,16 @@ footer .footer_bottom .footer_texts .first_text2 {
     height: 400px;
   }
 }
+@media screen and (max-width: 435px) {
+  .bestseller .bestseller_in .bestseller_card p {
+    height: 200px;
+  }
+}
+@media screen and (max-width: 369px) {
+  .team .team_wrapper .team_card .team_content h5 {
+    height: 52px;
+  }
+}
 @media screen and (max-width: 320px) {
   .bestseller .bestseller_title h4 {
     font-size: 20px;
@@ -54436,18 +54457,17 @@ footer .footer_bottom .footer_texts .first_text2 {
   }
   .bestseller .bestseller_title .bestseller_menu .bestseller_menu_main .bestseller_menu_link {
     flex: 1;
-    padding: 12px 0;
-  }
-  .bestseller .row {
-    padding-right: 0px;
+    padding: 10px 0;
   }
   .bestseller .col-6 {
     padding: 2px;
   }
   .bestseller .bestseller_in .bestseller_card h5 {
+    height: 64px;
     font-size: 13px;
   }
   .bestseller .bestseller_in .bestseller_card p {
+    height: 200px;
     font-size: 12px;
     letter-spacing: 1.2px;
   }
@@ -54461,9 +54481,14 @@ footer .footer_bottom .footer_texts .first_text2 {
     height: 2px;
   }
   .bestseller .bestseller_in .bestseller_card .bestseller_xit {
+    top: 2px;
     left: 12px;
     width: 34px;
     height: 34px;
+  }
+  .bestseller .bestseller_in .bestseller_card .bestseller_xit_new {
+    left: 2px;
+    top: 2px;
   }
   .bestseller .bestseller_in .bestseller_card .bestseller_card_img {
     border-radius: 10px;
