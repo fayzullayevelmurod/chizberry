@@ -7219,7 +7219,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.7px;
     margin-bottom: 16px;
     height: auto;
-    min-height: 210px;
+    min-height: 252px;
   }
   .cheesecakes_sufle #tab .tab-content .cards .card_item a {
     width: 200px;
@@ -7397,7 +7397,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.7px;
     margin-bottom: 16px;
     height: auto;
-    min-height: 210px;
+    min-height: 252px;
   }
   .cheesecakes_sufle #tab .tab-content .cards .card_item a {
     width: 200px;
@@ -7569,7 +7569,7 @@ header .header_foot .header_foot_link_right .link_title {
     font-weight: 500;
     line-height: normal;
     letter-spacing: 1.6px;
-    min-height: 165px;
+    min-height: 180px;
     margin-bottom: 16px;
   }
   .cheesecakes_sufle #tab .tab-content .cards .card_item a {
@@ -7742,7 +7742,7 @@ header .header_foot .header_foot_link_right .link_title {
     font-weight: 700;
     line-height: normal;
     letter-spacing: 1.3px;
-    min-height: 36px;
+    min-height: 48px;
     width: calc(100% - 10px);
   }
   .cheesecakes_sufle #tab .tab-content .cards .card_item .line {
@@ -7755,7 +7755,7 @@ header .header_foot .header_foot_link_right .link_title {
     font-weight: 500;
     line-height: normal;
     letter-spacing: 1.2px;
-    min-height: 90px;
+    min-height: 150px;
     width: calc(100% - 10px);
   }
   .cheesecakes_sufle #tab .tab-content .cards .card_item a {
@@ -7812,7 +7812,15 @@ header .header_foot .header_foot_link_right .link_title {
     min-height: 48px;
   }
   .cheesecakes_sufle #tab .tab-content .cards .card_item .card_description {
-    min-height: 120px;
+    min-height: 150px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .cheesecakes_sufle #tab .tab-content .cards .card_item .card_title {
+    min-height: 64px;
+  }
+  .cheesecakes_sufle #tab .tab-content .cards .card_item .card_description {
+    min-height: 165px;
   }
 }
 @media only screen and (max-width: 380px) {
@@ -7829,7 +7837,7 @@ header .header_foot .header_foot_link_right .link_title {
     min-height: 64px;
   }
   .cheesecakes_sufle #tab .tab-content .cards .card_item .card_description {
-    min-height: 146px;
+    min-height: 180px;
   }
 }
 @media only screen and (max-width: 350px) {
@@ -7848,9 +7856,17 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.2px;
   }
 }
+@media only screen and (max-width: 345px) {
+  .cheesecakes_sufle #tab .tab-content .cards .card_item .card_description {
+    min-height: 195px;
+  }
+}
 @media only screen and (max-width: 330px) {
   .cheesecakes_sufle #tab .tab-content .cards .card_item .card_head_img {
     height: 141px;
+  }
+  .cheesecakes_sufle #tab .tab-content .cards .card_item .card_description {
+    min-height: 210px;
   }
 }
 .cheesecakes_sufle #half_slider {
@@ -12558,7 +12574,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.7px;
     margin-bottom: 16px;
     height: auto;
-    min-height: 210px;
+    min-height: 252px;
   }
   .cakes #tab .tab-content .cards .card_item a {
     width: 200px;
@@ -12736,7 +12752,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.7px;
     margin-bottom: 16px;
     height: auto;
-    min-height: 210px;
+    min-height: 252px;
   }
   .cakes #tab .tab-content .cards .card_item a {
     width: 200px;
@@ -12908,7 +12924,7 @@ header .header_foot .header_foot_link_right .link_title {
     font-weight: 500;
     line-height: normal;
     letter-spacing: 1.6px;
-    min-height: 165px;
+    min-height: 180px;
     margin-bottom: 16px;
   }
   .cakes #tab .tab-content .cards .card_item a {
@@ -13081,7 +13097,7 @@ header .header_foot .header_foot_link_right .link_title {
     font-weight: 700;
     line-height: normal;
     letter-spacing: 1.3px;
-    min-height: 36px;
+    min-height: 48px;
     width: calc(100% - 10px);
   }
   .cakes #tab .tab-content .cards .card_item .line {
@@ -13094,7 +13110,7 @@ header .header_foot .header_foot_link_right .link_title {
     font-weight: 500;
     line-height: normal;
     letter-spacing: 1.2px;
-    min-height: 90px;
+    min-height: 150px;
     width: calc(100% - 10px);
   }
   .cakes #tab .tab-content .cards .card_item a {
@@ -13151,7 +13167,15 @@ header .header_foot .header_foot_link_right .link_title {
     min-height: 48px;
   }
   .cakes #tab .tab-content .cards .card_item .card_description {
-    min-height: 120px;
+    min-height: 150px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .cakes #tab .tab-content .cards .card_item .card_title {
+    min-height: 64px;
+  }
+  .cakes #tab .tab-content .cards .card_item .card_description {
+    min-height: 165px;
   }
 }
 @media only screen and (max-width: 380px) {
@@ -13168,7 +13192,7 @@ header .header_foot .header_foot_link_right .link_title {
     min-height: 64px;
   }
   .cakes #tab .tab-content .cards .card_item .card_description {
-    min-height: 146px;
+    min-height: 180px;
   }
 }
 @media only screen and (max-width: 350px) {
@@ -13187,9 +13211,17 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.2px;
   }
 }
+@media only screen and (max-width: 345px) {
+  .cakes #tab .tab-content .cards .card_item .card_description {
+    min-height: 195px;
+  }
+}
 @media only screen and (max-width: 330px) {
   .cakes #tab .tab-content .cards .card_item .card_head_img {
     height: 141px;
+  }
+  .cakes #tab .tab-content .cards .card_item .card_description {
+    min-height: 210px;
   }
 }
 .cakes #half_slider {
@@ -17897,7 +17929,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.7px;
     margin-bottom: 16px;
     height: auto;
-    min-height: 210px;
+    min-height: 252px;
   }
   .cookies #tab .tab-content .cards .card_item a {
     width: 200px;
@@ -18075,7 +18107,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.7px;
     margin-bottom: 16px;
     height: auto;
-    min-height: 210px;
+    min-height: 252px;
   }
   .cookies #tab .tab-content .cards .card_item a {
     width: 200px;
@@ -18247,7 +18279,7 @@ header .header_foot .header_foot_link_right .link_title {
     font-weight: 500;
     line-height: normal;
     letter-spacing: 1.6px;
-    min-height: 165px;
+    min-height: 180px;
     margin-bottom: 16px;
   }
   .cookies #tab .tab-content .cards .card_item a {
@@ -18420,7 +18452,7 @@ header .header_foot .header_foot_link_right .link_title {
     font-weight: 700;
     line-height: normal;
     letter-spacing: 1.3px;
-    min-height: 36px;
+    min-height: 48px;
     width: calc(100% - 10px);
   }
   .cookies #tab .tab-content .cards .card_item .line {
@@ -18433,7 +18465,7 @@ header .header_foot .header_foot_link_right .link_title {
     font-weight: 500;
     line-height: normal;
     letter-spacing: 1.2px;
-    min-height: 90px;
+    min-height: 150px;
     width: calc(100% - 10px);
   }
   .cookies #tab .tab-content .cards .card_item a {
@@ -18490,7 +18522,15 @@ header .header_foot .header_foot_link_right .link_title {
     min-height: 48px;
   }
   .cookies #tab .tab-content .cards .card_item .card_description {
-    min-height: 120px;
+    min-height: 150px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .cookies #tab .tab-content .cards .card_item .card_title {
+    min-height: 64px;
+  }
+  .cookies #tab .tab-content .cards .card_item .card_description {
+    min-height: 165px;
   }
 }
 @media only screen and (max-width: 380px) {
@@ -18507,7 +18547,7 @@ header .header_foot .header_foot_link_right .link_title {
     min-height: 64px;
   }
   .cookies #tab .tab-content .cards .card_item .card_description {
-    min-height: 146px;
+    min-height: 180px;
   }
 }
 @media only screen and (max-width: 350px) {
@@ -18526,9 +18566,17 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.2px;
   }
 }
+@media only screen and (max-width: 345px) {
+  .cookies #tab .tab-content .cards .card_item .card_description {
+    min-height: 195px;
+  }
+}
 @media only screen and (max-width: 330px) {
   .cookies #tab .tab-content .cards .card_item .card_head_img {
     height: 141px;
+  }
+  .cookies #tab .tab-content .cards .card_item .card_description {
+    min-height: 210px;
   }
 }
 .cookies #half_slider {
@@ -23236,7 +23284,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.7px;
     margin-bottom: 16px;
     height: auto;
-    min-height: 210px;
+    min-height: 252px;
   }
   .small_items #tab .tab-content .cards .card_item a {
     width: 200px;
@@ -23414,7 +23462,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.7px;
     margin-bottom: 16px;
     height: auto;
-    min-height: 210px;
+    min-height: 252px;
   }
   .small_items #tab .tab-content .cards .card_item a {
     width: 200px;
@@ -23586,7 +23634,7 @@ header .header_foot .header_foot_link_right .link_title {
     font-weight: 500;
     line-height: normal;
     letter-spacing: 1.6px;
-    min-height: 165px;
+    min-height: 180px;
     margin-bottom: 16px;
   }
   .small_items #tab .tab-content .cards .card_item a {
@@ -23759,7 +23807,7 @@ header .header_foot .header_foot_link_right .link_title {
     font-weight: 700;
     line-height: normal;
     letter-spacing: 1.3px;
-    min-height: 36px;
+    min-height: 48px;
     width: calc(100% - 10px);
   }
   .small_items #tab .tab-content .cards .card_item .line {
@@ -23772,7 +23820,7 @@ header .header_foot .header_foot_link_right .link_title {
     font-weight: 500;
     line-height: normal;
     letter-spacing: 1.2px;
-    min-height: 90px;
+    min-height: 150px;
     width: calc(100% - 10px);
   }
   .small_items #tab .tab-content .cards .card_item a {
@@ -23829,7 +23877,15 @@ header .header_foot .header_foot_link_right .link_title {
     min-height: 48px;
   }
   .small_items #tab .tab-content .cards .card_item .card_description {
-    min-height: 120px;
+    min-height: 150px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .small_items #tab .tab-content .cards .card_item .card_title {
+    min-height: 64px;
+  }
+  .small_items #tab .tab-content .cards .card_item .card_description {
+    min-height: 165px;
   }
 }
 @media only screen and (max-width: 380px) {
@@ -23846,7 +23902,7 @@ header .header_foot .header_foot_link_right .link_title {
     min-height: 64px;
   }
   .small_items #tab .tab-content .cards .card_item .card_description {
-    min-height: 146px;
+    min-height: 180px;
   }
 }
 @media only screen and (max-width: 350px) {
@@ -23865,9 +23921,17 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.2px;
   }
 }
+@media only screen and (max-width: 345px) {
+  .small_items #tab .tab-content .cards .card_item .card_description {
+    min-height: 195px;
+  }
+}
 @media only screen and (max-width: 330px) {
   .small_items #tab .tab-content .cards .card_item .card_head_img {
     height: 141px;
+  }
+  .small_items #tab .tab-content .cards .card_item .card_description {
+    min-height: 210px;
   }
 }
 .small_items #half_slider {
@@ -28575,7 +28639,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.7px;
     margin-bottom: 16px;
     height: auto;
-    min-height: 210px;
+    min-height: 252px;
   }
   .chees_cream #tab .tab-content .cards .card_item a {
     width: 200px;
@@ -28753,7 +28817,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.7px;
     margin-bottom: 16px;
     height: auto;
-    min-height: 210px;
+    min-height: 252px;
   }
   .chees_cream #tab .tab-content .cards .card_item a {
     width: 200px;
@@ -28925,7 +28989,7 @@ header .header_foot .header_foot_link_right .link_title {
     font-weight: 500;
     line-height: normal;
     letter-spacing: 1.6px;
-    min-height: 165px;
+    min-height: 180px;
     margin-bottom: 16px;
   }
   .chees_cream #tab .tab-content .cards .card_item a {
@@ -29098,7 +29162,7 @@ header .header_foot .header_foot_link_right .link_title {
     font-weight: 700;
     line-height: normal;
     letter-spacing: 1.3px;
-    min-height: 36px;
+    min-height: 48px;
     width: calc(100% - 10px);
   }
   .chees_cream #tab .tab-content .cards .card_item .line {
@@ -29111,7 +29175,7 @@ header .header_foot .header_foot_link_right .link_title {
     font-weight: 500;
     line-height: normal;
     letter-spacing: 1.2px;
-    min-height: 90px;
+    min-height: 150px;
     width: calc(100% - 10px);
   }
   .chees_cream #tab .tab-content .cards .card_item a {
@@ -29168,7 +29232,15 @@ header .header_foot .header_foot_link_right .link_title {
     min-height: 48px;
   }
   .chees_cream #tab .tab-content .cards .card_item .card_description {
-    min-height: 120px;
+    min-height: 150px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .chees_cream #tab .tab-content .cards .card_item .card_title {
+    min-height: 64px;
+  }
+  .chees_cream #tab .tab-content .cards .card_item .card_description {
+    min-height: 165px;
   }
 }
 @media only screen and (max-width: 380px) {
@@ -29185,7 +29257,7 @@ header .header_foot .header_foot_link_right .link_title {
     min-height: 64px;
   }
   .chees_cream #tab .tab-content .cards .card_item .card_description {
-    min-height: 146px;
+    min-height: 180px;
   }
 }
 @media only screen and (max-width: 350px) {
@@ -29204,9 +29276,17 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.2px;
   }
 }
+@media only screen and (max-width: 345px) {
+  .chees_cream #tab .tab-content .cards .card_item .card_description {
+    min-height: 195px;
+  }
+}
 @media only screen and (max-width: 330px) {
   .chees_cream #tab .tab-content .cards .card_item .card_head_img {
     height: 141px;
+  }
+  .chees_cream #tab .tab-content .cards .card_item .card_description {
+    min-height: 210px;
   }
 }
 .chees_cream #half_slider {
@@ -33914,7 +33994,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.7px;
     margin-bottom: 16px;
     height: auto;
-    min-height: 210px;
+    min-height: 252px;
   }
   .retail #tab .tab-content .cards .card_item a {
     width: 200px;
@@ -34092,7 +34172,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.7px;
     margin-bottom: 16px;
     height: auto;
-    min-height: 210px;
+    min-height: 252px;
   }
   .retail #tab .tab-content .cards .card_item a {
     width: 200px;
@@ -34264,7 +34344,7 @@ header .header_foot .header_foot_link_right .link_title {
     font-weight: 500;
     line-height: normal;
     letter-spacing: 1.6px;
-    min-height: 165px;
+    min-height: 180px;
     margin-bottom: 16px;
   }
   .retail #tab .tab-content .cards .card_item a {
@@ -34437,7 +34517,7 @@ header .header_foot .header_foot_link_right .link_title {
     font-weight: 700;
     line-height: normal;
     letter-spacing: 1.3px;
-    min-height: 36px;
+    min-height: 48px;
     width: calc(100% - 10px);
   }
   .retail #tab .tab-content .cards .card_item .line {
@@ -34450,7 +34530,7 @@ header .header_foot .header_foot_link_right .link_title {
     font-weight: 500;
     line-height: normal;
     letter-spacing: 1.2px;
-    min-height: 90px;
+    min-height: 150px;
     width: calc(100% - 10px);
   }
   .retail #tab .tab-content .cards .card_item a {
@@ -34507,7 +34587,15 @@ header .header_foot .header_foot_link_right .link_title {
     min-height: 48px;
   }
   .retail #tab .tab-content .cards .card_item .card_description {
-    min-height: 120px;
+    min-height: 150px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .retail #tab .tab-content .cards .card_item .card_title {
+    min-height: 64px;
+  }
+  .retail #tab .tab-content .cards .card_item .card_description {
+    min-height: 165px;
   }
 }
 @media only screen and (max-width: 380px) {
@@ -34524,7 +34612,7 @@ header .header_foot .header_foot_link_right .link_title {
     min-height: 64px;
   }
   .retail #tab .tab-content .cards .card_item .card_description {
-    min-height: 146px;
+    min-height: 180px;
   }
 }
 @media only screen and (max-width: 350px) {
@@ -34543,9 +34631,17 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.2px;
   }
 }
+@media only screen and (max-width: 345px) {
+  .retail #tab .tab-content .cards .card_item .card_description {
+    min-height: 195px;
+  }
+}
 @media only screen and (max-width: 330px) {
   .retail #tab .tab-content .cards .card_item .card_head_img {
     height: 141px;
+  }
+  .retail #tab .tab-content .cards .card_item .card_description {
+    min-height: 210px;
   }
 }
 .retail #half_slider {
@@ -39253,7 +39349,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.7px;
     margin-bottom: 16px;
     height: auto;
-    min-height: 210px;
+    min-height: 252px;
   }
   .horeca #tab .tab-content .cards .card_item a {
     width: 200px;
@@ -39431,7 +39527,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.7px;
     margin-bottom: 16px;
     height: auto;
-    min-height: 210px;
+    min-height: 252px;
   }
   .horeca #tab .tab-content .cards .card_item a {
     width: 200px;
@@ -39603,7 +39699,7 @@ header .header_foot .header_foot_link_right .link_title {
     font-weight: 500;
     line-height: normal;
     letter-spacing: 1.6px;
-    min-height: 165px;
+    min-height: 180px;
     margin-bottom: 16px;
   }
   .horeca #tab .tab-content .cards .card_item a {
@@ -39776,7 +39872,7 @@ header .header_foot .header_foot_link_right .link_title {
     font-weight: 700;
     line-height: normal;
     letter-spacing: 1.3px;
-    min-height: 36px;
+    min-height: 48px;
     width: calc(100% - 10px);
   }
   .horeca #tab .tab-content .cards .card_item .line {
@@ -39789,7 +39885,7 @@ header .header_foot .header_foot_link_right .link_title {
     font-weight: 500;
     line-height: normal;
     letter-spacing: 1.2px;
-    min-height: 90px;
+    min-height: 150px;
     width: calc(100% - 10px);
   }
   .horeca #tab .tab-content .cards .card_item a {
@@ -39846,7 +39942,15 @@ header .header_foot .header_foot_link_right .link_title {
     min-height: 48px;
   }
   .horeca #tab .tab-content .cards .card_item .card_description {
-    min-height: 120px;
+    min-height: 150px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .horeca #tab .tab-content .cards .card_item .card_title {
+    min-height: 64px;
+  }
+  .horeca #tab .tab-content .cards .card_item .card_description {
+    min-height: 165px;
   }
 }
 @media only screen and (max-width: 380px) {
@@ -39863,7 +39967,7 @@ header .header_foot .header_foot_link_right .link_title {
     min-height: 64px;
   }
   .horeca #tab .tab-content .cards .card_item .card_description {
-    min-height: 146px;
+    min-height: 180px;
   }
 }
 @media only screen and (max-width: 350px) {
@@ -39882,9 +39986,17 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.2px;
   }
 }
+@media only screen and (max-width: 345px) {
+  .horeca #tab .tab-content .cards .card_item .card_description {
+    min-height: 195px;
+  }
+}
 @media only screen and (max-width: 330px) {
   .horeca #tab .tab-content .cards .card_item .card_head_img {
     height: 141px;
+  }
+  .horeca #tab .tab-content .cards .card_item .card_description {
+    min-height: 210px;
   }
 }
 .horeca #half_slider {
@@ -44592,7 +44704,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.7px;
     margin-bottom: 16px;
     height: auto;
-    min-height: 210px;
+    min-height: 252px;
   }
   .range #tab .tab-content .cards .card_item a {
     width: 200px;
@@ -44770,7 +44882,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.7px;
     margin-bottom: 16px;
     height: auto;
-    min-height: 210px;
+    min-height: 252px;
   }
   .range #tab .tab-content .cards .card_item a {
     width: 200px;
@@ -44942,7 +45054,7 @@ header .header_foot .header_foot_link_right .link_title {
     font-weight: 500;
     line-height: normal;
     letter-spacing: 1.6px;
-    min-height: 165px;
+    min-height: 180px;
     margin-bottom: 16px;
   }
   .range #tab .tab-content .cards .card_item a {
@@ -45115,7 +45227,7 @@ header .header_foot .header_foot_link_right .link_title {
     font-weight: 700;
     line-height: normal;
     letter-spacing: 1.3px;
-    min-height: 36px;
+    min-height: 48px;
     width: calc(100% - 10px);
   }
   .range #tab .tab-content .cards .card_item .line {
@@ -45128,7 +45240,7 @@ header .header_foot .header_foot_link_right .link_title {
     font-weight: 500;
     line-height: normal;
     letter-spacing: 1.2px;
-    min-height: 90px;
+    min-height: 150px;
     width: calc(100% - 10px);
   }
   .range #tab .tab-content .cards .card_item a {
@@ -45185,7 +45297,15 @@ header .header_foot .header_foot_link_right .link_title {
     min-height: 48px;
   }
   .range #tab .tab-content .cards .card_item .card_description {
-    min-height: 120px;
+    min-height: 150px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .range #tab .tab-content .cards .card_item .card_title {
+    min-height: 64px;
+  }
+  .range #tab .tab-content .cards .card_item .card_description {
+    min-height: 165px;
   }
 }
 @media only screen and (max-width: 380px) {
@@ -45202,7 +45322,7 @@ header .header_foot .header_foot_link_right .link_title {
     min-height: 64px;
   }
   .range #tab .tab-content .cards .card_item .card_description {
-    min-height: 146px;
+    min-height: 180px;
   }
 }
 @media only screen and (max-width: 350px) {
@@ -45221,9 +45341,17 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.2px;
   }
 }
+@media only screen and (max-width: 345px) {
+  .range #tab .tab-content .cards .card_item .card_description {
+    min-height: 195px;
+  }
+}
 @media only screen and (max-width: 330px) {
   .range #tab .tab-content .cards .card_item .card_head_img {
     height: 141px;
+  }
+  .range #tab .tab-content .cards .card_item .card_description {
+    min-height: 210px;
   }
 }
 .range #half_slider {
