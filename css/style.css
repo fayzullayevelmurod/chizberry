@@ -108,6 +108,16 @@ header .header_body .header_body_right .light_link {
   letter-spacing: 1.6px;
   text-transform: uppercase;
   padding: 12px 22px;
+  transition: 0.2s ease all;
+}
+header .header_body .header_body_right .light_link:hover {
+  background: #F64909;
+  color: white;
+}
+header .header_body .header_body_right .light_link:active {
+  background: #F64909;
+  color: white;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
 }
 header .header_body .header_body_right .danger_link {
   border: 2px solid #F64909;
@@ -123,6 +133,18 @@ header .header_body .header_body_right .danger_link {
   letter-spacing: 1.6px;
   text-transform: uppercase;
   padding: 12px 22px;
+  transition: 0.2s ease all;
+}
+header .header_body .header_body_right .danger_link:hover {
+  background: white;
+  color: #F64909;
+  border: 2px solid #F64909;
+}
+header .header_body .header_body_right .danger_link:active {
+  background: white;
+  color: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  border: 2px solid #F64909;
 }
 header .header_foot {
   border: 2px solid #F64909;
@@ -158,6 +180,157 @@ header .header_foot .header_foot_link_right .link_title {
   line-height: normal;
   letter-spacing: 1.6px;
   margin-right: 28px;
+}
+
+.desktop_modal .form {
+  position: absolute;
+  width: 378px;
+  right: 0;
+  top: 0;
+  border-radius: 16px;
+  background: #F64909;
+  z-index: 5;
+  padding: 52px 12px 18px 26px;
+  display: none;
+}
+.desktop_modal .form .close_modal {
+  position: absolute;
+  right: 14px;
+  top: 14px;
+  background: transparent;
+  border: none;
+  outline: none;
+}
+.desktop_modal .form .modal_title {
+  color: #FFF;
+  font-family: "Golos UI", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+  margin-bottom: 28px;
+}
+.desktop_modal .form .inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-bottom: 24px;
+}
+.desktop_modal .form .inputs input, .desktop_modal .form .inputs textarea {
+  border-radius: 16px;
+  border: 2px solid #FFF;
+  background: #FFF;
+  outline: none;
+  height: 40px;
+  padding-left: 28px;
+  padding-right: 8px;
+  overflow: hidden;
+  color: #000;
+  text-overflow: ellipsis;
+  font-family: "Golos UI", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1.6px;
+}
+.desktop_modal .form .inputs input::-moz-placeholder, .desktop_modal .form .inputs textarea::-moz-placeholder {
+  color: #000;
+}
+.desktop_modal .form .inputs input::placeholder, .desktop_modal .form .inputs textarea::placeholder {
+  color: #000;
+}
+.desktop_modal .form .inputs textarea {
+  height: 92px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.desktop_modal .form label {
+  color: #FFF;
+  font-family: "Golos UI", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1.6px;
+  width: 310px;
+  padding-right: 20px;
+  padding-left: 58px;
+  position: relative;
+  display: block;
+  margin-bottom: 23px;
+  height: 57px;
+}
+.desktop_modal .form label::before {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  content: "";
+  top: 50%;
+  left: 0;
+  background: white;
+  border-radius: 50%;
+  transform: translateY(-50%);
+}
+.desktop_modal .form label::after {
+  position: absolute;
+  content: "";
+  width: 40px;
+  height: 40px;
+  left: 2px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #F64909;
+  text-align: center;
+  font-family: "Golos UI", sans-serif;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+}
+.desktop_modal .form #collBack:checked + .collBack::after {
+  content: "✓";
+}
+.desktop_modal .form #cebterCheeseberry:checked + .cebterCheeseberry::after {
+  content: "✓";
+}
+.desktop_modal .form button[type=submit] {
+  width: 224px;
+  height: 40px;
+  color: #F64909;
+  text-align: center;
+  font-family: "Golos UI", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+  background: white;
+  border: none;
+  border-radius: 100px;
+  transition: 0.2s ease all;
+}
+.desktop_modal .form button[type=submit]:hover {
+  background: #F64909;
+  color: white;
+  border: 2px solid white;
+}
+.desktop_modal .form button[type=submit]:active {
+  background: #F64909;
+  color: white;
+  border: 2px solid white;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+}
+.desktop_modal .cmi_form.active {
+  display: block;
+}
+.desktop_modal .call_form.active {
+  display: block;
 }
 
 #header_link_list {
@@ -239,6 +412,18 @@ header .header_foot .header_foot_link_right .link_title {
   background: #F64909;
   width: 224px;
   height: 40px;
+  transition: 0.2s ease all;
+}
+.index #home .index_home_slider .swiper-slide .slide_link:hover {
+  background: white;
+  color: #F64909;
+  border: 2px solid #F64909;
+}
+.index #home .index_home_slider .swiper-slide .slide_link:active {
+  background: white;
+  color: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  border: 2px solid #F64909;
 }
 .index #home .index_home_slider .slide_head {
   margin-bottom: 18px;
@@ -353,6 +538,18 @@ header .header_foot .header_foot_link_right .link_title {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: 0.2s ease all;
+}
+.index #cards .cards_top .card_item a:hover {
+  border: 2px solid #F64909;
+  background: #FFF;
+  color: #F64909;
+}
+.index #cards .cards_top .card_item a:active {
+  border: 2px solid #F64909;
+  background: #FFF;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  color: #F64909;
 }
 .index #cards .cards_top .first_card {
   background: #F64909;
@@ -372,6 +569,18 @@ header .header_foot .header_foot_link_right .link_title {
   background: white;
   color: #F64909;
   width: 224px;
+  transition: 0.2s ease all;
+}
+.index #cards .cards_top .first_card a:hover {
+  border: 2px solid #FFF;
+  background: #F64909;
+  color: white;
+}
+.index #cards .cards_top .first_card a:active {
+  border: 2px solid #FFF;
+  background: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  color: white;
 }
 .index #cards .big_cards {
   margin-top: 46px;
@@ -423,6 +632,18 @@ header .header_foot .header_foot_link_right .link_title {
   line-height: normal;
   letter-spacing: 1.6px;
   text-transform: uppercase;
+  transition: 0.2s ease all;
+}
+.index #cards .big_cards .card_item a:hover {
+  border: 2px solid #F64909;
+  background: #FFF;
+  color: #F64909;
+}
+.index #cards .big_cards .card_item a:active {
+  border: 2px solid #F64909;
+  background: #FFF;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  color: #F64909;
 }
 @media only screen and (max-width: 1400px) {
   .index #cards .cards_top .card_item {
@@ -927,6 +1148,18 @@ header .header_foot .header_foot_link_right .link_title {
   letter-spacing: 1.6px;
   text-transform: uppercase;
   margin-left: 26px;
+  transition: 0.2s ease all;
+}
+.index #half_slider a:hover {
+  border: 2px solid #FFF;
+  background: #F64909;
+  color: white;
+}
+.index #half_slider a:active {
+  border: 2px solid #FFF;
+  background: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  color: white;
 }
 .index #half_slider .slider_wrapper {
   position: absolute;
@@ -990,6 +1223,18 @@ header .header_foot .header_foot_link_right .link_title {
   justify-content: center;
   align-items: center;
   margin-left: 0;
+  transition: 0.2s ease all;
+}
+.index #half_slider .slider_wrapper .half_slider .link_slide a:hover {
+  background: white;
+  color: #F64909;
+  border: 2px solid #F64909;
+}
+.index #half_slider .slider_wrapper .half_slider .link_slide a:active {
+  background: white;
+  color: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  border: 2px solid #F64909;
 }
 .index #half_slider .slider_wrapper .half_slider .last_slider {
   background: transparent;
@@ -1350,7 +1595,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.3px;
   }
   .index #half_slider a {
-    height: 30px;
+    height: 36px;
     width: 130px;
     font-size: 12px;
     font-style: normal;
@@ -1396,7 +1641,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .index #half_slider .slider_wrapper .half_slider .link_slide div a {
     width: 164px;
-    height: 30px;
+    height: 36px;
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
@@ -1455,6 +1700,16 @@ header .header_foot .header_foot_link_right .link_title {
   line-height: normal;
   letter-spacing: 1.6px;
   text-transform: uppercase;
+  transition: 0.2s ease all;
+}
+.index #opinions .opinions_slider .swiper-slide-in a:hover {
+  background: white;
+  color: #F64909;
+}
+.index #opinions .opinions_slider .swiper-slide-in a:active {
+  background: white;
+  color: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
 }
 @media only screen and (max-width: 1400px) {
   .index #opinions .title {
@@ -1604,6 +1859,11 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.3px;
   }
 }
+@media only screen and (max-width: 576px) {
+  .index #opinions .opinions_slider .swiper-slide .swiper-slide-in a {
+    height: 36px;
+  }
+}
 .index #half_slider2 {
   background: #F64909;
   padding-bottom: 54px;
@@ -1657,6 +1917,18 @@ header .header_foot .header_foot_link_right .link_title {
   letter-spacing: 1.6px;
   text-transform: uppercase;
   margin-left: 26px;
+  transition: 0.2s ease all;
+}
+.index #half_slider2 a:hover {
+  border: 2px solid #FFF;
+  background: #F64909;
+  color: white;
+}
+.index #half_slider2 a:active {
+  border: 2px solid #FFF;
+  background: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  color: white;
 }
 .index #half_slider2 .slider_wrapper {
   position: absolute;
@@ -1720,6 +1992,18 @@ header .header_foot .header_foot_link_right .link_title {
   justify-content: center;
   align-items: center;
   margin-left: 0;
+  transition: 0.2s ease all;
+}
+.index #half_slider2 .slider_wrapper .half_slider .link_slide a:hover {
+  background: white;
+  color: #F64909;
+  border: 2px solid #F64909;
+}
+.index #half_slider2 .slider_wrapper .half_slider .link_slide a:active {
+  background: white;
+  color: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  border: 2px solid #F64909;
 }
 .index #half_slider2 .slider_wrapper .half_slider .last_slider {
   background: transparent;
@@ -2080,7 +2364,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.3px;
   }
   .index #half_slider2 a {
-    height: 30px;
+    height: 36px;
     width: 130px;
     font-size: 12px;
     font-style: normal;
@@ -2126,7 +2410,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .index #half_slider2 .slider_wrapper .half_slider .link_slide div a {
     width: 164px;
-    height: 30px;
+    height: 36px;
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
@@ -2223,6 +2507,18 @@ header .header_foot .header_foot_link_right .link_title {
   line-height: normal;
   letter-spacing: 1.6px;
   text-transform: uppercase;
+  transition: 0.2s ease all;
+}
+.index #buy_cheeseberry .chizberry_card a:hover {
+  background: white;
+  color: #F64909;
+  border: 2px solid #F64909;
+}
+.index #buy_cheeseberry .chizberry_card a:active {
+  background: white;
+  color: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  border: 2px solid #F64909;
 }
 .index #buy_cheeseberry .chizberry_card_bottom {
   margin-bottom: 80px;
@@ -2280,6 +2576,16 @@ header .header_foot .header_foot_link_right .link_title {
   line-height: normal;
   letter-spacing: 1.6px;
   text-transform: uppercase;
+  transition: 0.2s ease all;
+}
+.index #buy_cheeseberry .chizberry_card_bottom .first_card a:hover {
+  background: white;
+  color: #F64909;
+}
+.index #buy_cheeseberry .chizberry_card_bottom .first_card a:active {
+  background: white;
+  color: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
 }
 @media only screen and (max-width: 1400px) {
   .index #buy_cheeseberry {
@@ -2861,6 +3167,18 @@ header .header_foot .header_foot_link_right .link_title {
   letter-spacing: 1.6px;
   text-transform: uppercase;
   margin-left: 26px;
+  transition: 0.2s ease all;
+}
+.index #half_slider3 a:hover {
+  border: 2px solid #FFF;
+  background: #F64909;
+  color: white;
+}
+.index #half_slider3 a:active {
+  border: 2px solid #FFF;
+  background: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  color: white;
 }
 .index #half_slider3 .slider_wrapper {
   position: absolute;
@@ -2924,6 +3242,18 @@ header .header_foot .header_foot_link_right .link_title {
   justify-content: center;
   align-items: center;
   margin-left: 0;
+  transition: 0.2s ease all;
+}
+.index #half_slider3 .slider_wrapper .half_slider .link_slide a:hover {
+  background: white;
+  color: #F64909;
+  border: 2px solid #F64909;
+}
+.index #half_slider3 .slider_wrapper .half_slider .link_slide a:active {
+  background: white;
+  color: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  border: 2px solid #F64909;
 }
 .index #half_slider3 .slider_wrapper .half_slider .last_slider {
   background: transparent;
@@ -3284,7 +3614,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.3px;
   }
   .index #half_slider3 a {
-    height: 30px;
+    height: 36px;
     width: 130px;
     font-size: 12px;
     font-style: normal;
@@ -3330,7 +3660,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .index #half_slider3 .slider_wrapper .half_slider .link_slide div a {
     width: 164px;
-    height: 30px;
+    height: 36px;
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
@@ -3456,6 +3786,18 @@ header .header_foot .header_foot_link_right .link_title {
   text-transform: uppercase;
   outline: none;
   border: none;
+  transition: 0.3s ease all;
+}
+.index #contact .cards .form_card button:hover {
+  background: #F64909;
+  color: white;
+  border: 2px solid white;
+}
+.index #contact .cards .form_card button:active {
+  background: #F64909;
+  color: white;
+  border: 2px solid white;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
 }
 .index #contact .address_cards {
   margin-bottom: 80px;
@@ -3530,6 +3872,16 @@ header .header_foot .header_foot_link_right .link_title {
   line-height: normal;
   letter-spacing: 1.6px;
   text-transform: uppercase;
+  transition: 0.2s ease all;
+}
+.index #contact .address_cards .address .address_bottom .address_btn:hover {
+  background: white;
+  color: #F64909;
+}
+.index #contact .address_cards .address .address_bottom .address_btn:active {
+  background: white;
+  color: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
 }
 .index #contact .address_cards .address .address_bottom .links {
   gap: 10px;
@@ -4278,6 +4630,18 @@ header .header_foot .header_foot_link_right .link_title {
   line-height: normal;
   letter-spacing: 1.6px;
   text-transform: uppercase;
+  transition: 0.2s ease all;
+}
+.products #buy_cheeseberry .chizberry_card a:hover {
+  background: white;
+  color: #F64909;
+  border: 2px solid #F64909;
+}
+.products #buy_cheeseberry .chizberry_card a:active {
+  background: white;
+  color: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  border: 2px solid #F64909;
 }
 .products #buy_cheeseberry .chizberry_card_bottom {
   margin-bottom: 80px;
@@ -4335,6 +4699,16 @@ header .header_foot .header_foot_link_right .link_title {
   line-height: normal;
   letter-spacing: 1.6px;
   text-transform: uppercase;
+  transition: 0.2s ease all;
+}
+.products #buy_cheeseberry .chizberry_card_bottom .first_card a:hover {
+  background: white;
+  color: #F64909;
+}
+.products #buy_cheeseberry .chizberry_card_bottom .first_card a:active {
+  background: white;
+  color: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
 }
 @media only screen and (max-width: 1400px) {
   .products #buy_cheeseberry {
@@ -4911,6 +5285,16 @@ header .header_foot .header_foot_link_right .link_title {
   line-height: normal;
   letter-spacing: 1.6px;
   text-transform: uppercase;
+  transition: 0.2s ease all;
+}
+.products #opinions .opinions_slider .swiper-slide-in a:hover {
+  background: white;
+  color: #F64909;
+}
+.products #opinions .opinions_slider .swiper-slide-in a:active {
+  background: white;
+  color: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
 }
 @media only screen and (max-width: 1400px) {
   .products #opinions .title {
@@ -5060,6 +5444,11 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.3px;
   }
 }
+@media only screen and (max-width: 576px) {
+  .products #opinions .opinions_slider .swiper-slide .swiper-slide-in a {
+    height: 36px;
+  }
+}
 .products #half_slider3 {
   background: #F64909;
   padding-bottom: 54px;
@@ -5113,6 +5502,18 @@ header .header_foot .header_foot_link_right .link_title {
   letter-spacing: 1.6px;
   text-transform: uppercase;
   margin-left: 26px;
+  transition: 0.2s ease all;
+}
+.products #half_slider3 a:hover {
+  border: 2px solid #FFF;
+  background: #F64909;
+  color: white;
+}
+.products #half_slider3 a:active {
+  border: 2px solid #FFF;
+  background: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  color: white;
 }
 .products #half_slider3 .slider_wrapper {
   position: absolute;
@@ -5176,6 +5577,18 @@ header .header_foot .header_foot_link_right .link_title {
   justify-content: center;
   align-items: center;
   margin-left: 0;
+  transition: 0.2s ease all;
+}
+.products #half_slider3 .slider_wrapper .half_slider .link_slide a:hover {
+  background: white;
+  color: #F64909;
+  border: 2px solid #F64909;
+}
+.products #half_slider3 .slider_wrapper .half_slider .link_slide a:active {
+  background: white;
+  color: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  border: 2px solid #F64909;
 }
 .products #half_slider3 .slider_wrapper .half_slider .last_slider {
   background: transparent;
@@ -5536,7 +5949,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.3px;
   }
   .products #half_slider3 a {
-    height: 30px;
+    height: 36px;
     width: 130px;
     font-size: 12px;
     font-style: normal;
@@ -5582,7 +5995,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .products #half_slider3 .slider_wrapper .half_slider .link_slide div a {
     width: 164px;
-    height: 30px;
+    height: 36px;
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
@@ -5708,6 +6121,18 @@ header .header_foot .header_foot_link_right .link_title {
   text-transform: uppercase;
   outline: none;
   border: none;
+  transition: 0.3s ease all;
+}
+.products #contact .cards .form_card button:hover {
+  background: #F64909;
+  color: white;
+  border: 2px solid white;
+}
+.products #contact .cards .form_card button:active {
+  background: #F64909;
+  color: white;
+  border: 2px solid white;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
 }
 .products #contact .address_cards {
   margin-bottom: 80px;
@@ -5782,6 +6207,16 @@ header .header_foot .header_foot_link_right .link_title {
   line-height: normal;
   letter-spacing: 1.6px;
   text-transform: uppercase;
+  transition: 0.2s ease all;
+}
+.products #contact .address_cards .address .address_bottom .address_btn:hover {
+  background: white;
+  color: #F64909;
+}
+.products #contact .address_cards .address .address_bottom .address_btn:active {
+  background: white;
+  color: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
 }
 .products #contact .address_cards .address .address_bottom .links {
   gap: 10px;
@@ -6455,6 +6890,19 @@ header .header_foot .header_foot_link_right .link_title {
   .cheesecakes_sufle #home .home_top a {
     width: 336px;
     height: 84px;
+    padding-left: 36px;
+    padding-right: 36px;
+  }
+  .cheesecakes_sufle #home .home_top a img {
+    width: 26px;
+    height: 26px;
+  }
+  .cheesecakes_sufle #home .home_top a span {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.2px;
   }
   .cheesecakes_sufle #home .home_cards {
     margin-bottom: 76px;
@@ -7943,6 +8391,18 @@ header .header_foot .header_foot_link_right .link_title {
   letter-spacing: 1.6px;
   text-transform: uppercase;
   margin-left: 26px;
+  transition: 0.2s ease all;
+}
+.cheesecakes_sufle #half_slider a:hover {
+  border: 2px solid #FFF;
+  background: #F64909;
+  color: white;
+}
+.cheesecakes_sufle #half_slider a:active {
+  border: 2px solid #FFF;
+  background: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  color: white;
 }
 .cheesecakes_sufle #half_slider .slider_wrapper {
   position: absolute;
@@ -8006,6 +8466,18 @@ header .header_foot .header_foot_link_right .link_title {
   justify-content: center;
   align-items: center;
   margin-left: 0;
+  transition: 0.2s ease all;
+}
+.cheesecakes_sufle #half_slider .slider_wrapper .half_slider .link_slide a:hover {
+  background: white;
+  color: #F64909;
+  border: 2px solid #F64909;
+}
+.cheesecakes_sufle #half_slider .slider_wrapper .half_slider .link_slide a:active {
+  background: white;
+  color: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  border: 2px solid #F64909;
 }
 .cheesecakes_sufle #half_slider .slider_wrapper .half_slider .last_slider {
   background: transparent;
@@ -8366,7 +8838,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.3px;
   }
   .cheesecakes_sufle #half_slider a {
-    height: 30px;
+    height: 36px;
     width: 130px;
     font-size: 12px;
     font-style: normal;
@@ -8412,7 +8884,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cheesecakes_sufle #half_slider .slider_wrapper .half_slider .link_slide div a {
     width: 164px;
-    height: 30px;
+    height: 36px;
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
@@ -8496,6 +8968,18 @@ header .header_foot .header_foot_link_right .link_title {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: 0.2s ease all;
+}
+.cheesecakes_sufle #cards .cards_top .card_item a:hover {
+  border: 2px solid #F64909;
+  background: #FFF;
+  color: #F64909;
+}
+.cheesecakes_sufle #cards .cards_top .card_item a:active {
+  border: 2px solid #F64909;
+  background: #FFF;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  color: #F64909;
 }
 .cheesecakes_sufle #cards .cards_top .first_card {
   background: #F64909;
@@ -8515,6 +8999,18 @@ header .header_foot .header_foot_link_right .link_title {
   background: white;
   color: #F64909;
   width: 224px;
+  transition: 0.2s ease all;
+}
+.cheesecakes_sufle #cards .cards_top .first_card a:hover {
+  border: 2px solid #FFF;
+  background: #F64909;
+  color: white;
+}
+.cheesecakes_sufle #cards .cards_top .first_card a:active {
+  border: 2px solid #FFF;
+  background: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  color: white;
 }
 .cheesecakes_sufle #cards .big_cards {
   margin-top: 46px;
@@ -8566,6 +9062,18 @@ header .header_foot .header_foot_link_right .link_title {
   line-height: normal;
   letter-spacing: 1.6px;
   text-transform: uppercase;
+  transition: 0.2s ease all;
+}
+.cheesecakes_sufle #cards .big_cards .card_item a:hover {
+  border: 2px solid #F64909;
+  background: #FFF;
+  color: #F64909;
+}
+.cheesecakes_sufle #cards .big_cards .card_item a:active {
+  border: 2px solid #F64909;
+  background: #FFF;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  color: #F64909;
 }
 @media only screen and (max-width: 1400px) {
   .cheesecakes_sufle #cards .cards_top .card_item {
@@ -9070,6 +9578,18 @@ header .header_foot .header_foot_link_right .link_title {
   letter-spacing: 1.6px;
   text-transform: uppercase;
   margin-left: 26px;
+  transition: 0.2s ease all;
+}
+.cheesecakes_sufle #half_slider2 a:hover {
+  border: 2px solid #FFF;
+  background: #F64909;
+  color: white;
+}
+.cheesecakes_sufle #half_slider2 a:active {
+  border: 2px solid #FFF;
+  background: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  color: white;
 }
 .cheesecakes_sufle #half_slider2 .slider_wrapper {
   position: absolute;
@@ -9133,6 +9653,18 @@ header .header_foot .header_foot_link_right .link_title {
   justify-content: center;
   align-items: center;
   margin-left: 0;
+  transition: 0.2s ease all;
+}
+.cheesecakes_sufle #half_slider2 .slider_wrapper .half_slider .link_slide a:hover {
+  background: white;
+  color: #F64909;
+  border: 2px solid #F64909;
+}
+.cheesecakes_sufle #half_slider2 .slider_wrapper .half_slider .link_slide a:active {
+  background: white;
+  color: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  border: 2px solid #F64909;
 }
 .cheesecakes_sufle #half_slider2 .slider_wrapper .half_slider .last_slider {
   background: transparent;
@@ -9493,7 +10025,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.3px;
   }
   .cheesecakes_sufle #half_slider2 a {
-    height: 30px;
+    height: 36px;
     width: 130px;
     font-size: 12px;
     font-style: normal;
@@ -9539,7 +10071,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cheesecakes_sufle #half_slider2 .slider_wrapper .half_slider .link_slide div a {
     width: 164px;
-    height: 30px;
+    height: 36px;
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
@@ -9636,6 +10168,18 @@ header .header_foot .header_foot_link_right .link_title {
   line-height: normal;
   letter-spacing: 1.6px;
   text-transform: uppercase;
+  transition: 0.2s ease all;
+}
+.cheesecakes_sufle #buy_cheeseberry .chizberry_card a:hover {
+  background: white;
+  color: #F64909;
+  border: 2px solid #F64909;
+}
+.cheesecakes_sufle #buy_cheeseberry .chizberry_card a:active {
+  background: white;
+  color: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  border: 2px solid #F64909;
 }
 .cheesecakes_sufle #buy_cheeseberry .chizberry_card_bottom {
   margin-bottom: 80px;
@@ -9693,6 +10237,16 @@ header .header_foot .header_foot_link_right .link_title {
   line-height: normal;
   letter-spacing: 1.6px;
   text-transform: uppercase;
+  transition: 0.2s ease all;
+}
+.cheesecakes_sufle #buy_cheeseberry .chizberry_card_bottom .first_card a:hover {
+  background: white;
+  color: #F64909;
+}
+.cheesecakes_sufle #buy_cheeseberry .chizberry_card_bottom .first_card a:active {
+  background: white;
+  color: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
 }
 @media only screen and (max-width: 1400px) {
   .cheesecakes_sufle #buy_cheeseberry {
@@ -10269,6 +10823,16 @@ header .header_foot .header_foot_link_right .link_title {
   line-height: normal;
   letter-spacing: 1.6px;
   text-transform: uppercase;
+  transition: 0.2s ease all;
+}
+.cheesecakes_sufle #opinions .opinions_slider .swiper-slide-in a:hover {
+  background: white;
+  color: #F64909;
+}
+.cheesecakes_sufle #opinions .opinions_slider .swiper-slide-in a:active {
+  background: white;
+  color: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
 }
 @media only screen and (max-width: 1400px) {
   .cheesecakes_sufle #opinions .title {
@@ -10418,6 +10982,11 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.3px;
   }
 }
+@media only screen and (max-width: 576px) {
+  .cheesecakes_sufle #opinions .opinions_slider .swiper-slide .swiper-slide-in a {
+    height: 36px;
+  }
+}
 .cheesecakes_sufle #half_slider3 {
   background: #F64909;
   padding-bottom: 54px;
@@ -10471,6 +11040,18 @@ header .header_foot .header_foot_link_right .link_title {
   letter-spacing: 1.6px;
   text-transform: uppercase;
   margin-left: 26px;
+  transition: 0.2s ease all;
+}
+.cheesecakes_sufle #half_slider3 a:hover {
+  border: 2px solid #FFF;
+  background: #F64909;
+  color: white;
+}
+.cheesecakes_sufle #half_slider3 a:active {
+  border: 2px solid #FFF;
+  background: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  color: white;
 }
 .cheesecakes_sufle #half_slider3 .slider_wrapper {
   position: absolute;
@@ -10534,6 +11115,18 @@ header .header_foot .header_foot_link_right .link_title {
   justify-content: center;
   align-items: center;
   margin-left: 0;
+  transition: 0.2s ease all;
+}
+.cheesecakes_sufle #half_slider3 .slider_wrapper .half_slider .link_slide a:hover {
+  background: white;
+  color: #F64909;
+  border: 2px solid #F64909;
+}
+.cheesecakes_sufle #half_slider3 .slider_wrapper .half_slider .link_slide a:active {
+  background: white;
+  color: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  border: 2px solid #F64909;
 }
 .cheesecakes_sufle #half_slider3 .slider_wrapper .half_slider .last_slider {
   background: transparent;
@@ -10894,7 +11487,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.3px;
   }
   .cheesecakes_sufle #half_slider3 a {
-    height: 30px;
+    height: 36px;
     width: 130px;
     font-size: 12px;
     font-style: normal;
@@ -10940,7 +11533,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cheesecakes_sufle #half_slider3 .slider_wrapper .half_slider .link_slide div a {
     width: 164px;
-    height: 30px;
+    height: 36px;
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
@@ -11066,6 +11659,18 @@ header .header_foot .header_foot_link_right .link_title {
   text-transform: uppercase;
   outline: none;
   border: none;
+  transition: 0.3s ease all;
+}
+.cheesecakes_sufle #contact .cards .form_card button:hover {
+  background: #F64909;
+  color: white;
+  border: 2px solid white;
+}
+.cheesecakes_sufle #contact .cards .form_card button:active {
+  background: #F64909;
+  color: white;
+  border: 2px solid white;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
 }
 .cheesecakes_sufle #contact .address_cards {
   margin-bottom: 80px;
@@ -11140,6 +11745,16 @@ header .header_foot .header_foot_link_right .link_title {
   line-height: normal;
   letter-spacing: 1.6px;
   text-transform: uppercase;
+  transition: 0.2s ease all;
+}
+.cheesecakes_sufle #contact .address_cards .address .address_bottom .address_btn:hover {
+  background: white;
+  color: #F64909;
+}
+.cheesecakes_sufle #contact .address_cards .address .address_bottom .address_btn:active {
+  background: white;
+  color: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
 }
 .cheesecakes_sufle #contact .address_cards .address .address_bottom .links {
   gap: 10px;
@@ -11813,6 +12428,19 @@ header .header_foot .header_foot_link_right .link_title {
   .cakes #home .home_top a {
     width: 336px;
     height: 84px;
+    padding-left: 36px;
+    padding-right: 36px;
+  }
+  .cakes #home .home_top a img {
+    width: 26px;
+    height: 26px;
+  }
+  .cakes #home .home_top a span {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.2px;
   }
   .cakes #home .home_cards {
     margin-bottom: 76px;
@@ -13301,6 +13929,18 @@ header .header_foot .header_foot_link_right .link_title {
   letter-spacing: 1.6px;
   text-transform: uppercase;
   margin-left: 26px;
+  transition: 0.2s ease all;
+}
+.cakes #half_slider a:hover {
+  border: 2px solid #FFF;
+  background: #F64909;
+  color: white;
+}
+.cakes #half_slider a:active {
+  border: 2px solid #FFF;
+  background: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  color: white;
 }
 .cakes #half_slider .slider_wrapper {
   position: absolute;
@@ -13364,6 +14004,18 @@ header .header_foot .header_foot_link_right .link_title {
   justify-content: center;
   align-items: center;
   margin-left: 0;
+  transition: 0.2s ease all;
+}
+.cakes #half_slider .slider_wrapper .half_slider .link_slide a:hover {
+  background: white;
+  color: #F64909;
+  border: 2px solid #F64909;
+}
+.cakes #half_slider .slider_wrapper .half_slider .link_slide a:active {
+  background: white;
+  color: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  border: 2px solid #F64909;
 }
 .cakes #half_slider .slider_wrapper .half_slider .last_slider {
   background: transparent;
@@ -13724,7 +14376,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.3px;
   }
   .cakes #half_slider a {
-    height: 30px;
+    height: 36px;
     width: 130px;
     font-size: 12px;
     font-style: normal;
@@ -13770,7 +14422,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cakes #half_slider .slider_wrapper .half_slider .link_slide div a {
     width: 164px;
-    height: 30px;
+    height: 36px;
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
@@ -13854,6 +14506,18 @@ header .header_foot .header_foot_link_right .link_title {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: 0.2s ease all;
+}
+.cakes #cards .cards_top .card_item a:hover {
+  border: 2px solid #F64909;
+  background: #FFF;
+  color: #F64909;
+}
+.cakes #cards .cards_top .card_item a:active {
+  border: 2px solid #F64909;
+  background: #FFF;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  color: #F64909;
 }
 .cakes #cards .cards_top .first_card {
   background: #F64909;
@@ -13873,6 +14537,18 @@ header .header_foot .header_foot_link_right .link_title {
   background: white;
   color: #F64909;
   width: 224px;
+  transition: 0.2s ease all;
+}
+.cakes #cards .cards_top .first_card a:hover {
+  border: 2px solid #FFF;
+  background: #F64909;
+  color: white;
+}
+.cakes #cards .cards_top .first_card a:active {
+  border: 2px solid #FFF;
+  background: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  color: white;
 }
 .cakes #cards .big_cards {
   margin-top: 46px;
@@ -13924,6 +14600,18 @@ header .header_foot .header_foot_link_right .link_title {
   line-height: normal;
   letter-spacing: 1.6px;
   text-transform: uppercase;
+  transition: 0.2s ease all;
+}
+.cakes #cards .big_cards .card_item a:hover {
+  border: 2px solid #F64909;
+  background: #FFF;
+  color: #F64909;
+}
+.cakes #cards .big_cards .card_item a:active {
+  border: 2px solid #F64909;
+  background: #FFF;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  color: #F64909;
 }
 @media only screen and (max-width: 1400px) {
   .cakes #cards .cards_top .card_item {
@@ -14428,6 +15116,18 @@ header .header_foot .header_foot_link_right .link_title {
   letter-spacing: 1.6px;
   text-transform: uppercase;
   margin-left: 26px;
+  transition: 0.2s ease all;
+}
+.cakes #half_slider2 a:hover {
+  border: 2px solid #FFF;
+  background: #F64909;
+  color: white;
+}
+.cakes #half_slider2 a:active {
+  border: 2px solid #FFF;
+  background: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  color: white;
 }
 .cakes #half_slider2 .slider_wrapper {
   position: absolute;
@@ -14491,6 +15191,18 @@ header .header_foot .header_foot_link_right .link_title {
   justify-content: center;
   align-items: center;
   margin-left: 0;
+  transition: 0.2s ease all;
+}
+.cakes #half_slider2 .slider_wrapper .half_slider .link_slide a:hover {
+  background: white;
+  color: #F64909;
+  border: 2px solid #F64909;
+}
+.cakes #half_slider2 .slider_wrapper .half_slider .link_slide a:active {
+  background: white;
+  color: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  border: 2px solid #F64909;
 }
 .cakes #half_slider2 .slider_wrapper .half_slider .last_slider {
   background: transparent;
@@ -14851,7 +15563,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.3px;
   }
   .cakes #half_slider2 a {
-    height: 30px;
+    height: 36px;
     width: 130px;
     font-size: 12px;
     font-style: normal;
@@ -14897,7 +15609,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cakes #half_slider2 .slider_wrapper .half_slider .link_slide div a {
     width: 164px;
-    height: 30px;
+    height: 36px;
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
@@ -14994,6 +15706,18 @@ header .header_foot .header_foot_link_right .link_title {
   line-height: normal;
   letter-spacing: 1.6px;
   text-transform: uppercase;
+  transition: 0.2s ease all;
+}
+.cakes #buy_cheeseberry .chizberry_card a:hover {
+  background: white;
+  color: #F64909;
+  border: 2px solid #F64909;
+}
+.cakes #buy_cheeseberry .chizberry_card a:active {
+  background: white;
+  color: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  border: 2px solid #F64909;
 }
 .cakes #buy_cheeseberry .chizberry_card_bottom {
   margin-bottom: 80px;
@@ -15051,6 +15775,16 @@ header .header_foot .header_foot_link_right .link_title {
   line-height: normal;
   letter-spacing: 1.6px;
   text-transform: uppercase;
+  transition: 0.2s ease all;
+}
+.cakes #buy_cheeseberry .chizberry_card_bottom .first_card a:hover {
+  background: white;
+  color: #F64909;
+}
+.cakes #buy_cheeseberry .chizberry_card_bottom .first_card a:active {
+  background: white;
+  color: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
 }
 @media only screen and (max-width: 1400px) {
   .cakes #buy_cheeseberry {
@@ -15627,6 +16361,16 @@ header .header_foot .header_foot_link_right .link_title {
   line-height: normal;
   letter-spacing: 1.6px;
   text-transform: uppercase;
+  transition: 0.2s ease all;
+}
+.cakes #opinions .opinions_slider .swiper-slide-in a:hover {
+  background: white;
+  color: #F64909;
+}
+.cakes #opinions .opinions_slider .swiper-slide-in a:active {
+  background: white;
+  color: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
 }
 @media only screen and (max-width: 1400px) {
   .cakes #opinions .title {
@@ -15776,6 +16520,11 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.3px;
   }
 }
+@media only screen and (max-width: 576px) {
+  .cakes #opinions .opinions_slider .swiper-slide .swiper-slide-in a {
+    height: 36px;
+  }
+}
 .cakes #half_slider3 {
   background: #F64909;
   padding-bottom: 54px;
@@ -15829,6 +16578,18 @@ header .header_foot .header_foot_link_right .link_title {
   letter-spacing: 1.6px;
   text-transform: uppercase;
   margin-left: 26px;
+  transition: 0.2s ease all;
+}
+.cakes #half_slider3 a:hover {
+  border: 2px solid #FFF;
+  background: #F64909;
+  color: white;
+}
+.cakes #half_slider3 a:active {
+  border: 2px solid #FFF;
+  background: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  color: white;
 }
 .cakes #half_slider3 .slider_wrapper {
   position: absolute;
@@ -15892,6 +16653,18 @@ header .header_foot .header_foot_link_right .link_title {
   justify-content: center;
   align-items: center;
   margin-left: 0;
+  transition: 0.2s ease all;
+}
+.cakes #half_slider3 .slider_wrapper .half_slider .link_slide a:hover {
+  background: white;
+  color: #F64909;
+  border: 2px solid #F64909;
+}
+.cakes #half_slider3 .slider_wrapper .half_slider .link_slide a:active {
+  background: white;
+  color: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  border: 2px solid #F64909;
 }
 .cakes #half_slider3 .slider_wrapper .half_slider .last_slider {
   background: transparent;
@@ -16252,7 +17025,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.3px;
   }
   .cakes #half_slider3 a {
-    height: 30px;
+    height: 36px;
     width: 130px;
     font-size: 12px;
     font-style: normal;
@@ -16298,7 +17071,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cakes #half_slider3 .slider_wrapper .half_slider .link_slide div a {
     width: 164px;
-    height: 30px;
+    height: 36px;
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
@@ -16424,6 +17197,18 @@ header .header_foot .header_foot_link_right .link_title {
   text-transform: uppercase;
   outline: none;
   border: none;
+  transition: 0.3s ease all;
+}
+.cakes #contact .cards .form_card button:hover {
+  background: #F64909;
+  color: white;
+  border: 2px solid white;
+}
+.cakes #contact .cards .form_card button:active {
+  background: #F64909;
+  color: white;
+  border: 2px solid white;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
 }
 .cakes #contact .address_cards {
   margin-bottom: 80px;
@@ -16498,6 +17283,16 @@ header .header_foot .header_foot_link_right .link_title {
   line-height: normal;
   letter-spacing: 1.6px;
   text-transform: uppercase;
+  transition: 0.2s ease all;
+}
+.cakes #contact .address_cards .address .address_bottom .address_btn:hover {
+  background: white;
+  color: #F64909;
+}
+.cakes #contact .address_cards .address .address_bottom .address_btn:active {
+  background: white;
+  color: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
 }
 .cakes #contact .address_cards .address .address_bottom .links {
   gap: 10px;
@@ -17171,6 +17966,19 @@ header .header_foot .header_foot_link_right .link_title {
   .cookies #home .home_top a {
     width: 336px;
     height: 84px;
+    padding-left: 36px;
+    padding-right: 36px;
+  }
+  .cookies #home .home_top a img {
+    width: 26px;
+    height: 26px;
+  }
+  .cookies #home .home_top a span {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.2px;
   }
   .cookies #home .home_cards {
     margin-bottom: 76px;
@@ -18659,6 +19467,18 @@ header .header_foot .header_foot_link_right .link_title {
   letter-spacing: 1.6px;
   text-transform: uppercase;
   margin-left: 26px;
+  transition: 0.2s ease all;
+}
+.cookies #half_slider a:hover {
+  border: 2px solid #FFF;
+  background: #F64909;
+  color: white;
+}
+.cookies #half_slider a:active {
+  border: 2px solid #FFF;
+  background: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  color: white;
 }
 .cookies #half_slider .slider_wrapper {
   position: absolute;
@@ -18722,6 +19542,18 @@ header .header_foot .header_foot_link_right .link_title {
   justify-content: center;
   align-items: center;
   margin-left: 0;
+  transition: 0.2s ease all;
+}
+.cookies #half_slider .slider_wrapper .half_slider .link_slide a:hover {
+  background: white;
+  color: #F64909;
+  border: 2px solid #F64909;
+}
+.cookies #half_slider .slider_wrapper .half_slider .link_slide a:active {
+  background: white;
+  color: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  border: 2px solid #F64909;
 }
 .cookies #half_slider .slider_wrapper .half_slider .last_slider {
   background: transparent;
@@ -19082,7 +19914,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.3px;
   }
   .cookies #half_slider a {
-    height: 30px;
+    height: 36px;
     width: 130px;
     font-size: 12px;
     font-style: normal;
@@ -19128,7 +19960,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cookies #half_slider .slider_wrapper .half_slider .link_slide div a {
     width: 164px;
-    height: 30px;
+    height: 36px;
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
@@ -19212,6 +20044,18 @@ header .header_foot .header_foot_link_right .link_title {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: 0.2s ease all;
+}
+.cookies #cards .cards_top .card_item a:hover {
+  border: 2px solid #F64909;
+  background: #FFF;
+  color: #F64909;
+}
+.cookies #cards .cards_top .card_item a:active {
+  border: 2px solid #F64909;
+  background: #FFF;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  color: #F64909;
 }
 .cookies #cards .cards_top .first_card {
   background: #F64909;
@@ -19231,6 +20075,18 @@ header .header_foot .header_foot_link_right .link_title {
   background: white;
   color: #F64909;
   width: 224px;
+  transition: 0.2s ease all;
+}
+.cookies #cards .cards_top .first_card a:hover {
+  border: 2px solid #FFF;
+  background: #F64909;
+  color: white;
+}
+.cookies #cards .cards_top .first_card a:active {
+  border: 2px solid #FFF;
+  background: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  color: white;
 }
 .cookies #cards .big_cards {
   margin-top: 46px;
@@ -19282,6 +20138,18 @@ header .header_foot .header_foot_link_right .link_title {
   line-height: normal;
   letter-spacing: 1.6px;
   text-transform: uppercase;
+  transition: 0.2s ease all;
+}
+.cookies #cards .big_cards .card_item a:hover {
+  border: 2px solid #F64909;
+  background: #FFF;
+  color: #F64909;
+}
+.cookies #cards .big_cards .card_item a:active {
+  border: 2px solid #F64909;
+  background: #FFF;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  color: #F64909;
 }
 @media only screen and (max-width: 1400px) {
   .cookies #cards .cards_top .card_item {
@@ -19786,6 +20654,18 @@ header .header_foot .header_foot_link_right .link_title {
   letter-spacing: 1.6px;
   text-transform: uppercase;
   margin-left: 26px;
+  transition: 0.2s ease all;
+}
+.cookies #half_slider2 a:hover {
+  border: 2px solid #FFF;
+  background: #F64909;
+  color: white;
+}
+.cookies #half_slider2 a:active {
+  border: 2px solid #FFF;
+  background: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  color: white;
 }
 .cookies #half_slider2 .slider_wrapper {
   position: absolute;
@@ -19849,6 +20729,18 @@ header .header_foot .header_foot_link_right .link_title {
   justify-content: center;
   align-items: center;
   margin-left: 0;
+  transition: 0.2s ease all;
+}
+.cookies #half_slider2 .slider_wrapper .half_slider .link_slide a:hover {
+  background: white;
+  color: #F64909;
+  border: 2px solid #F64909;
+}
+.cookies #half_slider2 .slider_wrapper .half_slider .link_slide a:active {
+  background: white;
+  color: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  border: 2px solid #F64909;
 }
 .cookies #half_slider2 .slider_wrapper .half_slider .last_slider {
   background: transparent;
@@ -20209,7 +21101,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.3px;
   }
   .cookies #half_slider2 a {
-    height: 30px;
+    height: 36px;
     width: 130px;
     font-size: 12px;
     font-style: normal;
@@ -20255,7 +21147,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cookies #half_slider2 .slider_wrapper .half_slider .link_slide div a {
     width: 164px;
-    height: 30px;
+    height: 36px;
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
@@ -20352,6 +21244,18 @@ header .header_foot .header_foot_link_right .link_title {
   line-height: normal;
   letter-spacing: 1.6px;
   text-transform: uppercase;
+  transition: 0.2s ease all;
+}
+.cookies #buy_cheeseberry .chizberry_card a:hover {
+  background: white;
+  color: #F64909;
+  border: 2px solid #F64909;
+}
+.cookies #buy_cheeseberry .chizberry_card a:active {
+  background: white;
+  color: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  border: 2px solid #F64909;
 }
 .cookies #buy_cheeseberry .chizberry_card_bottom {
   margin-bottom: 80px;
@@ -20409,6 +21313,16 @@ header .header_foot .header_foot_link_right .link_title {
   line-height: normal;
   letter-spacing: 1.6px;
   text-transform: uppercase;
+  transition: 0.2s ease all;
+}
+.cookies #buy_cheeseberry .chizberry_card_bottom .first_card a:hover {
+  background: white;
+  color: #F64909;
+}
+.cookies #buy_cheeseberry .chizberry_card_bottom .first_card a:active {
+  background: white;
+  color: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
 }
 @media only screen and (max-width: 1400px) {
   .cookies #buy_cheeseberry {
@@ -20985,6 +21899,16 @@ header .header_foot .header_foot_link_right .link_title {
   line-height: normal;
   letter-spacing: 1.6px;
   text-transform: uppercase;
+  transition: 0.2s ease all;
+}
+.cookies #opinions .opinions_slider .swiper-slide-in a:hover {
+  background: white;
+  color: #F64909;
+}
+.cookies #opinions .opinions_slider .swiper-slide-in a:active {
+  background: white;
+  color: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
 }
 @media only screen and (max-width: 1400px) {
   .cookies #opinions .title {
@@ -21134,6 +22058,11 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.3px;
   }
 }
+@media only screen and (max-width: 576px) {
+  .cookies #opinions .opinions_slider .swiper-slide .swiper-slide-in a {
+    height: 36px;
+  }
+}
 .cookies #half_slider3 {
   background: #F64909;
   padding-bottom: 54px;
@@ -21187,6 +22116,18 @@ header .header_foot .header_foot_link_right .link_title {
   letter-spacing: 1.6px;
   text-transform: uppercase;
   margin-left: 26px;
+  transition: 0.2s ease all;
+}
+.cookies #half_slider3 a:hover {
+  border: 2px solid #FFF;
+  background: #F64909;
+  color: white;
+}
+.cookies #half_slider3 a:active {
+  border: 2px solid #FFF;
+  background: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  color: white;
 }
 .cookies #half_slider3 .slider_wrapper {
   position: absolute;
@@ -21250,6 +22191,18 @@ header .header_foot .header_foot_link_right .link_title {
   justify-content: center;
   align-items: center;
   margin-left: 0;
+  transition: 0.2s ease all;
+}
+.cookies #half_slider3 .slider_wrapper .half_slider .link_slide a:hover {
+  background: white;
+  color: #F64909;
+  border: 2px solid #F64909;
+}
+.cookies #half_slider3 .slider_wrapper .half_slider .link_slide a:active {
+  background: white;
+  color: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  border: 2px solid #F64909;
 }
 .cookies #half_slider3 .slider_wrapper .half_slider .last_slider {
   background: transparent;
@@ -21610,7 +22563,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.3px;
   }
   .cookies #half_slider3 a {
-    height: 30px;
+    height: 36px;
     width: 130px;
     font-size: 12px;
     font-style: normal;
@@ -21656,7 +22609,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cookies #half_slider3 .slider_wrapper .half_slider .link_slide div a {
     width: 164px;
-    height: 30px;
+    height: 36px;
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
@@ -21782,6 +22735,18 @@ header .header_foot .header_foot_link_right .link_title {
   text-transform: uppercase;
   outline: none;
   border: none;
+  transition: 0.3s ease all;
+}
+.cookies #contact .cards .form_card button:hover {
+  background: #F64909;
+  color: white;
+  border: 2px solid white;
+}
+.cookies #contact .cards .form_card button:active {
+  background: #F64909;
+  color: white;
+  border: 2px solid white;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
 }
 .cookies #contact .address_cards {
   margin-bottom: 80px;
@@ -21856,6 +22821,16 @@ header .header_foot .header_foot_link_right .link_title {
   line-height: normal;
   letter-spacing: 1.6px;
   text-transform: uppercase;
+  transition: 0.2s ease all;
+}
+.cookies #contact .address_cards .address .address_bottom .address_btn:hover {
+  background: white;
+  color: #F64909;
+}
+.cookies #contact .address_cards .address .address_bottom .address_btn:active {
+  background: white;
+  color: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
 }
 .cookies #contact .address_cards .address .address_bottom .links {
   gap: 10px;
@@ -22529,6 +23504,19 @@ header .header_foot .header_foot_link_right .link_title {
   .small_items #home .home_top a {
     width: 336px;
     height: 84px;
+    padding-left: 36px;
+    padding-right: 36px;
+  }
+  .small_items #home .home_top a img {
+    width: 26px;
+    height: 26px;
+  }
+  .small_items #home .home_top a span {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.2px;
   }
   .small_items #home .home_cards {
     margin-bottom: 76px;
@@ -24017,6 +25005,18 @@ header .header_foot .header_foot_link_right .link_title {
   letter-spacing: 1.6px;
   text-transform: uppercase;
   margin-left: 26px;
+  transition: 0.2s ease all;
+}
+.small_items #half_slider a:hover {
+  border: 2px solid #FFF;
+  background: #F64909;
+  color: white;
+}
+.small_items #half_slider a:active {
+  border: 2px solid #FFF;
+  background: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  color: white;
 }
 .small_items #half_slider .slider_wrapper {
   position: absolute;
@@ -24080,6 +25080,18 @@ header .header_foot .header_foot_link_right .link_title {
   justify-content: center;
   align-items: center;
   margin-left: 0;
+  transition: 0.2s ease all;
+}
+.small_items #half_slider .slider_wrapper .half_slider .link_slide a:hover {
+  background: white;
+  color: #F64909;
+  border: 2px solid #F64909;
+}
+.small_items #half_slider .slider_wrapper .half_slider .link_slide a:active {
+  background: white;
+  color: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  border: 2px solid #F64909;
 }
 .small_items #half_slider .slider_wrapper .half_slider .last_slider {
   background: transparent;
@@ -24440,7 +25452,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.3px;
   }
   .small_items #half_slider a {
-    height: 30px;
+    height: 36px;
     width: 130px;
     font-size: 12px;
     font-style: normal;
@@ -24486,7 +25498,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .small_items #half_slider .slider_wrapper .half_slider .link_slide div a {
     width: 164px;
-    height: 30px;
+    height: 36px;
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
@@ -24570,6 +25582,18 @@ header .header_foot .header_foot_link_right .link_title {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: 0.2s ease all;
+}
+.small_items #cards .cards_top .card_item a:hover {
+  border: 2px solid #F64909;
+  background: #FFF;
+  color: #F64909;
+}
+.small_items #cards .cards_top .card_item a:active {
+  border: 2px solid #F64909;
+  background: #FFF;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  color: #F64909;
 }
 .small_items #cards .cards_top .first_card {
   background: #F64909;
@@ -24589,6 +25613,18 @@ header .header_foot .header_foot_link_right .link_title {
   background: white;
   color: #F64909;
   width: 224px;
+  transition: 0.2s ease all;
+}
+.small_items #cards .cards_top .first_card a:hover {
+  border: 2px solid #FFF;
+  background: #F64909;
+  color: white;
+}
+.small_items #cards .cards_top .first_card a:active {
+  border: 2px solid #FFF;
+  background: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  color: white;
 }
 .small_items #cards .big_cards {
   margin-top: 46px;
@@ -24640,6 +25676,18 @@ header .header_foot .header_foot_link_right .link_title {
   line-height: normal;
   letter-spacing: 1.6px;
   text-transform: uppercase;
+  transition: 0.2s ease all;
+}
+.small_items #cards .big_cards .card_item a:hover {
+  border: 2px solid #F64909;
+  background: #FFF;
+  color: #F64909;
+}
+.small_items #cards .big_cards .card_item a:active {
+  border: 2px solid #F64909;
+  background: #FFF;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  color: #F64909;
 }
 @media only screen and (max-width: 1400px) {
   .small_items #cards .cards_top .card_item {
@@ -25144,6 +26192,18 @@ header .header_foot .header_foot_link_right .link_title {
   letter-spacing: 1.6px;
   text-transform: uppercase;
   margin-left: 26px;
+  transition: 0.2s ease all;
+}
+.small_items #half_slider2 a:hover {
+  border: 2px solid #FFF;
+  background: #F64909;
+  color: white;
+}
+.small_items #half_slider2 a:active {
+  border: 2px solid #FFF;
+  background: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  color: white;
 }
 .small_items #half_slider2 .slider_wrapper {
   position: absolute;
@@ -25207,6 +26267,18 @@ header .header_foot .header_foot_link_right .link_title {
   justify-content: center;
   align-items: center;
   margin-left: 0;
+  transition: 0.2s ease all;
+}
+.small_items #half_slider2 .slider_wrapper .half_slider .link_slide a:hover {
+  background: white;
+  color: #F64909;
+  border: 2px solid #F64909;
+}
+.small_items #half_slider2 .slider_wrapper .half_slider .link_slide a:active {
+  background: white;
+  color: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  border: 2px solid #F64909;
 }
 .small_items #half_slider2 .slider_wrapper .half_slider .last_slider {
   background: transparent;
@@ -25567,7 +26639,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.3px;
   }
   .small_items #half_slider2 a {
-    height: 30px;
+    height: 36px;
     width: 130px;
     font-size: 12px;
     font-style: normal;
@@ -25613,7 +26685,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .small_items #half_slider2 .slider_wrapper .half_slider .link_slide div a {
     width: 164px;
-    height: 30px;
+    height: 36px;
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
@@ -25710,6 +26782,18 @@ header .header_foot .header_foot_link_right .link_title {
   line-height: normal;
   letter-spacing: 1.6px;
   text-transform: uppercase;
+  transition: 0.2s ease all;
+}
+.small_items #buy_cheeseberry .chizberry_card a:hover {
+  background: white;
+  color: #F64909;
+  border: 2px solid #F64909;
+}
+.small_items #buy_cheeseberry .chizberry_card a:active {
+  background: white;
+  color: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  border: 2px solid #F64909;
 }
 .small_items #buy_cheeseberry .chizberry_card_bottom {
   margin-bottom: 80px;
@@ -25767,6 +26851,16 @@ header .header_foot .header_foot_link_right .link_title {
   line-height: normal;
   letter-spacing: 1.6px;
   text-transform: uppercase;
+  transition: 0.2s ease all;
+}
+.small_items #buy_cheeseberry .chizberry_card_bottom .first_card a:hover {
+  background: white;
+  color: #F64909;
+}
+.small_items #buy_cheeseberry .chizberry_card_bottom .first_card a:active {
+  background: white;
+  color: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
 }
 @media only screen and (max-width: 1400px) {
   .small_items #buy_cheeseberry {
@@ -26343,6 +27437,16 @@ header .header_foot .header_foot_link_right .link_title {
   line-height: normal;
   letter-spacing: 1.6px;
   text-transform: uppercase;
+  transition: 0.2s ease all;
+}
+.small_items #opinions .opinions_slider .swiper-slide-in a:hover {
+  background: white;
+  color: #F64909;
+}
+.small_items #opinions .opinions_slider .swiper-slide-in a:active {
+  background: white;
+  color: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
 }
 @media only screen and (max-width: 1400px) {
   .small_items #opinions .title {
@@ -26492,6 +27596,11 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.3px;
   }
 }
+@media only screen and (max-width: 576px) {
+  .small_items #opinions .opinions_slider .swiper-slide .swiper-slide-in a {
+    height: 36px;
+  }
+}
 .small_items #half_slider3 {
   background: #F64909;
   padding-bottom: 54px;
@@ -26545,6 +27654,18 @@ header .header_foot .header_foot_link_right .link_title {
   letter-spacing: 1.6px;
   text-transform: uppercase;
   margin-left: 26px;
+  transition: 0.2s ease all;
+}
+.small_items #half_slider3 a:hover {
+  border: 2px solid #FFF;
+  background: #F64909;
+  color: white;
+}
+.small_items #half_slider3 a:active {
+  border: 2px solid #FFF;
+  background: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  color: white;
 }
 .small_items #half_slider3 .slider_wrapper {
   position: absolute;
@@ -26608,6 +27729,18 @@ header .header_foot .header_foot_link_right .link_title {
   justify-content: center;
   align-items: center;
   margin-left: 0;
+  transition: 0.2s ease all;
+}
+.small_items #half_slider3 .slider_wrapper .half_slider .link_slide a:hover {
+  background: white;
+  color: #F64909;
+  border: 2px solid #F64909;
+}
+.small_items #half_slider3 .slider_wrapper .half_slider .link_slide a:active {
+  background: white;
+  color: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  border: 2px solid #F64909;
 }
 .small_items #half_slider3 .slider_wrapper .half_slider .last_slider {
   background: transparent;
@@ -26968,7 +28101,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.3px;
   }
   .small_items #half_slider3 a {
-    height: 30px;
+    height: 36px;
     width: 130px;
     font-size: 12px;
     font-style: normal;
@@ -27014,7 +28147,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .small_items #half_slider3 .slider_wrapper .half_slider .link_slide div a {
     width: 164px;
-    height: 30px;
+    height: 36px;
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
@@ -27140,6 +28273,18 @@ header .header_foot .header_foot_link_right .link_title {
   text-transform: uppercase;
   outline: none;
   border: none;
+  transition: 0.3s ease all;
+}
+.small_items #contact .cards .form_card button:hover {
+  background: #F64909;
+  color: white;
+  border: 2px solid white;
+}
+.small_items #contact .cards .form_card button:active {
+  background: #F64909;
+  color: white;
+  border: 2px solid white;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
 }
 .small_items #contact .address_cards {
   margin-bottom: 80px;
@@ -27214,6 +28359,16 @@ header .header_foot .header_foot_link_right .link_title {
   line-height: normal;
   letter-spacing: 1.6px;
   text-transform: uppercase;
+  transition: 0.2s ease all;
+}
+.small_items #contact .address_cards .address .address_bottom .address_btn:hover {
+  background: white;
+  color: #F64909;
+}
+.small_items #contact .address_cards .address .address_bottom .address_btn:active {
+  background: white;
+  color: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
 }
 .small_items #contact .address_cards .address .address_bottom .links {
   gap: 10px;
@@ -27887,6 +29042,19 @@ header .header_foot .header_foot_link_right .link_title {
   .chees_cream #home .home_top a {
     width: 336px;
     height: 84px;
+    padding-left: 36px;
+    padding-right: 36px;
+  }
+  .chees_cream #home .home_top a img {
+    width: 26px;
+    height: 26px;
+  }
+  .chees_cream #home .home_top a span {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.2px;
   }
   .chees_cream #home .home_cards {
     margin-bottom: 76px;
@@ -29375,6 +30543,18 @@ header .header_foot .header_foot_link_right .link_title {
   letter-spacing: 1.6px;
   text-transform: uppercase;
   margin-left: 26px;
+  transition: 0.2s ease all;
+}
+.chees_cream #half_slider a:hover {
+  border: 2px solid #FFF;
+  background: #F64909;
+  color: white;
+}
+.chees_cream #half_slider a:active {
+  border: 2px solid #FFF;
+  background: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  color: white;
 }
 .chees_cream #half_slider .slider_wrapper {
   position: absolute;
@@ -29438,6 +30618,18 @@ header .header_foot .header_foot_link_right .link_title {
   justify-content: center;
   align-items: center;
   margin-left: 0;
+  transition: 0.2s ease all;
+}
+.chees_cream #half_slider .slider_wrapper .half_slider .link_slide a:hover {
+  background: white;
+  color: #F64909;
+  border: 2px solid #F64909;
+}
+.chees_cream #half_slider .slider_wrapper .half_slider .link_slide a:active {
+  background: white;
+  color: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  border: 2px solid #F64909;
 }
 .chees_cream #half_slider .slider_wrapper .half_slider .last_slider {
   background: transparent;
@@ -29798,7 +30990,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.3px;
   }
   .chees_cream #half_slider a {
-    height: 30px;
+    height: 36px;
     width: 130px;
     font-size: 12px;
     font-style: normal;
@@ -29844,7 +31036,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .chees_cream #half_slider .slider_wrapper .half_slider .link_slide div a {
     width: 164px;
-    height: 30px;
+    height: 36px;
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
@@ -29928,6 +31120,18 @@ header .header_foot .header_foot_link_right .link_title {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: 0.2s ease all;
+}
+.chees_cream #cards .cards_top .card_item a:hover {
+  border: 2px solid #F64909;
+  background: #FFF;
+  color: #F64909;
+}
+.chees_cream #cards .cards_top .card_item a:active {
+  border: 2px solid #F64909;
+  background: #FFF;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  color: #F64909;
 }
 .chees_cream #cards .cards_top .first_card {
   background: #F64909;
@@ -29947,6 +31151,18 @@ header .header_foot .header_foot_link_right .link_title {
   background: white;
   color: #F64909;
   width: 224px;
+  transition: 0.2s ease all;
+}
+.chees_cream #cards .cards_top .first_card a:hover {
+  border: 2px solid #FFF;
+  background: #F64909;
+  color: white;
+}
+.chees_cream #cards .cards_top .first_card a:active {
+  border: 2px solid #FFF;
+  background: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  color: white;
 }
 .chees_cream #cards .big_cards {
   margin-top: 46px;
@@ -29998,6 +31214,18 @@ header .header_foot .header_foot_link_right .link_title {
   line-height: normal;
   letter-spacing: 1.6px;
   text-transform: uppercase;
+  transition: 0.2s ease all;
+}
+.chees_cream #cards .big_cards .card_item a:hover {
+  border: 2px solid #F64909;
+  background: #FFF;
+  color: #F64909;
+}
+.chees_cream #cards .big_cards .card_item a:active {
+  border: 2px solid #F64909;
+  background: #FFF;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  color: #F64909;
 }
 @media only screen and (max-width: 1400px) {
   .chees_cream #cards .cards_top .card_item {
@@ -30502,6 +31730,18 @@ header .header_foot .header_foot_link_right .link_title {
   letter-spacing: 1.6px;
   text-transform: uppercase;
   margin-left: 26px;
+  transition: 0.2s ease all;
+}
+.chees_cream #half_slider2 a:hover {
+  border: 2px solid #FFF;
+  background: #F64909;
+  color: white;
+}
+.chees_cream #half_slider2 a:active {
+  border: 2px solid #FFF;
+  background: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  color: white;
 }
 .chees_cream #half_slider2 .slider_wrapper {
   position: absolute;
@@ -30565,6 +31805,18 @@ header .header_foot .header_foot_link_right .link_title {
   justify-content: center;
   align-items: center;
   margin-left: 0;
+  transition: 0.2s ease all;
+}
+.chees_cream #half_slider2 .slider_wrapper .half_slider .link_slide a:hover {
+  background: white;
+  color: #F64909;
+  border: 2px solid #F64909;
+}
+.chees_cream #half_slider2 .slider_wrapper .half_slider .link_slide a:active {
+  background: white;
+  color: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  border: 2px solid #F64909;
 }
 .chees_cream #half_slider2 .slider_wrapper .half_slider .last_slider {
   background: transparent;
@@ -30925,7 +32177,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.3px;
   }
   .chees_cream #half_slider2 a {
-    height: 30px;
+    height: 36px;
     width: 130px;
     font-size: 12px;
     font-style: normal;
@@ -30971,7 +32223,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .chees_cream #half_slider2 .slider_wrapper .half_slider .link_slide div a {
     width: 164px;
-    height: 30px;
+    height: 36px;
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
@@ -31068,6 +32320,18 @@ header .header_foot .header_foot_link_right .link_title {
   line-height: normal;
   letter-spacing: 1.6px;
   text-transform: uppercase;
+  transition: 0.2s ease all;
+}
+.chees_cream #buy_cheeseberry .chizberry_card a:hover {
+  background: white;
+  color: #F64909;
+  border: 2px solid #F64909;
+}
+.chees_cream #buy_cheeseberry .chizberry_card a:active {
+  background: white;
+  color: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  border: 2px solid #F64909;
 }
 .chees_cream #buy_cheeseberry .chizberry_card_bottom {
   margin-bottom: 80px;
@@ -31125,6 +32389,16 @@ header .header_foot .header_foot_link_right .link_title {
   line-height: normal;
   letter-spacing: 1.6px;
   text-transform: uppercase;
+  transition: 0.2s ease all;
+}
+.chees_cream #buy_cheeseberry .chizberry_card_bottom .first_card a:hover {
+  background: white;
+  color: #F64909;
+}
+.chees_cream #buy_cheeseberry .chizberry_card_bottom .first_card a:active {
+  background: white;
+  color: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
 }
 @media only screen and (max-width: 1400px) {
   .chees_cream #buy_cheeseberry {
@@ -31701,6 +32975,16 @@ header .header_foot .header_foot_link_right .link_title {
   line-height: normal;
   letter-spacing: 1.6px;
   text-transform: uppercase;
+  transition: 0.2s ease all;
+}
+.chees_cream #opinions .opinions_slider .swiper-slide-in a:hover {
+  background: white;
+  color: #F64909;
+}
+.chees_cream #opinions .opinions_slider .swiper-slide-in a:active {
+  background: white;
+  color: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
 }
 @media only screen and (max-width: 1400px) {
   .chees_cream #opinions .title {
@@ -31850,6 +33134,11 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.3px;
   }
 }
+@media only screen and (max-width: 576px) {
+  .chees_cream #opinions .opinions_slider .swiper-slide .swiper-slide-in a {
+    height: 36px;
+  }
+}
 .chees_cream #half_slider3 {
   background: #F64909;
   padding-bottom: 54px;
@@ -31903,6 +33192,18 @@ header .header_foot .header_foot_link_right .link_title {
   letter-spacing: 1.6px;
   text-transform: uppercase;
   margin-left: 26px;
+  transition: 0.2s ease all;
+}
+.chees_cream #half_slider3 a:hover {
+  border: 2px solid #FFF;
+  background: #F64909;
+  color: white;
+}
+.chees_cream #half_slider3 a:active {
+  border: 2px solid #FFF;
+  background: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  color: white;
 }
 .chees_cream #half_slider3 .slider_wrapper {
   position: absolute;
@@ -31966,6 +33267,18 @@ header .header_foot .header_foot_link_right .link_title {
   justify-content: center;
   align-items: center;
   margin-left: 0;
+  transition: 0.2s ease all;
+}
+.chees_cream #half_slider3 .slider_wrapper .half_slider .link_slide a:hover {
+  background: white;
+  color: #F64909;
+  border: 2px solid #F64909;
+}
+.chees_cream #half_slider3 .slider_wrapper .half_slider .link_slide a:active {
+  background: white;
+  color: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  border: 2px solid #F64909;
 }
 .chees_cream #half_slider3 .slider_wrapper .half_slider .last_slider {
   background: transparent;
@@ -32326,7 +33639,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.3px;
   }
   .chees_cream #half_slider3 a {
-    height: 30px;
+    height: 36px;
     width: 130px;
     font-size: 12px;
     font-style: normal;
@@ -32372,7 +33685,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .chees_cream #half_slider3 .slider_wrapper .half_slider .link_slide div a {
     width: 164px;
-    height: 30px;
+    height: 36px;
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
@@ -32498,6 +33811,18 @@ header .header_foot .header_foot_link_right .link_title {
   text-transform: uppercase;
   outline: none;
   border: none;
+  transition: 0.3s ease all;
+}
+.chees_cream #contact .cards .form_card button:hover {
+  background: #F64909;
+  color: white;
+  border: 2px solid white;
+}
+.chees_cream #contact .cards .form_card button:active {
+  background: #F64909;
+  color: white;
+  border: 2px solid white;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
 }
 .chees_cream #contact .address_cards {
   margin-bottom: 80px;
@@ -32572,6 +33897,16 @@ header .header_foot .header_foot_link_right .link_title {
   line-height: normal;
   letter-spacing: 1.6px;
   text-transform: uppercase;
+  transition: 0.2s ease all;
+}
+.chees_cream #contact .address_cards .address .address_bottom .address_btn:hover {
+  background: white;
+  color: #F64909;
+}
+.chees_cream #contact .address_cards .address .address_bottom .address_btn:active {
+  background: white;
+  color: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
 }
 .chees_cream #contact .address_cards .address .address_bottom .links {
   gap: 10px;
@@ -33245,6 +34580,19 @@ header .header_foot .header_foot_link_right .link_title {
   .retail #home .home_top a {
     width: 336px;
     height: 84px;
+    padding-left: 36px;
+    padding-right: 36px;
+  }
+  .retail #home .home_top a img {
+    width: 26px;
+    height: 26px;
+  }
+  .retail #home .home_top a span {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.2px;
   }
   .retail #home .home_cards {
     margin-bottom: 76px;
@@ -34733,6 +36081,18 @@ header .header_foot .header_foot_link_right .link_title {
   letter-spacing: 1.6px;
   text-transform: uppercase;
   margin-left: 26px;
+  transition: 0.2s ease all;
+}
+.retail #half_slider a:hover {
+  border: 2px solid #FFF;
+  background: #F64909;
+  color: white;
+}
+.retail #half_slider a:active {
+  border: 2px solid #FFF;
+  background: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  color: white;
 }
 .retail #half_slider .slider_wrapper {
   position: absolute;
@@ -34796,6 +36156,18 @@ header .header_foot .header_foot_link_right .link_title {
   justify-content: center;
   align-items: center;
   margin-left: 0;
+  transition: 0.2s ease all;
+}
+.retail #half_slider .slider_wrapper .half_slider .link_slide a:hover {
+  background: white;
+  color: #F64909;
+  border: 2px solid #F64909;
+}
+.retail #half_slider .slider_wrapper .half_slider .link_slide a:active {
+  background: white;
+  color: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  border: 2px solid #F64909;
 }
 .retail #half_slider .slider_wrapper .half_slider .last_slider {
   background: transparent;
@@ -35156,7 +36528,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.3px;
   }
   .retail #half_slider a {
-    height: 30px;
+    height: 36px;
     width: 130px;
     font-size: 12px;
     font-style: normal;
@@ -35202,7 +36574,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .retail #half_slider .slider_wrapper .half_slider .link_slide div a {
     width: 164px;
-    height: 30px;
+    height: 36px;
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
@@ -35286,6 +36658,18 @@ header .header_foot .header_foot_link_right .link_title {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: 0.2s ease all;
+}
+.retail #cards .cards_top .card_item a:hover {
+  border: 2px solid #F64909;
+  background: #FFF;
+  color: #F64909;
+}
+.retail #cards .cards_top .card_item a:active {
+  border: 2px solid #F64909;
+  background: #FFF;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  color: #F64909;
 }
 .retail #cards .cards_top .first_card {
   background: #F64909;
@@ -35305,6 +36689,18 @@ header .header_foot .header_foot_link_right .link_title {
   background: white;
   color: #F64909;
   width: 224px;
+  transition: 0.2s ease all;
+}
+.retail #cards .cards_top .first_card a:hover {
+  border: 2px solid #FFF;
+  background: #F64909;
+  color: white;
+}
+.retail #cards .cards_top .first_card a:active {
+  border: 2px solid #FFF;
+  background: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  color: white;
 }
 .retail #cards .big_cards {
   margin-top: 46px;
@@ -35356,6 +36752,18 @@ header .header_foot .header_foot_link_right .link_title {
   line-height: normal;
   letter-spacing: 1.6px;
   text-transform: uppercase;
+  transition: 0.2s ease all;
+}
+.retail #cards .big_cards .card_item a:hover {
+  border: 2px solid #F64909;
+  background: #FFF;
+  color: #F64909;
+}
+.retail #cards .big_cards .card_item a:active {
+  border: 2px solid #F64909;
+  background: #FFF;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  color: #F64909;
 }
 @media only screen and (max-width: 1400px) {
   .retail #cards .cards_top .card_item {
@@ -35860,6 +37268,18 @@ header .header_foot .header_foot_link_right .link_title {
   letter-spacing: 1.6px;
   text-transform: uppercase;
   margin-left: 26px;
+  transition: 0.2s ease all;
+}
+.retail #half_slider2 a:hover {
+  border: 2px solid #FFF;
+  background: #F64909;
+  color: white;
+}
+.retail #half_slider2 a:active {
+  border: 2px solid #FFF;
+  background: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  color: white;
 }
 .retail #half_slider2 .slider_wrapper {
   position: absolute;
@@ -35923,6 +37343,18 @@ header .header_foot .header_foot_link_right .link_title {
   justify-content: center;
   align-items: center;
   margin-left: 0;
+  transition: 0.2s ease all;
+}
+.retail #half_slider2 .slider_wrapper .half_slider .link_slide a:hover {
+  background: white;
+  color: #F64909;
+  border: 2px solid #F64909;
+}
+.retail #half_slider2 .slider_wrapper .half_slider .link_slide a:active {
+  background: white;
+  color: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  border: 2px solid #F64909;
 }
 .retail #half_slider2 .slider_wrapper .half_slider .last_slider {
   background: transparent;
@@ -36283,7 +37715,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.3px;
   }
   .retail #half_slider2 a {
-    height: 30px;
+    height: 36px;
     width: 130px;
     font-size: 12px;
     font-style: normal;
@@ -36329,7 +37761,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .retail #half_slider2 .slider_wrapper .half_slider .link_slide div a {
     width: 164px;
-    height: 30px;
+    height: 36px;
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
@@ -36426,6 +37858,18 @@ header .header_foot .header_foot_link_right .link_title {
   line-height: normal;
   letter-spacing: 1.6px;
   text-transform: uppercase;
+  transition: 0.2s ease all;
+}
+.retail #buy_cheeseberry .chizberry_card a:hover {
+  background: white;
+  color: #F64909;
+  border: 2px solid #F64909;
+}
+.retail #buy_cheeseberry .chizberry_card a:active {
+  background: white;
+  color: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  border: 2px solid #F64909;
 }
 .retail #buy_cheeseberry .chizberry_card_bottom {
   margin-bottom: 80px;
@@ -36483,6 +37927,16 @@ header .header_foot .header_foot_link_right .link_title {
   line-height: normal;
   letter-spacing: 1.6px;
   text-transform: uppercase;
+  transition: 0.2s ease all;
+}
+.retail #buy_cheeseberry .chizberry_card_bottom .first_card a:hover {
+  background: white;
+  color: #F64909;
+}
+.retail #buy_cheeseberry .chizberry_card_bottom .first_card a:active {
+  background: white;
+  color: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
 }
 @media only screen and (max-width: 1400px) {
   .retail #buy_cheeseberry {
@@ -37059,6 +38513,16 @@ header .header_foot .header_foot_link_right .link_title {
   line-height: normal;
   letter-spacing: 1.6px;
   text-transform: uppercase;
+  transition: 0.2s ease all;
+}
+.retail #opinions .opinions_slider .swiper-slide-in a:hover {
+  background: white;
+  color: #F64909;
+}
+.retail #opinions .opinions_slider .swiper-slide-in a:active {
+  background: white;
+  color: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
 }
 @media only screen and (max-width: 1400px) {
   .retail #opinions .title {
@@ -37208,6 +38672,11 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.3px;
   }
 }
+@media only screen and (max-width: 576px) {
+  .retail #opinions .opinions_slider .swiper-slide .swiper-slide-in a {
+    height: 36px;
+  }
+}
 .retail #half_slider3 {
   background: #F64909;
   padding-bottom: 54px;
@@ -37261,6 +38730,18 @@ header .header_foot .header_foot_link_right .link_title {
   letter-spacing: 1.6px;
   text-transform: uppercase;
   margin-left: 26px;
+  transition: 0.2s ease all;
+}
+.retail #half_slider3 a:hover {
+  border: 2px solid #FFF;
+  background: #F64909;
+  color: white;
+}
+.retail #half_slider3 a:active {
+  border: 2px solid #FFF;
+  background: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  color: white;
 }
 .retail #half_slider3 .slider_wrapper {
   position: absolute;
@@ -37324,6 +38805,18 @@ header .header_foot .header_foot_link_right .link_title {
   justify-content: center;
   align-items: center;
   margin-left: 0;
+  transition: 0.2s ease all;
+}
+.retail #half_slider3 .slider_wrapper .half_slider .link_slide a:hover {
+  background: white;
+  color: #F64909;
+  border: 2px solid #F64909;
+}
+.retail #half_slider3 .slider_wrapper .half_slider .link_slide a:active {
+  background: white;
+  color: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  border: 2px solid #F64909;
 }
 .retail #half_slider3 .slider_wrapper .half_slider .last_slider {
   background: transparent;
@@ -37684,7 +39177,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.3px;
   }
   .retail #half_slider3 a {
-    height: 30px;
+    height: 36px;
     width: 130px;
     font-size: 12px;
     font-style: normal;
@@ -37730,7 +39223,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .retail #half_slider3 .slider_wrapper .half_slider .link_slide div a {
     width: 164px;
-    height: 30px;
+    height: 36px;
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
@@ -37856,6 +39349,18 @@ header .header_foot .header_foot_link_right .link_title {
   text-transform: uppercase;
   outline: none;
   border: none;
+  transition: 0.3s ease all;
+}
+.retail #contact .cards .form_card button:hover {
+  background: #F64909;
+  color: white;
+  border: 2px solid white;
+}
+.retail #contact .cards .form_card button:active {
+  background: #F64909;
+  color: white;
+  border: 2px solid white;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
 }
 .retail #contact .address_cards {
   margin-bottom: 80px;
@@ -37930,6 +39435,16 @@ header .header_foot .header_foot_link_right .link_title {
   line-height: normal;
   letter-spacing: 1.6px;
   text-transform: uppercase;
+  transition: 0.2s ease all;
+}
+.retail #contact .address_cards .address .address_bottom .address_btn:hover {
+  background: white;
+  color: #F64909;
+}
+.retail #contact .address_cards .address .address_bottom .address_btn:active {
+  background: white;
+  color: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
 }
 .retail #contact .address_cards .address .address_bottom .links {
   gap: 10px;
@@ -38603,6 +40118,19 @@ header .header_foot .header_foot_link_right .link_title {
   .horeca #home .home_top a {
     width: 336px;
     height: 84px;
+    padding-left: 36px;
+    padding-right: 36px;
+  }
+  .horeca #home .home_top a img {
+    width: 26px;
+    height: 26px;
+  }
+  .horeca #home .home_top a span {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.2px;
   }
   .horeca #home .home_cards {
     margin-bottom: 76px;
@@ -40091,6 +41619,18 @@ header .header_foot .header_foot_link_right .link_title {
   letter-spacing: 1.6px;
   text-transform: uppercase;
   margin-left: 26px;
+  transition: 0.2s ease all;
+}
+.horeca #half_slider a:hover {
+  border: 2px solid #FFF;
+  background: #F64909;
+  color: white;
+}
+.horeca #half_slider a:active {
+  border: 2px solid #FFF;
+  background: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  color: white;
 }
 .horeca #half_slider .slider_wrapper {
   position: absolute;
@@ -40154,6 +41694,18 @@ header .header_foot .header_foot_link_right .link_title {
   justify-content: center;
   align-items: center;
   margin-left: 0;
+  transition: 0.2s ease all;
+}
+.horeca #half_slider .slider_wrapper .half_slider .link_slide a:hover {
+  background: white;
+  color: #F64909;
+  border: 2px solid #F64909;
+}
+.horeca #half_slider .slider_wrapper .half_slider .link_slide a:active {
+  background: white;
+  color: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  border: 2px solid #F64909;
 }
 .horeca #half_slider .slider_wrapper .half_slider .last_slider {
   background: transparent;
@@ -40514,7 +42066,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.3px;
   }
   .horeca #half_slider a {
-    height: 30px;
+    height: 36px;
     width: 130px;
     font-size: 12px;
     font-style: normal;
@@ -40560,7 +42112,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .horeca #half_slider .slider_wrapper .half_slider .link_slide div a {
     width: 164px;
-    height: 30px;
+    height: 36px;
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
@@ -40644,6 +42196,18 @@ header .header_foot .header_foot_link_right .link_title {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: 0.2s ease all;
+}
+.horeca #cards .cards_top .card_item a:hover {
+  border: 2px solid #F64909;
+  background: #FFF;
+  color: #F64909;
+}
+.horeca #cards .cards_top .card_item a:active {
+  border: 2px solid #F64909;
+  background: #FFF;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  color: #F64909;
 }
 .horeca #cards .cards_top .first_card {
   background: #F64909;
@@ -40663,6 +42227,18 @@ header .header_foot .header_foot_link_right .link_title {
   background: white;
   color: #F64909;
   width: 224px;
+  transition: 0.2s ease all;
+}
+.horeca #cards .cards_top .first_card a:hover {
+  border: 2px solid #FFF;
+  background: #F64909;
+  color: white;
+}
+.horeca #cards .cards_top .first_card a:active {
+  border: 2px solid #FFF;
+  background: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  color: white;
 }
 .horeca #cards .big_cards {
   margin-top: 46px;
@@ -40714,6 +42290,18 @@ header .header_foot .header_foot_link_right .link_title {
   line-height: normal;
   letter-spacing: 1.6px;
   text-transform: uppercase;
+  transition: 0.2s ease all;
+}
+.horeca #cards .big_cards .card_item a:hover {
+  border: 2px solid #F64909;
+  background: #FFF;
+  color: #F64909;
+}
+.horeca #cards .big_cards .card_item a:active {
+  border: 2px solid #F64909;
+  background: #FFF;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  color: #F64909;
 }
 @media only screen and (max-width: 1400px) {
   .horeca #cards .cards_top .card_item {
@@ -41218,6 +42806,18 @@ header .header_foot .header_foot_link_right .link_title {
   letter-spacing: 1.6px;
   text-transform: uppercase;
   margin-left: 26px;
+  transition: 0.2s ease all;
+}
+.horeca #half_slider2 a:hover {
+  border: 2px solid #FFF;
+  background: #F64909;
+  color: white;
+}
+.horeca #half_slider2 a:active {
+  border: 2px solid #FFF;
+  background: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  color: white;
 }
 .horeca #half_slider2 .slider_wrapper {
   position: absolute;
@@ -41281,6 +42881,18 @@ header .header_foot .header_foot_link_right .link_title {
   justify-content: center;
   align-items: center;
   margin-left: 0;
+  transition: 0.2s ease all;
+}
+.horeca #half_slider2 .slider_wrapper .half_slider .link_slide a:hover {
+  background: white;
+  color: #F64909;
+  border: 2px solid #F64909;
+}
+.horeca #half_slider2 .slider_wrapper .half_slider .link_slide a:active {
+  background: white;
+  color: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  border: 2px solid #F64909;
 }
 .horeca #half_slider2 .slider_wrapper .half_slider .last_slider {
   background: transparent;
@@ -41641,7 +43253,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.3px;
   }
   .horeca #half_slider2 a {
-    height: 30px;
+    height: 36px;
     width: 130px;
     font-size: 12px;
     font-style: normal;
@@ -41687,7 +43299,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .horeca #half_slider2 .slider_wrapper .half_slider .link_slide div a {
     width: 164px;
-    height: 30px;
+    height: 36px;
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
@@ -41784,6 +43396,18 @@ header .header_foot .header_foot_link_right .link_title {
   line-height: normal;
   letter-spacing: 1.6px;
   text-transform: uppercase;
+  transition: 0.2s ease all;
+}
+.horeca #buy_cheeseberry .chizberry_card a:hover {
+  background: white;
+  color: #F64909;
+  border: 2px solid #F64909;
+}
+.horeca #buy_cheeseberry .chizberry_card a:active {
+  background: white;
+  color: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  border: 2px solid #F64909;
 }
 .horeca #buy_cheeseberry .chizberry_card_bottom {
   margin-bottom: 80px;
@@ -41841,6 +43465,16 @@ header .header_foot .header_foot_link_right .link_title {
   line-height: normal;
   letter-spacing: 1.6px;
   text-transform: uppercase;
+  transition: 0.2s ease all;
+}
+.horeca #buy_cheeseberry .chizberry_card_bottom .first_card a:hover {
+  background: white;
+  color: #F64909;
+}
+.horeca #buy_cheeseberry .chizberry_card_bottom .first_card a:active {
+  background: white;
+  color: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
 }
 @media only screen and (max-width: 1400px) {
   .horeca #buy_cheeseberry {
@@ -42417,6 +44051,16 @@ header .header_foot .header_foot_link_right .link_title {
   line-height: normal;
   letter-spacing: 1.6px;
   text-transform: uppercase;
+  transition: 0.2s ease all;
+}
+.horeca #opinions .opinions_slider .swiper-slide-in a:hover {
+  background: white;
+  color: #F64909;
+}
+.horeca #opinions .opinions_slider .swiper-slide-in a:active {
+  background: white;
+  color: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
 }
 @media only screen and (max-width: 1400px) {
   .horeca #opinions .title {
@@ -42566,6 +44210,11 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.3px;
   }
 }
+@media only screen and (max-width: 576px) {
+  .horeca #opinions .opinions_slider .swiper-slide .swiper-slide-in a {
+    height: 36px;
+  }
+}
 .horeca #half_slider3 {
   background: #F64909;
   padding-bottom: 54px;
@@ -42619,6 +44268,18 @@ header .header_foot .header_foot_link_right .link_title {
   letter-spacing: 1.6px;
   text-transform: uppercase;
   margin-left: 26px;
+  transition: 0.2s ease all;
+}
+.horeca #half_slider3 a:hover {
+  border: 2px solid #FFF;
+  background: #F64909;
+  color: white;
+}
+.horeca #half_slider3 a:active {
+  border: 2px solid #FFF;
+  background: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  color: white;
 }
 .horeca #half_slider3 .slider_wrapper {
   position: absolute;
@@ -42682,6 +44343,18 @@ header .header_foot .header_foot_link_right .link_title {
   justify-content: center;
   align-items: center;
   margin-left: 0;
+  transition: 0.2s ease all;
+}
+.horeca #half_slider3 .slider_wrapper .half_slider .link_slide a:hover {
+  background: white;
+  color: #F64909;
+  border: 2px solid #F64909;
+}
+.horeca #half_slider3 .slider_wrapper .half_slider .link_slide a:active {
+  background: white;
+  color: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  border: 2px solid #F64909;
 }
 .horeca #half_slider3 .slider_wrapper .half_slider .last_slider {
   background: transparent;
@@ -43042,7 +44715,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.3px;
   }
   .horeca #half_slider3 a {
-    height: 30px;
+    height: 36px;
     width: 130px;
     font-size: 12px;
     font-style: normal;
@@ -43088,7 +44761,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .horeca #half_slider3 .slider_wrapper .half_slider .link_slide div a {
     width: 164px;
-    height: 30px;
+    height: 36px;
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
@@ -43214,6 +44887,18 @@ header .header_foot .header_foot_link_right .link_title {
   text-transform: uppercase;
   outline: none;
   border: none;
+  transition: 0.3s ease all;
+}
+.horeca #contact .cards .form_card button:hover {
+  background: #F64909;
+  color: white;
+  border: 2px solid white;
+}
+.horeca #contact .cards .form_card button:active {
+  background: #F64909;
+  color: white;
+  border: 2px solid white;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
 }
 .horeca #contact .address_cards {
   margin-bottom: 80px;
@@ -43288,6 +44973,16 @@ header .header_foot .header_foot_link_right .link_title {
   line-height: normal;
   letter-spacing: 1.6px;
   text-transform: uppercase;
+  transition: 0.2s ease all;
+}
+.horeca #contact .address_cards .address .address_bottom .address_btn:hover {
+  background: white;
+  color: #F64909;
+}
+.horeca #contact .address_cards .address .address_bottom .address_btn:active {
+  background: white;
+  color: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
 }
 .horeca #contact .address_cards .address .address_bottom .links {
   gap: 10px;
@@ -43961,6 +45656,19 @@ header .header_foot .header_foot_link_right .link_title {
   .range #home .home_top a {
     width: 336px;
     height: 84px;
+    padding-left: 36px;
+    padding-right: 36px;
+  }
+  .range #home .home_top a img {
+    width: 26px;
+    height: 26px;
+  }
+  .range #home .home_top a span {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.2px;
   }
   .range #home .home_cards {
     margin-bottom: 76px;
@@ -45449,6 +47157,18 @@ header .header_foot .header_foot_link_right .link_title {
   letter-spacing: 1.6px;
   text-transform: uppercase;
   margin-left: 26px;
+  transition: 0.2s ease all;
+}
+.range #half_slider a:hover {
+  border: 2px solid #FFF;
+  background: #F64909;
+  color: white;
+}
+.range #half_slider a:active {
+  border: 2px solid #FFF;
+  background: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  color: white;
 }
 .range #half_slider .slider_wrapper {
   position: absolute;
@@ -45512,6 +47232,18 @@ header .header_foot .header_foot_link_right .link_title {
   justify-content: center;
   align-items: center;
   margin-left: 0;
+  transition: 0.2s ease all;
+}
+.range #half_slider .slider_wrapper .half_slider .link_slide a:hover {
+  background: white;
+  color: #F64909;
+  border: 2px solid #F64909;
+}
+.range #half_slider .slider_wrapper .half_slider .link_slide a:active {
+  background: white;
+  color: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  border: 2px solid #F64909;
 }
 .range #half_slider .slider_wrapper .half_slider .last_slider {
   background: transparent;
@@ -45872,7 +47604,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.3px;
   }
   .range #half_slider a {
-    height: 30px;
+    height: 36px;
     width: 130px;
     font-size: 12px;
     font-style: normal;
@@ -45918,7 +47650,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .range #half_slider .slider_wrapper .half_slider .link_slide div a {
     width: 164px;
-    height: 30px;
+    height: 36px;
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
@@ -46002,6 +47734,18 @@ header .header_foot .header_foot_link_right .link_title {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: 0.2s ease all;
+}
+.range #cards .cards_top .card_item a:hover {
+  border: 2px solid #F64909;
+  background: #FFF;
+  color: #F64909;
+}
+.range #cards .cards_top .card_item a:active {
+  border: 2px solid #F64909;
+  background: #FFF;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  color: #F64909;
 }
 .range #cards .cards_top .first_card {
   background: #F64909;
@@ -46021,6 +47765,18 @@ header .header_foot .header_foot_link_right .link_title {
   background: white;
   color: #F64909;
   width: 224px;
+  transition: 0.2s ease all;
+}
+.range #cards .cards_top .first_card a:hover {
+  border: 2px solid #FFF;
+  background: #F64909;
+  color: white;
+}
+.range #cards .cards_top .first_card a:active {
+  border: 2px solid #FFF;
+  background: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  color: white;
 }
 .range #cards .big_cards {
   margin-top: 46px;
@@ -46072,6 +47828,18 @@ header .header_foot .header_foot_link_right .link_title {
   line-height: normal;
   letter-spacing: 1.6px;
   text-transform: uppercase;
+  transition: 0.2s ease all;
+}
+.range #cards .big_cards .card_item a:hover {
+  border: 2px solid #F64909;
+  background: #FFF;
+  color: #F64909;
+}
+.range #cards .big_cards .card_item a:active {
+  border: 2px solid #F64909;
+  background: #FFF;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  color: #F64909;
 }
 @media only screen and (max-width: 1400px) {
   .range #cards .cards_top .card_item {
@@ -46576,6 +48344,18 @@ header .header_foot .header_foot_link_right .link_title {
   letter-spacing: 1.6px;
   text-transform: uppercase;
   margin-left: 26px;
+  transition: 0.2s ease all;
+}
+.range #half_slider2 a:hover {
+  border: 2px solid #FFF;
+  background: #F64909;
+  color: white;
+}
+.range #half_slider2 a:active {
+  border: 2px solid #FFF;
+  background: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  color: white;
 }
 .range #half_slider2 .slider_wrapper {
   position: absolute;
@@ -46639,6 +48419,18 @@ header .header_foot .header_foot_link_right .link_title {
   justify-content: center;
   align-items: center;
   margin-left: 0;
+  transition: 0.2s ease all;
+}
+.range #half_slider2 .slider_wrapper .half_slider .link_slide a:hover {
+  background: white;
+  color: #F64909;
+  border: 2px solid #F64909;
+}
+.range #half_slider2 .slider_wrapper .half_slider .link_slide a:active {
+  background: white;
+  color: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  border: 2px solid #F64909;
 }
 .range #half_slider2 .slider_wrapper .half_slider .last_slider {
   background: transparent;
@@ -46999,7 +48791,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.3px;
   }
   .range #half_slider2 a {
-    height: 30px;
+    height: 36px;
     width: 130px;
     font-size: 12px;
     font-style: normal;
@@ -47045,7 +48837,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .range #half_slider2 .slider_wrapper .half_slider .link_slide div a {
     width: 164px;
-    height: 30px;
+    height: 36px;
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
@@ -47142,6 +48934,18 @@ header .header_foot .header_foot_link_right .link_title {
   line-height: normal;
   letter-spacing: 1.6px;
   text-transform: uppercase;
+  transition: 0.2s ease all;
+}
+.range #buy_cheeseberry .chizberry_card a:hover {
+  background: white;
+  color: #F64909;
+  border: 2px solid #F64909;
+}
+.range #buy_cheeseberry .chizberry_card a:active {
+  background: white;
+  color: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  border: 2px solid #F64909;
 }
 .range #buy_cheeseberry .chizberry_card_bottom {
   margin-bottom: 80px;
@@ -47199,6 +49003,16 @@ header .header_foot .header_foot_link_right .link_title {
   line-height: normal;
   letter-spacing: 1.6px;
   text-transform: uppercase;
+  transition: 0.2s ease all;
+}
+.range #buy_cheeseberry .chizberry_card_bottom .first_card a:hover {
+  background: white;
+  color: #F64909;
+}
+.range #buy_cheeseberry .chizberry_card_bottom .first_card a:active {
+  background: white;
+  color: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
 }
 @media only screen and (max-width: 1400px) {
   .range #buy_cheeseberry {
@@ -47775,6 +49589,16 @@ header .header_foot .header_foot_link_right .link_title {
   line-height: normal;
   letter-spacing: 1.6px;
   text-transform: uppercase;
+  transition: 0.2s ease all;
+}
+.range #opinions .opinions_slider .swiper-slide-in a:hover {
+  background: white;
+  color: #F64909;
+}
+.range #opinions .opinions_slider .swiper-slide-in a:active {
+  background: white;
+  color: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
 }
 @media only screen and (max-width: 1400px) {
   .range #opinions .title {
@@ -47924,6 +49748,11 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.3px;
   }
 }
+@media only screen and (max-width: 576px) {
+  .range #opinions .opinions_slider .swiper-slide .swiper-slide-in a {
+    height: 36px;
+  }
+}
 .range #half_slider3 {
   background: #F64909;
   padding-bottom: 54px;
@@ -47977,6 +49806,18 @@ header .header_foot .header_foot_link_right .link_title {
   letter-spacing: 1.6px;
   text-transform: uppercase;
   margin-left: 26px;
+  transition: 0.2s ease all;
+}
+.range #half_slider3 a:hover {
+  border: 2px solid #FFF;
+  background: #F64909;
+  color: white;
+}
+.range #half_slider3 a:active {
+  border: 2px solid #FFF;
+  background: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  color: white;
 }
 .range #half_slider3 .slider_wrapper {
   position: absolute;
@@ -48040,6 +49881,18 @@ header .header_foot .header_foot_link_right .link_title {
   justify-content: center;
   align-items: center;
   margin-left: 0;
+  transition: 0.2s ease all;
+}
+.range #half_slider3 .slider_wrapper .half_slider .link_slide a:hover {
+  background: white;
+  color: #F64909;
+  border: 2px solid #F64909;
+}
+.range #half_slider3 .slider_wrapper .half_slider .link_slide a:active {
+  background: white;
+  color: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  border: 2px solid #F64909;
 }
 .range #half_slider3 .slider_wrapper .half_slider .last_slider {
   background: transparent;
@@ -48400,7 +50253,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.3px;
   }
   .range #half_slider3 a {
-    height: 30px;
+    height: 36px;
     width: 130px;
     font-size: 12px;
     font-style: normal;
@@ -48446,7 +50299,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .range #half_slider3 .slider_wrapper .half_slider .link_slide div a {
     width: 164px;
-    height: 30px;
+    height: 36px;
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
@@ -48572,6 +50425,18 @@ header .header_foot .header_foot_link_right .link_title {
   text-transform: uppercase;
   outline: none;
   border: none;
+  transition: 0.3s ease all;
+}
+.range #contact .cards .form_card button:hover {
+  background: #F64909;
+  color: white;
+  border: 2px solid white;
+}
+.range #contact .cards .form_card button:active {
+  background: #F64909;
+  color: white;
+  border: 2px solid white;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
 }
 .range #contact .address_cards {
   margin-bottom: 80px;
@@ -48646,6 +50511,16 @@ header .header_foot .header_foot_link_right .link_title {
   line-height: normal;
   letter-spacing: 1.6px;
   text-transform: uppercase;
+  transition: 0.2s ease all;
+}
+.range #contact .address_cards .address .address_bottom .address_btn:hover {
+  background: white;
+  color: #F64909;
+}
+.range #contact .address_cards .address .address_bottom .address_btn:active {
+  background: white;
+  color: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
 }
 .range #contact .address_cards .address .address_bottom .links {
   gap: 10px;
@@ -49262,6 +51137,11 @@ footer .footer_bottom .footer_bottom_top .text {
   font-weight: 500;
   line-height: normal;
   letter-spacing: 2px;
+  display: flex;
+  align-items: flex-start;
+}
+footer .footer_bottom .footer_bottom_top .text img {
+  margin-right: 12px;
 }
 footer .footer_bottom .footer_texts {
   padding-bottom: 46px;
@@ -49816,6 +51696,18 @@ footer .footer_bottom .footer_texts .first_text2 {
   letter-spacing: 1.6px;
   text-transform: uppercase;
   margin-left: 26px;
+  transition: 0.2s ease all;
+}
+.team #half_slider a:hover {
+  border: 2px solid #FFF;
+  background: #F64909;
+  color: white;
+}
+.team #half_slider a:active {
+  border: 2px solid #FFF;
+  background: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  color: white;
 }
 .team #half_slider .slider_wrapper {
   position: absolute;
@@ -49879,6 +51771,18 @@ footer .footer_bottom .footer_texts .first_text2 {
   justify-content: center;
   align-items: center;
   margin-left: 0;
+  transition: 0.2s ease all;
+}
+.team #half_slider .slider_wrapper .half_slider .link_slide a:hover {
+  background: white;
+  color: #F64909;
+  border: 2px solid #F64909;
+}
+.team #half_slider .slider_wrapper .half_slider .link_slide a:active {
+  background: white;
+  color: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  border: 2px solid #F64909;
 }
 .team #half_slider .slider_wrapper .half_slider .last_slider {
   background: transparent;
@@ -50239,7 +52143,7 @@ footer .footer_bottom .footer_texts .first_text2 {
     letter-spacing: 1.3px;
   }
   .team #half_slider a {
-    height: 30px;
+    height: 36px;
     width: 130px;
     font-size: 12px;
     font-style: normal;
@@ -50285,7 +52189,7 @@ footer .footer_bottom .footer_texts .first_text2 {
   }
   .team #half_slider .slider_wrapper .half_slider .link_slide div a {
     width: 164px;
-    height: 30px;
+    height: 36px;
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
@@ -50369,6 +52273,18 @@ footer .footer_bottom .footer_texts .first_text2 {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: 0.2s ease all;
+}
+.team #cards .cards_top .card_item a:hover {
+  border: 2px solid #F64909;
+  background: #FFF;
+  color: #F64909;
+}
+.team #cards .cards_top .card_item a:active {
+  border: 2px solid #F64909;
+  background: #FFF;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  color: #F64909;
 }
 .team #cards .cards_top .first_card {
   background: #F64909;
@@ -50388,6 +52304,18 @@ footer .footer_bottom .footer_texts .first_text2 {
   background: white;
   color: #F64909;
   width: 224px;
+  transition: 0.2s ease all;
+}
+.team #cards .cards_top .first_card a:hover {
+  border: 2px solid #FFF;
+  background: #F64909;
+  color: white;
+}
+.team #cards .cards_top .first_card a:active {
+  border: 2px solid #FFF;
+  background: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  color: white;
 }
 .team #cards .big_cards {
   margin-top: 46px;
@@ -50439,6 +52367,18 @@ footer .footer_bottom .footer_texts .first_text2 {
   line-height: normal;
   letter-spacing: 1.6px;
   text-transform: uppercase;
+  transition: 0.2s ease all;
+}
+.team #cards .big_cards .card_item a:hover {
+  border: 2px solid #F64909;
+  background: #FFF;
+  color: #F64909;
+}
+.team #cards .big_cards .card_item a:active {
+  border: 2px solid #F64909;
+  background: #FFF;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  color: #F64909;
 }
 @media only screen and (max-width: 1400px) {
   .team #cards .cards_top .card_item {
@@ -50943,6 +52883,18 @@ footer .footer_bottom .footer_texts .first_text2 {
   letter-spacing: 1.6px;
   text-transform: uppercase;
   margin-left: 26px;
+  transition: 0.2s ease all;
+}
+.team #half_slider2 a:hover {
+  border: 2px solid #FFF;
+  background: #F64909;
+  color: white;
+}
+.team #half_slider2 a:active {
+  border: 2px solid #FFF;
+  background: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  color: white;
 }
 .team #half_slider2 .slider_wrapper {
   position: absolute;
@@ -51006,6 +52958,18 @@ footer .footer_bottom .footer_texts .first_text2 {
   justify-content: center;
   align-items: center;
   margin-left: 0;
+  transition: 0.2s ease all;
+}
+.team #half_slider2 .slider_wrapper .half_slider .link_slide a:hover {
+  background: white;
+  color: #F64909;
+  border: 2px solid #F64909;
+}
+.team #half_slider2 .slider_wrapper .half_slider .link_slide a:active {
+  background: white;
+  color: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  border: 2px solid #F64909;
 }
 .team #half_slider2 .slider_wrapper .half_slider .last_slider {
   background: transparent;
@@ -51366,7 +53330,7 @@ footer .footer_bottom .footer_texts .first_text2 {
     letter-spacing: 1.3px;
   }
   .team #half_slider2 a {
-    height: 30px;
+    height: 36px;
     width: 130px;
     font-size: 12px;
     font-style: normal;
@@ -51412,7 +53376,7 @@ footer .footer_bottom .footer_texts .first_text2 {
   }
   .team #half_slider2 .slider_wrapper .half_slider .link_slide div a {
     width: 164px;
-    height: 30px;
+    height: 36px;
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
@@ -51509,6 +53473,18 @@ footer .footer_bottom .footer_texts .first_text2 {
   line-height: normal;
   letter-spacing: 1.6px;
   text-transform: uppercase;
+  transition: 0.2s ease all;
+}
+.team #buy_cheeseberry .chizberry_card a:hover {
+  background: white;
+  color: #F64909;
+  border: 2px solid #F64909;
+}
+.team #buy_cheeseberry .chizberry_card a:active {
+  background: white;
+  color: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  border: 2px solid #F64909;
 }
 .team #buy_cheeseberry .chizberry_card_bottom {
   margin-bottom: 80px;
@@ -51566,6 +53542,16 @@ footer .footer_bottom .footer_texts .first_text2 {
   line-height: normal;
   letter-spacing: 1.6px;
   text-transform: uppercase;
+  transition: 0.2s ease all;
+}
+.team #buy_cheeseberry .chizberry_card_bottom .first_card a:hover {
+  background: white;
+  color: #F64909;
+}
+.team #buy_cheeseberry .chizberry_card_bottom .first_card a:active {
+  background: white;
+  color: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
 }
 @media only screen and (max-width: 1400px) {
   .team #buy_cheeseberry {
@@ -52142,6 +54128,16 @@ footer .footer_bottom .footer_texts .first_text2 {
   line-height: normal;
   letter-spacing: 1.6px;
   text-transform: uppercase;
+  transition: 0.2s ease all;
+}
+.team #opinions .opinions_slider .swiper-slide-in a:hover {
+  background: white;
+  color: #F64909;
+}
+.team #opinions .opinions_slider .swiper-slide-in a:active {
+  background: white;
+  color: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
 }
 @media only screen and (max-width: 1400px) {
   .team #opinions .title {
@@ -52291,6 +54287,11 @@ footer .footer_bottom .footer_texts .first_text2 {
     letter-spacing: 1.3px;
   }
 }
+@media only screen and (max-width: 576px) {
+  .team #opinions .opinions_slider .swiper-slide .swiper-slide-in a {
+    height: 36px;
+  }
+}
 .team #half_slider3 {
   background: #F64909;
   padding-bottom: 54px;
@@ -52344,6 +54345,18 @@ footer .footer_bottom .footer_texts .first_text2 {
   letter-spacing: 1.6px;
   text-transform: uppercase;
   margin-left: 26px;
+  transition: 0.2s ease all;
+}
+.team #half_slider3 a:hover {
+  border: 2px solid #FFF;
+  background: #F64909;
+  color: white;
+}
+.team #half_slider3 a:active {
+  border: 2px solid #FFF;
+  background: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  color: white;
 }
 .team #half_slider3 .slider_wrapper {
   position: absolute;
@@ -52407,6 +54420,18 @@ footer .footer_bottom .footer_texts .first_text2 {
   justify-content: center;
   align-items: center;
   margin-left: 0;
+  transition: 0.2s ease all;
+}
+.team #half_slider3 .slider_wrapper .half_slider .link_slide a:hover {
+  background: white;
+  color: #F64909;
+  border: 2px solid #F64909;
+}
+.team #half_slider3 .slider_wrapper .half_slider .link_slide a:active {
+  background: white;
+  color: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  border: 2px solid #F64909;
 }
 .team #half_slider3 .slider_wrapper .half_slider .last_slider {
   background: transparent;
@@ -52767,7 +54792,7 @@ footer .footer_bottom .footer_texts .first_text2 {
     letter-spacing: 1.3px;
   }
   .team #half_slider3 a {
-    height: 30px;
+    height: 36px;
     width: 130px;
     font-size: 12px;
     font-style: normal;
@@ -52813,7 +54838,7 @@ footer .footer_bottom .footer_texts .first_text2 {
   }
   .team #half_slider3 .slider_wrapper .half_slider .link_slide div a {
     width: 164px;
-    height: 30px;
+    height: 36px;
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
@@ -52939,6 +54964,18 @@ footer .footer_bottom .footer_texts .first_text2 {
   text-transform: uppercase;
   outline: none;
   border: none;
+  transition: 0.3s ease all;
+}
+.team #contact .cards .form_card button:hover {
+  background: #F64909;
+  color: white;
+  border: 2px solid white;
+}
+.team #contact .cards .form_card button:active {
+  background: #F64909;
+  color: white;
+  border: 2px solid white;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
 }
 .team #contact .address_cards {
   margin-bottom: 80px;
@@ -53013,6 +55050,16 @@ footer .footer_bottom .footer_texts .first_text2 {
   line-height: normal;
   letter-spacing: 1.6px;
   text-transform: uppercase;
+  transition: 0.2s ease all;
+}
+.team #contact .address_cards .address .address_bottom .address_btn:hover {
+  background: white;
+  color: #F64909;
+}
+.team #contact .address_cards .address .address_bottom .address_btn:active {
+  background: white;
+  color: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
 }
 .team #contact .address_cards .address .address_bottom .links {
   gap: 10px;
@@ -54338,9 +56385,9 @@ footer .footer_bottom .footer_texts .first_text2 {
   }
   .news .news_card .news_text .news_text_bottom .news_link_next,
   .news .news_card .news_text .news_text_bottom .news_link_prev {
-    width: 130px;
-    height: 25px;
-    font-size: 8px;
+    width: calc(50% - 14px);
+    height: 36px;
+    font-size: 12px;
   }
   .team .col-6 {
     padding: 4px;
@@ -54500,7 +56547,7 @@ footer .footer_bottom .footer_texts .first_text2 {
     position: absolute;
     bottom: 0;
     width: 95%;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
   }
   .bestseller .bestseller_in .bestseller_card .bestseller_line {
@@ -54843,7 +56890,16 @@ footer .footer_bottom .footer_texts .first_text2 {
     padding-top: 0px;
     padding-left: 5px;
   }
-  header .header_menu .menu_wrapper .contact_form .form_checkbox input:checked + label::after {
+  header .header_menu .menu_wrapper .contact_form .form_checkbox #head_form_checkbox_1:checked + .head_form_checkbox_1::after {
+    content: "✓";
+  }
+  header .header_menu .menu_wrapper .contact_form .form_checkbox #head_form_checkbox_2:checked + .head_form_checkbox_2::after {
+    content: "✓";
+  }
+  header .header_menu .menu_wrapper .contact_form .form_checkbox #head_form_checkbox_3:checked + .head_form_checkbox_3::after {
+    content: "✓";
+  }
+  header .header_menu .menu_wrapper .contact_form .form_checkbox #head_form_checkbox_4:checked + .head_form_checkbox_4::after {
     content: "✓";
   }
   header .header_menu .menu_wrapper .contact_form .form_submit button {
@@ -54998,6 +57054,9 @@ footer .footer_bottom .footer_texts .first_text2 {
   }
 }
 @media only screen and (max-width: 1200px) {
+  header .header_foot {
+    margin-top: 20px;
+  }
   .index #home .index_home_slider .swiper-slide {
     background-position: right;
     height: 450px;
@@ -55399,6 +57458,9 @@ footer .footer_bottom .footer_texts .first_text2 {
     top: auto;
     bottom: 85px;
   }
+  header .header_foot {
+    margin-top: 16px;
+  }
   .products #home .title {
     padding-left: 12px;
     font-size: 24px;
@@ -55504,6 +57566,9 @@ footer .footer_bottom .footer_texts .first_text2 {
   header .header_mobile .logo {
     padding-top: 18px;
   }
+  header .header_mobile .logo img {
+    height: 50px;
+  }
   header .header_mobile .header_menu {
     margin-top: 10px;
   }
@@ -55575,12 +57640,12 @@ footer .footer_bottom .footer_texts .first_text2 {
   header .header_mobile .header_menu .menu_wrapper ul button {
     margin-top: 9px;
     margin-bottom: 18px;
-    height: 30px;
+    height: 36px;
     font-size: 12px;
     max-width: 182px;
   }
   header .header_mobile .header_menu .menu_wrapper ul .link {
-    height: 30px;
+    height: 36px;
     font-size: 12px;
     margin-bottom: 0;
   }
@@ -55604,6 +57669,7 @@ footer .footer_bottom .footer_texts .first_text2 {
     font-weight: 500;
     line-height: normal;
     letter-spacing: 1.2px;
+    margin-right: 4px;
   }
   header .header_foot .header_foot_link_right a img {
     width: 30px;
@@ -55679,6 +57745,7 @@ footer .footer_bottom .footer_texts .first_text2 {
     line-height: normal;
     letter-spacing: 1.3px;
     width: 182px;
+    height: 36px;
   }
   .index #home .home_slider_pagination {
     margin-top: 16px;
