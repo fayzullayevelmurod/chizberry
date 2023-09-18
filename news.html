@@ -6,7 +6,9 @@
     <title>ЧИЗБЕРРИ</title>
     <!-- bootstrap file -->
     <link rel="stylesheet" href="./css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="jquery.fancybox.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>    
     <!-- css file -->
     <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -233,20 +235,8 @@
             <div class="news_card">
                 <div class="news_content news_content_img">
                     <img src="./images/news_card1.png" alt="">
-                    <a data-fancybox href="https://www.youtube.com/watch?v=_sI_Ps7JSEk&amp;autoplay=1&amp;rel=0&amp;controls=0&amp;showinfo=0" class="new_btn" role="button"><img src="./images/play_icon.svg" alt=""> воспроизвести</button>
+                    <a data-fancybox data-src="./images/video_1.mp4" href="javascript:;" class="new_btn" role="button"><img src="./images/play_icon.svg" alt=""> воспроизвести</a>
                 </div>
-                <!-- <video width="640" height="320" controls id="myVideo">
-                    <source src="https://youtu.be/CVapfTG2Z_s?si=VwST8MKUypsUxMsk">
-                    <source src="https://www.html5rocks.com/en/tutorials/video/basics/Chrome_ImF.webm" type="video/webm">
-                    <source src="https://www.html5rocks.com/en/tutorials/video/basics/Chrome_ImF.ogv" type="video/ogg">
-                    Your browser doesn't support HTML5 video tag. -->
-                <!-- </video> -->
-                <!-- <div class="news_content">
-                    <a href="#"><img src="./images/news_logo.svg" alt=""></a>
-                    <h4>ида <br>галич</h4>
-                    <p>Блогер-милионник и телведущая вебрайте десерты ЧИЗБЕРРИ Это по любви !</p>
-         
-                </div> -->
                 <div class="news_text">
                     <h4>ида галич попробовала десерты чизберри</h4>
                     <p>И поделились своим мнением. Узнайте, что она думает, посмотрев видео</p>
@@ -272,7 +262,7 @@
             <div class="news_card">
                 <div class="news_content news_content_img">
                     <img src="./images/news_card3.png" alt="">
-                    <button class="new_btn" role="button"><img src="./images/play_icon.svg" alt=""> воспроизвести</button>
+                    <a data-fancybox data-src="./images/video_1.mp4" href="javascript:;" class="new_btn" role="button"><img src="./images/play_icon.svg" alt=""> воспроизвести</a>
                 </div>
                 <!-- <div class="news_content">
                     <a href="#"><img src="./images/news_logo.svg" alt=""></a>
@@ -330,7 +320,7 @@
             <div class="news_card">
                 <div class="news_content news_content_img">
                     <img src="./images/news_card6.png" alt="">
-                    <button class="new_btn" role="button"><img src="./images/play_icon.svg" alt=""> воспроизвести</button>
+                    <a data-fancybox data-src="./images/video_1.mp4" href="javascript:;" class="new_btn" role="button"><img src="./images/play_icon.svg" alt=""> воспроизвести</a>
                 </div>
                 <!-- <div class="news_content">
                     <a href="#"><img src="./images/news_logo.svg" alt=""></a>
@@ -350,7 +340,7 @@
             <div class="news_card">
                 <div class="news_content news_content_img">
                     <img src="./images/news_card7.png" alt="">
-                    <button class="new_btn" role="button"><img src="./images/play_icon.svg" alt=""> воспроизвести</button>
+                    <a data-fancybox data-src="./images/video_1.mp4" href="javascript:;" class="new_btn" role="button"><img src="./images/play_icon.svg" alt=""> воспроизвести</a>
                 </div>
                 <!-- <div class="news_content">
                     <a href="#"><img src="./images/news_logo.svg" alt=""></a>
@@ -506,9 +496,16 @@
     <script src="./js/bootstrap.js"></script>
     <script src="./js/bootstrap.min.js"></script>
     <script src="./js/bootstrap.popper.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("[data-fancybox]").fancybox({
+                type: "video",
+            });
+        });
+    </script>
     <!-- JS -->
-	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-	<script src="jquery.fancybox.min.js"></script>
+	<!-- <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="jquery.fancybox.min.js"></script> -->
     <script src="./js/app.js"></script>
 </body>
 </html>

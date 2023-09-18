@@ -137,6 +137,62 @@ if (discount_cards.length) {
     })
 }
 
+let award_img = document.querySelectorAll('.awards_card img');
+if (award_img.length) {
+    award_img.forEach(img => {
+        img.onclick = () => {
+            let src = [];
+            src.push({
+                'src': img.getAttribute('src'),
+                'thumb': img.getAttribute('src'),
+                'subHtml': ''
+            });
+            let pdf = img.getAttribute('data-pdf');
+            $('#lightgallery').remove();
+            const galleryContainer = document.createElement('div');
+            galleryContainer.id = 'lightgallery';
+            document.body.appendChild(galleryContainer);
+            lightGallery(galleryContainer, {
+                dynamic: true,
+                dynamicEl: src,
+            });
+
+            setTimeout(() => {
+                let download = document.querySelector('#lg-download');
+                download.setAttribute('href', pdf);
+            }, 500);
+        }
+    })
+}
+
+let certificates_img = document.querySelectorAll('.certificates_card img');
+if (certificates_img.length) {
+    certificates_img.forEach(img => {
+        img.onclick = () => {
+            let src = [];
+            src.push({
+                'src': img.getAttribute('src'),
+                'thumb': img.getAttribute('src'),
+                'subHtml': ''
+            });
+            let pdf = img.getAttribute('data-pdf');
+            $('#lightgallery').remove();
+            const galleryContainer = document.createElement('div');
+            galleryContainer.id = 'lightgallery';
+            document.body.appendChild(galleryContainer);
+            lightGallery(galleryContainer, {
+                dynamic: true,
+                dynamicEl: src,
+            });
+
+            setTimeout(() => {
+                let download = document.querySelector('#lg-download');
+                download.setAttribute('href', pdf);
+            }, 500);
+        }
+    })
+}
+
 let cards_top_slider = new Swiper(".cards_top_slider", {
     slidesPerView: 'auto',
     spaceBetween: 8,
