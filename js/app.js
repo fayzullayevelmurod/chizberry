@@ -121,6 +121,22 @@ if (header_burger) {
     })
 }
 
+let discount_cards = document.querySelectorAll('.discount_card');
+if (discount_cards.length) {
+    discount_cards.forEach(card => {
+        let open_btn = card.querySelector('.card_btn a');
+        let modal = card.querySelector('.modal_card');
+        let modal_close_btn = card.querySelector('.modal_card .close_modal_card');
+        open_btn.onclick = e => {
+            e.preventDefault();
+            modal.classList.remove('d-none');
+        }
+        modal_close_btn.onclick = () => {
+            modal.classList.add('d-none');
+        }
+    })
+}
+
 let cards_top_slider = new Swiper(".cards_top_slider", {
     slidesPerView: 'auto',
     spaceBetween: 8,
