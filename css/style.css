@@ -107,7 +107,7 @@ header .header_body .header_body_right .light_link {
   line-height: normal;
   letter-spacing: 1.6px;
   text-transform: uppercase;
-  padding: 12px 22px;
+  padding: 9px 22px;
   transition: 0.2s ease all;
 }
 header .header_body .header_body_right .light_link:hover {
@@ -132,7 +132,7 @@ header .header_body .header_body_right .danger_link {
   line-height: normal;
   letter-spacing: 1.6px;
   text-transform: uppercase;
-  padding: 12px 22px;
+  padding: 9px 22px;
   transition: 0.2s ease all;
 }
 header .header_body .header_body_right .danger_link:hover {
@@ -726,7 +726,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .index #cards .cards_top .card_item a {
     width: calc(100% - 18px);
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -766,7 +766,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .index #cards .big_cards .card_item a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -847,7 +847,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .index #cards .big_cards .card_item a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -932,7 +932,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .index #cards .big_cards .card_item a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -1263,7 +1263,6 @@ header .header_foot .header_foot_link_right .link_title {
     margin-bottom: 48px;
   }
   .index #half_slider a {
-    height: 30px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -1341,7 +1340,7 @@ header .header_foot .header_foot_link_right .link_title {
     margin-bottom: 48px;
   }
   .index #half_slider a {
-    height: 30px;
+    height: 36px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -1383,7 +1382,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .index #half_slider .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -1424,7 +1423,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.8px;
   }
   .index #half_slider a {
-    height: 30px;
+    height: 36px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -1470,7 +1469,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .index #half_slider .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -1508,7 +1507,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.4px;
   }
   .index #half_slider a {
-    height: 30px;
+    height: 36px;
     width: 182px;
     font-size: 12px;
     font-style: normal;
@@ -1554,7 +1553,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .index #half_slider .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -1751,7 +1750,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .index #opinions .opinions_slider .swiper-slide .swiper-slide-in a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -1783,7 +1782,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .index #opinions .opinions_slider .swiper-slide .swiper-slide-in a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -1815,7 +1814,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .index #opinions .opinions_slider .swiper-slide .swiper-slide-in a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -1851,7 +1850,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .index #opinions .opinions_slider .swiper-slide .swiper-slide-in a {
     width: 182px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -2032,7 +2031,6 @@ header .header_foot .header_foot_link_right .link_title {
     margin-bottom: 48px;
   }
   .index #half_slider2 a {
-    height: 30px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -2110,7 +2108,7 @@ header .header_foot .header_foot_link_right .link_title {
     margin-bottom: 48px;
   }
   .index #half_slider2 a {
-    height: 30px;
+    height: 36px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -2152,7 +2150,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .index #half_slider2 .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -2193,7 +2191,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.8px;
   }
   .index #half_slider2 a {
-    height: 30px;
+    height: 36px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -2239,7 +2237,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .index #half_slider2 .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -2277,7 +2275,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.4px;
   }
   .index #half_slider2 a {
-    height: 30px;
+    height: 36px;
     width: 182px;
     font-size: 12px;
     font-style: normal;
@@ -2323,7 +2321,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .index #half_slider2 .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -2720,7 +2718,7 @@ header .header_foot .header_foot_link_right .link_title {
     line-height: normal;
     letter-spacing: 1.3px;
     width: 200px;
-    height: 30px;
+    height: 36px;
   }
   .index #buy_cheeseberry .chizberry_card_bottom {
     margin-bottom: 60px;
@@ -2751,7 +2749,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .index #buy_cheeseberry .chizberry_card_bottom .first_card .card_item_bottom a {
     width: 270px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -2844,7 +2842,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .index #buy_cheeseberry .chizberry_card_bottom .first_card .card_item_bottom a {
     width: 270px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -2909,7 +2907,7 @@ header .header_foot .header_foot_link_right .link_title {
     line-height: normal;
     letter-spacing: 1.3px;
     width: 200px;
-    min-height: 30px;
+    min-height: 36px;
   }
   .index #buy_cheeseberry .chizberry_card_bottom {
     margin-bottom: 40px;
@@ -2941,7 +2939,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .index #buy_cheeseberry .chizberry_card_bottom .first_card .card_item_bottom a {
     width: 246px;
-    height: 30px;
+    height: 36px;
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
@@ -3041,7 +3039,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .index #buy_cheeseberry .chizberry_card_bottom .first_card .card_item_bottom a {
     width: 246px;
-    height: 30px;
+    height: 36px;
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
@@ -3282,7 +3280,6 @@ header .header_foot .header_foot_link_right .link_title {
     margin-bottom: 48px;
   }
   .index #half_slider3 a {
-    height: 30px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -3360,7 +3357,7 @@ header .header_foot .header_foot_link_right .link_title {
     margin-bottom: 48px;
   }
   .index #half_slider3 a {
-    height: 30px;
+    height: 36px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -3402,7 +3399,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .index #half_slider3 .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -3443,7 +3440,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.8px;
   }
   .index #half_slider3 a {
-    height: 30px;
+    height: 36px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -3489,7 +3486,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .index #half_slider3 .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -3527,7 +3524,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.4px;
   }
   .index #half_slider3 a {
-    height: 30px;
+    height: 36px;
     width: 182px;
     font-size: 12px;
     font-style: normal;
@@ -3573,7 +3570,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .index #half_slider3 .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -4057,7 +4054,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .index #contact .cards .form_card button {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -4119,7 +4116,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .index #contact .address_cards .address .address_bottom .address_btn {
     width: 270px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -4171,7 +4168,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .index #contact .cards .form_card button {
     width: 200px;
-    height: 30px;
+    height: 36px;
   }
   .index #contact .address_cards .address_item {
     height: 720px;
@@ -4259,7 +4256,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .index #contact .cards .form_card button {
     width: 180px;
-    height: 30px;
+    height: 36px;
   }
   .index #contact .address_cards {
     margin-bottom: 16px;
@@ -4309,7 +4306,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .index #contact .address_cards .address .address_bottom .address_btn {
     width: 240px;
-    height: 30px;
+    height: 36px;
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
@@ -4843,7 +4840,7 @@ header .header_foot .header_foot_link_right .link_title {
     line-height: normal;
     letter-spacing: 1.3px;
     width: 200px;
-    height: 30px;
+    height: 36px;
   }
   .products #buy_cheeseberry .chizberry_card_bottom {
     margin-bottom: 60px;
@@ -4874,7 +4871,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .products #buy_cheeseberry .chizberry_card_bottom .first_card .card_item_bottom a {
     width: 270px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -4967,7 +4964,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .products #buy_cheeseberry .chizberry_card_bottom .first_card .card_item_bottom a {
     width: 270px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -5032,7 +5029,7 @@ header .header_foot .header_foot_link_right .link_title {
     line-height: normal;
     letter-spacing: 1.3px;
     width: 200px;
-    min-height: 30px;
+    min-height: 36px;
   }
   .products #buy_cheeseberry .chizberry_card_bottom {
     margin-bottom: 40px;
@@ -5064,7 +5061,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .products #buy_cheeseberry .chizberry_card_bottom .first_card .card_item_bottom a {
     width: 246px;
-    height: 30px;
+    height: 36px;
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
@@ -5164,7 +5161,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .products #buy_cheeseberry .chizberry_card_bottom .first_card .card_item_bottom a {
     width: 246px;
-    height: 30px;
+    height: 36px;
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
@@ -5336,7 +5333,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .products #opinions .opinions_slider .swiper-slide .swiper-slide-in a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -5368,7 +5365,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .products #opinions .opinions_slider .swiper-slide .swiper-slide-in a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -5400,7 +5397,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .products #opinions .opinions_slider .swiper-slide .swiper-slide-in a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -5436,7 +5433,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .products #opinions .opinions_slider .swiper-slide .swiper-slide-in a {
     width: 182px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -5617,7 +5614,6 @@ header .header_foot .header_foot_link_right .link_title {
     margin-bottom: 48px;
   }
   .products #half_slider3 a {
-    height: 30px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -5695,7 +5691,7 @@ header .header_foot .header_foot_link_right .link_title {
     margin-bottom: 48px;
   }
   .products #half_slider3 a {
-    height: 30px;
+    height: 36px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -5737,7 +5733,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .products #half_slider3 .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -5778,7 +5774,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.8px;
   }
   .products #half_slider3 a {
-    height: 30px;
+    height: 36px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -5824,7 +5820,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .products #half_slider3 .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -5862,7 +5858,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.4px;
   }
   .products #half_slider3 a {
-    height: 30px;
+    height: 36px;
     width: 182px;
     font-size: 12px;
     font-style: normal;
@@ -5908,7 +5904,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .products #half_slider3 .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -6392,7 +6388,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .products #contact .cards .form_card button {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -6454,7 +6450,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .products #contact .address_cards .address .address_bottom .address_btn {
     width: 270px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -6506,7 +6502,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .products #contact .cards .form_card button {
     width: 200px;
-    height: 30px;
+    height: 36px;
   }
   .products #contact .address_cards .address_item {
     height: 720px;
@@ -6594,7 +6590,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .products #contact .cards .form_card button {
     width: 180px;
-    height: 30px;
+    height: 36px;
   }
   .products #contact .address_cards {
     margin-bottom: 16px;
@@ -6644,7 +6640,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .products #contact .address_cards .address .address_bottom .address_btn {
     width: 240px;
-    height: 30px;
+    height: 36px;
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
@@ -7704,7 +7700,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cheesecakes_sufle #tab .tab-content .cards .card_item a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -7881,7 +7877,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cheesecakes_sufle #tab .tab-content .cards .card_item a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -7980,11 +7976,11 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cheesecakes_sufle #tab .tab-content .search_form .search_input .search_btn {
     width: 40px;
-    height: 40px;
+    height: 36px;
   }
   .cheesecakes_sufle #tab .tab-content .search_form .submit {
     width: 136px;
-    height: 40px;
+    height: 36px;
     font-size: 17px;
     font-style: normal;
     font-weight: 700;
@@ -8053,7 +8049,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cheesecakes_sufle #tab .tab-content .cards .card_item a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -8506,7 +8502,6 @@ header .header_foot .header_foot_link_right .link_title {
     margin-bottom: 48px;
   }
   .cheesecakes_sufle #half_slider a {
-    height: 30px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -8584,7 +8579,7 @@ header .header_foot .header_foot_link_right .link_title {
     margin-bottom: 48px;
   }
   .cheesecakes_sufle #half_slider a {
-    height: 30px;
+    height: 36px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -8626,7 +8621,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cheesecakes_sufle #half_slider .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -8667,7 +8662,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.8px;
   }
   .cheesecakes_sufle #half_slider a {
-    height: 30px;
+    height: 36px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -8713,7 +8708,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cheesecakes_sufle #half_slider .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -8751,7 +8746,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.4px;
   }
   .cheesecakes_sufle #half_slider a {
-    height: 30px;
+    height: 36px;
     width: 182px;
     font-size: 12px;
     font-style: normal;
@@ -8797,7 +8792,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cheesecakes_sufle #half_slider .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -9156,7 +9151,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cheesecakes_sufle #cards .cards_top .card_item a {
     width: calc(100% - 18px);
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -9196,7 +9191,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cheesecakes_sufle #cards .big_cards .card_item a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -9277,7 +9272,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cheesecakes_sufle #cards .big_cards .card_item a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -9362,7 +9357,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cheesecakes_sufle #cards .big_cards .card_item a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -9693,7 +9688,6 @@ header .header_foot .header_foot_link_right .link_title {
     margin-bottom: 48px;
   }
   .cheesecakes_sufle #half_slider2 a {
-    height: 30px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -9771,7 +9765,7 @@ header .header_foot .header_foot_link_right .link_title {
     margin-bottom: 48px;
   }
   .cheesecakes_sufle #half_slider2 a {
-    height: 30px;
+    height: 36px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -9813,7 +9807,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cheesecakes_sufle #half_slider2 .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -9854,7 +9848,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.8px;
   }
   .cheesecakes_sufle #half_slider2 a {
-    height: 30px;
+    height: 36px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -9900,7 +9894,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cheesecakes_sufle #half_slider2 .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -9938,7 +9932,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.4px;
   }
   .cheesecakes_sufle #half_slider2 a {
-    height: 30px;
+    height: 36px;
     width: 182px;
     font-size: 12px;
     font-style: normal;
@@ -9984,7 +9978,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cheesecakes_sufle #half_slider2 .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -10381,7 +10375,7 @@ header .header_foot .header_foot_link_right .link_title {
     line-height: normal;
     letter-spacing: 1.3px;
     width: 200px;
-    height: 30px;
+    height: 36px;
   }
   .cheesecakes_sufle #buy_cheeseberry .chizberry_card_bottom {
     margin-bottom: 60px;
@@ -10412,7 +10406,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cheesecakes_sufle #buy_cheeseberry .chizberry_card_bottom .first_card .card_item_bottom a {
     width: 270px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -10505,7 +10499,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cheesecakes_sufle #buy_cheeseberry .chizberry_card_bottom .first_card .card_item_bottom a {
     width: 270px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -10570,7 +10564,7 @@ header .header_foot .header_foot_link_right .link_title {
     line-height: normal;
     letter-spacing: 1.3px;
     width: 200px;
-    min-height: 30px;
+    min-height: 36px;
   }
   .cheesecakes_sufle #buy_cheeseberry .chizberry_card_bottom {
     margin-bottom: 40px;
@@ -10602,7 +10596,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cheesecakes_sufle #buy_cheeseberry .chizberry_card_bottom .first_card .card_item_bottom a {
     width: 246px;
-    height: 30px;
+    height: 36px;
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
@@ -10702,7 +10696,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cheesecakes_sufle #buy_cheeseberry .chizberry_card_bottom .first_card .card_item_bottom a {
     width: 246px;
-    height: 30px;
+    height: 36px;
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
@@ -10874,7 +10868,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cheesecakes_sufle #opinions .opinions_slider .swiper-slide .swiper-slide-in a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -10906,7 +10900,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cheesecakes_sufle #opinions .opinions_slider .swiper-slide .swiper-slide-in a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -10938,7 +10932,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cheesecakes_sufle #opinions .opinions_slider .swiper-slide .swiper-slide-in a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -10974,7 +10968,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cheesecakes_sufle #opinions .opinions_slider .swiper-slide .swiper-slide-in a {
     width: 182px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -11155,7 +11149,6 @@ header .header_foot .header_foot_link_right .link_title {
     margin-bottom: 48px;
   }
   .cheesecakes_sufle #half_slider3 a {
-    height: 30px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -11233,7 +11226,7 @@ header .header_foot .header_foot_link_right .link_title {
     margin-bottom: 48px;
   }
   .cheesecakes_sufle #half_slider3 a {
-    height: 30px;
+    height: 36px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -11275,7 +11268,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cheesecakes_sufle #half_slider3 .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -11316,7 +11309,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.8px;
   }
   .cheesecakes_sufle #half_slider3 a {
-    height: 30px;
+    height: 36px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -11362,7 +11355,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cheesecakes_sufle #half_slider3 .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -11400,7 +11393,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.4px;
   }
   .cheesecakes_sufle #half_slider3 a {
-    height: 30px;
+    height: 36px;
     width: 182px;
     font-size: 12px;
     font-style: normal;
@@ -11446,7 +11439,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cheesecakes_sufle #half_slider3 .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -11930,7 +11923,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cheesecakes_sufle #contact .cards .form_card button {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -11992,7 +11985,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cheesecakes_sufle #contact .address_cards .address .address_bottom .address_btn {
     width: 270px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -12044,7 +12037,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cheesecakes_sufle #contact .cards .form_card button {
     width: 200px;
-    height: 30px;
+    height: 36px;
   }
   .cheesecakes_sufle #contact .address_cards .address_item {
     height: 720px;
@@ -12132,7 +12125,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cheesecakes_sufle #contact .cards .form_card button {
     width: 180px;
-    height: 30px;
+    height: 36px;
   }
   .cheesecakes_sufle #contact .address_cards {
     margin-bottom: 16px;
@@ -12182,7 +12175,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cheesecakes_sufle #contact .address_cards .address .address_bottom .address_btn {
     width: 240px;
-    height: 30px;
+    height: 36px;
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
@@ -13242,7 +13235,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cakes #tab .tab-content .cards .card_item a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -13419,7 +13412,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cakes #tab .tab-content .cards .card_item a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -13518,11 +13511,11 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cakes #tab .tab-content .search_form .search_input .search_btn {
     width: 40px;
-    height: 40px;
+    height: 36px;
   }
   .cakes #tab .tab-content .search_form .submit {
     width: 136px;
-    height: 40px;
+    height: 36px;
     font-size: 17px;
     font-style: normal;
     font-weight: 700;
@@ -13591,7 +13584,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cakes #tab .tab-content .cards .card_item a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -14044,7 +14037,6 @@ header .header_foot .header_foot_link_right .link_title {
     margin-bottom: 48px;
   }
   .cakes #half_slider a {
-    height: 30px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -14122,7 +14114,7 @@ header .header_foot .header_foot_link_right .link_title {
     margin-bottom: 48px;
   }
   .cakes #half_slider a {
-    height: 30px;
+    height: 36px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -14164,7 +14156,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cakes #half_slider .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -14205,7 +14197,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.8px;
   }
   .cakes #half_slider a {
-    height: 30px;
+    height: 36px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -14251,7 +14243,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cakes #half_slider .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -14289,7 +14281,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.4px;
   }
   .cakes #half_slider a {
-    height: 30px;
+    height: 36px;
     width: 182px;
     font-size: 12px;
     font-style: normal;
@@ -14335,7 +14327,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cakes #half_slider .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -14694,7 +14686,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cakes #cards .cards_top .card_item a {
     width: calc(100% - 18px);
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -14734,7 +14726,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cakes #cards .big_cards .card_item a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -14815,7 +14807,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cakes #cards .big_cards .card_item a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -14900,7 +14892,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cakes #cards .big_cards .card_item a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -15231,7 +15223,6 @@ header .header_foot .header_foot_link_right .link_title {
     margin-bottom: 48px;
   }
   .cakes #half_slider2 a {
-    height: 30px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -15309,7 +15300,7 @@ header .header_foot .header_foot_link_right .link_title {
     margin-bottom: 48px;
   }
   .cakes #half_slider2 a {
-    height: 30px;
+    height: 36px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -15351,7 +15342,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cakes #half_slider2 .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -15392,7 +15383,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.8px;
   }
   .cakes #half_slider2 a {
-    height: 30px;
+    height: 36px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -15438,7 +15429,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cakes #half_slider2 .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -15476,7 +15467,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.4px;
   }
   .cakes #half_slider2 a {
-    height: 30px;
+    height: 36px;
     width: 182px;
     font-size: 12px;
     font-style: normal;
@@ -15522,7 +15513,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cakes #half_slider2 .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -15919,7 +15910,7 @@ header .header_foot .header_foot_link_right .link_title {
     line-height: normal;
     letter-spacing: 1.3px;
     width: 200px;
-    height: 30px;
+    height: 36px;
   }
   .cakes #buy_cheeseberry .chizberry_card_bottom {
     margin-bottom: 60px;
@@ -15950,7 +15941,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cakes #buy_cheeseberry .chizberry_card_bottom .first_card .card_item_bottom a {
     width: 270px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -16043,7 +16034,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cakes #buy_cheeseberry .chizberry_card_bottom .first_card .card_item_bottom a {
     width: 270px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -16108,7 +16099,7 @@ header .header_foot .header_foot_link_right .link_title {
     line-height: normal;
     letter-spacing: 1.3px;
     width: 200px;
-    min-height: 30px;
+    min-height: 36px;
   }
   .cakes #buy_cheeseberry .chizberry_card_bottom {
     margin-bottom: 40px;
@@ -16140,7 +16131,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cakes #buy_cheeseberry .chizberry_card_bottom .first_card .card_item_bottom a {
     width: 246px;
-    height: 30px;
+    height: 36px;
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
@@ -16240,7 +16231,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cakes #buy_cheeseberry .chizberry_card_bottom .first_card .card_item_bottom a {
     width: 246px;
-    height: 30px;
+    height: 36px;
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
@@ -16412,7 +16403,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cakes #opinions .opinions_slider .swiper-slide .swiper-slide-in a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -16444,7 +16435,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cakes #opinions .opinions_slider .swiper-slide .swiper-slide-in a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -16476,7 +16467,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cakes #opinions .opinions_slider .swiper-slide .swiper-slide-in a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -16512,7 +16503,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cakes #opinions .opinions_slider .swiper-slide .swiper-slide-in a {
     width: 182px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -16693,7 +16684,6 @@ header .header_foot .header_foot_link_right .link_title {
     margin-bottom: 48px;
   }
   .cakes #half_slider3 a {
-    height: 30px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -16771,7 +16761,7 @@ header .header_foot .header_foot_link_right .link_title {
     margin-bottom: 48px;
   }
   .cakes #half_slider3 a {
-    height: 30px;
+    height: 36px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -16813,7 +16803,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cakes #half_slider3 .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -16854,7 +16844,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.8px;
   }
   .cakes #half_slider3 a {
-    height: 30px;
+    height: 36px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -16900,7 +16890,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cakes #half_slider3 .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -16938,7 +16928,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.4px;
   }
   .cakes #half_slider3 a {
-    height: 30px;
+    height: 36px;
     width: 182px;
     font-size: 12px;
     font-style: normal;
@@ -16984,7 +16974,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cakes #half_slider3 .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -17468,7 +17458,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cakes #contact .cards .form_card button {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -17530,7 +17520,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cakes #contact .address_cards .address .address_bottom .address_btn {
     width: 270px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -17582,7 +17572,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cakes #contact .cards .form_card button {
     width: 200px;
-    height: 30px;
+    height: 36px;
   }
   .cakes #contact .address_cards .address_item {
     height: 720px;
@@ -17670,7 +17660,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cakes #contact .cards .form_card button {
     width: 180px;
-    height: 30px;
+    height: 36px;
   }
   .cakes #contact .address_cards {
     margin-bottom: 16px;
@@ -17720,7 +17710,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cakes #contact .address_cards .address .address_bottom .address_btn {
     width: 240px;
-    height: 30px;
+    height: 36px;
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
@@ -18780,7 +18770,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cookies #tab .tab-content .cards .card_item a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -18957,7 +18947,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cookies #tab .tab-content .cards .card_item a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -19056,11 +19046,11 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cookies #tab .tab-content .search_form .search_input .search_btn {
     width: 40px;
-    height: 40px;
+    height: 36px;
   }
   .cookies #tab .tab-content .search_form .submit {
     width: 136px;
-    height: 40px;
+    height: 36px;
     font-size: 17px;
     font-style: normal;
     font-weight: 700;
@@ -19129,7 +19119,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cookies #tab .tab-content .cards .card_item a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -19582,7 +19572,6 @@ header .header_foot .header_foot_link_right .link_title {
     margin-bottom: 48px;
   }
   .cookies #half_slider a {
-    height: 30px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -19660,7 +19649,7 @@ header .header_foot .header_foot_link_right .link_title {
     margin-bottom: 48px;
   }
   .cookies #half_slider a {
-    height: 30px;
+    height: 36px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -19702,7 +19691,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cookies #half_slider .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -19743,7 +19732,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.8px;
   }
   .cookies #half_slider a {
-    height: 30px;
+    height: 36px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -19789,7 +19778,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cookies #half_slider .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -19827,7 +19816,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.4px;
   }
   .cookies #half_slider a {
-    height: 30px;
+    height: 36px;
     width: 182px;
     font-size: 12px;
     font-style: normal;
@@ -19873,7 +19862,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cookies #half_slider .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -20232,7 +20221,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cookies #cards .cards_top .card_item a {
     width: calc(100% - 18px);
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -20272,7 +20261,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cookies #cards .big_cards .card_item a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -20353,7 +20342,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cookies #cards .big_cards .card_item a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -20438,7 +20427,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cookies #cards .big_cards .card_item a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -20769,7 +20758,6 @@ header .header_foot .header_foot_link_right .link_title {
     margin-bottom: 48px;
   }
   .cookies #half_slider2 a {
-    height: 30px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -20847,7 +20835,7 @@ header .header_foot .header_foot_link_right .link_title {
     margin-bottom: 48px;
   }
   .cookies #half_slider2 a {
-    height: 30px;
+    height: 36px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -20889,7 +20877,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cookies #half_slider2 .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -20930,7 +20918,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.8px;
   }
   .cookies #half_slider2 a {
-    height: 30px;
+    height: 36px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -20976,7 +20964,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cookies #half_slider2 .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -21014,7 +21002,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.4px;
   }
   .cookies #half_slider2 a {
-    height: 30px;
+    height: 36px;
     width: 182px;
     font-size: 12px;
     font-style: normal;
@@ -21060,7 +21048,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cookies #half_slider2 .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -21457,7 +21445,7 @@ header .header_foot .header_foot_link_right .link_title {
     line-height: normal;
     letter-spacing: 1.3px;
     width: 200px;
-    height: 30px;
+    height: 36px;
   }
   .cookies #buy_cheeseberry .chizberry_card_bottom {
     margin-bottom: 60px;
@@ -21488,7 +21476,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cookies #buy_cheeseberry .chizberry_card_bottom .first_card .card_item_bottom a {
     width: 270px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -21581,7 +21569,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cookies #buy_cheeseberry .chizberry_card_bottom .first_card .card_item_bottom a {
     width: 270px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -21646,7 +21634,7 @@ header .header_foot .header_foot_link_right .link_title {
     line-height: normal;
     letter-spacing: 1.3px;
     width: 200px;
-    min-height: 30px;
+    min-height: 36px;
   }
   .cookies #buy_cheeseberry .chizberry_card_bottom {
     margin-bottom: 40px;
@@ -21678,7 +21666,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cookies #buy_cheeseberry .chizberry_card_bottom .first_card .card_item_bottom a {
     width: 246px;
-    height: 30px;
+    height: 36px;
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
@@ -21778,7 +21766,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cookies #buy_cheeseberry .chizberry_card_bottom .first_card .card_item_bottom a {
     width: 246px;
-    height: 30px;
+    height: 36px;
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
@@ -21950,7 +21938,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cookies #opinions .opinions_slider .swiper-slide .swiper-slide-in a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -21982,7 +21970,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cookies #opinions .opinions_slider .swiper-slide .swiper-slide-in a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -22014,7 +22002,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cookies #opinions .opinions_slider .swiper-slide .swiper-slide-in a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -22050,7 +22038,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cookies #opinions .opinions_slider .swiper-slide .swiper-slide-in a {
     width: 182px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -22231,7 +22219,6 @@ header .header_foot .header_foot_link_right .link_title {
     margin-bottom: 48px;
   }
   .cookies #half_slider3 a {
-    height: 30px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -22309,7 +22296,7 @@ header .header_foot .header_foot_link_right .link_title {
     margin-bottom: 48px;
   }
   .cookies #half_slider3 a {
-    height: 30px;
+    height: 36px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -22351,7 +22338,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cookies #half_slider3 .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -22392,7 +22379,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.8px;
   }
   .cookies #half_slider3 a {
-    height: 30px;
+    height: 36px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -22438,7 +22425,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cookies #half_slider3 .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -22476,7 +22463,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.4px;
   }
   .cookies #half_slider3 a {
-    height: 30px;
+    height: 36px;
     width: 182px;
     font-size: 12px;
     font-style: normal;
@@ -22522,7 +22509,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cookies #half_slider3 .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -23006,7 +22993,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cookies #contact .cards .form_card button {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -23068,7 +23055,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cookies #contact .address_cards .address .address_bottom .address_btn {
     width: 270px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -23120,7 +23107,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cookies #contact .cards .form_card button {
     width: 200px;
-    height: 30px;
+    height: 36px;
   }
   .cookies #contact .address_cards .address_item {
     height: 720px;
@@ -23208,7 +23195,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cookies #contact .cards .form_card button {
     width: 180px;
-    height: 30px;
+    height: 36px;
   }
   .cookies #contact .address_cards {
     margin-bottom: 16px;
@@ -23258,7 +23245,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .cookies #contact .address_cards .address .address_bottom .address_btn {
     width: 240px;
-    height: 30px;
+    height: 36px;
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
@@ -24318,7 +24305,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .small_items #tab .tab-content .cards .card_item a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -24495,7 +24482,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .small_items #tab .tab-content .cards .card_item a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -24594,11 +24581,11 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .small_items #tab .tab-content .search_form .search_input .search_btn {
     width: 40px;
-    height: 40px;
+    height: 36px;
   }
   .small_items #tab .tab-content .search_form .submit {
     width: 136px;
-    height: 40px;
+    height: 36px;
     font-size: 17px;
     font-style: normal;
     font-weight: 700;
@@ -24667,7 +24654,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .small_items #tab .tab-content .cards .card_item a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -25120,7 +25107,6 @@ header .header_foot .header_foot_link_right .link_title {
     margin-bottom: 48px;
   }
   .small_items #half_slider a {
-    height: 30px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -25198,7 +25184,7 @@ header .header_foot .header_foot_link_right .link_title {
     margin-bottom: 48px;
   }
   .small_items #half_slider a {
-    height: 30px;
+    height: 36px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -25240,7 +25226,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .small_items #half_slider .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -25281,7 +25267,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.8px;
   }
   .small_items #half_slider a {
-    height: 30px;
+    height: 36px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -25327,7 +25313,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .small_items #half_slider .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -25365,7 +25351,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.4px;
   }
   .small_items #half_slider a {
-    height: 30px;
+    height: 36px;
     width: 182px;
     font-size: 12px;
     font-style: normal;
@@ -25411,7 +25397,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .small_items #half_slider .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -25770,7 +25756,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .small_items #cards .cards_top .card_item a {
     width: calc(100% - 18px);
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -25810,7 +25796,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .small_items #cards .big_cards .card_item a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -25891,7 +25877,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .small_items #cards .big_cards .card_item a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -25976,7 +25962,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .small_items #cards .big_cards .card_item a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -26307,7 +26293,6 @@ header .header_foot .header_foot_link_right .link_title {
     margin-bottom: 48px;
   }
   .small_items #half_slider2 a {
-    height: 30px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -26385,7 +26370,7 @@ header .header_foot .header_foot_link_right .link_title {
     margin-bottom: 48px;
   }
   .small_items #half_slider2 a {
-    height: 30px;
+    height: 36px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -26427,7 +26412,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .small_items #half_slider2 .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -26468,7 +26453,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.8px;
   }
   .small_items #half_slider2 a {
-    height: 30px;
+    height: 36px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -26514,7 +26499,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .small_items #half_slider2 .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -26552,7 +26537,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.4px;
   }
   .small_items #half_slider2 a {
-    height: 30px;
+    height: 36px;
     width: 182px;
     font-size: 12px;
     font-style: normal;
@@ -26598,7 +26583,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .small_items #half_slider2 .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -26995,7 +26980,7 @@ header .header_foot .header_foot_link_right .link_title {
     line-height: normal;
     letter-spacing: 1.3px;
     width: 200px;
-    height: 30px;
+    height: 36px;
   }
   .small_items #buy_cheeseberry .chizberry_card_bottom {
     margin-bottom: 60px;
@@ -27026,7 +27011,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .small_items #buy_cheeseberry .chizberry_card_bottom .first_card .card_item_bottom a {
     width: 270px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -27119,7 +27104,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .small_items #buy_cheeseberry .chizberry_card_bottom .first_card .card_item_bottom a {
     width: 270px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -27184,7 +27169,7 @@ header .header_foot .header_foot_link_right .link_title {
     line-height: normal;
     letter-spacing: 1.3px;
     width: 200px;
-    min-height: 30px;
+    min-height: 36px;
   }
   .small_items #buy_cheeseberry .chizberry_card_bottom {
     margin-bottom: 40px;
@@ -27216,7 +27201,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .small_items #buy_cheeseberry .chizberry_card_bottom .first_card .card_item_bottom a {
     width: 246px;
-    height: 30px;
+    height: 36px;
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
@@ -27316,7 +27301,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .small_items #buy_cheeseberry .chizberry_card_bottom .first_card .card_item_bottom a {
     width: 246px;
-    height: 30px;
+    height: 36px;
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
@@ -27488,7 +27473,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .small_items #opinions .opinions_slider .swiper-slide .swiper-slide-in a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -27520,7 +27505,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .small_items #opinions .opinions_slider .swiper-slide .swiper-slide-in a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -27552,7 +27537,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .small_items #opinions .opinions_slider .swiper-slide .swiper-slide-in a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -27588,7 +27573,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .small_items #opinions .opinions_slider .swiper-slide .swiper-slide-in a {
     width: 182px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -27769,7 +27754,6 @@ header .header_foot .header_foot_link_right .link_title {
     margin-bottom: 48px;
   }
   .small_items #half_slider3 a {
-    height: 30px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -27847,7 +27831,7 @@ header .header_foot .header_foot_link_right .link_title {
     margin-bottom: 48px;
   }
   .small_items #half_slider3 a {
-    height: 30px;
+    height: 36px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -27889,7 +27873,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .small_items #half_slider3 .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -27930,7 +27914,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.8px;
   }
   .small_items #half_slider3 a {
-    height: 30px;
+    height: 36px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -27976,7 +27960,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .small_items #half_slider3 .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -28014,7 +27998,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.4px;
   }
   .small_items #half_slider3 a {
-    height: 30px;
+    height: 36px;
     width: 182px;
     font-size: 12px;
     font-style: normal;
@@ -28060,7 +28044,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .small_items #half_slider3 .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -28544,7 +28528,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .small_items #contact .cards .form_card button {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -28606,7 +28590,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .small_items #contact .address_cards .address .address_bottom .address_btn {
     width: 270px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -28658,7 +28642,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .small_items #contact .cards .form_card button {
     width: 200px;
-    height: 30px;
+    height: 36px;
   }
   .small_items #contact .address_cards .address_item {
     height: 720px;
@@ -28746,7 +28730,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .small_items #contact .cards .form_card button {
     width: 180px;
-    height: 30px;
+    height: 36px;
   }
   .small_items #contact .address_cards {
     margin-bottom: 16px;
@@ -28796,7 +28780,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .small_items #contact .address_cards .address .address_bottom .address_btn {
     width: 240px;
-    height: 30px;
+    height: 36px;
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
@@ -29856,7 +29840,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .chees_cream #tab .tab-content .cards .card_item a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -30033,7 +30017,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .chees_cream #tab .tab-content .cards .card_item a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -30132,11 +30116,11 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .chees_cream #tab .tab-content .search_form .search_input .search_btn {
     width: 40px;
-    height: 40px;
+    height: 36px;
   }
   .chees_cream #tab .tab-content .search_form .submit {
     width: 136px;
-    height: 40px;
+    height: 36px;
     font-size: 17px;
     font-style: normal;
     font-weight: 700;
@@ -30205,7 +30189,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .chees_cream #tab .tab-content .cards .card_item a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -30658,7 +30642,6 @@ header .header_foot .header_foot_link_right .link_title {
     margin-bottom: 48px;
   }
   .chees_cream #half_slider a {
-    height: 30px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -30736,7 +30719,7 @@ header .header_foot .header_foot_link_right .link_title {
     margin-bottom: 48px;
   }
   .chees_cream #half_slider a {
-    height: 30px;
+    height: 36px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -30778,7 +30761,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .chees_cream #half_slider .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -30819,7 +30802,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.8px;
   }
   .chees_cream #half_slider a {
-    height: 30px;
+    height: 36px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -30865,7 +30848,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .chees_cream #half_slider .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -30903,7 +30886,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.4px;
   }
   .chees_cream #half_slider a {
-    height: 30px;
+    height: 36px;
     width: 182px;
     font-size: 12px;
     font-style: normal;
@@ -30949,7 +30932,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .chees_cream #half_slider .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -31308,7 +31291,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .chees_cream #cards .cards_top .card_item a {
     width: calc(100% - 18px);
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -31348,7 +31331,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .chees_cream #cards .big_cards .card_item a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -31429,7 +31412,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .chees_cream #cards .big_cards .card_item a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -31514,7 +31497,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .chees_cream #cards .big_cards .card_item a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -31845,7 +31828,6 @@ header .header_foot .header_foot_link_right .link_title {
     margin-bottom: 48px;
   }
   .chees_cream #half_slider2 a {
-    height: 30px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -31923,7 +31905,7 @@ header .header_foot .header_foot_link_right .link_title {
     margin-bottom: 48px;
   }
   .chees_cream #half_slider2 a {
-    height: 30px;
+    height: 36px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -31965,7 +31947,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .chees_cream #half_slider2 .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -32006,7 +31988,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.8px;
   }
   .chees_cream #half_slider2 a {
-    height: 30px;
+    height: 36px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -32052,7 +32034,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .chees_cream #half_slider2 .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -32090,7 +32072,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.4px;
   }
   .chees_cream #half_slider2 a {
-    height: 30px;
+    height: 36px;
     width: 182px;
     font-size: 12px;
     font-style: normal;
@@ -32136,7 +32118,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .chees_cream #half_slider2 .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -32533,7 +32515,7 @@ header .header_foot .header_foot_link_right .link_title {
     line-height: normal;
     letter-spacing: 1.3px;
     width: 200px;
-    height: 30px;
+    height: 36px;
   }
   .chees_cream #buy_cheeseberry .chizberry_card_bottom {
     margin-bottom: 60px;
@@ -32564,7 +32546,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .chees_cream #buy_cheeseberry .chizberry_card_bottom .first_card .card_item_bottom a {
     width: 270px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -32657,7 +32639,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .chees_cream #buy_cheeseberry .chizberry_card_bottom .first_card .card_item_bottom a {
     width: 270px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -32722,7 +32704,7 @@ header .header_foot .header_foot_link_right .link_title {
     line-height: normal;
     letter-spacing: 1.3px;
     width: 200px;
-    min-height: 30px;
+    min-height: 36px;
   }
   .chees_cream #buy_cheeseberry .chizberry_card_bottom {
     margin-bottom: 40px;
@@ -32754,7 +32736,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .chees_cream #buy_cheeseberry .chizberry_card_bottom .first_card .card_item_bottom a {
     width: 246px;
-    height: 30px;
+    height: 36px;
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
@@ -32854,7 +32836,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .chees_cream #buy_cheeseberry .chizberry_card_bottom .first_card .card_item_bottom a {
     width: 246px;
-    height: 30px;
+    height: 36px;
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
@@ -33026,7 +33008,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .chees_cream #opinions .opinions_slider .swiper-slide .swiper-slide-in a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -33058,7 +33040,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .chees_cream #opinions .opinions_slider .swiper-slide .swiper-slide-in a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -33090,7 +33072,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .chees_cream #opinions .opinions_slider .swiper-slide .swiper-slide-in a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -33126,7 +33108,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .chees_cream #opinions .opinions_slider .swiper-slide .swiper-slide-in a {
     width: 182px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -33307,7 +33289,6 @@ header .header_foot .header_foot_link_right .link_title {
     margin-bottom: 48px;
   }
   .chees_cream #half_slider3 a {
-    height: 30px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -33385,7 +33366,7 @@ header .header_foot .header_foot_link_right .link_title {
     margin-bottom: 48px;
   }
   .chees_cream #half_slider3 a {
-    height: 30px;
+    height: 36px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -33427,7 +33408,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .chees_cream #half_slider3 .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -33468,7 +33449,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.8px;
   }
   .chees_cream #half_slider3 a {
-    height: 30px;
+    height: 36px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -33514,7 +33495,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .chees_cream #half_slider3 .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -33552,7 +33533,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.4px;
   }
   .chees_cream #half_slider3 a {
-    height: 30px;
+    height: 36px;
     width: 182px;
     font-size: 12px;
     font-style: normal;
@@ -33598,7 +33579,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .chees_cream #half_slider3 .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -34082,7 +34063,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .chees_cream #contact .cards .form_card button {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -34144,7 +34125,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .chees_cream #contact .address_cards .address .address_bottom .address_btn {
     width: 270px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -34196,7 +34177,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .chees_cream #contact .cards .form_card button {
     width: 200px;
-    height: 30px;
+    height: 36px;
   }
   .chees_cream #contact .address_cards .address_item {
     height: 720px;
@@ -34284,7 +34265,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .chees_cream #contact .cards .form_card button {
     width: 180px;
-    height: 30px;
+    height: 36px;
   }
   .chees_cream #contact .address_cards {
     margin-bottom: 16px;
@@ -34334,7 +34315,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .chees_cream #contact .address_cards .address .address_bottom .address_btn {
     width: 240px;
-    height: 30px;
+    height: 36px;
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
@@ -35394,7 +35375,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .retail #tab .tab-content .cards .card_item a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -35571,7 +35552,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .retail #tab .tab-content .cards .card_item a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -35670,11 +35651,11 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .retail #tab .tab-content .search_form .search_input .search_btn {
     width: 40px;
-    height: 40px;
+    height: 36px;
   }
   .retail #tab .tab-content .search_form .submit {
     width: 136px;
-    height: 40px;
+    height: 36px;
     font-size: 17px;
     font-style: normal;
     font-weight: 700;
@@ -35743,7 +35724,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .retail #tab .tab-content .cards .card_item a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -36196,7 +36177,6 @@ header .header_foot .header_foot_link_right .link_title {
     margin-bottom: 48px;
   }
   .retail #half_slider a {
-    height: 30px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -36274,7 +36254,7 @@ header .header_foot .header_foot_link_right .link_title {
     margin-bottom: 48px;
   }
   .retail #half_slider a {
-    height: 30px;
+    height: 36px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -36316,7 +36296,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .retail #half_slider .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -36357,7 +36337,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.8px;
   }
   .retail #half_slider a {
-    height: 30px;
+    height: 36px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -36403,7 +36383,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .retail #half_slider .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -36441,7 +36421,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.4px;
   }
   .retail #half_slider a {
-    height: 30px;
+    height: 36px;
     width: 182px;
     font-size: 12px;
     font-style: normal;
@@ -36487,7 +36467,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .retail #half_slider .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -36846,7 +36826,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .retail #cards .cards_top .card_item a {
     width: calc(100% - 18px);
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -36886,7 +36866,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .retail #cards .big_cards .card_item a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -36967,7 +36947,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .retail #cards .big_cards .card_item a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -37052,7 +37032,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .retail #cards .big_cards .card_item a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -37383,7 +37363,6 @@ header .header_foot .header_foot_link_right .link_title {
     margin-bottom: 48px;
   }
   .retail #half_slider2 a {
-    height: 30px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -37461,7 +37440,7 @@ header .header_foot .header_foot_link_right .link_title {
     margin-bottom: 48px;
   }
   .retail #half_slider2 a {
-    height: 30px;
+    height: 36px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -37503,7 +37482,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .retail #half_slider2 .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -37544,7 +37523,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.8px;
   }
   .retail #half_slider2 a {
-    height: 30px;
+    height: 36px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -37590,7 +37569,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .retail #half_slider2 .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -37628,7 +37607,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.4px;
   }
   .retail #half_slider2 a {
-    height: 30px;
+    height: 36px;
     width: 182px;
     font-size: 12px;
     font-style: normal;
@@ -37674,7 +37653,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .retail #half_slider2 .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -38071,7 +38050,7 @@ header .header_foot .header_foot_link_right .link_title {
     line-height: normal;
     letter-spacing: 1.3px;
     width: 200px;
-    height: 30px;
+    height: 36px;
   }
   .retail #buy_cheeseberry .chizberry_card_bottom {
     margin-bottom: 60px;
@@ -38102,7 +38081,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .retail #buy_cheeseberry .chizberry_card_bottom .first_card .card_item_bottom a {
     width: 270px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -38195,7 +38174,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .retail #buy_cheeseberry .chizberry_card_bottom .first_card .card_item_bottom a {
     width: 270px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -38260,7 +38239,7 @@ header .header_foot .header_foot_link_right .link_title {
     line-height: normal;
     letter-spacing: 1.3px;
     width: 200px;
-    min-height: 30px;
+    min-height: 36px;
   }
   .retail #buy_cheeseberry .chizberry_card_bottom {
     margin-bottom: 40px;
@@ -38292,7 +38271,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .retail #buy_cheeseberry .chizberry_card_bottom .first_card .card_item_bottom a {
     width: 246px;
-    height: 30px;
+    height: 36px;
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
@@ -38392,7 +38371,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .retail #buy_cheeseberry .chizberry_card_bottom .first_card .card_item_bottom a {
     width: 246px;
-    height: 30px;
+    height: 36px;
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
@@ -38564,7 +38543,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .retail #opinions .opinions_slider .swiper-slide .swiper-slide-in a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -38596,7 +38575,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .retail #opinions .opinions_slider .swiper-slide .swiper-slide-in a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -38628,7 +38607,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .retail #opinions .opinions_slider .swiper-slide .swiper-slide-in a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -38664,7 +38643,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .retail #opinions .opinions_slider .swiper-slide .swiper-slide-in a {
     width: 182px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -38845,7 +38824,6 @@ header .header_foot .header_foot_link_right .link_title {
     margin-bottom: 48px;
   }
   .retail #half_slider3 a {
-    height: 30px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -38923,7 +38901,7 @@ header .header_foot .header_foot_link_right .link_title {
     margin-bottom: 48px;
   }
   .retail #half_slider3 a {
-    height: 30px;
+    height: 36px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -38965,7 +38943,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .retail #half_slider3 .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -39006,7 +38984,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.8px;
   }
   .retail #half_slider3 a {
-    height: 30px;
+    height: 36px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -39052,7 +39030,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .retail #half_slider3 .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -39090,7 +39068,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.4px;
   }
   .retail #half_slider3 a {
-    height: 30px;
+    height: 36px;
     width: 182px;
     font-size: 12px;
     font-style: normal;
@@ -39136,7 +39114,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .retail #half_slider3 .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -39620,7 +39598,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .retail #contact .cards .form_card button {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -39682,7 +39660,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .retail #contact .address_cards .address .address_bottom .address_btn {
     width: 270px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -39734,7 +39712,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .retail #contact .cards .form_card button {
     width: 200px;
-    height: 30px;
+    height: 36px;
   }
   .retail #contact .address_cards .address_item {
     height: 720px;
@@ -39822,7 +39800,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .retail #contact .cards .form_card button {
     width: 180px;
-    height: 30px;
+    height: 36px;
   }
   .retail #contact .address_cards {
     margin-bottom: 16px;
@@ -39872,7 +39850,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .retail #contact .address_cards .address .address_bottom .address_btn {
     width: 240px;
-    height: 30px;
+    height: 36px;
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
@@ -40932,7 +40910,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .horeca #tab .tab-content .cards .card_item a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -41109,7 +41087,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .horeca #tab .tab-content .cards .card_item a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -41208,11 +41186,11 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .horeca #tab .tab-content .search_form .search_input .search_btn {
     width: 40px;
-    height: 40px;
+    height: 36px;
   }
   .horeca #tab .tab-content .search_form .submit {
     width: 136px;
-    height: 40px;
+    height: 36px;
     font-size: 17px;
     font-style: normal;
     font-weight: 700;
@@ -41281,7 +41259,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .horeca #tab .tab-content .cards .card_item a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -41734,7 +41712,6 @@ header .header_foot .header_foot_link_right .link_title {
     margin-bottom: 48px;
   }
   .horeca #half_slider a {
-    height: 30px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -41812,7 +41789,7 @@ header .header_foot .header_foot_link_right .link_title {
     margin-bottom: 48px;
   }
   .horeca #half_slider a {
-    height: 30px;
+    height: 36px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -41854,7 +41831,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .horeca #half_slider .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -41895,7 +41872,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.8px;
   }
   .horeca #half_slider a {
-    height: 30px;
+    height: 36px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -41941,7 +41918,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .horeca #half_slider .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -41979,7 +41956,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.4px;
   }
   .horeca #half_slider a {
-    height: 30px;
+    height: 36px;
     width: 182px;
     font-size: 12px;
     font-style: normal;
@@ -42025,7 +42002,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .horeca #half_slider .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -42384,7 +42361,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .horeca #cards .cards_top .card_item a {
     width: calc(100% - 18px);
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -42424,7 +42401,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .horeca #cards .big_cards .card_item a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -42505,7 +42482,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .horeca #cards .big_cards .card_item a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -42590,7 +42567,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .horeca #cards .big_cards .card_item a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -42921,7 +42898,6 @@ header .header_foot .header_foot_link_right .link_title {
     margin-bottom: 48px;
   }
   .horeca #half_slider2 a {
-    height: 30px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -42999,7 +42975,7 @@ header .header_foot .header_foot_link_right .link_title {
     margin-bottom: 48px;
   }
   .horeca #half_slider2 a {
-    height: 30px;
+    height: 36px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -43041,7 +43017,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .horeca #half_slider2 .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -43082,7 +43058,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.8px;
   }
   .horeca #half_slider2 a {
-    height: 30px;
+    height: 36px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -43128,7 +43104,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .horeca #half_slider2 .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -43166,7 +43142,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.4px;
   }
   .horeca #half_slider2 a {
-    height: 30px;
+    height: 36px;
     width: 182px;
     font-size: 12px;
     font-style: normal;
@@ -43212,7 +43188,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .horeca #half_slider2 .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -43609,7 +43585,7 @@ header .header_foot .header_foot_link_right .link_title {
     line-height: normal;
     letter-spacing: 1.3px;
     width: 200px;
-    height: 30px;
+    height: 36px;
   }
   .horeca #buy_cheeseberry .chizberry_card_bottom {
     margin-bottom: 60px;
@@ -43640,7 +43616,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .horeca #buy_cheeseberry .chizberry_card_bottom .first_card .card_item_bottom a {
     width: 270px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -43733,7 +43709,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .horeca #buy_cheeseberry .chizberry_card_bottom .first_card .card_item_bottom a {
     width: 270px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -43798,7 +43774,7 @@ header .header_foot .header_foot_link_right .link_title {
     line-height: normal;
     letter-spacing: 1.3px;
     width: 200px;
-    min-height: 30px;
+    min-height: 36px;
   }
   .horeca #buy_cheeseberry .chizberry_card_bottom {
     margin-bottom: 40px;
@@ -43830,7 +43806,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .horeca #buy_cheeseberry .chizberry_card_bottom .first_card .card_item_bottom a {
     width: 246px;
-    height: 30px;
+    height: 36px;
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
@@ -43930,7 +43906,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .horeca #buy_cheeseberry .chizberry_card_bottom .first_card .card_item_bottom a {
     width: 246px;
-    height: 30px;
+    height: 36px;
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
@@ -44102,7 +44078,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .horeca #opinions .opinions_slider .swiper-slide .swiper-slide-in a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -44134,7 +44110,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .horeca #opinions .opinions_slider .swiper-slide .swiper-slide-in a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -44166,7 +44142,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .horeca #opinions .opinions_slider .swiper-slide .swiper-slide-in a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -44202,7 +44178,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .horeca #opinions .opinions_slider .swiper-slide .swiper-slide-in a {
     width: 182px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -44383,7 +44359,6 @@ header .header_foot .header_foot_link_right .link_title {
     margin-bottom: 48px;
   }
   .horeca #half_slider3 a {
-    height: 30px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -44461,7 +44436,7 @@ header .header_foot .header_foot_link_right .link_title {
     margin-bottom: 48px;
   }
   .horeca #half_slider3 a {
-    height: 30px;
+    height: 36px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -44503,7 +44478,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .horeca #half_slider3 .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -44544,7 +44519,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.8px;
   }
   .horeca #half_slider3 a {
-    height: 30px;
+    height: 36px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -44590,7 +44565,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .horeca #half_slider3 .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -44628,7 +44603,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.4px;
   }
   .horeca #half_slider3 a {
-    height: 30px;
+    height: 36px;
     width: 182px;
     font-size: 12px;
     font-style: normal;
@@ -44674,7 +44649,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .horeca #half_slider3 .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -45158,7 +45133,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .horeca #contact .cards .form_card button {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -45220,7 +45195,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .horeca #contact .address_cards .address .address_bottom .address_btn {
     width: 270px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -45272,7 +45247,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .horeca #contact .cards .form_card button {
     width: 200px;
-    height: 30px;
+    height: 36px;
   }
   .horeca #contact .address_cards .address_item {
     height: 720px;
@@ -45360,7 +45335,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .horeca #contact .cards .form_card button {
     width: 180px;
-    height: 30px;
+    height: 36px;
   }
   .horeca #contact .address_cards {
     margin-bottom: 16px;
@@ -45410,7 +45385,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .horeca #contact .address_cards .address .address_bottom .address_btn {
     width: 240px;
-    height: 30px;
+    height: 36px;
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
@@ -46470,7 +46445,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .range #tab .tab-content .cards .card_item a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -46647,7 +46622,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .range #tab .tab-content .cards .card_item a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -46746,11 +46721,11 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .range #tab .tab-content .search_form .search_input .search_btn {
     width: 40px;
-    height: 40px;
+    height: 36px;
   }
   .range #tab .tab-content .search_form .submit {
     width: 136px;
-    height: 40px;
+    height: 36px;
     font-size: 17px;
     font-style: normal;
     font-weight: 700;
@@ -46819,7 +46794,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .range #tab .tab-content .cards .card_item a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -47272,7 +47247,6 @@ header .header_foot .header_foot_link_right .link_title {
     margin-bottom: 48px;
   }
   .range #half_slider a {
-    height: 30px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -47350,7 +47324,7 @@ header .header_foot .header_foot_link_right .link_title {
     margin-bottom: 48px;
   }
   .range #half_slider a {
-    height: 30px;
+    height: 36px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -47392,7 +47366,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .range #half_slider .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -47433,7 +47407,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.8px;
   }
   .range #half_slider a {
-    height: 30px;
+    height: 36px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -47479,7 +47453,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .range #half_slider .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -47517,7 +47491,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.4px;
   }
   .range #half_slider a {
-    height: 30px;
+    height: 36px;
     width: 182px;
     font-size: 12px;
     font-style: normal;
@@ -47563,7 +47537,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .range #half_slider .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -47922,7 +47896,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .range #cards .cards_top .card_item a {
     width: calc(100% - 18px);
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -47962,7 +47936,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .range #cards .big_cards .card_item a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -48043,7 +48017,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .range #cards .big_cards .card_item a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -48128,7 +48102,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .range #cards .big_cards .card_item a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -48459,7 +48433,6 @@ header .header_foot .header_foot_link_right .link_title {
     margin-bottom: 48px;
   }
   .range #half_slider2 a {
-    height: 30px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -48537,7 +48510,7 @@ header .header_foot .header_foot_link_right .link_title {
     margin-bottom: 48px;
   }
   .range #half_slider2 a {
-    height: 30px;
+    height: 36px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -48579,7 +48552,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .range #half_slider2 .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -48620,7 +48593,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.8px;
   }
   .range #half_slider2 a {
-    height: 30px;
+    height: 36px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -48666,7 +48639,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .range #half_slider2 .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -48704,7 +48677,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.4px;
   }
   .range #half_slider2 a {
-    height: 30px;
+    height: 36px;
     width: 182px;
     font-size: 12px;
     font-style: normal;
@@ -48750,7 +48723,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .range #half_slider2 .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -49147,7 +49120,7 @@ header .header_foot .header_foot_link_right .link_title {
     line-height: normal;
     letter-spacing: 1.3px;
     width: 200px;
-    height: 30px;
+    height: 36px;
   }
   .range #buy_cheeseberry .chizberry_card_bottom {
     margin-bottom: 60px;
@@ -49178,7 +49151,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .range #buy_cheeseberry .chizberry_card_bottom .first_card .card_item_bottom a {
     width: 270px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -49271,7 +49244,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .range #buy_cheeseberry .chizberry_card_bottom .first_card .card_item_bottom a {
     width: 270px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -49336,7 +49309,7 @@ header .header_foot .header_foot_link_right .link_title {
     line-height: normal;
     letter-spacing: 1.3px;
     width: 200px;
-    min-height: 30px;
+    min-height: 36px;
   }
   .range #buy_cheeseberry .chizberry_card_bottom {
     margin-bottom: 40px;
@@ -49368,7 +49341,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .range #buy_cheeseberry .chizberry_card_bottom .first_card .card_item_bottom a {
     width: 246px;
-    height: 30px;
+    height: 36px;
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
@@ -49468,7 +49441,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .range #buy_cheeseberry .chizberry_card_bottom .first_card .card_item_bottom a {
     width: 246px;
-    height: 30px;
+    height: 36px;
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
@@ -49640,7 +49613,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .range #opinions .opinions_slider .swiper-slide .swiper-slide-in a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -49672,7 +49645,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .range #opinions .opinions_slider .swiper-slide .swiper-slide-in a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -49704,7 +49677,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .range #opinions .opinions_slider .swiper-slide .swiper-slide-in a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -49740,7 +49713,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .range #opinions .opinions_slider .swiper-slide .swiper-slide-in a {
     width: 182px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -49921,7 +49894,6 @@ header .header_foot .header_foot_link_right .link_title {
     margin-bottom: 48px;
   }
   .range #half_slider3 a {
-    height: 30px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -49999,7 +49971,7 @@ header .header_foot .header_foot_link_right .link_title {
     margin-bottom: 48px;
   }
   .range #half_slider3 a {
-    height: 30px;
+    height: 36px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -50041,7 +50013,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .range #half_slider3 .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -50082,7 +50054,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.8px;
   }
   .range #half_slider3 a {
-    height: 30px;
+    height: 36px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -50128,7 +50100,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .range #half_slider3 .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -50166,7 +50138,7 @@ header .header_foot .header_foot_link_right .link_title {
     letter-spacing: 1.4px;
   }
   .range #half_slider3 a {
-    height: 30px;
+    height: 36px;
     width: 182px;
     font-size: 12px;
     font-style: normal;
@@ -50212,7 +50184,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .range #half_slider3 .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -50696,7 +50668,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .range #contact .cards .form_card button {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -50758,7 +50730,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .range #contact .address_cards .address .address_bottom .address_btn {
     width: 270px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -50810,7 +50782,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .range #contact .cards .form_card button {
     width: 200px;
-    height: 30px;
+    height: 36px;
   }
   .range #contact .address_cards .address_item {
     height: 720px;
@@ -50898,7 +50870,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .range #contact .cards .form_card button {
     width: 180px;
-    height: 30px;
+    height: 36px;
   }
   .range #contact .address_cards {
     margin-bottom: 16px;
@@ -50948,7 +50920,7 @@ header .header_foot .header_foot_link_right .link_title {
   }
   .range #contact .address_cards .address .address_bottom .address_btn {
     width: 240px;
-    height: 30px;
+    height: 36px;
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
@@ -51307,6 +51279,7 @@ footer .footer_bottom .footer_texts .first_text2 {
   margin-bottom: 58px;
 }
 .certificates .certificates_wrapper .certificates_card {
+  cursor: pointer;
   margin-bottom: 24px;
   overflow: hidden;
   border-radius: 20px;
@@ -51340,6 +51313,7 @@ footer .footer_bottom .footer_texts .first_text2 {
   letter-spacing: 2.4px;
 }
 .awards .awards_wrapper .awards_card {
+  cursor: pointer;
   overflow: hidden;
   border-radius: 20px;
   border: 3px solid #F64909;
@@ -51811,7 +51785,6 @@ footer .footer_bottom .footer_texts .first_text2 {
     margin-bottom: 48px;
   }
   .team #half_slider a {
-    height: 30px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -51889,7 +51862,7 @@ footer .footer_bottom .footer_texts .first_text2 {
     margin-bottom: 48px;
   }
   .team #half_slider a {
-    height: 30px;
+    height: 36px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -51931,7 +51904,7 @@ footer .footer_bottom .footer_texts .first_text2 {
   }
   .team #half_slider .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -51972,7 +51945,7 @@ footer .footer_bottom .footer_texts .first_text2 {
     letter-spacing: 1.8px;
   }
   .team #half_slider a {
-    height: 30px;
+    height: 36px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -52018,7 +51991,7 @@ footer .footer_bottom .footer_texts .first_text2 {
   }
   .team #half_slider .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -52056,7 +52029,7 @@ footer .footer_bottom .footer_texts .first_text2 {
     letter-spacing: 1.4px;
   }
   .team #half_slider a {
-    height: 30px;
+    height: 36px;
     width: 182px;
     font-size: 12px;
     font-style: normal;
@@ -52102,7 +52075,7 @@ footer .footer_bottom .footer_texts .first_text2 {
   }
   .team #half_slider .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -52461,7 +52434,7 @@ footer .footer_bottom .footer_texts .first_text2 {
   }
   .team #cards .cards_top .card_item a {
     width: calc(100% - 18px);
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -52501,7 +52474,7 @@ footer .footer_bottom .footer_texts .first_text2 {
   }
   .team #cards .big_cards .card_item a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -52582,7 +52555,7 @@ footer .footer_bottom .footer_texts .first_text2 {
   }
   .team #cards .big_cards .card_item a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -52667,7 +52640,7 @@ footer .footer_bottom .footer_texts .first_text2 {
   }
   .team #cards .big_cards .card_item a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -52998,7 +52971,6 @@ footer .footer_bottom .footer_texts .first_text2 {
     margin-bottom: 48px;
   }
   .team #half_slider2 a {
-    height: 30px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -53076,7 +53048,7 @@ footer .footer_bottom .footer_texts .first_text2 {
     margin-bottom: 48px;
   }
   .team #half_slider2 a {
-    height: 30px;
+    height: 36px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -53118,7 +53090,7 @@ footer .footer_bottom .footer_texts .first_text2 {
   }
   .team #half_slider2 .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -53159,7 +53131,7 @@ footer .footer_bottom .footer_texts .first_text2 {
     letter-spacing: 1.8px;
   }
   .team #half_slider2 a {
-    height: 30px;
+    height: 36px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -53205,7 +53177,7 @@ footer .footer_bottom .footer_texts .first_text2 {
   }
   .team #half_slider2 .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -53243,7 +53215,7 @@ footer .footer_bottom .footer_texts .first_text2 {
     letter-spacing: 1.4px;
   }
   .team #half_slider2 a {
-    height: 30px;
+    height: 36px;
     width: 182px;
     font-size: 12px;
     font-style: normal;
@@ -53289,7 +53261,7 @@ footer .footer_bottom .footer_texts .first_text2 {
   }
   .team #half_slider2 .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -53686,7 +53658,7 @@ footer .footer_bottom .footer_texts .first_text2 {
     line-height: normal;
     letter-spacing: 1.3px;
     width: 200px;
-    height: 30px;
+    height: 36px;
   }
   .team #buy_cheeseberry .chizberry_card_bottom {
     margin-bottom: 60px;
@@ -53717,7 +53689,7 @@ footer .footer_bottom .footer_texts .first_text2 {
   }
   .team #buy_cheeseberry .chizberry_card_bottom .first_card .card_item_bottom a {
     width: 270px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -53810,7 +53782,7 @@ footer .footer_bottom .footer_texts .first_text2 {
   }
   .team #buy_cheeseberry .chizberry_card_bottom .first_card .card_item_bottom a {
     width: 270px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -53875,7 +53847,7 @@ footer .footer_bottom .footer_texts .first_text2 {
     line-height: normal;
     letter-spacing: 1.3px;
     width: 200px;
-    min-height: 30px;
+    min-height: 36px;
   }
   .team #buy_cheeseberry .chizberry_card_bottom {
     margin-bottom: 40px;
@@ -53907,7 +53879,7 @@ footer .footer_bottom .footer_texts .first_text2 {
   }
   .team #buy_cheeseberry .chizberry_card_bottom .first_card .card_item_bottom a {
     width: 246px;
-    height: 30px;
+    height: 36px;
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
@@ -54007,7 +53979,7 @@ footer .footer_bottom .footer_texts .first_text2 {
   }
   .team #buy_cheeseberry .chizberry_card_bottom .first_card .card_item_bottom a {
     width: 246px;
-    height: 30px;
+    height: 36px;
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
@@ -54179,7 +54151,7 @@ footer .footer_bottom .footer_texts .first_text2 {
   }
   .team #opinions .opinions_slider .swiper-slide .swiper-slide-in a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -54211,7 +54183,7 @@ footer .footer_bottom .footer_texts .first_text2 {
   }
   .team #opinions .opinions_slider .swiper-slide .swiper-slide-in a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -54243,7 +54215,7 @@ footer .footer_bottom .footer_texts .first_text2 {
   }
   .team #opinions .opinions_slider .swiper-slide .swiper-slide-in a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -54279,7 +54251,7 @@ footer .footer_bottom .footer_texts .first_text2 {
   }
   .team #opinions .opinions_slider .swiper-slide .swiper-slide-in a {
     width: 182px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -54460,7 +54432,6 @@ footer .footer_bottom .footer_texts .first_text2 {
     margin-bottom: 48px;
   }
   .team #half_slider3 a {
-    height: 30px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -54538,7 +54509,7 @@ footer .footer_bottom .footer_texts .first_text2 {
     margin-bottom: 48px;
   }
   .team #half_slider3 a {
-    height: 30px;
+    height: 36px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -54580,7 +54551,7 @@ footer .footer_bottom .footer_texts .first_text2 {
   }
   .team #half_slider3 .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -54621,7 +54592,7 @@ footer .footer_bottom .footer_texts .first_text2 {
     letter-spacing: 1.8px;
   }
   .team #half_slider3 a {
-    height: 30px;
+    height: 36px;
     width: 200px;
     font-size: 13px;
     font-style: normal;
@@ -54667,7 +54638,7 @@ footer .footer_bottom .footer_texts .first_text2 {
   }
   .team #half_slider3 .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -54705,7 +54676,7 @@ footer .footer_bottom .footer_texts .first_text2 {
     letter-spacing: 1.4px;
   }
   .team #half_slider3 a {
-    height: 30px;
+    height: 36px;
     width: 182px;
     font-size: 12px;
     font-style: normal;
@@ -54751,7 +54722,7 @@ footer .footer_bottom .footer_texts .first_text2 {
   }
   .team #half_slider3 .slider_wrapper .half_slider .link_slide div a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -55235,7 +55206,7 @@ footer .footer_bottom .footer_texts .first_text2 {
   }
   .team #contact .cards .form_card button {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -55297,7 +55268,7 @@ footer .footer_bottom .footer_texts .first_text2 {
   }
   .team #contact .address_cards .address .address_bottom .address_btn {
     width: 270px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -55349,7 +55320,7 @@ footer .footer_bottom .footer_texts .first_text2 {
   }
   .team #contact .cards .form_card button {
     width: 200px;
-    height: 30px;
+    height: 36px;
   }
   .team #contact .address_cards .address_item {
     height: 720px;
@@ -55437,7 +55408,7 @@ footer .footer_bottom .footer_texts .first_text2 {
   }
   .team #contact .cards .form_card button {
     width: 180px;
-    height: 30px;
+    height: 36px;
   }
   .team #contact .address_cards {
     margin-bottom: 16px;
@@ -55487,7 +55458,7 @@ footer .footer_bottom .footer_texts .first_text2 {
   }
   .team #contact .address_cards .address .address_bottom .address_btn {
     width: 240px;
-    height: 30px;
+    height: 36px;
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
@@ -55946,7 +55917,7 @@ footer .footer_bottom .footer_texts .first_text2 {
   }
   .bestseller .bestseller_in .bestseller_card .bestseller_btn {
     width: 170px;
-    height: 35px;
+    height: 36px;
   }
   .news .news_card .news_content .new_btn {
     transform: translate(25px, -30px);
@@ -55998,6 +55969,7 @@ footer .footer_bottom .footer_texts .first_text2 {
     font-size: 19px;
   }
   .contact .contact_wrapper .contact_card_wrapper .contact_card .button_groups .contact_btn {
+    height: 36px;
     font-size: 13px;
   }
   .team .team_title {
@@ -56037,7 +56009,13 @@ footer .footer_bottom .footer_texts .first_text2 {
   .team .team_wrapper .team_card .team_content .team_btn {
     font-size: 13px;
     letter-spacing: 1.3px;
-    height: 30px;
+    height: 36px;
+  }
+  header .header_body .header_body_right .danger_link {
+    padding: 7px 22px;
+  }
+  .cookies #tab .tab-content .cards .card_item a {
+    height: 36px;
   }
 }
 @media screen and (max-width: 992px) {
@@ -56259,7 +56237,7 @@ footer .footer_bottom .footer_texts .first_text2 {
   }
   .news .news_card .news_content .new_btn {
     width: 190px;
-    height: 40px;
+    height: 36px;
     font-size: 12px;
   }
   .news .news_card .news_content .new_btn img {
@@ -56741,7 +56719,7 @@ footer .footer_bottom .footer_texts .first_text2 {
   }
   .bestseller .bestseller_in .bestseller_card .bestseller_btn {
     width: 95%;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
   }
   .bestseller .bestseller_in .bestseller_card .bestseller_line {
@@ -57105,7 +57083,7 @@ footer .footer_bottom .footer_texts .first_text2 {
     margin-bottom: 50px;
   }
   .index #home .index_home_slider .swiper-slide .slide_link {
-    height: 30px;
+    height: 36px;
     width: 200px;
   }
   .products #home .title {
@@ -57246,11 +57224,11 @@ footer .footer_bottom .footer_texts .first_text2 {
   header .header_mobile .header_menu .menu_wrapper ul button {
     margin-top: 6px;
     margin-bottom: 14px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
   }
   header .header_mobile .header_menu .menu_wrapper ul .link {
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     margin-bottom: 0;
   }
@@ -57296,7 +57274,7 @@ footer .footer_bottom .footer_texts .first_text2 {
     margin-left: 22px;
   }
   .index #home .index_home_slider .swiper-slide .slide_link {
-    height: 30px;
+    height: 36px;
     margin-left: 22px;
     font-size: 13px;
     font-style: normal;
@@ -57339,7 +57317,7 @@ footer .footer_bottom .footer_texts .first_text2 {
   }
   .products #home .cards .cord_item a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -57446,11 +57424,11 @@ footer .footer_bottom .footer_texts .first_text2 {
   header .header_mobile .header_menu .menu_wrapper ul button {
     margin-top: 18px;
     margin-bottom: 14px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
   }
   header .header_mobile .header_menu .menu_wrapper ul .link {
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     margin-bottom: 0;
   }
@@ -57491,7 +57469,7 @@ footer .footer_bottom .footer_texts .first_text2 {
   }
   .products #home .cards .cord_item a {
     width: 200px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -58379,7 +58357,7 @@ footer .footer_bottom .footer_texts .first_text2 {
   }
   .discount .discount_card .card_right a {
     width: 266px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -58433,7 +58411,7 @@ footer .footer_bottom .footer_texts .first_text2 {
   }
   .discount .discount_card .modal_card button[type=submit] {
     width: 172px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -58531,7 +58509,7 @@ footer .footer_bottom .footer_texts .first_text2 {
   }
   .discount .discount_card .card_right a {
     width: 456px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -58625,7 +58603,7 @@ footer .footer_bottom .footer_texts .first_text2 {
   }
   .discount .discount_card .card_right a {
     width: 328px;
-    height: 30px;
+    height: 36px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -58689,7 +58667,7 @@ footer .footer_bottom .footer_texts .first_text2 {
   }
   .discount .discount_card .modal_card button[type=submit] {
     width: 182px;
-    height: 30px;
+    height: 36px;
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
@@ -58784,7 +58762,7 @@ footer .footer_bottom .footer_texts .first_text2 {
   }
   .discount .discount_card .card_right a {
     width: 324px;
-    height: 30px;
+    height: 36px;
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
