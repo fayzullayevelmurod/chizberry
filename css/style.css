@@ -359,6 +359,7 @@ header .header_foot .header_foot_link_right .link_title {
 }
 
 .index #home .index_home_slider .swiper-slide {
+  background-image: url("../images/index/index_home_bg_2.png");
   height: 500px;
   background-position: left top;
   background-size: cover;
@@ -57450,6 +57451,7 @@ footer .footer_bottom .footer_texts .first_text2 {
     margin-top: 20px;
   }
   .index #home .index_home_slider .swiper-slide {
+    background-image: url("../images/index/index_home_bg_2.png");
     background-position: left;
     background-size: cover;
     height: 366px;
