@@ -362,6 +362,7 @@ header .header_foot .header_foot_link_right .link_title {
   height: 500px;
   background-position: left top;
   background-size: cover;
+  background-repeat: no-repeat;
   border-radius: 16px;
 }
 .index #home .index_home_slider .swiper-slide .logo {
