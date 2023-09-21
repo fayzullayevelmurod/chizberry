@@ -166,7 +166,6 @@ ul {
     }
 
     .chizberry_card {
-        background: url('../images/index/chizberry_1.png') no-repeat;
         background-size: cover;
         background-position: center;
         height: 500px;
@@ -844,7 +843,6 @@ ul {
         }
 
         .chizberry_card_mobile {
-            background: url('../images/index/chizberry_mobile_card_bg.png') no-repeat;
             background-size: cover;
             background-position: center;
             height: 200px;
@@ -892,7 +890,6 @@ ul {
 
     @media only screen and (max-width: 455px) {
         .chizberry_card {
-            background: url("../images/index/chizberry_media_image.png") no-repeat;
             background-size: cover;
             background-position: center;
 
@@ -1856,7 +1853,6 @@ ul {
         }
 
         .big_cards_mobile {
-            background: url('../images/index/./big_cards_mobile_bg.png') no-repeat;
             background-position: center;
             background-size: cover;
             padding: 24px 12px 20px;
@@ -5308,9 +5304,6 @@ ul {
 
             .cards {
                 .card_item {
-                    .card_head_img {
-                        // height: 191px;
-                    }
 
                     .card_title {
                         min-height: 48px;
@@ -5354,9 +5347,6 @@ ul {
 
             .cards {
                 .card_item {
-                    .card_head_img {
-                        // height: 171px;
-                    }
 
                     .card_title {
                         min-height: 64px;
@@ -5409,9 +5399,6 @@ ul {
         .tab-content {
             .cards {
                 .card_item {
-                    .card_head_img {
-                        // height: 141px;
-                    }
 
                     .card_description {
                         min-height: 210px;
@@ -5728,7 +5715,6 @@ header {
         .index_home_slider {
             .swiper-slide {
                 height: 500px;
-                background: url("../images/index/slider_bg.png"), lightgray 50% / cover no-repeat;
                 background-position: left top;
                 background-size: cover;
                 border-radius: 16px;
