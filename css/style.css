@@ -51094,6 +51094,105 @@ footer .footer_bottom .footer_texts .first_text2 {
   margin-right: 15px;
 }
 
+.information_modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+.information_modal .modal_bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.25);
+}
+.information_modal .modal_content {
+  position: relative;
+  height: calc(100% - 180px);
+  width: 1320px;
+  border-radius: 16px;
+  background: #FFF;
+}
+.information_modal .modal_content .modal_close {
+  position: absolute;
+  top: 24px;
+  right: 22px;
+}
+.information_modal .modal_content .modal_logo {
+  width: 220px;
+  margin: 30px auto 40px;
+}
+.information_modal .modal_content .modal_title {
+  color: #F64909;
+  text-align: center;
+  font-family: "Golos UI", sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 3.6px;
+  text-transform: uppercase;
+  margin-bottom: 33px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+.information_modal .modal_content .modal_text_wrapper {
+  height: calc(100% - 275px);
+  margin: 0 26px;
+  overflow-y: scroll;
+}
+.information_modal .modal_content .modal_text_wrapper::-webkit-scrollbar {
+  display: none;
+}
+.information_modal .modal_content .modal_text_wrapper .modal_text {
+  color: #000;
+  font-family: "Golos UI", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+
+@keyframes textModalActive {
+  0% {
+    opacity: 0;
+    transform: scale(1.3);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+.information_modal.active {
+  display: flex;
+  animation: textModalActive 0.2s linear 1;
+}
+
+@keyframes textModalNoActive {
+  0% {
+    display: flex;
+    opacity: 1;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    display: flex;
+    transform: scale(1.3);
+  }
+}
+.information_modal.noActive {
+  display: none;
+  animation: textModalNoActive 0.1s linear 1;
+}
+
 .contact {
   padding-bottom: 56px;
 }
@@ -51180,20 +51279,8 @@ footer .footer_bottom .footer_texts .first_text2 {
   cursor: pointer;
   transition: 0.5s linear;
   height: 40px;
-  color: #FFF;
-  text-align: center;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  letter-spacing: 1.6px;
-  text-transform: uppercase;
-  flex-basis: 350px;
-  background-color: transparent;
-  border-radius: 35px;
-  border: 2px solid white;
 }
-.contact .contact_wrapper .contact_card_wrapper .contact_card .button_groups .contact_btn:hover {
+р .contact .contact_wrapper .contact_card_wrapper .contact_card .button_groups .contact_btn:hover {
   background-color: white;
   color: #F64909;
 }
@@ -58937,6 +59024,140 @@ footer .footer_bottom .footer_texts .first_text2 {
 #product .product_main .product_cards .product_card h3 span {
   white-space: nowrap;
 }
+#product .product_main .product_form_modal {
+  position: absolute;
+  right: 12px;
+  top: -75px;
+  border-radius: 16px;
+  background: #F64909;
+  width: 648px;
+}
+#product .product_main .product_form_modal .modal_content {
+  position: relative;
+  padding: 32px 34px 30px 26px;
+}
+#product .product_main .product_form_modal .modal_content .modal_close {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  background: transparent;
+  border: none;
+  outline: none;
+}
+#product .product_main .product_form_modal .modal_content .modal_title {
+  margin-right: 38px;
+  margin-bottom: 24px;
+  color: #FFF;
+  font-family: "Golos UI", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+}
+#product .product_main .product_form_modal .modal_content .inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 11px;
+}
+#product .product_main .product_form_modal .modal_content .inputs input, #product .product_main .product_form_modal .modal_content .inputs textarea {
+  border-radius: 16px;
+  border: 2px solid #FFF;
+  background: #FFF;
+  color: black;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: "Golos UI", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1.6px;
+  height: 40px;
+  padding-left: 22px;
+  padding-right: 10px;
+  outline: none;
+}
+#product .product_main .product_form_modal .modal_content .inputs input::-moz-placeholder, #product .product_main .product_form_modal .modal_content .inputs textarea::-moz-placeholder {
+  color: #9E9E9E;
+}
+#product .product_main .product_form_modal .modal_content .inputs input::placeholder, #product .product_main .product_form_modal .modal_content .inputs textarea::placeholder {
+  color: #9E9E9E;
+}
+#product .product_main .product_form_modal .modal_content .inputs textarea {
+  height: 92px;
+  padding-top: 8px;
+  resize: none;
+}
+#product .product_main .product_form_modal .modal_content input[type=checkbox] {
+  display: none;
+}
+#product .product_main .product_form_modal .modal_content label {
+  max-width: 310px;
+  position: relative;
+  margin-bottom: 18px;
+  cursor: pointer;
+}
+#product .product_main .product_form_modal .modal_content label::before {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  background: white;
+  border-radius: 100%;
+}
+#product .product_main .product_form_modal .modal_content label::after {
+  content: "";
+  position: absolute;
+  left: 6px;
+  top: 10px;
+  color: #F64909;
+  text-align: center;
+  font-family: "Golos UI", sans-serif;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2.4px;
+}
+#product .product_main .product_form_modal .modal_content label span {
+  margin-left: 58px;
+  width: 235px;
+  display: block;
+  color: #FFF;
+  font-family: "Golos UI", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1.6px;
+}
+#product .product_main .product_form_modal .modal_content input[type=checkbox]:checked + label::after {
+  content: "✓";
+}
+#product .product_main .product_form_modal .modal_content button[type=submit] {
+  display: block;
+  border-radius: 100px;
+  background: #FFF;
+  outline: none;
+  border: none;
+  width: 224px;
+  height: 40px;
+  color: #F64909;
+  text-align: center;
+  font-family: "Golos UI", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+}
 #product .product_btn {
   margin-top: 58px;
   margin-bottom: 66px;
@@ -59092,31 +59313,74 @@ footer .footer_bottom .footer_texts .first_text2 {
   letter-spacing: 3.6px;
   text-transform: uppercase;
 }
-#product .product_main_cards {
-  max-width: 1920px;
-  overflow-x: scroll;
-  margin: 0 auto;
-}
-#product .product_main_cards::-webkit-scrollbar {
+#product .img_modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
 }
-#product .product_main_cards .cards_wrapper {
-  margin-left: 312px;
-  width: 1320px;
-  margin-bottom: 90px;
+#product .img_modal .modal_bg {
+  background: rgba(0, 0, 0, 0.25);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#product .img_modal img {
+  position: relative;
+  width: 648px;
+  border-radius: 15px;
+}
+@keyframes imageModalActive {
+  0% {
+    opacity: 0;
+    transform: scale(1.3);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+#product .img_modal.active {
   display: flex;
-  gap: 24px;
+  animation: imageModalActive 0.2s linear 1;
 }
-#product .product_main_cards .cards_wrapper .product_main_card {
-  max-width: 312px;
+@keyframes imageModalN0Active {
+  0% {
+    display: flex;
+    opacity: 1;
+    transform: scale(1);
+  }
+  100% {
+    display: flex;
+    opacity: 0;
+    transform: scale(1.3);
+  }
 }
-#product .product_main_cards .cards_wrapper .product_main_card .product_img {
+#product .img_modal.noActive {
+  display: none;
+  animation: imageModalN0Active 0.2s linear 1;
+}
+#product .product_main_cards {
+  margin-bottom: 90px;
+  margin-right: 0;
+}
+#product .product_main_cards .swiper-wrapper .swiper-slide {
+  width: 312px;
+}
+#product .product_main_cards .swiper-wrapper .swiper-slide .product_img {
   position: relative;
 }
-#product .product_main_cards .cards_wrapper .product_main_card .product_img img {
+#product .product_main_cards .swiper-wrapper .swiper-slide .product_img img {
   border-radius: 20px;
 }
-#product .product_main_cards .cards_wrapper .product_main_card .product_img .xit_icon {
+#product .product_main_cards .swiper-wrapper .swiper-slide .product_img .xit_icon {
   border-radius: 0;
   position: absolute;
   top: 0;
@@ -59124,7 +59388,7 @@ footer .footer_bottom .footer_texts .first_text2 {
   width: 50px;
   height: 50px;
 }
-#product .product_main_cards .cards_wrapper .product_main_card h4 {
+#product .product_main_cards .swiper-wrapper .swiper-slide h4 {
   margin: 28px 0;
   color: #000;
   font-size: 20px;
@@ -59134,26 +59398,25 @@ footer .footer_bottom .footer_texts .first_text2 {
   letter-spacing: 2px;
   text-transform: uppercase;
 }
-#product .product_main_cards .cards_wrapper .product_main_card .card_line {
+#product .product_main_cards .swiper-wrapper .swiper-slide .card_line {
   margin-bottom: 28px;
   max-width: 156px;
   height: 3px;
   background-color: #F64909;
 }
-#product .product_main_cards .cards_wrapper .product_main_card p {
+#product .product_main_cards .swiper-wrapper .swiper-slide p {
   margin-bottom: 20px;
   height: 200px;
   overflow: hidden;
   color: #000;
   text-overflow: ellipsis;
-  whitespace: nowrap;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
   letter-spacing: 2px;
 }
-#product .product_main_cards .cards_wrapper .product_main_card .card_btn {
+#product .product_main_cards .swiper-wrapper .swiper-slide .card_btn {
   color: #FFF;
   text-align: center;
   font-size: 16px;
