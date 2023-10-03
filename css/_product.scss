@@ -52,6 +52,7 @@
             line-height: normal;
             letter-spacing: 3.6px;
             text-transform: uppercase;
+            padding-left: 0;
         }
         .product_text_weight{
             margin-bottom: 20px;
@@ -402,6 +403,7 @@
     }
     h2{
         margin-bottom: 58px;
+        padding-left: 26px;
         color: #000;
         font-size: 36px;
         font-style: normal;
@@ -512,11 +514,11 @@
                 }
                 p{
                     margin-bottom: 20px;
-                    height: 200px;
+                    height: auto;
+                    padding-right: 12px;
                     overflow: hidden;
                     color: #000;
                     text-overflow: ellipsis;
-                    // white-space: nowrap;
                     font-size: 20px;
                     font-style: normal;
                     font-weight: 500;
@@ -537,6 +539,588 @@
                     background: #F64909;
                     width: 224px;
                     border: none;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 1400px) {
+        .product_main{
+            .product_main_img{
+                height: 364px;
+                
+                .mini_img{
+                    img{
+                        min-width: 170px;
+                    }
+                }
+                img{
+                    min-width: 364px;
+                }
+            }
+
+            .product_main_text_header{
+                margin-bottom: 16px;
+
+                span{
+                    font-size: 17px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                    letter-spacing: 1.7px;
+                    border-radius: 16px;
+                    padding: 0 15px;
+                    height: 40px;
+                    display: flex;
+                    align-items: center;
+                }
+                
+                h6{
+                    font-size: 19px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                    letter-spacing: 1.9px;
+                }
+            }
+
+            .product_text_title{
+                margin-bottom: 14px;
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                letter-spacing: 3.2px;
+            }
+
+            .product_text_weight{
+                margin-bottom: 25px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                
+                .weight_left{
+                    display: flex;
+                    gap: 24px;
+                }
+
+                span{
+                    min-width: 88px;
+                    font-size: 19px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                    letter-spacing: 1.9px;
+                }
+            }
+
+            .product_cards{
+                gap: 16px;
+                padding-left: 12px;
+
+                .product_card{
+                    gap: 16px;
+                    height: 78px;
+                    padding: 11px;
+
+                    svg{
+                        width: 50px !important;
+                        height: 50px !important;
+                    }
+                    h3{
+                        font-size: 19px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                        letter-spacing: 1.9px;
+                    }
+                }
+
+                .product_card_left {
+                    min-width: 250px;
+                }
+
+                .product_card_right {
+                    min-width: 291px;
+                }
+            }
+    
+            .product_form_modal {
+                top: -77px;
+                width: 558px;
+    
+                .modal_content {
+                    padding: 24px 10px 16px 22px;
+    
+                    .modal_close {
+                        top: 14px;
+                        right: 12px;
+                    }
+    
+                    .modal_title {
+                        margin-right: 54px;
+                        margin-bottom: 16px;
+                        font-size: 21px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                        letter-spacing: 2.1px;
+                    }
+    
+                    .inputs {
+                        gap: 16px;
+                        margin-bottom: 8px;
+    
+                        input, textarea {
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: normal;
+                            letter-spacing: 1.6px;
+                            height: 40px;
+                            padding-left: 22px;
+                            padding-right: 6px;
+                        }
+    
+                        textarea {
+                            height: 92px;
+                            padding-top: 8px;
+                        }
+                    }
+    
+                    label {
+                        max-width: 310px;
+                        margin-bottom: 13px;
+    
+                        span {
+                            margin-left: 58px;
+                            width: 235px;
+                            display: block;
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: normal;
+                            letter-spacing: 1.6px;
+                        }
+                    }
+    
+                    input[type="checkbox"]:checked + label::after {
+                        content: "✓";
+                    }
+    
+                    button[type="submit"] {
+                        display: block;
+                        border-radius: 100px;
+                        background: #FFF;
+                        outline: none;
+                        border: none;
+                        width: 224px;
+                        height: 40px;
+                        color: #F64909;
+                        text-align: center;
+                        font-family: "Golos UI", sans-serif;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                        letter-spacing: 1.6px;
+                        text-transform: uppercase;
+                    }
+                }
+            }
+        }
+
+        .product_btn{
+            margin-top: 58px;
+            margin-bottom: 66px;
+            height: 98px;
+            border-radius: 100px;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: 3.6px;
+        }
+
+        .product_comment{
+            h4{
+                margin-top: 10px;
+                font-size: 17px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                letter-spacing: 1.7px;
+
+                span{
+                    margin-left: 24px;
+                    font-size: 17px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                    letter-spacing: 1.7px;
+                }
+            }
+
+            .product_comment_block{
+                border-radius: 16px;
+                border: 3px solid #F64909;
+                padding: 30px 26px 22px;
+
+                h3{
+                    font-size: 32px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                    letter-spacing: 3.2px;
+                    margin-bottom: 24px;
+                }
+
+                p{
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                    letter-spacing: 2.4px;
+                }
+            }
+
+            .comment_blocks{
+                margin: 24px 0 35px;
+                gap: 24px;
+
+                .comment_block_flex{
+                    flex: 1;
+                    padding: 12px 0px;
+                }
+
+                .comment_block{
+                    flex: 1;
+                    padding: 12px 0px;
+                    border-radius: 16px;
+                    border: 3px solid #F64909;
+                    height: 88px;
+
+                    h5{
+                        font-size: 17px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                        letter-spacing: 1.7px;
+                        margin-bottom: 10px;
+                    }
+
+                    h6{
+                        font-size: 17px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                        letter-spacing: 1.7px;
+                    }
+                }
+            }
+        }
+
+        .product_comment_two{
+            margin-bottom: 76px;
+            margin-top: 0;
+
+            h3{
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                letter-spacing: 3.2px;
+                margin-bottom: 24px;
+            }
+
+            p{
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                letter-spacing: 1.6px;
+            }
+
+            span{
+                display: block;
+                margin-bottom: 24px;
+                font-size: 17px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                letter-spacing: 1.7px;
+            }
+
+            .text_coral{
+                color: #F64909;
+            }
+
+            .btn_group{
+                margin-top: 120px;
+
+                .comment_btn{
+                    width: 100%;
+                    height: 40px;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                    letter-spacing: 1.6px;
+                }
+            }
+        }
+
+        h2{
+            margin-bottom: 58px;
+            padding-left: 22px;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: 3.6px;
+        }
+
+        .img_modal {
+            img {
+                width: 557px;
+            }
+        }
+
+        .product_main_cards{
+            margin-bottom: 76px;
+            margin-right: 0;
+    
+            .swiper-wrapper{
+                .swiper-slide{
+                    width: 266px;
+                    
+                    .product_img{
+                        img{
+                            border-radius: 20px;
+                            width: 100%;
+                        }
+
+                        .xit_icon{
+                            top: 0;
+                            left: 16px;
+                            width: 44px;
+                            height: 44px;
+                        }
+                    }
+
+                    h4{
+                        margin: 24px 0;
+                        font-size: 17px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                        letter-spacing: 1.7px;
+                    }
+                    .card_line{
+                        margin-bottom: 24px;
+                        max-width: 134px;
+                    }
+
+                    p{
+                        margin-bottom: 15px;
+                        padding-right: 10px;
+                        height: auto;
+                        font-size: 17px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                        letter-spacing: 1.7px;
+                    }
+
+                    .card_btn{
+                        color: #FFF;
+                        text-align: center;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                        letter-spacing: 1.6px;
+                        text-transform: uppercase;
+                        height: 40px;
+                        border-radius: 100px;
+                        background: #F64909;
+                        width: 224px;
+                        border: none;
+                    }
+                }
+            }
+        }
+    }
+
+    @media (max-width: 1200px) {
+        .product_main{
+            .product_main_img{
+                height: 309px;
+                
+                .mini_img{
+                    gap: 15px;
+
+                    img{
+                        min-width: 147px;
+                    }
+                }
+                img{
+                    min-width: 309px;
+                }
+            }
+
+            .product_main_text_header{
+                margin-bottom: 10px;
+                gap: 16px;
+
+                span{
+                    font-size: 17px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                    letter-spacing: 1.7px;
+                    padding: 0 13px 0 11px;
+                    height: 40px;
+                }
+                
+                h6{
+                    font-size: 17px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                    letter-spacing: 1.7px;
+                    margin-bottom: 0;
+                }
+            }
+
+            .product_text_title{
+                margin-bottom: 8px;
+                font-size: 29px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                letter-spacing: 2.9px;
+            }
+
+            .product_text_weight{
+                margin-bottom: 15px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                
+                .weight_left{
+                    display: flex;
+                    gap: 16px;
+                }
+
+                span{
+                    min-width: 65px;
+                    font-size: 17px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                    letter-spacing: 1.7px;
+                }
+            }
+
+            .product_cards{
+                gap: 10px 16px;
+                padding-left: 12px;
+
+                .product_card{
+                    gap: 10px;
+                    height: 68px;
+                    padding: 10px;
+
+                    svg{
+                        width: 40px !important;
+                        height: 40px !important;
+                    }
+
+                    h3{
+                        font-size: 17px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                        letter-spacing: 1.7px;
+                        margin-bottom: 0;
+                    }
+                }
+
+                .product_card_left {
+                    min-width: 212px;
+                }
+
+                .product_card_right {
+                    min-width: 244px;
+                }
+            }
+    
+            .product_form_modal {
+                top: -105px;
+                width: 472px;
+                padding: 0;
+                right: 12px;
+    
+                .modal_content {
+                    padding: 32px 10px 24px 16px;
+    
+                    .modal_close {
+                        top: 14px;
+                        right: 14px;
+                    }
+    
+                    .modal_title {
+                        margin-right: 86px;
+                        margin-bottom: 30px;
+                        font-size: 21px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                        letter-spacing: 2.1px;
+                    }
+    
+                    .inputs {
+                        gap: 14px;
+                        margin-bottom: 27px;
+    
+                        input, textarea {
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: normal;
+                            letter-spacing: 1.6px;
+                            height: 40px;
+                            padding-left: 16px;
+                            padding-right: 6px;
+                        }
+    
+                        textarea {
+                            height: 80px;
+                            padding-top: 8px;
+                        }
+                    }
+    
+                    label {
+                        max-width: 260px;
+                        margin-bottom: 0;
+    
+                        span {
+                            margin-left: 56px;
+                            width: 204px;
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: normal;
+                            letter-spacing: 1.4px;
+                        }
+                    }
+    
+                    button[type="submit"] {
+                        display: inline;
+                        width: 170px;
+                        height: 40px;
+                    }
                 }
             }
         }
