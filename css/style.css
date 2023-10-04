@@ -59184,6 +59184,7 @@ footer .footer_bottom .footer_texts .first_text2 {
   display: flex;
   align-items: center;
   gap: 22px;
+  padding-left: 12px;
 }
 #product .product_main .product_cards .product_card {
   border-radius: 16px;
