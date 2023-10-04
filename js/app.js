@@ -64,7 +64,15 @@ let productSlider = document.querySelector('#product .product_main_cards');
 if (productSlider) {
     let product_slide = new Swiper(productSlider, {
         slidesPerView: 'auto',
-        spaceBetween: 24
+        spaceBetween: 8,
+        breakpoints: {
+            1200: {
+                spaceBetween: 24,
+            },
+            768: {
+                spaceBetween: 16,
+            }
+        }
     })
 }
 
