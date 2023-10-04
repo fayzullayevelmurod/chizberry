@@ -6496,6 +6496,12 @@ footer {
                 }
             }
         }
+
+        .modal_content2 {
+            .modal_text_wrapper {
+                height: calc(100% - 280px);
+            }
+        }
     }
 
     @media (max-width: 992px) {
@@ -6536,6 +6542,12 @@ footer {
                     line-height: normal;
                     letter-spacing: 1.7px;
                 }
+            }
+        }
+
+        .modal_content2 {
+            .modal_text_wrapper {
+                height: calc(100% - 310px);
             }
         }
     }
@@ -6580,6 +6592,12 @@ footer {
                 }
             }
         }
+
+        .modal_content2 {
+            .modal_text_wrapper {
+                height: calc(100% - 300px);
+            }
+        }
     }
 
     @media (max-width: 576px) {
@@ -6619,6 +6637,20 @@ footer {
                     line-height: normal;
                     letter-spacing: 1.2px;
                 }
+            }
+        }
+
+        .modal_content2 {
+            .modal_text_wrapper {
+                height: calc(100% - 240px);
+            }
+        }
+    }
+
+    @media (max-width: 385px) {
+        .modal_content2 {
+            .modal_text_wrapper {
+                height: calc(100% - 285px);
             }
         }
     }
