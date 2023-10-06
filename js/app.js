@@ -87,6 +87,7 @@ function getProductMainCardWidth () {
 let product_imgs = document.querySelectorAll ('#product .product_main .product_main_img img');
 let image_modal = document.querySelector('#product .img_modal');
 let image_modal_close = document.querySelector('#product .img_modal .modal_bg');
+let image_modal_close_two = document.querySelector('#product .img_modal .modal_main  .close_btn_wrapper');
 let image_modal_img = document.querySelector('#product .img_modal img');
 if (product_imgs.length) {
     product_imgs.forEach (el => {
@@ -99,6 +100,11 @@ if (product_imgs.length) {
 
     image_modal_close.onclick = () => {
         console.log('ishladi');
+        image_modal.classList.remove('active')
+        image_modal.classList.add('noActive')
+    }
+
+    image_modal_close_two.onclick = () => {
         image_modal.classList.remove('active')
         image_modal.classList.add('noActive')
     }
@@ -357,4 +363,4 @@ if (footer_link2.length) {
         privacy_modal2.classList.remove('active');
         privacy_modal2.classList.add('noActive');
     }
-}background: rgba(0, 0, 0, 0.25);
+}
