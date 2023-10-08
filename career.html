@@ -1,0 +1,1597 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ЧИЗБЕРРИ</title>
+    <!-- bootstrap file -->
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    <!-- css file -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header_top d-none d-xl-block">
+            <div class="container px-0 d-flex align-items-center justify-content-between">
+                <div class="top_menu_left d-flex align-items-center">
+                    <a class="header_top_link" href="#">О компании</a>
+                    <a class="header_top_link" href="#">Ассортимент</a>
+                    <a class="header_top_link" href="#">Сертификаты</a>
+                </div>
+                <a href="./index.html" class="logo">
+                    <img src="./images/logo_header.svg" alt="">
+                </a>
+                <div class="top_menu_right d-flex align-items-center">
+                    <a class="header_top_link" href="#">Награды</a>
+                    <a class="header_top_link" href="#">Команда</a>
+                    <a class="header_top_link" href="#">Карьера</a>
+                    <a class="header_top_link" href="#">Контакты</a>
+                </div>
+            </div>
+        </div>
+        <div class="header_mobile d-xl-none">
+            <div class="container px-0 d-flex align-items-center justify-content-between">
+                <a href="./index.html" class="logo">
+                    <img src="./images/logo_mobile.png" class="d-none d-sm-block" alt="">
+                    <img src="./images/logo_header_sm.png" class="d-sm-none" alt="">
+                </a>
+                <div class="header_menu position-relative">
+                    <button class="btn main_btn">
+                        <img src="./images/bars.svg" class="bars" alt="">
+                        <img src="./images/header_close.svg" class="close d-none" alt="">
+                    </button>
+
+                    <div class="menu_wrapper d-flex align-items-start">
+                        <form class="contact_form form_cmi_modal d-none">
+                            <button type="button" class="modal_close btn p-0">
+                                <img src="./images/modal_close.svg" alt="">
+                            </button>
+                            <div class="form_title">пресс-центр cheeseberry</div>
+                            <div class="form_input">
+                                <input type="text" placeholder="Ваше имя*">
+                            </div>
+                            <div class="form_input">
+                                <input type="tel" placeholder="Мобильный телефон*">
+                            </div>
+                            <div class="form_input text_input p-0">
+                                <textarea placeholder="Запрос от СМИ"></textarea>
+                            </div>
+                            <div class="form_checkbox">
+                                <input type="checkbox" id="head_form_checkbox_1">
+                                <label for="head_form_checkbox_1" class="head_form_checkbox_1">я ознакомился и согласен
+                                    с политикой обработки
+                                    персональных данных</label>
+                            </div>
+                            <div class="form_submit">
+                                <button type="submit">отправить</button>
+                            </div>
+                        </form>
+                        <form class="contact_form form_call_modal d-none">
+                            <button type="button" class="modal_close btn p-0">
+                                <img src="./images/modal_close.svg" alt="">
+                            </button>
+                            <div class="form_title">заказать обратный звонок</div>
+                            <div class="form_input">
+                                <input type="text" placeholder="Ваше имя*">
+                            </div>
+                            <div class="form_input">
+                                <input type="tel" placeholder="Мобильный телефон*">
+                            </div>
+                            <div class="form_input text_input p-0">
+                                <textarea placeholder="Комментарий"></textarea>
+                            </div>
+                            <div class="form_checkbox">
+                                <input type="checkbox" id="head_form_checkbox_2">
+                                <label for="head_form_checkbox_2" class="head_form_checkbox_2">я ознакомился и согласен
+                                    с политикой обработки
+                                    персональных данных</label>
+                            </div>
+                            <div class="form_submit">
+                                <button type="submit">заказать</button>
+                            </div>
+                        </form>
+                        <ul>
+                            <li>
+                                <a href="#">О компании</a>
+                            </li>
+                            <li>
+                                <a href="#">Ассортимент</a>
+                            </li>
+                            <li>
+                                <a href="#">Сертификаты</a>
+                            </li>
+                            <li>
+                                <a href="#">Награды</a>
+                            </li>
+                            <li>
+                                <a href="#">Карьера</a>
+                            </li>
+                            <li>
+                                <a href="#">Команда</a>
+                            </li>
+                            <li>
+                                <a href="#">Контакты</a>
+                            </li>
+                            <li>
+                                <button class="open_contuct_form">ЗАКАЗАТЬ ЗВОНОК</button>
+                            </li>
+                            <li>
+                                <a href="#" class="link">Для СМИ</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header_body d-none d-xl-block">
+            <div class="container px-0 d-flex align-items-end justify-content-between">
+                <div class="header_body_left d-flex align-items-end">
+                    <img src="./images/location.svg" alt="" class="location_icon">
+                    <div class="text">
+                        Москва, м. Деловой центр <br>
+                        Пресненская набережная, 8
+                    </div>
+                </div>
+                <div class="header_body_center">
+                    <img src="./images/big_heder_logo.svg" alt="">
+                </div>
+                <div class="header_body_right d-flex align-items-end">
+                    <a href="#" class="light_link">Для СМИ</a>
+                    <a href="#" class="danger_link">ЗАКАЗАТЬ ЗВОНОК</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container position-relative desktop_modal d-none d-xl-block">
+            <form class="form call_form">
+                <button type="button" class="close_modal">
+                    <img src="./images/modal_close.svg" alt="">
+                </button>
+                <div class="modal_title">заказать обратный звонок</div>
+                <div class="inputs">
+                    <input type="text" name="name" placeholder="Ваше имя*">
+                    <input type="tel" name="phone" placeholder="Мобильный телефон*">
+                    <textarea name="message" placeholder="Комментарий"></textarea>
+                </div>
+                <input type="checkbox" name="message" id="collBack" class="d-none">
+                <label for="collBack" class="collBack">
+                    я ознакомился и согласен с политикой обработки персональных данных
+                </label>
+                <button type="submit">заказать</button>
+            </form>
+            <form action="" class="form cmi_form">
+                <button type="button" class="close_modal">
+                    <img src="./images/modal_close.svg" alt="">
+                </button>
+                <div class="modal_title">пресс-центр cheeseberry</div>
+                <div class="inputs">
+                    <input type="text" name="name" placeholder="Ваше имя*">
+                    <input type="tel" name="phone" placeholder="Мобильный телефон*">
+                    <textarea name="message" placeholder="Запрос от СМИ"></textarea>
+                </div>
+                <input type="checkbox" name="message" id="cebterCheeseberry" class="d-none">
+                <label for="cebterCheeseberry" class="cebterCheeseberry">
+                    я ознакомился и согласен с политикой обработки персональных данных
+                </label>
+                <button type="submit">отправить</button>
+            </form>
+        </div>
+
+        <div class="header_foot">
+            <div class="container px-0 d-flex align-items-center justify-content-end justify-content-lg-between">
+                <div class="header_foot_link_left d-none d-lg-flex align-items-center">
+                    <a href="tel:+7 (495) 920 63 20">
+                        <img src="./images/contact_phone.svg" alt="">
+                        <span>+7 (495) 920 63 20</span>
+                    </a>
+                    <a href="#">
+                        <img src="./images/contact_whatsapp.svg" alt="">
+                        <span>+7 (495) 920 63 20</span>
+                    </a>
+                    <a href="mailto:moscow@cheeseberry.ru">
+                        <img src="./images/contact_mail.svg" alt="">
+                        <span>moscow@cheeseberry.ru</span>
+                    </a>
+                </div>
+                <div class="header_foot_link_right d-flex align-items-center">
+                    <div class="link_title d-block d-lg-none d-xl-block">ПОДПИСЫВАЙСЯ:</div>
+                    <a href="#"><img src="./images/contact_youtube.svg" alt=""></a>
+                    <a href="#"><img src="./images/contact_telegram.svg" alt=""></a>
+                    <a href="#"><img src="./images/contact_vkontakt.svg" alt=""></a>
+                    <a href="#"><img src="./images/contact_ok.svg" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- End header -->
+    <div class="container px-sm-0">
+        <ul class="list_link flex-wrap g-2 d-flex">
+            <li class="list_link_item"><a href="#">Главная</a></li>
+            <li class="list_link_item"><a href="#">/</a></li>
+            <li class="list_link_item"><a href="#">Карьера</a></li>
+        </ul>
+    </div>
+
+    <div id="career">
+        <div class="container px-sm-0">
+            <div class="main_logo">
+                <img src="./images/news_logo.svg" alt="">
+            </div>
+            <div class="main_title">
+                Присоединяйтесь к нашей команде в производственной компании Чизберри
+            </div>
+            <div class="text_card position-relative">
+                <img src="./images/career_text_card_desktop.png" alt="" class="desktop">
+                <div class="text">
+                    Уникальная возможность работать в лидирующей компании по производству чизкейков в России
+                </div>
+            </div>
+            <div class="main_logo">
+                <img src="./images/news_logo.svg" alt="">
+            </div>
+            <div class="main_title">
+                История Cheeseberry
+            </div>
+            <div class="main_description">
+                Основатель Cheeseberry, будучи студентом, попробовал чизкейк в Америке и влюбился в его вкус. Вернувшись в Россию, он решил открыть производство чизкейков и привлек технолога из Америки для разработки рецептуры. Он нашел единомышленников, которые разделяли его страсть к созданию легендарных чизкейков. Вместе они стремились к высокому качеству и верили в успех.
+            </div>
+            <div class="main_img">
+                <img src="./images/main_img_1.png" alt="">
+            </div>
+            <div class="row g-3 g-xl-4 half_card">
+                <div class="col-12 col-md-7">
+                    <div class="img">
+                        <img src="./images/half_card_1.png" alt="">
+                    </div>
+                </div>
+                <div class="col-12 col-md-5">
+                    <div class="text h-100 d-flex align-items-end">
+                        Так в 2006 году запустилась первая производственная площадка по выпуску чизкейков. 
+                        <br><br>
+                        Команда первооткрывателей проводили дни и ночи, экспериментируя с различными рецептами, исследуя новые ингредиенты и технологии. 
+                        <br><br>
+                        Их страсть к творчеству и стремление к совершенству привлекали все больше и больше людей.
+                    </div>
+                </div>
+            </div>
+            <div class="row g-3 g-xl-4 half_card half_card_2">
+                <div class="col-12 col-md-7">
+                    <div class="img">
+                        <img src="./images/half_card_2.png" alt="">
+                    </div>
+                </div>
+                <div class="col-12 col-md-5">
+                    <div class="text h-100 d-flex align-items-end">
+                        С каждым днем компания росла и привлекала новых талантливых сотрудников. 
+                        <br><br>
+                        Вместе они создавали оригинальные и неповторимые чизкейки, которые завоевывали сердца людей по всему миру. 
+                        <br><br>
+                        Но это было только начало. Компания продолжала развиваться и расти. Они вкладывали все свои силы в исследования и разработку новых продуктов, стремясь удивить и порадовать своих клиентов.
+                    </div>
+                </div>
+            </div>
+            <div class="main_logo">
+                <img src="./images/news_logo.svg" alt="">
+            </div>
+            <div class="main_title">Cheeseberry сегодня</div>
+            <div class="main_description">
+                Сегодня мы - крупный кондитерский холдинг с полным циклом производства от ингредиентов до выпуска готовой продукции, лидер на рынке кондитерских изделий и всегда опережаем время, что позволяет выпускать на рынок тренды. Наш штат более 500 сотрудников.
+                <br><br>
+                Наша команда состоит из талантливых и преданных профессионалов, которые разделяют нашу страсть к качеству и инновациям. 
+                <br><br>
+                Мы гордимся тем, что создаем не только вкусные и красивые кондитерские изделия, но и оказываем положительное влияние на нашу общественность. Мы поддерживаем благотворительные программы и заботимся об окружающей среде.
+            </div>
+            <div class="main_img">
+                <img src="./images/main_img_2.png" alt="">
+            </div>
+            <div class="row g-3 g-xl-4 half_card">
+                <div class="col-12 col-md-7">
+                    <div class="img">
+                        <img src="./images/half_card_3.png" alt="">
+                    </div>
+                </div>
+                <div class="col-12 col-md-5">
+                    <div class="text h-100 d-flex align-items-end">
+                        Наш успех - результат нашей преданности и труда. Мы продолжаем стремиться к совершенству и радовать наших клиентов каждый день. Мы верим в нашу команду и вместе мы достигнем еще больших высот.
+                        <br><br>
+                        Наша ценность – это каждый человек нашей компании, который вносит свой вклад в расширение продуктового портфеля, географию присутствия, а главное за первосортное качество наших десертов к которым возникает любовь с первого вкуса.
+                    </div>
+                </div>
+            </div>
+            <div class="row g-3 g-xl-4 half_card half_card_2">
+                <div class="col-12 col-md-7">
+                    <div class="img">
+                        <img src="./images/half_card_4.png" alt="">
+                    </div>
+                </div>
+                <div class="col-12 col-md-5">
+                    <div class="text h-100 d-flex align-items-end">
+                        Философия Cheeseberry заключается в умении вдохновлять людей и объединять в крепкую команду, объединенную общей страстью – создавать лучшие десерты, повышающие настроение населению.
+                    </div>
+                </div>
+            </div>
+            <div class="main_logo">
+                <img src="./images/news_logo.svg" alt="">
+            </div>
+            <div class="main_title">Cheeseberry продукция</div>
+            <div class="main_description">
+                Замороженные десерты это ноу – хау технология в области пищевой промышленности. Благодаря шоковой заморозке продукт имеет длительный срок годности до 18 месяцев, а главное сохраняет вкусовые, полезные, эстетические и стерильные свойства в течение всего периода. Это позволяет транспортировать продукцию Cheeseberry в любую точку Мира и быть уверенным в том, что на столе у покупателей окажется десерт с сохраненными вкусовыми качествами. Кроме того, десерты легко и быстро готовятся, что делает их идеальным выбором для тех, кто ценит свое время. А еще наши десерты предлагают широкий выбор вкусов, позволяя каждому найти что-то по своему вкусу.
+                <br><br>
+                Мы с гордостью можем сказать, что наша продукция отличается высочайшим качеством и безупречным вкусом, что подтверждено международными сертификатами системы безопасности пищевых продуктов: FSSC 22000, ISO 22000-2007, Халяль. Мы используем только лучшие ингредиенты, которые тщательно отбираем, чтобы каждый кусочек нашего десерта был настоящим произведением искусства.
+            </div>
+            <div class="main_img">
+                <img src="./images/main_img_3.png" alt="">
+            </div>
+            <div class="row g-3 g-xl-4 half_card">
+                <div class="col-12 col-md-7">
+                    <div class="img">
+                        <img src="./images/half_card_5.png" alt="">
+                    </div>
+                </div>
+                <div class="col-12 col-md-5">
+                    <div class="text h-100 d-flex align-items-end">
+                        Наша команда талантливых кондитеров постоянно работает над разработкой новых рецептов и экспериментирует с различными вкусовыми сочетаниями. 
+                        <br><br>
+                        Мы стремимся удивить и порадовать наших потребителей, предлагая им нечто уникальное и неповторимое.
+                    </div>
+                </div>
+            </div>
+            <div class="row g-3 g-xl-4 half_card half_card_2">
+                <div class="col-12 col-md-7">
+                    <div class="img">
+                        <img src="./images/half_card_6.png" alt="">
+                    </div>
+                </div>
+                <div class="col-12 col-md-5">
+                    <div class="text h-100 d-flex align-items-end">
+                        Мы также гордимся тем, что наша продукция доступна каждому. 
+                        <br><br>
+                        Мы предлагаем различные упаковки и размеры, чтобы каждый мог выбрать то, что подходит именно ему. 
+                        <br><br>
+                        Мы верим, что наши замороженные десерты могут принести радость и удовольствие каждому, кто решит попробовать их.
+                    </div>
+                </div>
+            </div>
+            <div class="text_card_2 position-relative">
+                <img src="./images/text_card_2.png" alt="" class="bg_img desktop">
+                <div class="text">
+                    <img src="./images/news_logo.svg">
+                    <div class="text_title">
+                        Преимущества работы в компании Чизберри:
+                    </div>
+                    <div class="text_description">
+                        ✓ Институт наставничества<br>
+                        ✓ Премиальные фонды - Корпоративные мероприятия<br>
+                        ✓ Подарки детям сотрудников на Новый Год<br>
+                        ✓ Развитие и повышение по карьерной лестнице
+                    </div>
+                </div>
+            </div>
+            <div class="main_logo">
+                <img src="./images/news_logo.svg" alt="">
+            </div>
+            <div class="main_title">
+                вакансии Чизберри
+            </div>
+            <div class="career_accordion">
+                <div class="accordion_title">Управляющий директор операционной службы</div>
+                <div class="accordion_line"></div>
+                <div class="row g-3 gap-md g-lg-4">
+                    <div class="col-12 col-lg-5">
+                        <div class="d-flex gap">
+                            <div class="data_title data_title_1">З/п:</div>
+                            <div class="data_value">100 000 рублей</div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-7">
+                        <div class="d-flex gap">
+                            <div class="data_title data_title_2">Город:</div>
+                            <div class="data_value">Москва</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-2 g-md-3 g-lg-4">
+                    <div class="col-12 col-sm 6 col-md-7 col-lg-5">
+                        <a href="#" class="accordion_btn accordion_open_body">
+                            <span class="closed">подробнее</span>
+                            <div class="opened">свернуть</div>
+                        </a>
+                    </div>
+                    <div class="col-12 col-sm 6 col-md-5 col-lg-7">
+                        <a href="#" class="accordion_btn accordion_open_modal">
+                            отправить резюме
+                        </a>
+                    </div>
+                </div>
+                <div class="career_accordion_body">
+                    <div class="accorion_body_title">Мы предлагаем:</div>
+                    <ul class="accordion_body_description">
+                        <li>График работы 5\2 с 10:00 до 19:00;</li>
+                        <li>Стабильную заработную плату выплата 2 раза в месяц, уровень заработной платы обсуждается собеседовании;</li>
+                        <li>Оформление по ТК РФ с первого рабочего дня;</li>
+                        <li>Интересную, динамичную работу;</li>
+                        <li>Стабильная зарплата итоговая сумма оговаривается на собеседовании;</li>
+                        <li>Комфортное рабочее место в красивом офисе в Деловом центре Москва-сити;</li>
+                        <li>Подарки, мероприятия на праздники, в том числе - новогодние подарки от компании для ваших детей;</li>
+                        <li>Скидки на производимую продукцию.</li>
+                    </ul>
+                    <div class="accorion_body_title">Что будет входить в обязанности сотрудника?</div>
+                    <ul class="accordion_body_description">
+                        <li>Анализ/подготовка, планирование и поддержка эффективного промо календаря для каналов сети, опт, розница (квартал, месяц, год);</li>
+                        <li>Разработка предложений по увеличению продаж;</li>
+                        <li>Анализ продаж и прогнозирование спроса, определение факторов роста продаж;</li>
+                        <li>Разработка и согласование механик стимулирования сбыта;</li>
+                        <li>Разработка планов, концепций, бюджета трейд-маркетинговых мероприятий;</li>
+                        <li>Разработка и отслеживание акций: закуп, товар дня, мотивация, скидка для покупателя;</li>
+                        <li>Определение и отбор ассортимента, участвующего в акциях;</li>
+                        <li>Планирование и отслеживание трейд-маркетингового бюджета;</li>
+                        <li>Реализация маркетинговых активностей совместно с партнерами компании;</li>
+                        <li>Анализ маркетинговых мероприятий, подготовка отчетности по маркетинговым активностям;</li>
+                        <li>Отслеживание и контроль активностей конкурентов на рынке;</li>
+                        <li>Финансово-экономический анализ;</li>
+                        <li>Анализ показателей эффективности, результатов полученных в ходе исследования, разработка на их основе предложений о необходимых маркетинговых мероприятиях.</li>
+                    </ul>
+                    <div class="accorion_body_title">Что мы ждём от кандидата?</div>
+                    <ul class="accordion_body_description">
+                        <li>Высшее образование;</li>
+                        <li>Опыт работы в области торгового маркетинга на рынке FMCG от 2-х лет;</li>
+                        <li>Навыки ведения переговоров, навыки презентации;</li>
+                        <li>Знание современных инструментов аналитики;</li>
+                        <li>Готовность к работе в режиме многозадачности, нацеленность на результат;</li>
+                        <li>Продвинутое знание Excel (ВПР, сводные таблицы), 1С, CRM, желательно.</li>
+                    </ul>
+                    <a href="#" class="body_btn accordion_open_modal">отправить резюме</a>
+                </div>
+                <div class="career_accordion_modal">
+                    <div class="modal_bg"></div>
+                    <form>
+                        <button type="button" class="modal_close">
+                            <img src="./images/modal_close.svg" alt="">
+                        </button>
+                        <div class="modal_title">
+                            отправьте свое резюме и мы обязательно рассмотрим вашу кандидатуру
+                        </div>
+                        <div class="inputs">
+                            <input type="text" placeholder="ФИО*">
+                            <input type="tel" placeholder="Мобильный телефон*">
+                            <input type="email" placeholder="E-mail*">
+                            <input type="text" placeholder="Желаемая должность*">
+                            <input type="text" placeholder="Город*">
+                            <input type="text" value="Прикрепить резюме">
+                        </div>
+                        <div class="modal_bottom">
+                            <div class="label">
+                                <input type="checkbox" id="career_accordion_modal_checkbock_1">
+                                <label for="career_accordion_modal_checkbock_1" class="career_accordion_modal_checkbock_1">
+                                    <span>я ознакомился и согласен с политикой обработки персональных данных</span>
+                                </label>
+                            </div>
+                            <button type="submit" class="submit">отправить</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="career_accordion">
+                <div class="accordion_title">Директор дирекции директоров по управлению директорами</div>
+                <div class="accordion_line"></div>
+                <div class="row g-3 gap-md g-lg-4">
+                    <div class="col-12 col-lg-5">
+                        <div class="d-flex gap">
+                            <div class="data_title data_title_1">З/п:</div>
+                            <div class="data_value">100 000 рублей</div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-7">
+                        <div class="d-flex gap">
+                            <div class="data_title data_title_2">Город:</div>
+                            <div class="data_value">Москва</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-2 g-md-3 g-lg-4">
+                    <div class="col-12 col-sm 6 col-md-7 col-lg-5">
+                        <a href="#" class="accordion_btn accordion_open_body">
+                            <span class="closed">подробнее</span>
+                            <div class="opened">свернуть</div>
+                        </a>
+                    </div>
+                    <div class="col-12 col-sm 6 col-md-5 col-lg-7">
+                        <a href="#" class="accordion_btn accordion_open_modal">
+                            отправить резюме
+                        </a>
+                    </div>
+                </div>
+                <div class="career_accordion_body">
+                    <div class="accorion_body_title">Мы предлагаем:</div>
+                    <ul class="accordion_body_description">
+                        <li>График работы 5\2 с 10:00 до 19:00;</li>
+                        <li>Стабильную заработную плату выплата 2 раза в месяц, уровень заработной платы обсуждается собеседовании;</li>
+                        <li>Оформление по ТК РФ с первого рабочего дня;</li>
+                        <li>Интересную, динамичную работу;</li>
+                        <li>Стабильная зарплата итоговая сумма оговаривается на собеседовании;</li>
+                        <li>Комфортное рабочее место в красивом офисе в Деловом центре Москва-сити;</li>
+                        <li>Подарки, мероприятия на праздники, в том числе - новогодние подарки от компании для ваших детей;</li>
+                        <li>Скидки на производимую продукцию.</li>
+                    </ul>
+                    <div class="accorion_body_title">Что будет входить в обязанности сотрудника?</div>
+                    <ul class="accordion_body_description">
+                        <li>Анализ/подготовка, планирование и поддержка эффективного промо календаря для каналов сети, опт, розница (квартал, месяц, год);</li>
+                        <li>Разработка предложений по увеличению продаж;</li>
+                        <li>Анализ продаж и прогнозирование спроса, определение факторов роста продаж;</li>
+                        <li>Разработка и согласование механик стимулирования сбыта;</li>
+                        <li>Разработка планов, концепций, бюджета трейд-маркетинговых мероприятий;</li>
+                        <li>Разработка и отслеживание акций: закуп, товар дня, мотивация, скидка для покупателя;</li>
+                        <li>Определение и отбор ассортимента, участвующего в акциях;</li>
+                        <li>Планирование и отслеживание трейд-маркетингового бюджета;</li>
+                        <li>Реализация маркетинговых активностей совместно с партнерами компании;</li>
+                        <li>Анализ маркетинговых мероприятий, подготовка отчетности по маркетинговым активностям;</li>
+                        <li>Отслеживание и контроль активностей конкурентов на рынке;</li>
+                        <li>Финансово-экономический анализ;</li>
+                        <li>Анализ показателей эффективности, результатов полученных в ходе исследования, разработка на их основе предложений о необходимых маркетинговых мероприятиях.</li>
+                    </ul>
+                    <div class="accorion_body_title">Что мы ждём от кандидата?</div>
+                    <ul class="accordion_body_description">
+                        <li>Высшее образование;</li>
+                        <li>Опыт работы в области торгового маркетинга на рынке FMCG от 2-х лет;</li>
+                        <li>Навыки ведения переговоров, навыки презентации;</li>
+                        <li>Знание современных инструментов аналитики;</li>
+                        <li>Готовность к работе в режиме многозадачности, нацеленность на результат;</li>
+                        <li>Продвинутое знание Excel (ВПР, сводные таблицы), 1С, CRM, желательно.</li>
+                    </ul>
+                    <a href="#" class="body_btn accordion_open_modal">отправить резюме</a>
+                </div>
+                <div class="career_accordion_modal">
+                    <div class="modal_bg"></div>
+                    <form>
+                        <button type="button" class="modal_close">
+                            <img src="./images/modal_close.svg" alt="">
+                        </button>
+                        <div class="modal_title">
+                            отправьте свое резюме и мы обязательно рассмотрим вашу кандидатуру
+                        </div>
+                        <div class="inputs">
+                            <input type="text" placeholder="ФИО*">
+                            <input type="tel" placeholder="Мобильный телефон*">
+                            <input type="email" placeholder="E-mail*">
+                            <input type="text" placeholder="Желаемая должность*">
+                            <input type="text" placeholder="Город*">
+                            <input type="text" value="Прикрепить резюме">
+                        </div>
+                        <div class="modal_bottom">
+                            <div class="label">
+                                <input type="checkbox" id="career_accordion_modal_checkbock_2">
+                                <label for="career_accordion_modal_checkbock_2" class="career_accordion_modal_checkbock_2">
+                                    <span>я ознакомился и согласен с политикой обработки персональных данных</span>
+                                </label>
+                            </div>
+                            <button type="submit" class="submit">отправить</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="career_accordion">
+                <div class="accordion_title">технолог производства</div>
+                <div class="accordion_line"></div>
+                <div class="row g-3 gap-md g-lg-4">
+                    <div class="col-12 col-lg-5">
+                        <div class="d-flex gap">
+                            <div class="data_title data_title_1">З/п:</div>
+                            <div class="data_value">100 000 рублей</div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-7">
+                        <div class="d-flex gap">
+                            <div class="data_title data_title_2">Город:</div>
+                            <div class="data_value">Москва</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-2 g-md-3 g-lg-4">
+                    <div class="col-12 col-sm 6 col-md-7 col-lg-5">
+                        <a href="#" class="accordion_btn accordion_open_body">
+                            <span class="closed">подробнее</span>
+                            <div class="opened">свернуть</div>
+                        </a>
+                    </div>
+                    <div class="col-12 col-sm 6 col-md-5 col-lg-7">
+                        <a href="#" class="accordion_btn accordion_open_modal">
+                            отправить резюме
+                        </a>
+                    </div>
+                </div>
+                <div class="career_accordion_body">
+                    <div class="accorion_body_title">Мы предлагаем:</div>
+                    <ul class="accordion_body_description">
+                        <li>График работы 5\2 с 10:00 до 19:00;</li>
+                        <li>Стабильную заработную плату выплата 2 раза в месяц, уровень заработной платы обсуждается собеседовании;</li>
+                        <li>Оформление по ТК РФ с первого рабочего дня;</li>
+                        <li>Интересную, динамичную работу;</li>
+                        <li>Стабильная зарплата итоговая сумма оговаривается на собеседовании;</li>
+                        <li>Комфортное рабочее место в красивом офисе в Деловом центре Москва-сити;</li>
+                        <li>Подарки, мероприятия на праздники, в том числе - новогодние подарки от компании для ваших детей;</li>
+                        <li>Скидки на производимую продукцию.</li>
+                    </ul>
+                    <div class="accorion_body_title">Что будет входить в обязанности сотрудника?</div>
+                    <ul class="accordion_body_description">
+                        <li>Анализ/подготовка, планирование и поддержка эффективного промо календаря для каналов сети, опт, розница (квартал, месяц, год);</li>
+                        <li>Разработка предложений по увеличению продаж;</li>
+                        <li>Анализ продаж и прогнозирование спроса, определение факторов роста продаж;</li>
+                        <li>Разработка и согласование механик стимулирования сбыта;</li>
+                        <li>Разработка планов, концепций, бюджета трейд-маркетинговых мероприятий;</li>
+                        <li>Разработка и отслеживание акций: закуп, товар дня, мотивация, скидка для покупателя;</li>
+                        <li>Определение и отбор ассортимента, участвующего в акциях;</li>
+                        <li>Планирование и отслеживание трейд-маркетингового бюджета;</li>
+                        <li>Реализация маркетинговых активностей совместно с партнерами компании;</li>
+                        <li>Анализ маркетинговых мероприятий, подготовка отчетности по маркетинговым активностям;</li>
+                        <li>Отслеживание и контроль активностей конкурентов на рынке;</li>
+                        <li>Финансово-экономический анализ;</li>
+                        <li>Анализ показателей эффективности, результатов полученных в ходе исследования, разработка на их основе предложений о необходимых маркетинговых мероприятиях.</li>
+                    </ul>
+                    <div class="accorion_body_title">Что мы ждём от кандидата?</div>
+                    <ul class="accordion_body_description">
+                        <li>Высшее образование;</li>
+                        <li>Опыт работы в области торгового маркетинга на рынке FMCG от 2-х лет;</li>
+                        <li>Навыки ведения переговоров, навыки презентации;</li>
+                        <li>Знание современных инструментов аналитики;</li>
+                        <li>Готовность к работе в режиме многозадачности, нацеленность на результат;</li>
+                        <li>Продвинутое знание Excel (ВПР, сводные таблицы), 1С, CRM, желательно.</li>
+                    </ul>
+                    <a href="#" class="body_btn accordion_open_modal">отправить резюме</a>
+                </div>
+                <div class="career_accordion_modal">
+                    <div class="modal_bg"></div>
+                    <form>
+                        <button type="button" class="modal_close">
+                            <img src="./images/modal_close.svg" alt="">
+                        </button>
+                        <div class="modal_title">
+                            отправьте свое резюме и мы обязательно рассмотрим вашу кандидатуру
+                        </div>
+                        <div class="inputs">
+                            <input type="text" placeholder="ФИО*">
+                            <input type="tel" placeholder="Мобильный телефон*">
+                            <input type="email" placeholder="E-mail*">
+                            <input type="text" placeholder="Желаемая должность*">
+                            <input type="text" placeholder="Город*">
+                            <input type="text" value="Прикрепить резюме">
+                        </div>
+                        <div class="modal_bottom">
+                            <div class="label">
+                                <input type="checkbox" id="career_accordion_modal_checkbock_3">
+                                <label for="career_accordion_modal_checkbock_3" class="career_accordion_modal_checkbock_3">
+                                    <span>я ознакомился и согласен с политикой обработки персональных данных</span>
+                                </label>
+                            </div>
+                            <button type="submit" class="submit">отправить</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="career_accordion">
+                <div class="accordion_title">уборщик производственных помещений</div>
+                <div class="accordion_line"></div>
+                <div class="row g-3 gap-md g-lg-4">
+                    <div class="col-12 col-lg-5">
+                        <div class="d-flex gap">
+                            <div class="data_title data_title_1">З/п:</div>
+                            <div class="data_value">100 000 рублей</div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-7">
+                        <div class="d-flex gap">
+                            <div class="data_title data_title_2">Город:</div>
+                            <div class="data_value">Москва</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-2 g-md-3 g-lg-4">
+                    <div class="col-12 col-sm 6 col-md-7 col-lg-5">
+                        <a href="#" class="accordion_btn accordion_open_body">
+                            <span class="closed">подробнее</span>
+                            <div class="opened">свернуть</div>
+                        </a>
+                    </div>
+                    <div class="col-12 col-sm 6 col-md-5 col-lg-7">
+                        <a href="#" class="accordion_btn accordion_open_modal">
+                            отправить резюме
+                        </a>
+                    </div>
+                </div>
+                <div class="career_accordion_body">
+                    <div class="accorion_body_title">Мы предлагаем:</div>
+                    <ul class="accordion_body_description">
+                        <li>График работы 5\2 с 10:00 до 19:00;</li>
+                        <li>Стабильную заработную плату выплата 2 раза в месяц, уровень заработной платы обсуждается собеседовании;</li>
+                        <li>Оформление по ТК РФ с первого рабочего дня;</li>
+                        <li>Интересную, динамичную работу;</li>
+                        <li>Стабильная зарплата итоговая сумма оговаривается на собеседовании;</li>
+                        <li>Комфортное рабочее место в красивом офисе в Деловом центре Москва-сити;</li>
+                        <li>Подарки, мероприятия на праздники, в том числе - новогодние подарки от компании для ваших детей;</li>
+                        <li>Скидки на производимую продукцию.</li>
+                    </ul>
+                    <div class="accorion_body_title">Что будет входить в обязанности сотрудника?</div>
+                    <ul class="accordion_body_description">
+                        <li>Анализ/подготовка, планирование и поддержка эффективного промо календаря для каналов сети, опт, розница (квартал, месяц, год);</li>
+                        <li>Разработка предложений по увеличению продаж;</li>
+                        <li>Анализ продаж и прогнозирование спроса, определение факторов роста продаж;</li>
+                        <li>Разработка и согласование механик стимулирования сбыта;</li>
+                        <li>Разработка планов, концепций, бюджета трейд-маркетинговых мероприятий;</li>
+                        <li>Разработка и отслеживание акций: закуп, товар дня, мотивация, скидка для покупателя;</li>
+                        <li>Определение и отбор ассортимента, участвующего в акциях;</li>
+                        <li>Планирование и отслеживание трейд-маркетингового бюджета;</li>
+                        <li>Реализация маркетинговых активностей совместно с партнерами компании;</li>
+                        <li>Анализ маркетинговых мероприятий, подготовка отчетности по маркетинговым активностям;</li>
+                        <li>Отслеживание и контроль активностей конкурентов на рынке;</li>
+                        <li>Финансово-экономический анализ;</li>
+                        <li>Анализ показателей эффективности, результатов полученных в ходе исследования, разработка на их основе предложений о необходимых маркетинговых мероприятиях.</li>
+                    </ul>
+                    <div class="accorion_body_title">Что мы ждём от кандидата?</div>
+                    <ul class="accordion_body_description">
+                        <li>Высшее образование;</li>
+                        <li>Опыт работы в области торгового маркетинга на рынке FMCG от 2-х лет;</li>
+                        <li>Навыки ведения переговоров, навыки презентации;</li>
+                        <li>Знание современных инструментов аналитики;</li>
+                        <li>Готовность к работе в режиме многозадачности, нацеленность на результат;</li>
+                        <li>Продвинутое знание Excel (ВПР, сводные таблицы), 1С, CRM, желательно.</li>
+                    </ul>
+                    <a href="#" class="body_btn accordion_open_modal">отправить резюме</a>
+                </div>
+                <div class="career_accordion_modal">
+                    <div class="modal_bg"></div>
+                    <form>
+                        <button type="button" class="modal_close">
+                            <img src="./images/modal_close.svg" alt="">
+                        </button>
+                        <div class="modal_title">
+                            отправьте свое резюме и мы обязательно рассмотрим вашу кандидатуру
+                        </div>
+                        <div class="inputs">
+                            <input type="text" placeholder="ФИО*">
+                            <input type="tel" placeholder="Мобильный телефон*">
+                            <input type="email" placeholder="E-mail*">
+                            <input type="text" placeholder="Желаемая должность*">
+                            <input type="text" placeholder="Город*">
+                            <input type="text" value="Прикрепить резюме">
+                        </div>
+                        <div class="modal_bottom">
+                            <div class="label">
+                                <input type="checkbox" id="career_accordion_modal_checkbock_4">
+                                <label for="career_accordion_modal_checkbock_4" class="career_accordion_modal_checkbock_4">
+                                    <span>я ознакомился и согласен с политикой обработки персональных данных</span>
+                                </label>
+                            </div>
+                            <button type="submit" class="submit">отправить</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="career_accordion last_career_accordion">
+                <div class="accordion_title">Управляющий директор операционной службы</div>
+                <div class="accordion_line"></div>
+                <div class="row g-3 gap-md g-lg-4">
+                    <div class="col-12 col-lg-5">
+                        <div class="d-flex gap">
+                            <div class="data_title data_title_1">З/п:</div>
+                            <div class="data_value">100 000 рублей</div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-7">
+                        <div class="d-flex gap">
+                            <div class="data_title data_title_2">Город:</div>
+                            <div class="data_value">Москва</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-2 g-md-3 g-lg-4">
+                    <div class="col-12 col-sm 6 col-md-7 col-lg-5">
+                        <a href="#" class="accordion_btn accordion_open_body">
+                            <span class="closed">подробнее</span>
+                            <div class="opened">свернуть</div>
+                        </a>
+                    </div>
+                    <div class="col-12 col-sm 6 col-md-5 col-lg-7">
+                        <a href="#" class="accordion_btn accordion_open_modal">
+                            отправить резюме
+                        </a>
+                    </div>
+                </div>
+                <div class="career_accordion_body">
+                    <div class="accorion_body_title">Мы предлагаем:</div>
+                    <ul class="accordion_body_description">
+                        <li>График работы 5\2 с 10:00 до 19:00;</li>
+                        <li>Стабильную заработную плату выплата 2 раза в месяц, уровень заработной платы обсуждается собеседовании;</li>
+                        <li>Оформление по ТК РФ с первого рабочего дня;</li>
+                        <li>Интересную, динамичную работу;</li>
+                        <li>Стабильная зарплата итоговая сумма оговаривается на собеседовании;</li>
+                        <li>Комфортное рабочее место в красивом офисе в Деловом центре Москва-сити;</li>
+                        <li>Подарки, мероприятия на праздники, в том числе - новогодние подарки от компании для ваших детей;</li>
+                        <li>Скидки на производимую продукцию.</li>
+                    </ul>
+                    <div class="accorion_body_title">Что будет входить в обязанности сотрудника?</div>
+                    <ul class="accordion_body_description">
+                        <li>Анализ/подготовка, планирование и поддержка эффективного промо календаря для каналов сети, опт, розница (квартал, месяц, год);</li>
+                        <li>Разработка предложений по увеличению продаж;</li>
+                        <li>Анализ продаж и прогнозирование спроса, определение факторов роста продаж;</li>
+                        <li>Разработка и согласование механик стимулирования сбыта;</li>
+                        <li>Разработка планов, концепций, бюджета трейд-маркетинговых мероприятий;</li>
+                        <li>Разработка и отслеживание акций: закуп, товар дня, мотивация, скидка для покупателя;</li>
+                        <li>Определение и отбор ассортимента, участвующего в акциях;</li>
+                        <li>Планирование и отслеживание трейд-маркетингового бюджета;</li>
+                        <li>Реализация маркетинговых активностей совместно с партнерами компании;</li>
+                        <li>Анализ маркетинговых мероприятий, подготовка отчетности по маркетинговым активностям;</li>
+                        <li>Отслеживание и контроль активностей конкурентов на рынке;</li>
+                        <li>Финансово-экономический анализ;</li>
+                        <li>Анализ показателей эффективности, результатов полученных в ходе исследования, разработка на их основе предложений о необходимых маркетинговых мероприятиях.</li>
+                    </ul>
+                    <div class="accorion_body_title">Что мы ждём от кандидата?</div>
+                    <ul class="accordion_body_description">
+                        <li>Высшее образование;</li>
+                        <li>Опыт работы в области торгового маркетинга на рынке FMCG от 2-х лет;</li>
+                        <li>Навыки ведения переговоров, навыки презентации;</li>
+                        <li>Знание современных инструментов аналитики;</li>
+                        <li>Готовность к работе в режиме многозадачности, нацеленность на результат;</li>
+                        <li>Продвинутое знание Excel (ВПР, сводные таблицы), 1С, CRM, желательно.</li>
+                    </ul>
+                    <a href="#" class="body_btn accordion_open_modal">отправить резюме</a>
+                </div>
+                <div class="career_accordion_modal">
+                    <div class="modal_bg"></div>
+                    <form>
+                        <button type="button" class="modal_close">
+                            <img src="./images/modal_close.svg" alt="">
+                        </button>
+                        <div class="modal_title">
+                            отправьте свое резюме и мы обязательно рассмотрим вашу кандидатуру
+                        </div>
+                        <div class="inputs">
+                            <input type="text" placeholder="ФИО*">
+                            <input type="tel" placeholder="Мобильный телефон*">
+                            <input type="email" placeholder="E-mail*">
+                            <input type="text" placeholder="Желаемая должность*">
+                            <input type="text" placeholder="Город*">
+                            <input type="text" value="Прикрепить резюме">
+                        </div>
+                        <div class="modal_bottom">
+                            <div class="label">
+                                <input type="checkbox" id="career_accordion_modal_checkbock_5">
+                                <label for="career_accordion_modal_checkbock_5" class="career_accordion_modal_checkbock_5">
+                                    <span>я ознакомился и согласен с политикой обработки персональных данных</span>
+                                </label>
+                            </div>
+                            <button type="submit" class="submit">отправить</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="cakes">
+            <header>
+                <div class="header_top d-none d-xl-block">
+                    <div class="container d-flex align-items-center justify-content-between">
+                        <div class="top_menu_left d-flex align-items-center">
+                            <a class="footer_top_link" href="#">О компании</a>
+                            <a class="footer_top_link" href="#">Ассортимент</a>
+                            <a class="footer_top_link" href="#">Сертификаты</a>
+                        </div>
+                        <a href="./index.html" class="logo">
+                            <img src="./images/logo_header.svg" alt="">
+                        </a>
+                        <div class="top_menu_right d-flex align-items-center">
+                            <a class="footer_top_link" href="#">Награды</a>
+                            <a class="footer_top_link" href="#">Команда</a>
+                            <a class="footer_top_link" href="#">Карьера</a>
+                            <a class="footer_top_link" href="#">Контакты</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="header_mobile d-xl-none">
+                    <div class="container px-0 d-flex align-items-center justify-content-between">
+                        <a href="./index.html" class="logo">
+                            <img src="./images/logo_mobile.svg" class="d-none d-sm-block" alt="">
+                            <img src="./images/logo_header_sm.png" class="d-sm-none" alt="">
+                        </a>
+                        <div class="header_menu position-relative">
+                            <button class="btn main_btn">
+                                <img src="./images/bars.svg" class="bars default_bars" alt="">
+                                <!-- <img src="./images/bars_hover.svg" class="bars hover_bars" alt=""> -->
+                                <img src="./images/header_close.svg" class="close d-none" alt="">
+                            </button>
+
+                            <div class="menu_wrapper menu_wrapper_bottom d-flex align-items-start">
+                                <form class="contact_form form_cmi_modal d-none">
+                                    <button type="button" class="modal_close btn p-0">
+                                        <img src="./images/modal_close.svg" alt="">
+                                    </button>
+                                    <div class="form_title">пресс-центр cheeseberry</div>
+                                    <div class="form_input">
+                                        <input type="text" placeholder="Ваше имя*">
+                                    </div>
+                                    <div class="form_input">
+                                        <input type="tel" placeholder="Мобильный телефон*">
+                                    </div>
+                                    <div class="form_input text_input p-0">
+                                        <textarea placeholder="Запрос от СМИ"></textarea>
+                                    </div>
+                                    <div class="form_checkbox">
+                                        <input type="checkbox" id="head_form_checkbox_3">
+                                        <label for="head_form_checkbox_3" class="head_form_checkbox_3">я ознакомился и
+                                            согласен с политикой обработки
+                                            персональных данных</label>
+                                    </div>
+                                    <div class="form_submit">
+                                        <button type="submit">отправить</button>
+                                    </div>
+                                </form>
+                                <form class="contact_form form_call_modal d-none">
+                                    <button type="button" class="modal_close btn p-0">
+                                        <img src="./images/modal_close.svg" alt="">
+                                    </button>
+                                    <div class="form_title">заказать обратный звонок</div>
+                                    <div class="form_input">
+                                        <input type="text" placeholder="Ваше имя*">
+                                    </div>
+                                    <div class="form_input">
+                                        <input type="tel" placeholder="Мобильный телефон*">
+                                    </div>
+                                    <div class="form_input text_input p-0">
+                                        <textarea placeholder="Комментарий"></textarea>
+                                    </div>
+                                    <div class="form_checkbox">
+                                        <input type="checkbox" id="head_form_checkbox_4">
+                                        <label for="head_form_checkbox_4" class="head_form_checkbox_4">я ознакомился и
+                                            согласен с политикой обработки
+                                            персональных данных</label>
+                                    </div>
+                                    <div class="form_submit">
+                                        <button type="submit">заказать</button>
+                                    </div>
+                                </form>
+                                <ul>
+                                    <li>
+                                        <a href="#">О компании</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Ассортимент</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Сертификаты</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Награды</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Карьера</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Команда</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Контакты</a>
+                                    </li>
+                                    <li>
+                                        <button class="open_contuct_form">ЗАКАЗАТЬ ЗВОНОК</button>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="link">Для СМИ</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <footer>
+                <div class="footer_bottom">
+                    <div class="container px-0">
+                        <div class="footer_bottom_top d-flex align-items-center justify-content-between">
+                            <div class="text">CHEESEBERRY© 2023</div>
+                            <div class="text d-flex align-items-center"><img src="./images/Up.svg" alt="">В НАЧАЛО
+                            </div>
+                        </div>
+                        <div
+                            class="footer_texts d-flex flex-column flex-sm-row align-items-start align-items-sm-end justify-content-between">
+                            <div class="text2 first_text2 d-flex flex-column">
+                                <span class="pb-3">Все права защищены, <br class="d-sm-none"> копирование материалов
+                                    запрещено</span>
+                                <a href="#" class="link_1 pb-3 pb-sm-0">Политика конфиденциальности</a>
+                            </div>
+                            <a href="#" class="text2 text4 link_2 text-start text-sm-end">Публичная оферта</a>
+                            <a href="#" class="text2 link_1 d-none d-lg-block">Политика конфиденциальности</a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <section id="privacy_policy" class="information_modal">
+        <div class="modal_bg"></div>
+        <div class="modal_content">
+            <div class="modal_close">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                    <g clip-path="url(#clip0_2416_26916)">
+                        <path
+                            d="M18.3495 19.7087L0.291262 1.65049C-0.0970874 1.26214 -0.0970874 0.679612 0.291262 0.291262C0.679612 -0.0970874 1.26214 -0.0970874 1.65049 0.291262L19.7087 18.3495C20.0971 18.7379 20.0971 19.3204 19.7087 19.7087C19.3204 20.0971 18.7379 20.0971 18.3495 19.7087Z"
+                            fill="#F64909" />
+                        <path
+                            d="M0.291262 19.7087C-0.0970874 19.3204 -0.0970874 18.7379 0.291262 18.3495L18.3495 0.291262C18.7379 -0.0970874 19.3204 -0.0970874 19.7087 0.291262C20.0971 0.679612 20.0971 1.26214 19.7087 1.65049L1.65049 19.7087C1.26214 20.0971 0.679612 20.0971 0.291262 19.7087Z"
+                            fill="#F64909" />
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_2416_26916">
+                            <rect width="20" height="20" fill="white" />
+                        </clipPath>
+                    </defs>
+                </svg>
+            </div>
+            <div class="modal_logo">
+                <svg xmlns="http://www.w3.org/2000/svg" width="220" height="82" viewBox="0 0 220 82" fill="none">
+                    <g clip-path="url(#clip0_2416_26921)">
+                        <path
+                            d="M12.5334 54.1352C12.0897 54.4151 11.4243 54.7509 10.4815 55.0867C9.53869 55.4226 8.42954 55.5905 7.20948 55.5905C4.76935 55.5905 2.93925 54.9748 1.77464 53.7434C0.610033 52.568 0 50.6089 0 47.9782V40.4219H3.99294V47.8103C3.99294 48.5939 4.0484 49.2096 4.15931 49.7693C4.27023 50.329 4.49206 50.7768 4.8248 51.1127C5.10209 51.4485 5.54575 51.7284 6.04487 51.8403C6.54399 52.0082 7.20948 52.0642 7.98588 52.0642C9.03958 52.0642 9.98235 51.8963 10.7588 51.6164C11.5352 51.3366 12.1452 51.0007 12.5334 50.6089V40.4219H16.5263V64.1543H12.5334V54.1352Z"
+                            fill="#F64909" />
+                        <path
+                            d="M27.2297 40.4219H31.2226V57.5495L41.1495 40.4219H45.1979V64.1543H41.205V47.0826L31.1671 64.2103H27.1742V40.4219H27.2297Z"
+                            fill="#F64909" />
+                        <path
+                            d="M63.3324 64.4875C60.6705 64.4875 58.6186 63.8718 57.1767 62.5844C55.7348 61.297 54.8474 59.5619 54.6256 57.3789H58.6186C58.7849 58.4984 59.284 59.3939 60.005 60.0096C60.7259 60.6253 61.8351 60.9612 63.3324 60.9612C65.0516 60.9612 66.2717 60.6253 66.9926 60.0096C67.7136 59.3939 68.1018 58.4984 68.1018 57.3789C68.1018 56.2035 67.7136 55.3079 66.9926 54.6922C66.2717 54.0765 65.0516 53.7407 63.3324 53.7407H60.4487V50.2704H63.3879C64.7189 50.2704 65.7171 49.9905 66.3826 49.3748C67.0481 48.7591 67.3808 47.9755 67.3808 47.024C67.3808 46.0165 67.0481 45.1769 66.3826 44.5612C65.7171 43.9455 64.7189 43.6656 63.3879 43.6656C62.0015 43.6656 60.9478 43.9455 60.2268 44.5612C59.5059 45.1769 59.0622 45.9605 59.0068 47.024H55.1247C55.2356 46.0165 55.4575 45.1209 55.8457 44.2813C56.2339 43.4417 56.7885 42.7141 57.5094 42.0984C58.2303 41.4827 59.0622 41.0349 60.005 40.6991C61.0032 40.3632 62.1124 40.1953 63.3324 40.1953C64.608 40.1953 65.7726 40.3632 66.7708 40.6991C67.769 41.0349 68.6009 41.4827 69.2664 42.0984C69.9319 42.7141 70.431 43.3858 70.8192 44.1694C71.152 44.953 71.3183 45.8486 71.3183 46.8001C71.3183 48.0315 70.9856 49.039 70.3755 49.8786C69.7655 50.7182 68.9337 51.3898 67.9354 51.8376C69.2109 52.2294 70.2092 52.9011 70.9856 53.7967C71.762 54.7482 72.0947 55.9796 72.0947 57.5468C72.0947 58.6103 71.9284 59.5619 71.5402 60.4015C71.2074 61.241 70.6528 61.9687 69.9319 62.5844C69.2109 63.2001 68.3236 63.6479 67.2145 63.9837C66.1053 64.3195 64.8298 64.4875 63.3324 64.4875Z"
+                            fill="#F64909" />
+                        <path
+                            d="M81.689 40.4219H96.8843V43.8922H85.6819V49.3775H89.9521C91.4495 49.3775 92.725 49.5454 93.8342 49.9372C94.9433 50.2731 95.8861 50.7768 96.6625 51.4485C97.4389 52.1202 97.9935 52.8478 98.3262 53.7993C98.7144 54.6949 98.8808 55.7024 98.8808 56.8219C98.8808 57.9413 98.7144 58.9488 98.3262 59.8444C97.938 60.74 97.3834 61.5236 96.6625 62.1953C95.8861 62.8669 94.9988 63.3707 93.8342 63.7065C92.725 64.0424 91.394 64.2662 89.9521 64.2662H81.689V40.4219ZM89.9521 60.74C91.6713 60.74 92.9468 60.4041 93.7232 59.6765C94.4997 59.0048 94.8879 57.9973 94.8879 56.8219C94.8879 55.5905 94.4997 54.583 93.7232 53.9113C92.9468 53.1837 91.7268 52.8478 89.9521 52.8478H85.6819V60.74H89.9521Z"
+                            fill="#F64909" />
+                        <path
+                            d="M108.53 40.4219H123.448V43.8922H112.579V50.2171H122.284V53.6874H112.579V60.684H123.448V64.1543H108.53V40.4219Z"
+                            fill="#F64909" />
+                        <path
+                            d="M132.932 40.4219H141.195C144.19 40.4219 146.408 41.0935 147.905 42.4929C149.403 43.8922 150.123 45.7953 150.123 48.1461C150.123 50.5529 149.403 52.456 147.905 53.8553C146.408 55.2546 144.19 55.9263 141.195 55.9263H136.925V64.1543H132.932V40.4219ZM141.195 52.512C142.914 52.512 144.19 52.1202 144.966 51.3925C145.742 50.6649 146.131 49.6014 146.131 48.2021C146.131 46.8028 145.742 45.7393 144.966 45.0116C144.19 44.284 142.969 43.8922 141.195 43.8922H136.925V52.456H141.195V52.512Z"
+                            fill="#F64909" />
+                        <path
+                            d="M159.607 40.4219H167.87C170.865 40.4219 173.083 41.0935 174.58 42.4929C176.078 43.8922 176.799 45.7953 176.799 48.1461C176.799 50.5529 176.078 52.456 174.58 53.8553C173.083 55.2546 170.865 55.9263 167.87 55.9263H163.6V64.1543H159.607V40.4219ZM167.87 52.512C169.589 52.512 170.865 52.1202 171.641 51.3925C172.417 50.6649 172.806 49.6014 172.806 48.2021C172.806 46.8028 172.417 45.7393 171.641 45.0116C170.865 44.284 169.645 43.8922 167.87 43.8922H163.6V52.456H167.87V52.512Z"
+                            fill="#F64909" />
+                        <path
+                            d="M186.226 40.4219H190.219V57.5495L200.202 40.4219H204.25V64.1543H200.257V47.0826L190.219 64.2103H186.226V40.4219Z"
+                            fill="#F64909" />
+                        <path
+                            d="M25.8987 79.2637H26.6751C26.8415 79.0398 26.9524 78.7599 27.0633 78.4801C27.1742 78.2002 27.2297 77.8644 27.2851 77.5285C27.3406 77.1927 27.396 76.8009 27.396 76.3531C27.396 75.9053 27.396 75.4576 27.396 74.8978V72.8828H32.3872V79.2637H33.33V82.0064H31.9436V80.607H27.2851V82.0064H25.8987V79.2637ZM30.8899 79.2637V74.2262H28.8934V74.9538C28.8934 75.4016 28.8934 75.8494 28.8934 76.2412C28.8934 76.633 28.8379 77.0248 28.7825 77.3606C28.727 77.6965 28.6716 78.0323 28.6161 78.3681C28.5606 78.704 28.4497 78.9838 28.2834 79.3197H30.8899V79.2637Z"
+                            fill="#F64909" />
+                        <path
+                            d="M37.4893 72.9375H42.425V74.2808H39.0421V76.016H42.0368V77.3593H39.0421V79.3184H42.425V80.6617H37.4893V72.9375Z"
+                            fill="#F64909" />
+                        <path
+                            d="M49.5236 80.7203C48.5808 80.7203 47.8598 80.4404 47.3053 79.8247C46.7507 79.209 46.4734 78.3134 46.4734 77.082V76.1865C46.4734 75.067 46.7507 74.2274 47.3053 73.6677C47.8598 73.108 48.5808 72.8281 49.5236 72.8281C49.9672 72.8281 50.3554 72.8841 50.6882 72.996C51.0209 73.108 51.2982 73.2759 51.5755 73.4998C51.7973 73.7237 52.0191 74.0035 52.1301 74.2834C52.241 74.6192 52.3519 74.9551 52.4073 75.3469H50.8545C50.7991 74.9551 50.6327 74.6752 50.4663 74.5073C50.3 74.3394 49.9672 74.2274 49.5236 74.2274C49.0799 74.2274 48.6917 74.3954 48.4699 74.6752C48.1926 75.0111 48.0817 75.5148 48.0817 76.2425V77.138C48.0817 77.5858 48.1371 77.9216 48.1926 78.2015C48.248 78.4814 48.3589 78.7053 48.4699 78.8732C48.5808 79.0411 48.7471 79.153 48.9135 79.265C49.0799 79.321 49.3017 79.3769 49.5236 79.3769C49.9672 79.3769 50.2445 79.265 50.4663 79.0411C50.6327 78.8172 50.7991 78.5373 50.8545 78.1455H52.4073C52.2964 78.9851 52.0191 79.6008 51.5755 80.0486C51.0764 80.4964 50.4109 80.7203 49.5236 80.7203Z"
+                            fill="#F64909" />
+                        <path
+                            d="M56.6776 72.9375H61.6133V74.2808H58.2304V76.016H61.2251V77.3593H58.2304V79.3184H61.6133V80.6617H56.6776V72.9375Z"
+                            fill="#F64909" /><svg xmlns="http://www.w3.org/2000/svg" width="220" height="82"
+                            viewBox="0 0 220 82" fill="none">
+                            <g clip-path="url(#clip0_2416_26921)">
+                                <path
+                                    d="M12.5334 54.1352C12.0897 54.4151 11.4243 54.7509 10.4815 55.0867C9.53869 55.4226 8.42954 55.5905 7.20948 55.5905C4.76935 55.5905 2.93925 54.9748 1.77464 53.7434C0.610033 52.568 0 50.6089 0 47.9782V40.4219H3.99294V47.8103C3.99294 48.5939 4.0484 49.2096 4.15931 49.7693C4.27023 50.329 4.49206 50.7768 4.8248 51.1127C5.10209 51.4485 5.54575 51.7284 6.04487 51.8403C6.54399 52.0082 7.20948 52.0642 7.98588 52.0642C9.03958 52.0642 9.98235 51.8963 10.7588 51.6164C11.5352 51.3366 12.1452 51.0007 12.5334 50.6089V40.4219H16.5263V64.1543H12.5334V54.1352Z"
+                                    fill="#F64909" />
+                                <path
+                                    d="M27.2297 40.4219H31.2226V57.5495L41.1495 40.4219H45.1979V64.1543H41.205V47.0826L31.1671 64.2103H27.1742V40.4219H27.2297Z"
+                                    fill="#F64909" />
+                                <path
+                                    d="M63.3324 64.4875C60.6705 64.4875 58.6186 63.8718 57.1767 62.5844C55.7348 61.297 54.8474 59.5619 54.6256 57.3789H58.6186C58.7849 58.4984 59.284 59.3939 60.005 60.0096C60.7259 60.6253 61.8351 60.9612 63.3324 60.9612C65.0516 60.9612 66.2717 60.6253 66.9926 60.0096C67.7136 59.3939 68.1018 58.4984 68.1018 57.3789C68.1018 56.2035 67.7136 55.3079 66.9926 54.6922C66.2717 54.0765 65.0516 53.7407 63.3324 53.7407H60.4487V50.2704H63.3879C64.7189 50.2704 65.7171 49.9905 66.3826 49.3748C67.0481 48.7591 67.3808 47.9755 67.3808 47.024C67.3808 46.0165 67.0481 45.1769 66.3826 44.5612C65.7171 43.9455 64.7189 43.6656 63.3879 43.6656C62.0015 43.6656 60.9478 43.9455 60.2268 44.5612C59.5059 45.1769 59.0622 45.9605 59.0068 47.024H55.1247C55.2356 46.0165 55.4575 45.1209 55.8457 44.2813C56.2339 43.4417 56.7885 42.7141 57.5094 42.0984C58.2303 41.4827 59.0622 41.0349 60.005 40.6991C61.0032 40.3632 62.1124 40.1953 63.3324 40.1953C64.608 40.1953 65.7726 40.3632 66.7708 40.6991C67.769 41.0349 68.6009 41.4827 69.2664 42.0984C69.9319 42.7141 70.431 43.3858 70.8192 44.1694C71.152 44.953 71.3183 45.8486 71.3183 46.8001C71.3183 48.0315 70.9856 49.039 70.3755 49.8786C69.7655 50.7182 68.9337 51.3898 67.9354 51.8376C69.2109 52.2294 70.2092 52.9011 70.9856 53.7967C71.762 54.7482 72.0947 55.9796 72.0947 57.5468C72.0947 58.6103 71.9284 59.5619 71.5402 60.4015C71.2074 61.241 70.6528 61.9687 69.9319 62.5844C69.2109 63.2001 68.3236 63.6479 67.2145 63.9837C66.1053 64.3195 64.8298 64.4875 63.3324 64.4875Z"
+                                    fill="#F64909" />
+                                <path
+                                    d="M81.689 40.4219H96.8843V43.8922H85.6819V49.3775H89.9521C91.4495 49.3775 92.725 49.5454 93.8342 49.9372C94.9433 50.2731 95.8861 50.7768 96.6625 51.4485C97.4389 52.1202 97.9935 52.8478 98.3262 53.7993C98.7144 54.6949 98.8808 55.7024 98.8808 56.8219C98.8808 57.9413 98.7144 58.9488 98.3262 59.8444C97.938 60.74 97.3834 61.5236 96.6625 62.1953C95.8861 62.8669 94.9988 63.3707 93.8342 63.7065C92.725 64.0424 91.394 64.2662 89.9521 64.2662H81.689V40.4219ZM89.9521 60.74C91.6713 60.74 92.9468 60.4041 93.7232 59.6765C94.4997 59.0048 94.8879 57.9973 94.8879 56.8219C94.8879 55.5905 94.4997 54.583 93.7232 53.9113C92.9468 53.1837 91.7268 52.8478 89.9521 52.8478H85.6819V60.74H89.9521Z"
+                                    fill="#F64909" />
+                                <path
+                                    d="M108.53 40.4219H123.448V43.8922H112.579V50.2171H122.284V53.6874H112.579V60.684H123.448V64.1543H108.53V40.4219Z"
+                                    fill="#F64909" />
+                                <path
+                                    d="M132.932 40.4219H141.195C144.19 40.4219 146.408 41.0935 147.905 42.4929C149.403 43.8922 150.123 45.7953 150.123 48.1461C150.123 50.5529 149.403 52.456 147.905 53.8553C146.408 55.2546 144.19 55.9263 141.195 55.9263H136.925V64.1543H132.932V40.4219ZM141.195 52.512C142.914 52.512 144.19 52.1202 144.966 51.3925C145.742 50.6649 146.131 49.6014 146.131 48.2021C146.131 46.8028 145.742 45.7393 144.966 45.0116C144.19 44.284 142.969 43.8922 141.195 43.8922H136.925V52.456H141.195V52.512Z"
+                                    fill="#F64909" />
+                                <path
+                                    d="M159.607 40.4219H167.87C170.865 40.4219 173.083 41.0935 174.58 42.4929C176.078 43.8922 176.799 45.7953 176.799 48.1461C176.799 50.5529 176.078 52.456 174.58 53.8553C173.083 55.2546 170.865 55.9263 167.87 55.9263H163.6V64.1543H159.607V40.4219ZM167.87 52.512C169.589 52.512 170.865 52.1202 171.641 51.3925C172.417 50.6649 172.806 49.6014 172.806 48.2021C172.806 46.8028 172.417 45.7393 171.641 45.0116C170.865 44.284 169.645 43.8922 167.87 43.8922H163.6V52.456H167.87V52.512Z"
+                                    fill="#F64909" />
+                                <path
+                                    d="M186.226 40.4219H190.219V57.5495L200.202 40.4219H204.25V64.1543H200.257V47.0826L190.219 64.2103H186.226V40.4219Z"
+                                    fill="#F64909" />
+                                <path
+                                    d="M25.8987 79.2637H26.6751C26.8415 79.0398 26.9524 78.7599 27.0633 78.4801C27.1742 78.2002 27.2297 77.8644 27.2851 77.5285C27.3406 77.1927 27.396 76.8009 27.396 76.3531C27.396 75.9053 27.396 75.4576 27.396 74.8978V72.8828H32.3872V79.2637H33.33V82.0064H31.9436V80.607H27.2851V82.0064H25.8987V79.2637ZM30.8899 79.2637V74.2262H28.8934V74.9538C28.8934 75.4016 28.8934 75.8494 28.8934 76.2412C28.8934 76.633 28.8379 77.0248 28.7825 77.3606C28.727 77.6965 28.6716 78.0323 28.6161 78.3681C28.5606 78.704 28.4497 78.9838 28.2834 79.3197H30.8899V79.2637Z"
+                                    fill="#F64909" />
+                                <path
+                                    d="M37.4893 72.9375H42.425V74.2808H39.0421V76.016H42.0368V77.3593H39.0421V79.3184H42.425V80.6617H37.4893V72.9375Z"
+                                    fill="#F64909" />
+                                <path
+                                    d="M49.5236 80.7203C48.5808 80.7203 47.8598 80.4404 47.3053 79.8247C46.7507 79.209 46.4734 78.3134 46.4734 77.082V76.1865C46.4734 75.067 46.7507 74.2274 47.3053 73.6677C47.8598 73.108 48.5808 72.8281 49.5236 72.8281C49.9672 72.8281 50.3554 72.8841 50.6882 72.996C51.0209 73.108 51.2982 73.2759 51.5755 73.4998C51.7973 73.7237 52.0191 74.0035 52.1301 74.2834C52.241 74.6192 52.3519 74.9551 52.4073 75.3469H50.8545C50.7991 74.9551 50.6327 74.6752 50.4663 74.5073C50.3 74.3394 49.9672 74.2274 49.5236 74.2274C49.0799 74.2274 48.6917 74.3954 48.4699 74.6752C48.1926 75.0111 48.0817 75.5148 48.0817 76.2425V77.138C48.0817 77.5858 48.1371 77.9216 48.1926 78.2015C48.248 78.4814 48.3589 78.7053 48.4699 78.8732C48.5808 79.0411 48.7471 79.153 48.9135 79.265C49.0799 79.321 49.3017 79.3769 49.5236 79.3769C49.9672 79.3769 50.2445 79.265 50.4663 79.0411C50.6327 78.8172 50.7991 78.5373 50.8545 78.1455H52.4073C52.2964 78.9851 52.0191 79.6008 51.5755 80.0486C51.0764 80.4964 50.4109 80.7203 49.5236 80.7203Z"
+                                    fill="#F64909" />
+                                <path
+                                    d="M56.6776 72.9375H61.6133V74.2808H58.2304V76.016H61.2251V77.3593H58.2304V79.3184H61.6133V80.6617H56.6776V72.9375Z"
+                                    fill="#F64909" />
+                                <path
+                                    d="M65.939 72.9375H68.7118C69.7101 72.9375 70.4865 73.1614 70.9856 73.6092C71.4847 74.057 71.7065 74.6727 71.7065 75.4563C71.7065 76.2399 71.4847 76.8556 70.9856 77.3593C70.4865 77.8071 69.7655 78.031 68.7118 78.031H67.4918V80.6058H65.939V72.9375ZM68.7118 76.7436C69.211 76.7436 69.5992 76.6317 69.821 76.4078C70.0428 76.1839 70.1537 75.9041 70.1537 75.4563C70.1537 75.0085 70.0428 74.7286 69.821 74.5047C69.5992 74.2808 69.211 74.1689 68.7118 74.1689H67.4918V76.6317H68.7118V76.7436Z"
+                                    fill="#F64909" />
+                                <path
+                                    d="M77.4741 74.2262H75.3113V72.8828H81.2452V74.2262H79.0824V80.607H77.5296V74.2262H77.4741Z"
+                                    fill="#F64909" />
+                                <path
+                                    d="M85.1827 72.9375H86.7355V75.7361H87.6229C88.122 75.7361 88.5656 75.7921 88.9538 75.9041C89.342 76.016 89.6193 76.1839 89.8966 76.4078C90.1185 76.6317 90.3403 76.8556 90.4512 77.1914C90.5621 77.4713 90.6176 77.8071 90.6176 78.1989C90.6176 78.5907 90.5621 78.8706 90.4512 79.2064C90.3403 79.4863 90.1185 79.7662 89.8966 79.9901C89.6748 80.2139 89.342 80.3819 88.9538 80.4938C88.5656 80.6058 88.122 80.6617 87.6229 80.6617H85.1827V72.9375ZM87.6783 79.2624C88.1774 79.2624 88.5656 79.1505 88.7875 78.9826C89.0093 78.7587 89.1202 78.4788 89.1202 78.143C89.1202 77.7512 89.0093 77.4713 88.7875 77.3034C88.5656 77.0795 88.1774 77.0235 87.6783 77.0235H86.791V79.3184H87.6783V79.2624ZM91.1167 72.9375H92.6695V80.6058H91.1167V72.9375Z"
+                                    fill="#F64909" />
+                                <path
+                                    d="M103.151 72.9375H108.974V80.6058H107.421V74.2249H104.704V80.6058H103.151V72.9375Z"
+                                    fill="#F64909" />
+                                <path
+                                    d="M116.405 80.7203C115.463 80.7203 114.742 80.4404 114.187 79.8247C113.633 79.209 113.355 78.3134 113.355 77.082V76.1865C113.355 75.067 113.633 74.2274 114.187 73.6677C114.742 73.108 115.463 72.8281 116.405 72.8281C117.348 72.8281 118.069 73.108 118.624 73.6677C119.178 74.2274 119.456 75.067 119.456 76.1865V77.082C119.456 78.3134 119.178 79.209 118.624 79.8247C118.125 80.3844 117.348 80.7203 116.405 80.7203ZM116.405 79.3769C116.627 79.3769 116.849 79.321 117.015 79.265C117.182 79.209 117.348 79.0411 117.459 78.8732C117.57 78.7053 117.681 78.4814 117.736 78.2015C117.792 77.9216 117.847 77.5298 117.847 77.138V76.2425C117.847 75.5148 117.736 74.9551 117.459 74.6752C117.182 74.3394 116.849 74.2274 116.405 74.2274C115.962 74.2274 115.574 74.3954 115.352 74.6752C115.074 75.0111 114.963 75.5148 114.963 76.2425V77.138C114.963 77.5858 115.019 77.9216 115.074 78.2015C115.13 78.4814 115.241 78.7053 115.352 78.8732C115.463 79.0411 115.629 79.153 115.795 79.265C116.017 79.321 116.184 79.3769 116.405 79.3769Z"
+                                    fill="#F64909" />
+                                <path
+                                    d="M128.994 79.1518C129.216 79.0958 129.438 79.0398 129.604 78.9838C129.771 78.8719 129.882 78.704 129.992 78.4801C130.103 78.2562 130.159 77.9204 130.159 77.5285C130.214 77.1367 130.214 76.633 130.214 76.0173V72.8828H135.372V80.607H133.819V74.2262H131.656V76.0173C131.656 76.9128 131.601 77.6965 131.545 78.2562C131.434 78.8719 131.323 79.3197 131.102 79.6555C130.88 79.9913 130.603 80.2712 130.27 80.3832C129.937 80.5511 129.493 80.607 128.994 80.663V79.1518Z"
+                                    fill="#F64909" />
+                                <path
+                                    d="M145.354 80.7203C144.91 80.7203 144.522 80.6643 144.19 80.5524C143.857 80.4404 143.58 80.2165 143.302 79.9367C143.08 79.6568 142.859 79.321 142.748 78.8732C142.637 78.4254 142.526 77.9216 142.526 77.3059H141.638V80.6083H140.086V72.9401H141.638V76.0186H142.526C142.581 74.8991 142.859 74.1155 143.302 73.6117C143.801 73.108 144.467 72.8281 145.299 72.8281C145.742 72.8281 146.131 72.8841 146.463 73.052C146.796 73.164 147.129 73.3879 147.351 73.6677C147.572 73.9476 147.794 74.2834 147.905 74.7312C148.016 75.179 148.072 75.6827 148.072 76.2984V77.0261C148.072 77.6977 148.016 78.2575 147.905 78.7053C147.794 79.153 147.572 79.5448 147.351 79.8247C147.129 80.1046 146.796 80.3285 146.463 80.4964C146.186 80.6083 145.798 80.7203 145.354 80.7203ZM145.354 79.3769C145.576 79.3769 145.742 79.321 145.853 79.265C146.02 79.209 146.131 79.0971 146.241 78.9291C146.352 78.7612 146.408 78.5373 146.519 78.2015C146.574 77.9216 146.63 77.4739 146.63 77.0261V76.2984C146.63 75.8506 146.574 75.5148 146.519 75.2349C146.463 74.9551 146.352 74.7312 146.241 74.5633C146.131 74.3954 146.02 74.2834 145.853 74.2274C145.687 74.1715 145.521 74.1155 145.354 74.1155C145.188 74.1155 144.966 74.1715 144.855 74.2274C144.689 74.2834 144.578 74.3954 144.467 74.5633C144.356 74.7312 144.3 74.9551 144.19 75.2349C144.134 75.5148 144.079 75.8506 144.079 76.2984V77.0261C144.079 77.5298 144.134 77.9216 144.19 78.2015C144.245 78.4814 144.356 78.7612 144.467 78.9291C144.578 79.0971 144.689 79.209 144.855 79.265C144.966 79.321 145.132 79.3769 145.354 79.3769Z"
+                                    fill="#F64909" />
+                                <path
+                                    d="M152.619 72.9375H157.721V74.2808H154.172V75.7361H155.392C155.891 75.7361 156.335 75.7921 156.723 75.9041C157.111 76.016 157.388 76.1839 157.666 76.4078C157.888 76.6317 158.109 76.8556 158.22 77.1914C158.331 77.4713 158.387 77.8071 158.387 78.1989C158.387 78.5907 158.331 78.8706 158.22 79.2064C158.109 79.4863 157.888 79.7662 157.666 79.9901C157.444 80.2139 157.111 80.3819 156.723 80.4938C156.335 80.6058 155.891 80.6617 155.392 80.6617H152.619V72.9375ZM155.337 79.2624C155.836 79.2624 156.224 79.1505 156.446 78.9826C156.668 78.7587 156.778 78.4788 156.778 78.143C156.778 77.7512 156.668 77.4713 156.446 77.3034C156.224 77.0795 155.836 77.0235 155.337 77.0235H154.172V79.3184H155.337V79.2624Z"
+                                    fill="#F64909" />
+                                <path
+                                    d="M162.712 72.9375H165.541C166.373 72.9375 167.038 73.1054 167.537 73.4413C168.036 73.7771 168.258 74.2808 168.258 74.9525C168.258 75.3443 168.147 75.6802 167.981 75.9041C167.814 76.1839 167.537 76.4078 167.26 76.5757C167.648 76.7436 167.925 76.9116 168.147 77.2474C168.369 77.5273 168.48 77.9191 168.48 78.4228C168.48 78.7027 168.425 79.0385 168.314 79.2624C168.203 79.5423 168.036 79.7662 167.815 79.9341C167.593 80.102 167.26 80.2699 166.927 80.3819C166.594 80.4938 166.151 80.5498 165.652 80.5498H162.712V72.9375ZM165.541 76.016C165.929 76.016 166.206 75.96 166.428 75.7921C166.594 75.6242 166.705 75.4003 166.705 75.1764C166.705 74.8965 166.594 74.6727 166.428 74.5047C166.262 74.3368 165.929 74.2808 165.541 74.2808H164.265V76.072H165.541V76.016ZM165.541 79.2624C166.04 79.2624 166.428 79.1505 166.594 78.9826C166.816 78.8146 166.927 78.5348 166.927 78.2549C166.927 77.9191 166.816 77.6952 166.65 77.4713C166.428 77.3034 166.095 77.1914 165.541 77.1914H164.265V79.2064H165.541V79.2624Z"
+                                    fill="#F64909" />
+                                <path
+                                    d="M172.806 72.9375H174.358V78.087L177.298 72.9375H178.851V80.6058H177.298V75.4563L174.358 80.6058H172.806V72.9375Z"
+                                    fill="#F64909" />
+                                <path
+                                    d="M216.34 47.7478C215.841 47.7478 215.342 47.6358 214.898 47.4679C214.454 47.3 214.066 47.0201 213.733 46.6843C213.401 46.3485 213.123 45.9566 212.957 45.5089C212.79 45.0611 212.68 44.5573 212.68 44.0536C212.68 43.5498 212.79 43.0461 212.957 42.5983C213.123 42.1505 213.401 41.7587 213.733 41.4229C214.066 41.087 214.454 40.8072 214.898 40.6392C215.342 40.4713 215.841 40.3594 216.34 40.3594C216.839 40.3594 217.338 40.4713 217.782 40.6392C218.225 40.8072 218.614 41.087 218.946 41.4229C219.279 41.7587 219.556 42.1505 219.723 42.5983C219.889 43.0461 220 43.5498 220 44.0536C220 44.5573 219.889 45.0611 219.723 45.5089C219.556 45.9566 219.279 46.3485 218.946 46.6843C218.614 47.0201 218.225 47.3 217.782 47.4679C217.338 47.6358 216.839 47.7478 216.34 47.7478ZM216.34 46.6843C216.728 46.6843 217.061 46.6283 217.393 46.4604C217.726 46.2925 218.003 46.1246 218.225 45.9007C218.447 45.6768 218.669 45.3969 218.78 45.0611C218.946 44.7252 219.002 44.3894 219.002 43.9976C219.002 43.6058 218.946 43.27 218.78 42.9341C218.614 42.5983 218.447 42.3184 218.225 42.0945C218.003 41.8706 217.726 41.6467 217.393 41.5348C217.061 41.3669 216.728 41.3109 216.34 41.3109C215.952 41.3109 215.619 41.3669 215.286 41.5348C214.953 41.7027 214.676 41.8706 214.454 42.0945C214.232 42.3184 214.011 42.5983 213.9 42.9341C213.733 43.27 213.678 43.6058 213.678 43.9976C213.678 44.3894 213.733 44.7252 213.9 45.0611C214.066 45.3969 214.232 45.6768 214.454 45.9007C214.676 46.1246 214.953 46.3485 215.286 46.4604C215.619 46.6283 216.007 46.6843 216.34 46.6843ZM215.009 42.2065H216.34C216.839 42.2065 217.227 42.3184 217.449 42.5423C217.671 42.7662 217.782 43.0461 217.782 43.4379C217.782 43.9416 217.56 44.2775 217.116 44.5014L217.782 45.9007H216.839L216.34 44.6133H215.896V45.9007H215.009V42.2065ZM216.34 43.7737C216.562 43.7737 216.728 43.7177 216.783 43.6618C216.839 43.6058 216.894 43.4938 216.894 43.3819C216.894 43.27 216.839 43.158 216.783 43.102C216.728 43.0461 216.562 42.9901 216.34 42.9901H215.896V43.7737H216.34Z"
+                                    fill="#F64909" />
+                                <path
+                                    d="M99.8236 15.8441C99.5463 16.124 90.2849 26.4789 90.0631 26.7028C90.6176 26.7028 91.1722 26.6469 91.6713 26.4789C92.5032 26.2551 93.2241 25.9192 93.9451 25.4714C97.6053 23.1206 99.4908 22.9527 101.654 22.7288C104.815 22.337 107.809 20.9936 110.083 18.8107C114.076 15.0045 113.633 11.1424 113.854 10.8066C114.409 7.78406 115.574 6.8885 115.795 6.66461C117.736 4.87348 121.951 3.81 124.558 3.69805C123.504 3.30625 117.847 3.69805 115.795 4.36973C114.353 3.02638 111.581 1.79498 109.251 3.58611C108.697 4.03389 108.253 4.64959 107.976 5.26529C107.532 6.32877 106.922 7.84003 106.478 8.34379C105.425 7.5042 103.262 6.10488 101.265 4.76154C97.5498 2.35471 93.3905 0.731501 89.0094 -0.0521171C88.6212 -0.10809 88.3439 -0.164062 88.3439 -0.164062C88.3439 -0.164062 93.6123 9.63116 95.2206 11.5902C96.718 14.109 99.8236 15.8441 99.8236 15.8441Z"
+                                    fill="#F64909" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_2416_26921">
+                                    <rect width="220" height="82" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg>7.814 76.1839 167.537 76.4078 167.26 76.5757C167.648 76.7436 167.925 76.9116 168.147
+                        77.2474C168.369 77.5273 168.48 77.9191 168.48 78.4228C168.48 78.7027 168.425 79.0385 168.314
+                        79.2624C168.203 79.5423 168.036 79.7662 167.815 79.9341C167.593 80.102 167.26 80.2699 166.927
+                        80.3819C166.594 80.4938 166.151 80.5498 165.652 80.5498H162.712V72.9375ZM165.541 76.016C165.929
+                        76.016 166.206 75.96 166.428 75.7921C166.594 75.6242 166.705 75.4003 166.705 75.1764C166.705
+                        74.8965 166.594 74.6727 166.428 74.5047C166.262 74.3368 165.929 74.2808 165.541
+                        74.2808H164.265V76.072H165.541V76.016ZM165.541 79.2624C166.04 79.2624 166.428 79.1505 166.594
+                        78.9826C166.816 78.8146 166.927 78.5348 166.927 78.2549C166.927 77.9191 166.816 77.6952 166.65
+                        77.4713C166.428 77.3034 166.095 77.1914 165.541 77.1914H164.265V79.2064H165.541V79.2624Z"
+                        fill="#F64909" />
+                        <path
+                            d="M172.806 72.9375H174.358V78.087L177.298 72.9375H178.851V80.6058H177.298V75.4563L174.358 80.6058H172.806V72.9375Z"
+                            fill="#F64909" />
+                        <path
+                            d="M216.34 47.7478C215.841 47.7478 215.342 47.6358 214.898 47.4679C214.454 47.3 214.066 47.0201 213.733 46.6843C213.401 46.3485 213.123 45.9566 212.957 45.5089C212.79 45.0611 212.68 44.5573 212.68 44.0536C212.68 43.5498 212.79 43.0461 212.957 42.5983C213.123 42.1505 213.401 41.7587 213.733 41.4229C214.066 41.087 214.454 40.8072 214.898 40.6392C215.342 40.4713 215.841 40.3594 216.34 40.3594C216.839 40.3594 217.338 40.4713 217.782 40.6392C218.225 40.8072 218.614 41.087 218.946 41.4229C219.279 41.7587 219.556 42.1505 219.723 42.5983C219.889 43.0461 220 43.5498 220 44.0536C220 44.5573 219.889 45.0611 219.723 45.5089C219.556 45.9566 219.279 46.3485 218.946 46.6843C218.614 47.0201 218.225 47.3 217.782 47.4679C217.338 47.6358 216.839 47.7478 216.34 47.7478ZM216.34 46.6843C216.728 46.6843 217.061 46.6283 217.393 46.4604C217.726 46.2925 218.003 46.1246 218.225 45.9007C218.447 45.6768 218.669 45.3969 218.78 45.0611C218.946 44.7252 219.002 44.3894 219.002 43.9976C219.002 43.6058 218.946 43.27 218.78 42.9341C218.614 42.5983 218.447 42.3184 218.225 42.0945C218.003 41.8706 217.726 41.6467 217.393 41.5348C217.061 41.3669 216.728 41.3109 216.34 41.3109C215.952 41.3109 215.619 41.3669 215.286 41.5348C214.953 41.7027 214.676 41.8706 214.454 42.0945C214.232 42.3184 214.011 42.5983 213.9 42.9341C213.733 43.27 213.678 43.6058 213.678 43.9976C213.678 44.3894 213.733 44.7252 213.9 45.0611C214.066 45.3969 214.232 45.6768 214.454 45.9007C214.676 46.1246 214.953 46.3485 215.286 46.4604C215.619 46.6283 216.007 46.6843 216.34 46.6843ZM215.009 42.2065H216.34C216.839 42.2065 217.227 42.3184 217.449 42.5423C217.671 42.7662 217.782 43.0461 217.782 43.4379C217.782 43.9416 217.56 44.2775 217.116 44.5014L217.782 45.9007H216.839L216.34 44.6133H215.896V45.9007H215.009V42.2065ZM216.34 43.7737C216.562 43.7737 216.728 43.7177 216.783 43.6618C216.839 43.6058 216.894 43.4938 216.894 43.3819C216.894 43.27 216.839 43.158 216.783 43.102C216.728 43.0461 216.562 42.9901 216.34 42.9901H215.896V43.7737H216.34Z"
+                            fill="#F64909" />
+                        <path
+                            d="M99.8236 15.8441C99.5463 16.124 90.2849 26.4789 90.0631 26.7028C90.6176 26.7028 91.1722 26.6469 91.6713 26.4789C92.5032 26.2551 93.2241 25.9192 93.9451 25.4714C97.6053 23.1206 99.4908 22.9527 101.654 22.7288C104.815 22.337 107.809 20.9936 110.083 18.8107C114.076 15.0045 113.633 11.1424 113.854 10.8066C114.409 7.78406 115.574 6.8885 115.795 6.66461C117.736 4.87348 121.951 3.81 124.558 3.69805C123.504 3.30625 117.847 3.69805 115.795 4.36973C114.353 3.02638 111.581 1.79498 109.251 3.58611C108.697 4.03389 108.253 4.64959 107.976 5.26529C107.532 6.32877 106.922 7.84003 106.478 8.34379C105.425 7.5042 103.262 6.10488 101.265 4.76154C97.5498 2.35471 93.3905 0.731501 89.0094 -0.0521171C88.6212 -0.10809 88.3439 -0.164062 88.3439 -0.164062C88.3439 -0.164062 93.6123 9.63116 95.2206 11.5902C96.718 14.109 99.8236 15.8441 99.8236 15.8441Z"
+                            fill="#F64909" />
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_2416_26921">
+                            <rect width="220" height="82" fill="white" />
+                        </clipPath>
+                    </defs>
+                </svg>
+            </div>
+            <div class="modal_title">
+                ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ ПЕРСОНАЛЬНЫХ ДАННЫХ
+            </div>
+            <div class="modal_text_wrapper">
+                <div class="modal_text">
+                    Настоящая Политика конфиденциальности персональных данных (далее – Политика конфиденциальности)
+                    действует в отношении всей информации, которую сайт cheeseberry.ru (далее – Сайт "Чизберри")
+                    расположенный на доменном имени cheeseberry.ru, а также его субдоменах), может получить о
+                    Пользователе во время использования сайта cheeseberry.ru (а также его субдоменов), его программ и
+                    его продуктов. <br>
+                    1. Определение терминов <br>
+                    1.1 В настоящей Политике конфиденциальности используются следующие термины: <br>
+                    1.1.1. «Администрация сайта» (далее – Администрация) – уполномоченные сотрудники на управление <br>
+                    сайтом "Чизберри" — действующие от имени ООО "Чизберри Гуд Фуд", которые организуют и (или)
+                    осуществляют обработку персональных данных, а также определяет цели обработки персональных данных,
+                    состав персональных данных, подлежащих обработке, действия (операции), совершаемые с персональными
+                    данными. <br>
+                    1.1.2. «Персональные данные» - любая информация, относящаяся к прямо или косвенно определенному, или
+                    определяемому физическому лицу (субъекту персональных данных). <br>
+                    1.1.3. «Обработка персональных данных» - любое действие (операция) или совокупность действий
+                    (операций), совершаемых с использованием средств автоматизации или без использования таких средств с
+                    персональными данными, включая сбор, запись, систематизацию, накопление, хранение, уточнение
+                    (обновление, изменение), извлечение,
+                    использование, передачу (распространение, предоставление, доступ), обезличивание, блокирование,
+                    удаление, уничтожение персональных данных. <br>
+                    1.1.4. «Конфиденциальность персональных данных» - обязательное для соблюдения Оператором или иным
+                    получившим доступ к персональным данным лицом требование не допускать их распространения без
+                    согласия субъекта персональных данных или наличия иного законного основания. <br>
+                    1.1.5. «Сайт «Чизберри» - это совокупность связанных между собой веб-страниц, размещенных в сети
+                    Интернет по уникальному адресу (URL): cheeseberry.ru, а также его субдоменах. <br>
+                    1.1.6. «Субдомены» - это страницы или совокупность страниц, расположенные на доменах третьего
+                    уровня, принадлежащие сайту «Чизберри», а также другие временные страницы, внизу который указана
+                    контактная информация Администрации <br>
+                    1.1.5. «Пользователь сайта «Чизберри»» (далее Пользователь) – лицо, имеющее доступ к сайту
+                    «Чизберри», посредством сети Интернет и использующее информацию, материалы и продукты сайта
+                    «Чизберри». <br>
+                    1.1.7. «Cookies» — небольшой фрагмент данных, отправленный веб-сервером и хранимый на компьютере
+                    пользователя, который веб-клиент или веб-браузер каждый раз пересылает веб-серверу в HTTP-запросе
+                    при попытке открыть страницу соответствующего сайта. <br>
+                    1.1.8. «IP-адрес» — уникальный сетевой адрес узла в компьютерной сети, через который Пользователь
+                    получает доступ на Сайт "Чизберри ". <br>
+                    1.1.9. «Товар » - продукт, который Пользователь заказывает на сайте и оплачивает через платёжные
+                    системы. <br>
+                    2. Общие положения <br>
+                    2.1. Использование сайта "Чизберри" — Пользователем означает согласие с настоящей Политикой
+                    конфиденциальности и условиями обработки персональных данных Пользователя. <br>
+                    2.2. В случае несогласия с условиями Политики конфиденциальности Пользователь должен прекратить
+                    использование сайта "Чизберри". <br>
+                    2.3. Настоящая Политика конфиденциальности применяется к сайту "Чизберри".Сайт "Чизберри"." не
+                    контролирует и не несет ответственность за сайты третьих лиц, на которые Пользователь может перейти
+                    по ссылкам, доступным на сайте "Чизберри". <br>
+                    2.4. Администрация не проверяет достоверность персональных данных, предоставляемых Пользователем.
+                    <br>
+                    3. Предмет политики конфиденциальности <br>
+                    3.1. Настоящая Политика конфиденциальности устанавливает обязательства Администрации по
+                    неразглашению и обеспечению режима защиты конфиденциальности персональных данных, которые
+                    Пользователь предоставляет по запросу Администрации при регистрации на сайте "Чизберри", при
+                    подписке на информационную e-mail рассылку или при оформлении заказа. <br>
+                    3.2. Персональные данные, разрешённые к обработке в рамках настоящей Политики конфиденциальности,
+                    предоставляются Пользователем путём заполнения форм на сайте "Чизберри" и включают в себя следующую
+                    информацию: <br>
+                    3.2.1. фамилию, имя, отчество Пользователя; <br>
+                    3.2.2. контактный телефон Пользователя; <br>
+                    3.2.3. адрес электронной почты (e-mail) <br>
+                    3.2.4. место жительство Пользователя (при необходимости) <br>
+                    3.2.5. адрес доставки Товара (при необходимости) 3.2.6. фотографию (при необходимости). <br>
+                    3.3. Сайт "Чизберри" защищает Данные, которые автоматически передаются при посещении страниц: <br>
+                    - IP адрес; <br>
+                    - информация из cookies; <br>
+                    - информация о браузере <br>
+                    - время доступа; <br>
+                    - реферер (адрес предыдущей страницы). <br>
+                    3.3.1. Отключение cookies может повлечь невозможность доступа к частям сайта , требующим
+                    авторизации. <br>
+                    3.3.2. Сайт "Чизберри"." осуществляет сбор статистики об IP-адресах своих посетителей. Данная
+                    информация используется с целью предотвращения, выявления и решения технических проблем. <br>
+                    3.4. Любая иная персональная информация неоговоренная выше (история посещения, используемые
+                    браузеры, операционные системы и т.д.) подлежит надежному хранению и нераспространению, за
+                    исключением случаев, предусмотренных в п.п. 5.2. и 5.3. настоящей Политики конфиденциальности. <br>
+                    4. Цели сбора персональной информации пользователя <br>
+                    4.1. Персональные данные Пользователя Администрация может использовать в целях: <br>
+                    4.1.1. Идентификации Пользователя, зарегистрированного на сайте " Чизберри " —для его дальнейшей
+                    авторизации, оформления заказа и других действий. <br>
+                    4.1.2. Предоставления Пользователю доступа к персонализированным данным сайта " Чизберри ". <br>
+                    4.1.3. Установления с Пользователем обратной связи, включая направление уведомлений, запросов,
+                    касающихся использования сайта " Чизберри " , оказания услуг и обработки запросов и заявок от
+                    Пользователя. <br>
+                    4.1.4. Определения места нахождения Пользователя для обеспечения безопасности, предотвращения
+                    мошенничества. <br>
+                    4.1.5. Подтверждения достоверности и полноты персональных данных, предоставленных Пользователем.
+                    <br>
+                    4.1.6. Создания учетной записи для использования частей сайта " Чизберри " —если Пользователь дал
+                    согласие на создание учетной записи. <br>
+                    4.1.7. Уведомления Пользователя по электронной почте. <br>
+                    4.1.8. Предоставления Пользователю эффективной технической поддержки при возникновении проблем,
+                    связанных с использованием сайта " Чизберри ". <br>
+                    4.1.9. Предоставления Пользователю с его согласия специальных предложений, информации о ценах,
+                    новостной рассылки и иных сведений от имени сайта " Чизберри ". <br>
+                    4.1.10. Осуществления рекламной деятельности с согласия Пользователя. <br>
+                    5. Способы и сроки обработки персональной информации <br>
+                    5.1. Обработка персональных данных Пользователя осуществляется без ограничения срока, любым законным
+                    способом, в том числе в информационных системах персональных данных с использованием средств
+                    автоматизации или без использования таких средств. <br>
+                    5.2. Пользователь соглашается с тем, что Администрация вправе передавать персональные данные третьим
+                    лицам, в частности, курьерским службам, организациями почтовой связи (в том числе электронной),
+                    операторам электросвязи, исключительно в целях выполнения заказа Пользователя, оформленного на сайте
+                    " Чизберри " включая доставку Товара, документации или e-mail сообщений. <br>
+                    5.3. Персональные данные Пользователя могут быть переданы уполномоченным органам государственной
+                    власти Российской Федерации только по основаниям и в порядке, установленным законодательством
+                    Российской Федерации. <br>
+                    5.4. При утрате или разглашении персональных данных Администрация вправе не информировать
+                    Пользователя об утрате или разглашении персональных данных. <br>
+                    5.5. Администрация принимает необходимые организационные и технические меры для защиты персональной
+                    информации Пользователя от неправомерного или случайного доступа, уничтожения, изменения,
+                    блокирования, копирования, распространения, а также от иных неправомерных действий третьих лиц. <br>
+                    5.6. Администрация совместно с Пользователем принимает все необходимые меры по предотвращению
+                    убытков или иных отрицательных последствий, вызванных утратой или разглашением персональных данных
+                    Пользователя. <br>
+                    6. Права и обязанности сторон <br>
+                    6.1. Пользователь вправе: <br>
+                    6.1.1. Принимать свободное решение о предоставлении своих персональных данных, необходимых для
+                    использования сайта " Чизберри " и давать согласие на их обработку. <br>
+                    6.1.2. Обновить, дополнить предоставленную информацию о персональных данных в случае изменения
+                    данной информации. <br>
+                    6.1.3. Пользователь имеет право на получение у Администрации информации, касающейся обработки его
+                    персональных данных, если такое право не ограничено в соответствии с федеральными законами.
+                    Пользователь вправе требовать от Администрации уточнения его персональных данных, их блокирования
+                    или уничтожения в случае, если персональные данные являются неполными, устаревшими, неточными,
+                    незаконно полученными или не являются необходимыми для заявленной цели обработки, а также принимать
+                    предусмотренные законом меры по защите своих прав. <br>
+                    6.2. Администрация обязана: <br>
+                    6.2.1. Использовать полученную информацию исключительно для целей, указанных в п. 4 настоящей
+                    Политики конфиденциальности. <br>
+                    6.2.2. Обеспечить хранение конфиденциальной информации в тайне, не разглашать без предварительного
+                    письменного разрешения Пользователя, а также не осуществлять продажу, обмен, опубликование, либо
+                    разглашение иными возможными способами переданных персональных данных Пользователя, за исключением
+                    п.п. 5.2 и 5.3. настоящей Политики Конфиденциальности. <br>
+                    6.2.3. Принимать меры предосторожности для защиты конфиденциальности персональных данных
+                    Пользователя согласно порядку, обычно используемого для защиты такого рода информации в существующем
+                    деловом обороте. <br>
+                    6.2.4. Осуществить блокирование персональных данных, относящихся к соответствующему Пользователю, с
+                    момента обращения или запроса Пользователя, или его законного представителя либо уполномоченного
+                    органа по защите прав субъектов персональных данных на период проверки, в случае выявления
+                    недостоверных персональных данных или неправомерных действий. <br>
+                    7. Ответственность сторон <br>
+                    7.1. Администрация, не исполнившая свои обязательства, несёт ответственность за убытки, понесённые
+                    Пользователем в связи с неправомерным использованием персональных данных, в соответствии с
+                    законодательством Российской Федерации, за исключением случаев, предусмотренных п.п. 5.2., 5.3. и
+                    <br>
+                    7.2. настоящей Политики Конфиденциальности. <br>
+                    7.2. В случае утраты или разглашения Конфиденциальной информации Администрация не несёт
+                    ответственность, если данная конфиденциальная информация: <br>
+                    7.2.1. Стала публичным достоянием до её утраты или разглашения. <br>
+                    7.2.2. Была получена от третьей стороны до момента её получения Администрацией Ресурса. <br>
+                    7.2.3. Была разглашена с согласия Пользователя. <br>
+                    7.3. Пользователь несет полную ответственность за соблюдение требований законодательства РФ, в том
+                    числе законов о рекламе, о защите авторских и смежных прав, об охране товарных знаков и знаков
+                    обслуживания, но не ограничиваясь перечисленным, включая полную ответственность за содержание и
+                    форму материалов. <br>
+                    7.4. Пользователь признает, что ответственность за любую информацию (в том числе, но не
+                    ограничиваясь: файлы с данными, тексты и т. д.), к которой он может иметь доступ как к части сайта "
+                    Чизберри " , несет лицо, предоставившее такую информацию. <br>
+                    7.5. Пользователь соглашается, что информация, предоставленная ему как часть сайта " Чизберри "
+                    может являться объектом интеллектуальной собственности, права на который защищены и принадлежат
+                    другим Пользователям, партнерам или рекламодателям, которые размещают такую информацию на сайте "
+                    Чизберри ".
+                    Пользователь не вправе вносить изменения, передавать в аренду, передавать на условиях займа,
+                    продавать, распространять или создавать производные работы на основе такого Содержания (полностью
+                    или в части), за исключением случаев, когда такие действия были письменно прямо разрешены
+                    собственниками такого Содержания в соответствии с условиями отдельного соглашения. <br>
+                    7.6. В отношение текстовых материалов (статей, публикаций, находящихся в свободном публичном доступе
+                    на сайте " Чизберри " допускается их распространение при условии, что будет дана ссылка на Сайт "
+                    Чизберри ". <br>
+                    7.7. Администрация не несет ответственности перед Пользователем за любой убыток или ущерб,
+                    понесенный Пользователем в результате удаления, сбоя или невозможности сохранения какого-либо
+                    Содержания и иных коммуникационных данных, содержащихся на сайте " Чизберри " или передаваемых через
+                    него. <br>
+                    7.8. Администрация не несет ответственности за любые прямые или косвенные убытки, произошедшие
+                    из-за: использования либо невозможности использования сайта, либо отдельных сервисов;
+                    несанкционированного доступа к коммуникациям Пользователя; заявления или поведение любого третьего
+                    лица на сайте. <br>
+                    7.9. Администрация не несет ответственность за какую-либо информацию, размещенную пользователем на
+                    сайте " Чизберри " включая, но не ограничиваясь: информацию, защищенную авторским правом, без
+                    прямого согласия владельца авторского права.
+                    8. Разрешение споров <br>
+                    8.1. До обращения в суд с иском по спорам, возникающим из отношений между Пользователем и
+                    Администрацией, обязательным является предъявление претензии (письменного предложения или
+                    предложения в электронном виде о добровольном урегулировании спора). <br>
+                    8.2. Получатель претензии в течение 30 календарных дней со дня получения претензии, письменно или в
+                    электронном виде уведомляет заявителя претензии о результатах рассмотрения претензии. <br>
+                    8.3. При не достижении соглашения спор будет передан на рассмотрение Арбитражного суда г.
+                    Ставропольского края. <br>
+                    8.4. К настоящей Политике конфиденциальности и отношениям между Пользователем и Администрацией
+                    применяется действующее законодательство Российской Федерации.
+                    9. Дополнительные условия <br>
+                    9.1. Администрация вправе вносить изменения в настоящую Политику конфиденциальности без согласия
+                    Пользователя. <br>
+                    9.2. Новая Политика конфиденциальности вступает в силу с момента ее размещения на сайте " Чизберри
+                    ", если иное не предусмотрено новой редакцией Политики конфиденциальности. <br>
+                    9.3. Все предложения или вопросы касательно настоящей Политики конфиденциальности следует сообщать
+                    по адресу: <br>
+                    9.4. Действующая Политика конфиденциальности размещена на странице по адресу
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="privacy_policy2" class="information_modal">
+        <div class="modal_bg"></div>
+        <div class="modal_content modal_content2">
+            <div class="modal_close">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                    <g clip-path="url(#clip0_2416_26916)">
+                        <path
+                            d="M18.3495 19.7087L0.291262 1.65049C-0.0970874 1.26214 -0.0970874 0.679612 0.291262 0.291262C0.679612 -0.0970874 1.26214 -0.0970874 1.65049 0.291262L19.7087 18.3495C20.0971 18.7379 20.0971 19.3204 19.7087 19.7087C19.3204 20.0971 18.7379 20.0971 18.3495 19.7087Z"
+                            fill="#F64909" />
+                        <path
+                            d="M0.291262 19.7087C-0.0970874 19.3204 -0.0970874 18.7379 0.291262 18.3495L18.3495 0.291262C18.7379 -0.0970874 19.3204 -0.0970874 19.7087 0.291262C20.0971 0.679612 20.0971 1.26214 19.7087 1.65049L1.65049 19.7087C1.26214 20.0971 0.679612 20.0971 0.291262 19.7087Z"
+                            fill="#F64909" />
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_2416_26916">
+                            <rect width="20" height="20" fill="white" />
+                        </clipPath>
+                    </defs>
+                </svg>
+            </div>
+            <div class="modal_logo">
+                <svg xmlns="http://www.w3.org/2000/svg" width="220" height="82" viewBox="0 0 220 82" fill="none">
+                    <g clip-path="url(#clip0_2416_26921)">
+                        <path
+                            d="M12.5334 54.1352C12.0897 54.4151 11.4243 54.7509 10.4815 55.0867C9.53869 55.4226 8.42954 55.5905 7.20948 55.5905C4.76935 55.5905 2.93925 54.9748 1.77464 53.7434C0.610033 52.568 0 50.6089 0 47.9782V40.4219H3.99294V47.8103C3.99294 48.5939 4.0484 49.2096 4.15931 49.7693C4.27023 50.329 4.49206 50.7768 4.8248 51.1127C5.10209 51.4485 5.54575 51.7284 6.04487 51.8403C6.54399 52.0082 7.20948 52.0642 7.98588 52.0642C9.03958 52.0642 9.98235 51.8963 10.7588 51.6164C11.5352 51.3366 12.1452 51.0007 12.5334 50.6089V40.4219H16.5263V64.1543H12.5334V54.1352Z"
+                            fill="#F64909" />
+                        <path
+                            d="M27.2297 40.4219H31.2226V57.5495L41.1495 40.4219H45.1979V64.1543H41.205V47.0826L31.1671 64.2103H27.1742V40.4219H27.2297Z"
+                            fill="#F64909" />
+                        <path
+                            d="M63.3324 64.4875C60.6705 64.4875 58.6186 63.8718 57.1767 62.5844C55.7348 61.297 54.8474 59.5619 54.6256 57.3789H58.6186C58.7849 58.4984 59.284 59.3939 60.005 60.0096C60.7259 60.6253 61.8351 60.9612 63.3324 60.9612C65.0516 60.9612 66.2717 60.6253 66.9926 60.0096C67.7136 59.3939 68.1018 58.4984 68.1018 57.3789C68.1018 56.2035 67.7136 55.3079 66.9926 54.6922C66.2717 54.0765 65.0516 53.7407 63.3324 53.7407H60.4487V50.2704H63.3879C64.7189 50.2704 65.7171 49.9905 66.3826 49.3748C67.0481 48.7591 67.3808 47.9755 67.3808 47.024C67.3808 46.0165 67.0481 45.1769 66.3826 44.5612C65.7171 43.9455 64.7189 43.6656 63.3879 43.6656C62.0015 43.6656 60.9478 43.9455 60.2268 44.5612C59.5059 45.1769 59.0622 45.9605 59.0068 47.024H55.1247C55.2356 46.0165 55.4575 45.1209 55.8457 44.2813C56.2339 43.4417 56.7885 42.7141 57.5094 42.0984C58.2303 41.4827 59.0622 41.0349 60.005 40.6991C61.0032 40.3632 62.1124 40.1953 63.3324 40.1953C64.608 40.1953 65.7726 40.3632 66.7708 40.6991C67.769 41.0349 68.6009 41.4827 69.2664 42.0984C69.9319 42.7141 70.431 43.3858 70.8192 44.1694C71.152 44.953 71.3183 45.8486 71.3183 46.8001C71.3183 48.0315 70.9856 49.039 70.3755 49.8786C69.7655 50.7182 68.9337 51.3898 67.9354 51.8376C69.2109 52.2294 70.2092 52.9011 70.9856 53.7967C71.762 54.7482 72.0947 55.9796 72.0947 57.5468C72.0947 58.6103 71.9284 59.5619 71.5402 60.4015C71.2074 61.241 70.6528 61.9687 69.9319 62.5844C69.2109 63.2001 68.3236 63.6479 67.2145 63.9837C66.1053 64.3195 64.8298 64.4875 63.3324 64.4875Z"
+                            fill="#F64909" />
+                        <path
+                            d="M81.689 40.4219H96.8843V43.8922H85.6819V49.3775H89.9521C91.4495 49.3775 92.725 49.5454 93.8342 49.9372C94.9433 50.2731 95.8861 50.7768 96.6625 51.4485C97.4389 52.1202 97.9935 52.8478 98.3262 53.7993C98.7144 54.6949 98.8808 55.7024 98.8808 56.8219C98.8808 57.9413 98.7144 58.9488 98.3262 59.8444C97.938 60.74 97.3834 61.5236 96.6625 62.1953C95.8861 62.8669 94.9988 63.3707 93.8342 63.7065C92.725 64.0424 91.394 64.2662 89.9521 64.2662H81.689V40.4219ZM89.9521 60.74C91.6713 60.74 92.9468 60.4041 93.7232 59.6765C94.4997 59.0048 94.8879 57.9973 94.8879 56.8219C94.8879 55.5905 94.4997 54.583 93.7232 53.9113C92.9468 53.1837 91.7268 52.8478 89.9521 52.8478H85.6819V60.74H89.9521Z"
+                            fill="#F64909" />
+                        <path
+                            d="M108.53 40.4219H123.448V43.8922H112.579V50.2171H122.284V53.6874H112.579V60.684H123.448V64.1543H108.53V40.4219Z"
+                            fill="#F64909" />
+                        <path
+                            d="M132.932 40.4219H141.195C144.19 40.4219 146.408 41.0935 147.905 42.4929C149.403 43.8922 150.123 45.7953 150.123 48.1461C150.123 50.5529 149.403 52.456 147.905 53.8553C146.408 55.2546 144.19 55.9263 141.195 55.9263H136.925V64.1543H132.932V40.4219ZM141.195 52.512C142.914 52.512 144.19 52.1202 144.966 51.3925C145.742 50.6649 146.131 49.6014 146.131 48.2021C146.131 46.8028 145.742 45.7393 144.966 45.0116C144.19 44.284 142.969 43.8922 141.195 43.8922H136.925V52.456H141.195V52.512Z"
+                            fill="#F64909" />
+                        <path
+                            d="M159.607 40.4219H167.87C170.865 40.4219 173.083 41.0935 174.58 42.4929C176.078 43.8922 176.799 45.7953 176.799 48.1461C176.799 50.5529 176.078 52.456 174.58 53.8553C173.083 55.2546 170.865 55.9263 167.87 55.9263H163.6V64.1543H159.607V40.4219ZM167.87 52.512C169.589 52.512 170.865 52.1202 171.641 51.3925C172.417 50.6649 172.806 49.6014 172.806 48.2021C172.806 46.8028 172.417 45.7393 171.641 45.0116C170.865 44.284 169.645 43.8922 167.87 43.8922H163.6V52.456H167.87V52.512Z"
+                            fill="#F64909" />
+                        <path
+                            d="M186.226 40.4219H190.219V57.5495L200.202 40.4219H204.25V64.1543H200.257V47.0826L190.219 64.2103H186.226V40.4219Z"
+                            fill="#F64909" />
+                        <path
+                            d="M25.8987 79.2637H26.6751C26.8415 79.0398 26.9524 78.7599 27.0633 78.4801C27.1742 78.2002 27.2297 77.8644 27.2851 77.5285C27.3406 77.1927 27.396 76.8009 27.396 76.3531C27.396 75.9053 27.396 75.4576 27.396 74.8978V72.8828H32.3872V79.2637H33.33V82.0064H31.9436V80.607H27.2851V82.0064H25.8987V79.2637ZM30.8899 79.2637V74.2262H28.8934V74.9538C28.8934 75.4016 28.8934 75.8494 28.8934 76.2412C28.8934 76.633 28.8379 77.0248 28.7825 77.3606C28.727 77.6965 28.6716 78.0323 28.6161 78.3681C28.5606 78.704 28.4497 78.9838 28.2834 79.3197H30.8899V79.2637Z"
+                            fill="#F64909" />
+                        <path
+                            d="M37.4893 72.9375H42.425V74.2808H39.0421V76.016H42.0368V77.3593H39.0421V79.3184H42.425V80.6617H37.4893V72.9375Z"
+                            fill="#F64909" />
+                        <path
+                            d="M49.5236 80.7203C48.5808 80.7203 47.8598 80.4404 47.3053 79.8247C46.7507 79.209 46.4734 78.3134 46.4734 77.082V76.1865C46.4734 75.067 46.7507 74.2274 47.3053 73.6677C47.8598 73.108 48.5808 72.8281 49.5236 72.8281C49.9672 72.8281 50.3554 72.8841 50.6882 72.996C51.0209 73.108 51.2982 73.2759 51.5755 73.4998C51.7973 73.7237 52.0191 74.0035 52.1301 74.2834C52.241 74.6192 52.3519 74.9551 52.4073 75.3469H50.8545C50.7991 74.9551 50.6327 74.6752 50.4663 74.5073C50.3 74.3394 49.9672 74.2274 49.5236 74.2274C49.0799 74.2274 48.6917 74.3954 48.4699 74.6752C48.1926 75.0111 48.0817 75.5148 48.0817 76.2425V77.138C48.0817 77.5858 48.1371 77.9216 48.1926 78.2015C48.248 78.4814 48.3589 78.7053 48.4699 78.8732C48.5808 79.0411 48.7471 79.153 48.9135 79.265C49.0799 79.321 49.3017 79.3769 49.5236 79.3769C49.9672 79.3769 50.2445 79.265 50.4663 79.0411C50.6327 78.8172 50.7991 78.5373 50.8545 78.1455H52.4073C52.2964 78.9851 52.0191 79.6008 51.5755 80.0486C51.0764 80.4964 50.4109 80.7203 49.5236 80.7203Z"
+                            fill="#F64909" />
+                        <path
+                            d="M56.6776 72.9375H61.6133V74.2808H58.2304V76.016H61.2251V77.3593H58.2304V79.3184H61.6133V80.6617H56.6776V72.9375Z"
+                            fill="#F64909" /><svg xmlns="http://www.w3.org/2000/svg" width="220" height="82"
+                            viewBox="0 0 220 82" fill="none">
+                            <g clip-path="url(#clip0_2416_26921)">
+                                <path
+                                    d="M12.5334 54.1352C12.0897 54.4151 11.4243 54.7509 10.4815 55.0867C9.53869 55.4226 8.42954 55.5905 7.20948 55.5905C4.76935 55.5905 2.93925 54.9748 1.77464 53.7434C0.610033 52.568 0 50.6089 0 47.9782V40.4219H3.99294V47.8103C3.99294 48.5939 4.0484 49.2096 4.15931 49.7693C4.27023 50.329 4.49206 50.7768 4.8248 51.1127C5.10209 51.4485 5.54575 51.7284 6.04487 51.8403C6.54399 52.0082 7.20948 52.0642 7.98588 52.0642C9.03958 52.0642 9.98235 51.8963 10.7588 51.6164C11.5352 51.3366 12.1452 51.0007 12.5334 50.6089V40.4219H16.5263V64.1543H12.5334V54.1352Z"
+                                    fill="#F64909" />
+                                <path
+                                    d="M27.2297 40.4219H31.2226V57.5495L41.1495 40.4219H45.1979V64.1543H41.205V47.0826L31.1671 64.2103H27.1742V40.4219H27.2297Z"
+                                    fill="#F64909" />
+                                <path
+                                    d="M63.3324 64.4875C60.6705 64.4875 58.6186 63.8718 57.1767 62.5844C55.7348 61.297 54.8474 59.5619 54.6256 57.3789H58.6186C58.7849 58.4984 59.284 59.3939 60.005 60.0096C60.7259 60.6253 61.8351 60.9612 63.3324 60.9612C65.0516 60.9612 66.2717 60.6253 66.9926 60.0096C67.7136 59.3939 68.1018 58.4984 68.1018 57.3789C68.1018 56.2035 67.7136 55.3079 66.9926 54.6922C66.2717 54.0765 65.0516 53.7407 63.3324 53.7407H60.4487V50.2704H63.3879C64.7189 50.2704 65.7171 49.9905 66.3826 49.3748C67.0481 48.7591 67.3808 47.9755 67.3808 47.024C67.3808 46.0165 67.0481 45.1769 66.3826 44.5612C65.7171 43.9455 64.7189 43.6656 63.3879 43.6656C62.0015 43.6656 60.9478 43.9455 60.2268 44.5612C59.5059 45.1769 59.0622 45.9605 59.0068 47.024H55.1247C55.2356 46.0165 55.4575 45.1209 55.8457 44.2813C56.2339 43.4417 56.7885 42.7141 57.5094 42.0984C58.2303 41.4827 59.0622 41.0349 60.005 40.6991C61.0032 40.3632 62.1124 40.1953 63.3324 40.1953C64.608 40.1953 65.7726 40.3632 66.7708 40.6991C67.769 41.0349 68.6009 41.4827 69.2664 42.0984C69.9319 42.7141 70.431 43.3858 70.8192 44.1694C71.152 44.953 71.3183 45.8486 71.3183 46.8001C71.3183 48.0315 70.9856 49.039 70.3755 49.8786C69.7655 50.7182 68.9337 51.3898 67.9354 51.8376C69.2109 52.2294 70.2092 52.9011 70.9856 53.7967C71.762 54.7482 72.0947 55.9796 72.0947 57.5468C72.0947 58.6103 71.9284 59.5619 71.5402 60.4015C71.2074 61.241 70.6528 61.9687 69.9319 62.5844C69.2109 63.2001 68.3236 63.6479 67.2145 63.9837C66.1053 64.3195 64.8298 64.4875 63.3324 64.4875Z"
+                                    fill="#F64909" />
+                                <path
+                                    d="M81.689 40.4219H96.8843V43.8922H85.6819V49.3775H89.9521C91.4495 49.3775 92.725 49.5454 93.8342 49.9372C94.9433 50.2731 95.8861 50.7768 96.6625 51.4485C97.4389 52.1202 97.9935 52.8478 98.3262 53.7993C98.7144 54.6949 98.8808 55.7024 98.8808 56.8219C98.8808 57.9413 98.7144 58.9488 98.3262 59.8444C97.938 60.74 97.3834 61.5236 96.6625 62.1953C95.8861 62.8669 94.9988 63.3707 93.8342 63.7065C92.725 64.0424 91.394 64.2662 89.9521 64.2662H81.689V40.4219ZM89.9521 60.74C91.6713 60.74 92.9468 60.4041 93.7232 59.6765C94.4997 59.0048 94.8879 57.9973 94.8879 56.8219C94.8879 55.5905 94.4997 54.583 93.7232 53.9113C92.9468 53.1837 91.7268 52.8478 89.9521 52.8478H85.6819V60.74H89.9521Z"
+                                    fill="#F64909" />
+                                <path
+                                    d="M108.53 40.4219H123.448V43.8922H112.579V50.2171H122.284V53.6874H112.579V60.684H123.448V64.1543H108.53V40.4219Z"
+                                    fill="#F64909" />
+                                <path
+                                    d="M132.932 40.4219H141.195C144.19 40.4219 146.408 41.0935 147.905 42.4929C149.403 43.8922 150.123 45.7953 150.123 48.1461C150.123 50.5529 149.403 52.456 147.905 53.8553C146.408 55.2546 144.19 55.9263 141.195 55.9263H136.925V64.1543H132.932V40.4219ZM141.195 52.512C142.914 52.512 144.19 52.1202 144.966 51.3925C145.742 50.6649 146.131 49.6014 146.131 48.2021C146.131 46.8028 145.742 45.7393 144.966 45.0116C144.19 44.284 142.969 43.8922 141.195 43.8922H136.925V52.456H141.195V52.512Z"
+                                    fill="#F64909" />
+                                <path
+                                    d="M159.607 40.4219H167.87C170.865 40.4219 173.083 41.0935 174.58 42.4929C176.078 43.8922 176.799 45.7953 176.799 48.1461C176.799 50.5529 176.078 52.456 174.58 53.8553C173.083 55.2546 170.865 55.9263 167.87 55.9263H163.6V64.1543H159.607V40.4219ZM167.87 52.512C169.589 52.512 170.865 52.1202 171.641 51.3925C172.417 50.6649 172.806 49.6014 172.806 48.2021C172.806 46.8028 172.417 45.7393 171.641 45.0116C170.865 44.284 169.645 43.8922 167.87 43.8922H163.6V52.456H167.87V52.512Z"
+                                    fill="#F64909" />
+                                <path
+                                    d="M186.226 40.4219H190.219V57.5495L200.202 40.4219H204.25V64.1543H200.257V47.0826L190.219 64.2103H186.226V40.4219Z"
+                                    fill="#F64909" />
+                                <path
+                                    d="M25.8987 79.2637H26.6751C26.8415 79.0398 26.9524 78.7599 27.0633 78.4801C27.1742 78.2002 27.2297 77.8644 27.2851 77.5285C27.3406 77.1927 27.396 76.8009 27.396 76.3531C27.396 75.9053 27.396 75.4576 27.396 74.8978V72.8828H32.3872V79.2637H33.33V82.0064H31.9436V80.607H27.2851V82.0064H25.8987V79.2637ZM30.8899 79.2637V74.2262H28.8934V74.9538C28.8934 75.4016 28.8934 75.8494 28.8934 76.2412C28.8934 76.633 28.8379 77.0248 28.7825 77.3606C28.727 77.6965 28.6716 78.0323 28.6161 78.3681C28.5606 78.704 28.4497 78.9838 28.2834 79.3197H30.8899V79.2637Z"
+                                    fill="#F64909" />
+                                <path
+                                    d="M37.4893 72.9375H42.425V74.2808H39.0421V76.016H42.0368V77.3593H39.0421V79.3184H42.425V80.6617H37.4893V72.9375Z"
+                                    fill="#F64909" />
+                                <path
+                                    d="M49.5236 80.7203C48.5808 80.7203 47.8598 80.4404 47.3053 79.8247C46.7507 79.209 46.4734 78.3134 46.4734 77.082V76.1865C46.4734 75.067 46.7507 74.2274 47.3053 73.6677C47.8598 73.108 48.5808 72.8281 49.5236 72.8281C49.9672 72.8281 50.3554 72.8841 50.6882 72.996C51.0209 73.108 51.2982 73.2759 51.5755 73.4998C51.7973 73.7237 52.0191 74.0035 52.1301 74.2834C52.241 74.6192 52.3519 74.9551 52.4073 75.3469H50.8545C50.7991 74.9551 50.6327 74.6752 50.4663 74.5073C50.3 74.3394 49.9672 74.2274 49.5236 74.2274C49.0799 74.2274 48.6917 74.3954 48.4699 74.6752C48.1926 75.0111 48.0817 75.5148 48.0817 76.2425V77.138C48.0817 77.5858 48.1371 77.9216 48.1926 78.2015C48.248 78.4814 48.3589 78.7053 48.4699 78.8732C48.5808 79.0411 48.7471 79.153 48.9135 79.265C49.0799 79.321 49.3017 79.3769 49.5236 79.3769C49.9672 79.3769 50.2445 79.265 50.4663 79.0411C50.6327 78.8172 50.7991 78.5373 50.8545 78.1455H52.4073C52.2964 78.9851 52.0191 79.6008 51.5755 80.0486C51.0764 80.4964 50.4109 80.7203 49.5236 80.7203Z"
+                                    fill="#F64909" />
+                                <path
+                                    d="M56.6776 72.9375H61.6133V74.2808H58.2304V76.016H61.2251V77.3593H58.2304V79.3184H61.6133V80.6617H56.6776V72.9375Z"
+                                    fill="#F64909" />
+                                <path
+                                    d="M65.939 72.9375H68.7118C69.7101 72.9375 70.4865 73.1614 70.9856 73.6092C71.4847 74.057 71.7065 74.6727 71.7065 75.4563C71.7065 76.2399 71.4847 76.8556 70.9856 77.3593C70.4865 77.8071 69.7655 78.031 68.7118 78.031H67.4918V80.6058H65.939V72.9375ZM68.7118 76.7436C69.211 76.7436 69.5992 76.6317 69.821 76.4078C70.0428 76.1839 70.1537 75.9041 70.1537 75.4563C70.1537 75.0085 70.0428 74.7286 69.821 74.5047C69.5992 74.2808 69.211 74.1689 68.7118 74.1689H67.4918V76.6317H68.7118V76.7436Z"
+                                    fill="#F64909" />
+                                <path
+                                    d="M77.4741 74.2262H75.3113V72.8828H81.2452V74.2262H79.0824V80.607H77.5296V74.2262H77.4741Z"
+                                    fill="#F64909" />
+                                <path
+                                    d="M85.1827 72.9375H86.7355V75.7361H87.6229C88.122 75.7361 88.5656 75.7921 88.9538 75.9041C89.342 76.016 89.6193 76.1839 89.8966 76.4078C90.1185 76.6317 90.3403 76.8556 90.4512 77.1914C90.5621 77.4713 90.6176 77.8071 90.6176 78.1989C90.6176 78.5907 90.5621 78.8706 90.4512 79.2064C90.3403 79.4863 90.1185 79.7662 89.8966 79.9901C89.6748 80.2139 89.342 80.3819 88.9538 80.4938C88.5656 80.6058 88.122 80.6617 87.6229 80.6617H85.1827V72.9375ZM87.6783 79.2624C88.1774 79.2624 88.5656 79.1505 88.7875 78.9826C89.0093 78.7587 89.1202 78.4788 89.1202 78.143C89.1202 77.7512 89.0093 77.4713 88.7875 77.3034C88.5656 77.0795 88.1774 77.0235 87.6783 77.0235H86.791V79.3184H87.6783V79.2624ZM91.1167 72.9375H92.6695V80.6058H91.1167V72.9375Z"
+                                    fill="#F64909" />
+                                <path
+                                    d="M103.151 72.9375H108.974V80.6058H107.421V74.2249H104.704V80.6058H103.151V72.9375Z"
+                                    fill="#F64909" />
+                                <path
+                                    d="M116.405 80.7203C115.463 80.7203 114.742 80.4404 114.187 79.8247C113.633 79.209 113.355 78.3134 113.355 77.082V76.1865C113.355 75.067 113.633 74.2274 114.187 73.6677C114.742 73.108 115.463 72.8281 116.405 72.8281C117.348 72.8281 118.069 73.108 118.624 73.6677C119.178 74.2274 119.456 75.067 119.456 76.1865V77.082C119.456 78.3134 119.178 79.209 118.624 79.8247C118.125 80.3844 117.348 80.7203 116.405 80.7203ZM116.405 79.3769C116.627 79.3769 116.849 79.321 117.015 79.265C117.182 79.209 117.348 79.0411 117.459 78.8732C117.57 78.7053 117.681 78.4814 117.736 78.2015C117.792 77.9216 117.847 77.5298 117.847 77.138V76.2425C117.847 75.5148 117.736 74.9551 117.459 74.6752C117.182 74.3394 116.849 74.2274 116.405 74.2274C115.962 74.2274 115.574 74.3954 115.352 74.6752C115.074 75.0111 114.963 75.5148 114.963 76.2425V77.138C114.963 77.5858 115.019 77.9216 115.074 78.2015C115.13 78.4814 115.241 78.7053 115.352 78.8732C115.463 79.0411 115.629 79.153 115.795 79.265C116.017 79.321 116.184 79.3769 116.405 79.3769Z"
+                                    fill="#F64909" />
+                                <path
+                                    d="M128.994 79.1518C129.216 79.0958 129.438 79.0398 129.604 78.9838C129.771 78.8719 129.882 78.704 129.992 78.4801C130.103 78.2562 130.159 77.9204 130.159 77.5285C130.214 77.1367 130.214 76.633 130.214 76.0173V72.8828H135.372V80.607H133.819V74.2262H131.656V76.0173C131.656 76.9128 131.601 77.6965 131.545 78.2562C131.434 78.8719 131.323 79.3197 131.102 79.6555C130.88 79.9913 130.603 80.2712 130.27 80.3832C129.937 80.5511 129.493 80.607 128.994 80.663V79.1518Z"
+                                    fill="#F64909" />
+                                <path
+                                    d="M145.354 80.7203C144.91 80.7203 144.522 80.6643 144.19 80.5524C143.857 80.4404 143.58 80.2165 143.302 79.9367C143.08 79.6568 142.859 79.321 142.748 78.8732C142.637 78.4254 142.526 77.9216 142.526 77.3059H141.638V80.6083H140.086V72.9401H141.638V76.0186H142.526C142.581 74.8991 142.859 74.1155 143.302 73.6117C143.801 73.108 144.467 72.8281 145.299 72.8281C145.742 72.8281 146.131 72.8841 146.463 73.052C146.796 73.164 147.129 73.3879 147.351 73.6677C147.572 73.9476 147.794 74.2834 147.905 74.7312C148.016 75.179 148.072 75.6827 148.072 76.2984V77.0261C148.072 77.6977 148.016 78.2575 147.905 78.7053C147.794 79.153 147.572 79.5448 147.351 79.8247C147.129 80.1046 146.796 80.3285 146.463 80.4964C146.186 80.6083 145.798 80.7203 145.354 80.7203ZM145.354 79.3769C145.576 79.3769 145.742 79.321 145.853 79.265C146.02 79.209 146.131 79.0971 146.241 78.9291C146.352 78.7612 146.408 78.5373 146.519 78.2015C146.574 77.9216 146.63 77.4739 146.63 77.0261V76.2984C146.63 75.8506 146.574 75.5148 146.519 75.2349C146.463 74.9551 146.352 74.7312 146.241 74.5633C146.131 74.3954 146.02 74.2834 145.853 74.2274C145.687 74.1715 145.521 74.1155 145.354 74.1155C145.188 74.1155 144.966 74.1715 144.855 74.2274C144.689 74.2834 144.578 74.3954 144.467 74.5633C144.356 74.7312 144.3 74.9551 144.19 75.2349C144.134 75.5148 144.079 75.8506 144.079 76.2984V77.0261C144.079 77.5298 144.134 77.9216 144.19 78.2015C144.245 78.4814 144.356 78.7612 144.467 78.9291C144.578 79.0971 144.689 79.209 144.855 79.265C144.966 79.321 145.132 79.3769 145.354 79.3769Z"
+                                    fill="#F64909" />
+                                <path
+                                    d="M152.619 72.9375H157.721V74.2808H154.172V75.7361H155.392C155.891 75.7361 156.335 75.7921 156.723 75.9041C157.111 76.016 157.388 76.1839 157.666 76.4078C157.888 76.6317 158.109 76.8556 158.22 77.1914C158.331 77.4713 158.387 77.8071 158.387 78.1989C158.387 78.5907 158.331 78.8706 158.22 79.2064C158.109 79.4863 157.888 79.7662 157.666 79.9901C157.444 80.2139 157.111 80.3819 156.723 80.4938C156.335 80.6058 155.891 80.6617 155.392 80.6617H152.619V72.9375ZM155.337 79.2624C155.836 79.2624 156.224 79.1505 156.446 78.9826C156.668 78.7587 156.778 78.4788 156.778 78.143C156.778 77.7512 156.668 77.4713 156.446 77.3034C156.224 77.0795 155.836 77.0235 155.337 77.0235H154.172V79.3184H155.337V79.2624Z"
+                                    fill="#F64909" />
+                                <path
+                                    d="M162.712 72.9375H165.541C166.373 72.9375 167.038 73.1054 167.537 73.4413C168.036 73.7771 168.258 74.2808 168.258 74.9525C168.258 75.3443 168.147 75.6802 167.981 75.9041C167.814 76.1839 167.537 76.4078 167.26 76.5757C167.648 76.7436 167.925 76.9116 168.147 77.2474C168.369 77.5273 168.48 77.9191 168.48 78.4228C168.48 78.7027 168.425 79.0385 168.314 79.2624C168.203 79.5423 168.036 79.7662 167.815 79.9341C167.593 80.102 167.26 80.2699 166.927 80.3819C166.594 80.4938 166.151 80.5498 165.652 80.5498H162.712V72.9375ZM165.541 76.016C165.929 76.016 166.206 75.96 166.428 75.7921C166.594 75.6242 166.705 75.4003 166.705 75.1764C166.705 74.8965 166.594 74.6727 166.428 74.5047C166.262 74.3368 165.929 74.2808 165.541 74.2808H164.265V76.072H165.541V76.016ZM165.541 79.2624C166.04 79.2624 166.428 79.1505 166.594 78.9826C166.816 78.8146 166.927 78.5348 166.927 78.2549C166.927 77.9191 166.816 77.6952 166.65 77.4713C166.428 77.3034 166.095 77.1914 165.541 77.1914H164.265V79.2064H165.541V79.2624Z"
+                                    fill="#F64909" />
+                                <path
+                                    d="M172.806 72.9375H174.358V78.087L177.298 72.9375H178.851V80.6058H177.298V75.4563L174.358 80.6058H172.806V72.9375Z"
+                                    fill="#F64909" />
+                                <path
+                                    d="M216.34 47.7478C215.841 47.7478 215.342 47.6358 214.898 47.4679C214.454 47.3 214.066 47.0201 213.733 46.6843C213.401 46.3485 213.123 45.9566 212.957 45.5089C212.79 45.0611 212.68 44.5573 212.68 44.0536C212.68 43.5498 212.79 43.0461 212.957 42.5983C213.123 42.1505 213.401 41.7587 213.733 41.4229C214.066 41.087 214.454 40.8072 214.898 40.6392C215.342 40.4713 215.841 40.3594 216.34 40.3594C216.839 40.3594 217.338 40.4713 217.782 40.6392C218.225 40.8072 218.614 41.087 218.946 41.4229C219.279 41.7587 219.556 42.1505 219.723 42.5983C219.889 43.0461 220 43.5498 220 44.0536C220 44.5573 219.889 45.0611 219.723 45.5089C219.556 45.9566 219.279 46.3485 218.946 46.6843C218.614 47.0201 218.225 47.3 217.782 47.4679C217.338 47.6358 216.839 47.7478 216.34 47.7478ZM216.34 46.6843C216.728 46.6843 217.061 46.6283 217.393 46.4604C217.726 46.2925 218.003 46.1246 218.225 45.9007C218.447 45.6768 218.669 45.3969 218.78 45.0611C218.946 44.7252 219.002 44.3894 219.002 43.9976C219.002 43.6058 218.946 43.27 218.78 42.9341C218.614 42.5983 218.447 42.3184 218.225 42.0945C218.003 41.8706 217.726 41.6467 217.393 41.5348C217.061 41.3669 216.728 41.3109 216.34 41.3109C215.952 41.3109 215.619 41.3669 215.286 41.5348C214.953 41.7027 214.676 41.8706 214.454 42.0945C214.232 42.3184 214.011 42.5983 213.9 42.9341C213.733 43.27 213.678 43.6058 213.678 43.9976C213.678 44.3894 213.733 44.7252 213.9 45.0611C214.066 45.3969 214.232 45.6768 214.454 45.9007C214.676 46.1246 214.953 46.3485 215.286 46.4604C215.619 46.6283 216.007 46.6843 216.34 46.6843ZM215.009 42.2065H216.34C216.839 42.2065 217.227 42.3184 217.449 42.5423C217.671 42.7662 217.782 43.0461 217.782 43.4379C217.782 43.9416 217.56 44.2775 217.116 44.5014L217.782 45.9007H216.839L216.34 44.6133H215.896V45.9007H215.009V42.2065ZM216.34 43.7737C216.562 43.7737 216.728 43.7177 216.783 43.6618C216.839 43.6058 216.894 43.4938 216.894 43.3819C216.894 43.27 216.839 43.158 216.783 43.102C216.728 43.0461 216.562 42.9901 216.34 42.9901H215.896V43.7737H216.34Z"
+                                    fill="#F64909" />
+                                <path
+                                    d="M99.8236 15.8441C99.5463 16.124 90.2849 26.4789 90.0631 26.7028C90.6176 26.7028 91.1722 26.6469 91.6713 26.4789C92.5032 26.2551 93.2241 25.9192 93.9451 25.4714C97.6053 23.1206 99.4908 22.9527 101.654 22.7288C104.815 22.337 107.809 20.9936 110.083 18.8107C114.076 15.0045 113.633 11.1424 113.854 10.8066C114.409 7.78406 115.574 6.8885 115.795 6.66461C117.736 4.87348 121.951 3.81 124.558 3.69805C123.504 3.30625 117.847 3.69805 115.795 4.36973C114.353 3.02638 111.581 1.79498 109.251 3.58611C108.697 4.03389 108.253 4.64959 107.976 5.26529C107.532 6.32877 106.922 7.84003 106.478 8.34379C105.425 7.5042 103.262 6.10488 101.265 4.76154C97.5498 2.35471 93.3905 0.731501 89.0094 -0.0521171C88.6212 -0.10809 88.3439 -0.164062 88.3439 -0.164062C88.3439 -0.164062 93.6123 9.63116 95.2206 11.5902C96.718 14.109 99.8236 15.8441 99.8236 15.8441Z"
+                                    fill="#F64909" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_2416_26921">
+                                    <rect width="220" height="82" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg>7.814 76.1839 167.537 76.4078 167.26 76.5757C167.648 76.7436 167.925 76.9116 168.147
+                        77.2474C168.369 77.5273 168.48 77.9191 168.48 78.4228C168.48 78.7027 168.425 79.0385 168.314
+                        79.2624C168.203 79.5423 168.036 79.7662 167.815 79.9341C167.593 80.102 167.26 80.2699 166.927
+                        80.3819C166.594 80.4938 166.151 80.5498 165.652 80.5498H162.712V72.9375ZM165.541 76.016C165.929
+                        76.016 166.206 75.96 166.428 75.7921C166.594 75.6242 166.705 75.4003 166.705 75.1764C166.705
+                        74.8965 166.594 74.6727 166.428 74.5047C166.262 74.3368 165.929 74.2808 165.541
+                        74.2808H164.265V76.072H165.541V76.016ZM165.541 79.2624C166.04 79.2624 166.428 79.1505 166.594
+                        78.9826C166.816 78.8146 166.927 78.5348 166.927 78.2549C166.927 77.9191 166.816 77.6952 166.65
+                        77.4713C166.428 77.3034 166.095 77.1914 165.541 77.1914H164.265V79.2064H165.541V79.2624Z"
+                        fill="#F64909" />
+                        <path
+                            d="M172.806 72.9375H174.358V78.087L177.298 72.9375H178.851V80.6058H177.298V75.4563L174.358 80.6058H172.806V72.9375Z"
+                            fill="#F64909" />
+                        <path
+                            d="M216.34 47.7478C215.841 47.7478 215.342 47.6358 214.898 47.4679C214.454 47.3 214.066 47.0201 213.733 46.6843C213.401 46.3485 213.123 45.9566 212.957 45.5089C212.79 45.0611 212.68 44.5573 212.68 44.0536C212.68 43.5498 212.79 43.0461 212.957 42.5983C213.123 42.1505 213.401 41.7587 213.733 41.4229C214.066 41.087 214.454 40.8072 214.898 40.6392C215.342 40.4713 215.841 40.3594 216.34 40.3594C216.839 40.3594 217.338 40.4713 217.782 40.6392C218.225 40.8072 218.614 41.087 218.946 41.4229C219.279 41.7587 219.556 42.1505 219.723 42.5983C219.889 43.0461 220 43.5498 220 44.0536C220 44.5573 219.889 45.0611 219.723 45.5089C219.556 45.9566 219.279 46.3485 218.946 46.6843C218.614 47.0201 218.225 47.3 217.782 47.4679C217.338 47.6358 216.839 47.7478 216.34 47.7478ZM216.34 46.6843C216.728 46.6843 217.061 46.6283 217.393 46.4604C217.726 46.2925 218.003 46.1246 218.225 45.9007C218.447 45.6768 218.669 45.3969 218.78 45.0611C218.946 44.7252 219.002 44.3894 219.002 43.9976C219.002 43.6058 218.946 43.27 218.78 42.9341C218.614 42.5983 218.447 42.3184 218.225 42.0945C218.003 41.8706 217.726 41.6467 217.393 41.5348C217.061 41.3669 216.728 41.3109 216.34 41.3109C215.952 41.3109 215.619 41.3669 215.286 41.5348C214.953 41.7027 214.676 41.8706 214.454 42.0945C214.232 42.3184 214.011 42.5983 213.9 42.9341C213.733 43.27 213.678 43.6058 213.678 43.9976C213.678 44.3894 213.733 44.7252 213.9 45.0611C214.066 45.3969 214.232 45.6768 214.454 45.9007C214.676 46.1246 214.953 46.3485 215.286 46.4604C215.619 46.6283 216.007 46.6843 216.34 46.6843ZM215.009 42.2065H216.34C216.839 42.2065 217.227 42.3184 217.449 42.5423C217.671 42.7662 217.782 43.0461 217.782 43.4379C217.782 43.9416 217.56 44.2775 217.116 44.5014L217.782 45.9007H216.839L216.34 44.6133H215.896V45.9007H215.009V42.2065ZM216.34 43.7737C216.562 43.7737 216.728 43.7177 216.783 43.6618C216.839 43.6058 216.894 43.4938 216.894 43.3819C216.894 43.27 216.839 43.158 216.783 43.102C216.728 43.0461 216.562 42.9901 216.34 42.9901H215.896V43.7737H216.34Z"
+                            fill="#F64909" />
+                        <path
+                            d="M99.8236 15.8441C99.5463 16.124 90.2849 26.4789 90.0631 26.7028C90.6176 26.7028 91.1722 26.6469 91.6713 26.4789C92.5032 26.2551 93.2241 25.9192 93.9451 25.4714C97.6053 23.1206 99.4908 22.9527 101.654 22.7288C104.815 22.337 107.809 20.9936 110.083 18.8107C114.076 15.0045 113.633 11.1424 113.854 10.8066C114.409 7.78406 115.574 6.8885 115.795 6.66461C117.736 4.87348 121.951 3.81 124.558 3.69805C123.504 3.30625 117.847 3.69805 115.795 4.36973C114.353 3.02638 111.581 1.79498 109.251 3.58611C108.697 4.03389 108.253 4.64959 107.976 5.26529C107.532 6.32877 106.922 7.84003 106.478 8.34379C105.425 7.5042 103.262 6.10488 101.265 4.76154C97.5498 2.35471 93.3905 0.731501 89.0094 -0.0521171C88.6212 -0.10809 88.3439 -0.164062 88.3439 -0.164062C88.3439 -0.164062 93.6123 9.63116 95.2206 11.5902C96.718 14.109 99.8236 15.8441 99.8236 15.8441Z"
+                            fill="#F64909" />
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_2416_26921">
+                            <rect width="220" height="82" fill="white" />
+                        </clipPath>
+                    </defs>
+                </svg>
+            </div>
+            <div class="modal_title">
+                ИНФОРМАЦИЯ, РАЗМЕЩЕННАЯ НА САЙТЕ CHEESEBERRY.RU, НЕ ЯВЛЯЕТСЯ ПУБЛИЧНОЙ ОФЕРТОЙ
+            </div>
+            <div class="modal_text_wrapper">
+                <div class="modal_text">
+                    1. Вся представленная на сайте информация, касающаяся технических характеристик, наличия на складе,
+                    стоимости товаров, носит информационный характер и ни при каких условиях не является публичной
+                    офертой, определяемой положениями Статьи 437(2) Гражданского кодекса РФ. <br>
+                    2. Нажатие на кнопки "Купить", "Разместить заказ", "Оформить заказ", а также последующее заполнение
+                    тех или иных форм, не накладывает на владельцев сайта никаких обязательств. <br>
+                    3. Присланное по e-mail сообщение, содержащее копию заполненной формы заявки на сайте, не является
+                    ответом на сообщение потребителя или подтверждением заказа со стороны владельцев сайта. <br>
+                    4. Все материалы, размещенные на сайте, являются собственностью владельцев сайта, либо
+                    собственностью организаций, с которыми у владельцев сайта есть соглашение о размещении материалов.
+                    Копирование любой информации может повлечь за собой уголовное преследование. <br>
+                    5. Регистрируясь на сайте или оставляя тем или иным способом свою персональную информацию, Вы
+                    делегируете право сотрудникам компании обрабатывать вашу персональную информацию. <br>
+                    6. Для аналитических целей на сайте работает система статистики, которая собирает информацию о
+                    посещенных страницах сайта, заполненных формах и т.д. Сотрудники компании имеют доступ к этой
+                    информации. <br>
+                    7. Покупатель соглашается с тем, что Интернет-магазин вправе передавать информацию о размещенных
+                    Покупателем заказах третьим лицам. Переданная Интернет-магазином информация, включающая данные о
+                    номере и содержании заказа, электронного адреса и номера телефона Покупателя, может быть
+                    использована исключительно в целях оценки деятельности Интернет-магазина и улучшения качества
+                    обслуживания Покупателей. <br>
+                    8. Оформляя заказ на сайте или иным способом становясь клиентом нашей компании, вы принимаете все
+                    вышеперечисленные условия.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="./js/bootstrap.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/bootstrap.popper.js"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="./js/app.js"></script>
+    <!-- JS -->
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="jquery.fancybox.min.js"></script> -->
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
