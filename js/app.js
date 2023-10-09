@@ -22,6 +22,24 @@ function getHeaderMenuWidth() {
     }
 }
 
+
+let open_networks = document.querySelectorAll('.open_network_modal');
+let network_modal = document.querySelector('.networks_modal');
+let network_modal_close = document.querySelector('.networks_modal .modal_close');
+if (open_networks.length) {
+    open_networks.forEach(el => {
+        el.onclick = (e) => {
+            e.preventDefault();
+            network_modal.classList.remove('noActive');
+            network_modal.classList.add('active');
+        }
+    })
+    network_modal_close.onclick = () => {
+        network_modal.classList.remove('active');
+        network_modal.classList.add('noActive');
+    }
+}
+
 let half = document.querySelector('.halfSlider');
 let head_menu_wrapper = document.querySelectorAll('header .menu_wrapper');
 
