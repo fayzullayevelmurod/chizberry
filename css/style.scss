@@ -6778,7 +6778,20 @@ footer {
                         cursor: pointer;
                         transition: .5s linear;
                         height: 40px;
-                        р                  &:hover{
+                        color: #FFF;
+                        text-align: center;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                        letter-spacing: 1.6px;
+                        text-transform: uppercase;
+                        flex-basis: 350px;
+                        background-color: transparent;
+                        border-radius: 35px;
+                        border: 2px solid white;
+                        
+                        &:hover{
                             background-color: white;
                             color: #F64909;
                         }
@@ -6789,6 +6802,7 @@ footer {
                             box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
                         }
                     }
+
                     .media_social{
                         white-space: nowrap;
                         margin-left: auto;
@@ -8612,4 +8626,5 @@ footer {
 @import '_responsive.scss';
 @import 'discount';
 @import 'product';
-@import '_career'
+@import '_career';
+@import '_company';

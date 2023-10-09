@@ -263,71 +263,86 @@ if (certificates_img.length) {
     })
 }
 
-let cards_top_slider = new Swiper(".cards_top_slider", {
-    slidesPerView: 'auto',
-    spaceBetween: 8,
-});
+let card_top = document.querySelector('.cards_top_slider');
+if (card_top) {
+    let cards_top_slider = new Swiper(".cards_top_slider", {
+        slidesPerView: 'auto',
+        spaceBetween: 8,
+    });
+}
 
-let index_home_slider = new Swiper(".index_home_slider", {
-    slidesPerView: 1,
-    spaceBetween: 0,
-    loop: true,
-    autoplay: {
-        delay: 5000,
-    },
-    pagination: {
-        el: ".home_slider_pagination",
-        clickable: true,
-    },
-});
-
-let opinions_slider = new Swiper(".opinions_slider", {
-    slidesPerView: 'auto',
-    spaceBetween: 8,
-    loop: true,
-    breakpoints: {
-        992: {
-            spaceBetween: 24
+let index_home = document.querySelector('.index_home_slider');
+if (index_home) {
+    let index_home_slider = new Swiper(".index_home_slider", {
+        slidesPerView: 1,
+        spaceBetween: 0,
+        loop: true,
+        autoplay: {
+            delay: 5000,
         },
-        768: {
-            spaceBetween: 16
+        pagination: {
+            el: ".home_slider_pagination",
+            clickable: true,
+        },
+    });
+}
+
+let opinions_slide = document.querySelector('.opinions_slider');
+if (opinions_slide) {
+    let opinions_slider = new Swiper(".opinions_slider", {
+        slidesPerView: 'auto',
+        spaceBetween: 8,
+        loop: true,
+        breakpoints: {
+            992: {
+                spaceBetween: 24
+            },
+            768: {
+                spaceBetween: 16
+            }
         }
-    }
-});
+    });
+}
 
-let by_cheeseberry_slider = new Swiper(".by_cheeseberry_slider", {
-    slidesPerView: 'auto',
-    spaceBetween: 0,
-    loop: true,
-    centerSlide: true,
-    breakpoints: {
-        1400: {
-            slidesPerView: 7,
-        },
-        1200: {
-            slidesPerView: 5
-        },
-        768: {
-            slidesPerView: 4
-        },
-        576: {
-            slidesPerView: 3,
+let by_cheeseberry_slide = document.querySelector('.by_cheeseberry_slider');
+if (by_cheeseberry_slide) {
+    let by_cheeseberry_slider = new Swiper(".by_cheeseberry_slider", {
+        slidesPerView: 'auto',
+        spaceBetween: 0,
+        loop: true,
+        centerSlide: true,
+        breakpoints: {
+            1400: {
+                slidesPerView: 7,
+            },
+            1200: {
+                slidesPerView: 5
+            },
+            768: {
+                slidesPerView: 4
+            },
+            576: {
+                slidesPerView: 3,
+            }
         }
-    }
-});
+    });
+}
 
-let half_slider = new Swiper(".half_slider", {
-    slidesPerView: 'auto',
-    spaceBetween: 8,
-    breakpoints: {
-        1200: {
-            spaceBetween: 24,
-        },
-        576: {
-            spaceBetween: 16,
+let half_slide = document.querySelector('.half_slider');
+if (half_slide) {
+    let half_slider = new Swiper(".half_slider", {
+        slidesPerView: 'auto',
+        spaceBetween: 8,
+        breakpoints: {
+            1200: {
+                spaceBetween: 24,
+            },
+            576: {
+                spaceBetween: 16,
+            }
         }
-    }
-});
+    });
+}
 
 let footer_link1 = document.querySelectorAll('footer .link_1');
 let privacy_modal = document.querySelector('#privacy_policy');
@@ -386,5 +401,25 @@ if (career_accordions.length) {
             $(el).find('.career_accordion_modal').removeClass('active')
             $(el).find('.career_accordion_modal').addClass('noActive')
         })
+    })
+}
+
+let card_3_sliders = document.querySelectorAll('#company .card_3_slider');
+
+if (card_3_sliders.length) {
+    card_3_sliders.forEach(el => {
+        let card_3_slider = new Swiper(el, {
+            slidesPerView: 'auto',
+            spaceBetween: 8,
+            breakpoints: {
+                1200: {
+                    spaceBetween: 24,
+                },
+
+                768: {
+                    spaceBetween: 16,
+                }
+            }
+        });
     })
 }
