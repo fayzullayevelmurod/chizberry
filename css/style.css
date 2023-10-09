@@ -61175,4 +61175,1244 @@ footer .footer_bottom .footer_texts .first_text2 {
   #product .img_modal img {
     width: calc(100% - 50px);
   }
+}
+#career .main_logo {
+  margin: 28px 0;
+  padding-left: 26px;
+}
+#career .main_title {
+  color: #000;
+  font-family: "Golos UI", sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 3.6px;
+  text-transform: uppercase;
+  padding-left: 26px;
+  margin-bottom: 28px;
+}
+#career .text_card {
+  border-radius: 16px;
+  overflow: hidden;
+  margin-bottom: 70px;
+}
+#career .text_card img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#career .text_card .text {
+  position: relative;
+  left: 50px;
+  width: 734px;
+  height: 500px;
+  color: #FFF;
+  font-family: "Golos UI", sans-serif;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+}
+#career .main_description {
+  color: #000;
+  font-family: "Golos UI", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2.4px;
+  margin-bottom: 58px;
+  padding-left: 26px;
+}
+#career .main_img {
+  border-radius: 16px;
+  overflow: hidden;
+  margin-bottom: 70px;
+}
+#career .half_card {
+  margin-bottom: 58px;
+}
+#career .half_card .img {
+  border-radius: 16px;
+  height: 348px;
+  overflow: hidden;
+}
+#career .half_card .img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#career .half_card .text {
+  color: #000;
+  font-family: "Golos UI", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+#career .half_card_2 {
+  margin-bottom: 70px;
+}
+#career .text_card_2 {
+  border-radius: 16px;
+  overflow: hidden;
+  padding-left: 50px;
+  padding-top: 58px;
+  padding-bottom: 92px;
+  margin-bottom: 70px;
+}
+#career .text_card_2 .bg_img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#career .text_card_2 .text {
+  position: relative;
+}
+#career .text_card_2 .text img {
+  display: block;
+  margin-bottom: 14px;
+}
+#career .text_card_2 .text .text_title {
+  color: #FFF;
+  font-family: "Golos UI", sans-serif;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  max-width: 734px;
+}
+#career .text_card_2 .text .text_description {
+  color: #FFF;
+  font-family: "Golos UI", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+#career .career_accordion {
+  border-radius: 16px;
+  border: 3px solid #F64909;
+  background: #FFF;
+  padding: 50px 26px;
+  margin-bottom: 28px;
+}
+#career .career_accordion .accordion_title {
+  color: #F64909;
+  font-family: "Golos UI", sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 3.6px;
+  text-transform: uppercase;
+}
+#career .career_accordion .accordion_line {
+  background: #F64909;
+  width: 174px;
+  height: 3px;
+  margin: 50px 0;
+}
+#career .career_accordion .gap {
+  gap: 24px;
+  margin-bottom: 50px;
+}
+#career .career_accordion .data_title {
+  color: #F64909;
+  font-family: "Golos UI", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2.4px;
+}
+#career .career_accordion .data_value {
+  color: #000;
+  font-family: "Golos UI", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2.4px;
+}
+#career .career_accordion .accordion_btn {
+  border-radius: 100px;
+  background: #F64909;
+  width: 100%;
+  display: block;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFF;
+  text-align: center;
+  font-family: "Golos UI", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+}
+#career .career_accordion .accordion_btn .opened {
+  display: none;
+}
+#career .career_accordion .accordion_btn:hover {
+  border-radius: 100px;
+  border: 2px solid #F64909;
+  background: #FFF;
+  color: #F64909;
+}
+#career .career_accordion .accordion_btn:active {
+  border-radius: 100px;
+  border: 2px solid #F64909;
+  color: #F64909;
+  background: #FFF;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+}
+#career .career_accordion .accordion_btn.opened {
+  border-radius: 100px;
+  border: 2px solid #F64909;
+  background: #FFF;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  color: #F64909;
+}
+#career .career_accordion .accordion_btn.opened .opened {
+  display: block;
+}
+#career .career_accordion .accordion_btn.opened .closed {
+  display: none;
+}
+#career .career_accordion .accordion_btn.opened:hover {
+  border-radius: 100px;
+  border: 2px solid #F64909;
+  background: #FFF;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  color: #F64909;
+}
+#career .career_accordion .accordion_btn.opened:active {
+  border-radius: 100px;
+  border: 2px solid #F64909;
+  background: #FFF;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  color: #F64909;
+}
+#career .career_accordion .career_accordion_body {
+  padding-top: 50px;
+}
+#career .career_accordion .career_accordion_body .accorion_body_title {
+  color: #F64909;
+  font-family: "Golos UI", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2.4px;
+  margin-bottom: 26px;
+}
+#career .career_accordion .career_accordion_body ul {
+  margin-bottom: 26px;
+  padding-left: 32px;
+}
+#career .career_accordion .career_accordion_body li {
+  color: #000;
+  font-family: "Golos UI", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2px;
+  list-style-type: disc;
+}
+#career .career_accordion .career_accordion_body .body_btn {
+  display: block;
+  border-radius: 100px;
+  background: #F64909;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFF;
+  text-align: center;
+  font-family: "Golos UI", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+}
+#career .career_accordion .career_accordion_body .body_btn:hover {
+  border-radius: 100px;
+  border: 2px solid #F64909;
+  background: #FFF;
+  color: #F64909;
+}
+#career .career_accordion .career_accordion_body .body_btn:active {
+  border-radius: 100px;
+  border: 2px solid #F64909;
+  background: #FFF;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  color: #F64909;
+}
+#career .career_accordion .career_accordion_modal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+#career .career_accordion .career_accordion_modal .modal_bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.25);
+}
+#career .career_accordion .career_accordion_modal form {
+  position: relative;
+  width: 648px;
+  border-radius: 16px;
+  background: #F64909;
+  padding: 40px 34px 40px 26px;
+}
+#career .career_accordion .career_accordion_modal form .modal_close {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  background: transparent;
+  border: none;
+  outline: none;
+}
+#career .career_accordion .career_accordion_modal form .modal_title {
+  color: #FFF;
+  font-family: "Golos UI", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+  padding-right: 38px;
+  margin-bottom: 30px;
+}
+#career .career_accordion .career_accordion_modal form .inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 54px;
+}
+#career .career_accordion .career_accordion_modal form .inputs input {
+  overflow: hidden;
+  color: #000;
+  text-overflow: ellipsis;
+  font-family: "Golos UI", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1.6px;
+  height: 40px;
+  padding-left: 22px;
+  padding-right: 10px;
+  border-radius: 16px;
+  border: 2px solid #FFF;
+  background: #FFF;
+  outline: none;
+}
+#career .career_accordion .career_accordion_modal form .inputs input::-moz-placeholder {
+  color: #9E9E9E;
+}
+#career .career_accordion .career_accordion_modal form .inputs input::placeholder {
+  color: #9E9E9E;
+}
+#career .career_accordion .career_accordion_modal form .modal_bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+#career .career_accordion .career_accordion_modal form .modal_bottom .label input {
+  display: none;
+}
+#career .career_accordion .career_accordion_modal form .modal_bottom .label label {
+  position: relative;
+  padding-left: 56px;
+  cursor: pointer;
+}
+#career .career_accordion .career_accordion_modal form .modal_bottom .label label::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  background: white;
+  border-radius: 50%;
+}
+#career .career_accordion .career_accordion_modal form .modal_bottom .label label::after {
+  position: absolute;
+  left: 3px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  content: "";
+  color: #F64909;
+  text-align: center;
+  font-family: "Golos UI", sans-serif;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+}
+#career .career_accordion .career_accordion_modal form .modal_bottom .label label span {
+  color: #FFF;
+  font-family: "Golos UI", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1.6px;
+  max-width: 235px;
+}
+#career .career_accordion .career_accordion_modal form .modal_bottom .label #career_accordion_modal_checkbock_1:checked + .career_accordion_modal_checkbock_1::after {
+  content: "✓";
+}
+#career .career_accordion .career_accordion_modal form .modal_bottom .label #career_accordion_modal_checkbock_2:checked + .career_accordion_modal_checkbock_2::after {
+  content: "✓";
+}
+#career .career_accordion .career_accordion_modal form .modal_bottom .label #career_accordion_modal_checkbock_3:checked + .career_accordion_modal_checkbock_3::after {
+  content: "✓";
+}
+#career .career_accordion .career_accordion_modal form .modal_bottom .label #career_accordion_modal_checkbock_4:checked + .career_accordion_modal_checkbock_4::after {
+  content: "✓";
+}
+#career .career_accordion .career_accordion_modal form .modal_bottom .label #career_accordion_modal_checkbock_5:checked + .career_accordion_modal_checkbock_5::after {
+  content: "✓";
+}
+#career .career_accordion .career_accordion_modal form .modal_bottom .label #career_accordion_modal_checkbock_6:checked + .career_accordion_modal_checkbock_6::after {
+  content: "✓";
+}
+#career .career_accordion .career_accordion_modal form .modal_bottom .label #career_accordion_modal_checkbock_7:checked + .career_accordion_modal_checkbock_7::after {
+  content: "✓";
+}
+#career .career_accordion .career_accordion_modal form .modal_bottom .label #career_accordion_modal_checkbock_8:checked + .career_accordion_modal_checkbock_8::after {
+  content: "✓";
+}
+#career .career_accordion .career_accordion_modal form .modal_bottom .label #career_accordion_modal_checkbock_9:checked + .career_accordion_modal_checkbock_9::after {
+  content: "✓";
+}
+#career .career_accordion .career_accordion_modal form .modal_bottom .label #career_accordion_modal_checkbock_10:checked + .career_accordion_modal_checkbock_10::after {
+  content: "✓";
+}
+#career .career_accordion .career_accordion_modal form .modal_bottom .label #career_accordion_modal_checkbock_11:checked + .career_accordion_modal_checkbock_11::after {
+  content: "✓";
+}
+#career .career_accordion .career_accordion_modal form .modal_bottom .label #career_accordion_modal_checkbock_12:checked + .career_accordion_modal_checkbock_12::after {
+  content: "✓";
+}
+#career .career_accordion .career_accordion_modal form .modal_bottom .label #career_accordion_modal_checkbock_13:checked + .career_accordion_modal_checkbock_13::after {
+  content: "✓";
+}
+#career .career_accordion .career_accordion_modal form .modal_bottom .label #career_accordion_modal_checkbock_14:checked + .career_accordion_modal_checkbock_14::after {
+  content: "✓";
+}
+#career .career_accordion .career_accordion_modal form .modal_bottom .label #career_accordion_modal_checkbock_15:checked + .career_accordion_modal_checkbock_15::after {
+  content: "✓";
+}
+#career .career_accordion .career_accordion_modal form .modal_bottom .label #career_accordion_modal_checkbock_16:checked + .career_accordion_modal_checkbock_16::after {
+  content: "✓";
+}
+#career .career_accordion .career_accordion_modal form .modal_bottom .label #career_accordion_modal_checkbock_17:checked + .career_accordion_modal_checkbock_17::after {
+  content: "✓";
+}
+#career .career_accordion .career_accordion_modal form .modal_bottom .label #career_accordion_modal_checkbock_18:checked + .career_accordion_modal_checkbock_18::after {
+  content: "✓";
+}
+#career .career_accordion .career_accordion_modal form .modal_bottom .label #career_accordion_modal_checkbock_19:checked + .career_accordion_modal_checkbock_19::after {
+  content: "✓";
+}
+#career .career_accordion .career_accordion_modal form .modal_bottom .label #career_accordion_modal_checkbock_20:checked + .career_accordion_modal_checkbock_20::after {
+  content: "✓";
+}
+#career .career_accordion .career_accordion_modal form .modal_bottom .submit {
+  border-radius: 100px;
+  background: #FFF;
+  height: 40px;
+  width: 224px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #F64909;
+  text-align: center;
+  font-family: "Golos UI", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+  outline: none;
+  border: none;
+}
+#career .career_accordion .career_accordion_modal form .modal_bottom .submit:hover {
+  border-radius: 100px;
+  border: 2px solid #FFF;
+  background: #F64909;
+  color: white;
+}
+#career .career_accordion .career_accordion_modal form .modal_bottom .submit:active {
+  border-radius: 100px;
+  border: 2px solid #FFF;
+  background: #F64909;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  color: white;
+}
+@keyframes accordionModalActive {
+  0% {
+    opacity: 0;
+    transform: scale(1.3);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+#career .career_accordion .career_accordion_modal.active {
+  display: flex;
+  animation: accordionModalActive 0.2s linear 1;
+}
+@keyframes accordionModalNoActive {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+    display: flex;
+  }
+  100% {
+    opacity: 1.3;
+    transform: scale(1.3);
+    display: flex;
+  }
+}
+#career .career_accordion .career_accordion_modal.noActive {
+  display: none;
+  animation: accordionModalNoActive 0.1s linear 1;
+}
+#career .last_career_accordion {
+  margin-bottom: 90px;
+}
+@media (max-width: 1400px) {
+  #career .main_logo {
+    padding-left: 22px;
+  }
+  #career .main_title {
+    padding-left: 22px;
+  }
+  #career .text_card {
+    margin-bottom: 60px;
+  }
+  #career .text_card .text {
+    width: 701px;
+  }
+  #career .main_description {
+    margin-bottom: 50px;
+    padding-left: 22px;
+  }
+  #career .main_img {
+    margin-bottom: 60px;
+  }
+  #career .main_img img {
+    height: 436px;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  #career .half_card {
+    margin-bottom: 50px;
+  }
+  #career .half_card .img {
+    height: 348px;
+  }
+  #career .half_card_2 {
+    margin-bottom: 60px;
+  }
+  #career .text_card_2 {
+    padding-top: 34px;
+    padding-bottom: 72px;
+    margin-bottom: 60px;
+  }
+  #career .text_card_2 .text img {
+    margin-bottom: 8px;
+  }
+  #career .text_card_2 .text .text_title {
+    margin-bottom: 30px;
+    max-width: 630px;
+  }
+  #career .career_accordion {
+    padding: 50px 22px;
+  }
+  #career .career_accordion .accordion_title {
+    letter-spacing: 3.2px;
+  }
+  #career .career_accordion .career_accordion_body .accorion_body_title {
+    margin-bottom: 24px;
+  }
+  #career .career_accordion .career_accordion_body ul {
+    margin-bottom: 24px;
+  }
+  #career .career_accordion .career_accordion_modal form {
+    padding: 40px 14px 30px 22px;
+  }
+  #career .career_accordion .career_accordion_modal form .modal_title {
+    font-size: 21px;
+    letter-spacing: 2.1px;
+    padding-right: 24px;
+  }
+  #career .career_accordion .career_accordion_modal form .inputs {
+    gap: 16px;
+    margin-bottom: 31px;
+  }
+  #career .last_career_accordion {
+    margin-bottom: 60px;
+  }
+}
+@media (max-width: 1200px) {
+  #career .main_logo {
+    padding-left: 16px;
+    margin: 20px 0;
+  }
+  #career .main_title {
+    padding-left: 16px;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+  }
+  #career .text_card {
+    margin-bottom: 50px;
+  }
+  #career .text_card img {
+    -o-object-position: 65% center;
+       object-position: 65% center;
+  }
+  #career .text_card .text {
+    width: 523px;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 3.5px;
+    height: 421px;
+  }
+  #career .main_description {
+    margin-bottom: 40px;
+    padding-left: 16px;
+    font-size: 19px;
+    letter-spacing: 1.9px;
+  }
+  #career .main_img {
+    margin-bottom: 50px;
+  }
+  #career .main_img img {
+    height: 367px;
+  }
+  #career .half_card {
+    margin-bottom: 40px;
+  }
+  #career .half_card .img {
+    height: 320px;
+  }
+  #career .half_card .text {
+    font-size: 17px;
+    letter-spacing: 1.7px;
+  }
+  #career .half_card_2 {
+    margin-bottom: 50px;
+  }
+  #career .text_card_2 {
+    padding-top: 30px;
+    padding-bottom: 67px;
+    padding-left: 46px;
+    margin-bottom: 50px;
+  }
+  #career .text_card_2 .text img {
+    margin-bottom: 24px;
+  }
+  #career .text_card_2 .text .text_title {
+    font-size: 35px;
+    letter-spacing: 3.5px;
+    margin-bottom: 40px;
+    max-width: 522px;
+  }
+  #career .text_card_2 .text .text_description {
+    font-size: 20px;
+    letter-spacing: 2px;
+  }
+  #career .career_accordion {
+    padding: 40px 20px;
+    margin-bottom: 20px;
+  }
+  #career .career_accordion .accordion_title {
+    font-size: 29px;
+    letter-spacing: 2.9px;
+  }
+  #career .career_accordion .accordion_line {
+    margin: 40px 0;
+    width: 174px;
+  }
+  #career .career_accordion .data_title {
+    font-size: 19px;
+    letter-spacing: 1.9px;
+  }
+  #career .career_accordion .data_value {
+    font-size: 19px;
+    letter-spacing: 1.9px;
+  }
+  #career .career_accordion .gap {
+    gap: 16px;
+    margin-bottom: 40px;
+  }
+  #career .career_accordion .career_accordion_body {
+    padding-top: 40px;
+  }
+  #career .career_accordion .career_accordion_body .accorion_body_title {
+    margin-bottom: 20px;
+    font-size: 19px;
+    letter-spacing: 1.9px;
+  }
+  #career .career_accordion .career_accordion_body ul {
+    margin-bottom: 20px;
+    font-size: 17px;
+    letter-spacing: 1.7px;
+  }
+  #career .career_accordion .career_accordion_modal form {
+    padding: 32px 14px 26px 16px;
+    width: 626px;
+  }
+  #career .career_accordion .career_accordion_modal form .modal_title {
+    font-size: 21px;
+    letter-spacing: 2.1px;
+    padding-right: 38px;
+  }
+  #career .career_accordion .career_accordion_modal form .inputs {
+    gap: 14px;
+    margin-bottom: 16px;
+  }
+  #career .career_accordion .career_accordion_modal form .modal_bottom .label label {
+    padding-left: 56px;
+  }
+  #career .career_accordion .career_accordion_modal form .modal_bottom .label label span {
+    width: 210px;
+    font-size: 14px;
+    letter-spacing: 1.4px;
+  }
+  #career .last_career_accordion {
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 992px) {
+  #career .main_logo {
+    padding-left: 22px;
+  }
+  #career .main_logo img {
+    width: 70px;
+    height: 70px;
+  }
+  #career .main_title {
+    padding-left: 22px;
+    font-size: 26px;
+    letter-spacing: 2.6px;
+  }
+  #career .text_card img {
+    -o-object-position: 50% center;
+       object-position: 50% center;
+  }
+  #career .text_card .text {
+    left: 22px;
+    width: 469px;
+    height: 352px;
+    font-size: 34px;
+    letter-spacing: 3.4px;
+  }
+  #career .main_description {
+    padding-left: 22px;
+    font-size: 24px;
+    letter-spacing: 2.4px;
+  }
+  #career .main_img img {
+    height: 720px;
+  }
+  #career .half_card {
+    margin-bottom: 40px;
+  }
+  #career .half_card .img {
+    height: 380px;
+  }
+  #career .half_card .text {
+    font-size: 17px;
+    letter-spacing: 1.7px;
+  }
+  #career .text_card_2 {
+    padding-top: 16px;
+    padding-bottom: 46px;
+    padding-left: 22px;
+  }
+  #career .text_card_2 .text img {
+    margin-bottom: 0px;
+    width: 70px;
+    height: 70px;
+  }
+  #career .text_card_2 .text .text_title {
+    font-size: 34px;
+    letter-spacing: 3.4px;
+    margin-bottom: 20px;
+    max-width: 453px;
+  }
+  #career .text_card_2 .text .text_description {
+    font-size: 17px;
+    letter-spacing: 1.7px;
+  }
+  #career .career_accordion {
+    padding: 20px 22px;
+  }
+  #career .career_accordion .accordion_title {
+    font-size: 32px;
+    letter-spacing: 3.2px;
+  }
+  #career .career_accordion .accordion_line {
+    margin: 30px 0;
+    width: 174px;
+  }
+  #career .career_accordion .data_title {
+    font-size: 19px;
+    letter-spacing: 1.9px;
+    width: 101px;
+  }
+  #career .career_accordion .data_value {
+    font-size: 19px;
+    letter-spacing: 1.9px;
+  }
+  #career .career_accordion .gap-md {
+    margin-bottom: 30px;
+  }
+  #career .career_accordion .gap {
+    gap: 16px;
+    margin-bottom: 0;
+  }
+  #career .career_accordion .career_accordion_body {
+    padding-top: 30px;
+  }
+  #career .career_accordion .career_accordion_body .accorion_body_title {
+    margin-bottom: 20px;
+    font-size: 24px;
+    letter-spacing: 2.4px;
+  }
+  #career .career_accordion .career_accordion_body ul {
+    margin-bottom: 20px;
+    font-size: 17px;
+    letter-spacing: 1.7px;
+  }
+  #career .career_accordion .career_accordion_modal form {
+    padding: 40px 14px 22px 16px;
+    width: 720px;
+  }
+  #career .career_accordion .career_accordion_modal form .modal_title {
+    font-size: 18px;
+    letter-spacing: 1.8px;
+    padding-right: 39px;
+  }
+  #career .career_accordion .career_accordion_modal form .inputs {
+    gap: 14px;
+    margin-bottom: 40px;
+  }
+  #career .career_accordion .career_accordion_modal form .inputs input {
+    border-radius: 12px;
+    font-size: 14px;
+    letter-spacing: 1.4px;
+    padding-left: 16px;
+    padding-right: 4px;
+  }
+  #career .career_accordion .career_accordion_modal form .modal_bottom .label label {
+    padding-left: 56px;
+  }
+  #career .career_accordion .career_accordion_modal form .modal_bottom .label label span {
+    min-width: 265px;
+    font-size: 12px;
+    letter-spacing: 1.2px;
+  }
+  #career .last_career_accordion {
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 768px) {
+  #career .main_logo {
+    padding-left: 12px;
+    margin: 20px 0;
+  }
+  #career .main_logo img {
+    width: 60px;
+    height: 60px;
+  }
+  #career .main_title {
+    padding-left: 12px;
+    font-size: 24px;
+    letter-spacing: 2.4px;
+    margin-bottom: 20px;
+  }
+  #career .text_card {
+    margin-bottom: 50px;
+  }
+  #career .text_card img {
+    -o-object-position: 75% center;
+       object-position: 75% center;
+  }
+  #career .text_card .text {
+    left: 16px;
+    width: 350px;
+    height: 352px;
+    font-size: 28px;
+    letter-spacing: 2.8px;
+  }
+  #career .main_description {
+    padding-left: 12px;
+    font-size: 20px;
+    letter-spacing: 2px;
+  }
+  #career .main_img {
+    margin-bottom: 50px;
+  }
+  #career .main_img img {
+    height: 540px;
+  }
+  #career .half_card {
+    margin-bottom: 40px;
+  }
+  #career .half_card .img {
+    height: 252px;
+    margin-bottom: 4px;
+  }
+  #career .half_card .text {
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    padding-left: 12px;
+  }
+  #career .half_card_2 {
+    margin-bottom: 50px;
+  }
+  #career .text_card_2 {
+    padding-top: 16px;
+    padding-bottom: 50px;
+    padding-left: 16px;
+    margin-bottom: 50px;
+  }
+  #career .text_card_2 .bg_img {
+    -o-object-position: 75% center;
+       object-position: 75% center;
+  }
+  #career .text_card_2 .text img {
+    margin-bottom: 4px;
+    width: 60px;
+    height: 60px;
+  }
+  #career .text_card_2 .text .text_title {
+    font-size: 28px;
+    letter-spacing: 2.8px;
+    margin-bottom: 14px;
+    max-width: 341px;
+  }
+  #career .text_card_2 .text .text_description {
+    font-size: 15px;
+    letter-spacing: 1.5px;
+  }
+  #career .career_accordion {
+    padding: 30px 16px;
+    border-radius: 10px;
+  }
+  #career .career_accordion .accordion_title {
+    font-size: 26px;
+    letter-spacing: 2.6px;
+  }
+  #career .career_accordion .accordion_line {
+    margin: 26px 0;
+    width: 132px;
+  }
+  #career .career_accordion .data_title {
+    font-size: 20px;
+    letter-spacing: 2px;
+  }
+  #career .career_accordion .data_value {
+    font-size: 20px;
+    letter-spacing: 2px;
+  }
+  #career .career_accordion .gap-md {
+    margin-bottom: 30px;
+  }
+  #career .career_accordion .gap {
+    gap: 16px;
+    margin-bottom: 0;
+  }
+  #career .career_accordion .accordion_btn {
+    font-size: 13px;
+    letter-spacing: 1.3px;
+  }
+  #career .career_accordion .career_accordion_body {
+    padding-top: 26px;
+  }
+  #career .career_accordion .career_accordion_body .accorion_body_title {
+    margin-bottom: 16px;
+    font-size: 20px;
+    letter-spacing: 2px;
+  }
+  #career .career_accordion .career_accordion_body ul {
+    margin-bottom: 16px;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+  }
+  #career .career_accordion .career_accordion_body .body_btn {
+    font-size: 13px;
+    letter-spacing: 1.3px;
+  }
+  #career .career_accordion .career_accordion_modal form {
+    padding: 40px 14px 22px 16px;
+    width: 540px;
+  }
+  #career .career_accordion .career_accordion_modal form .modal_title {
+    font-size: 18px;
+    letter-spacing: 1.8px;
+    padding-right: 20px;
+  }
+  #career .career_accordion .career_accordion_modal form .inputs {
+    gap: 14px;
+    margin-bottom: 37px;
+  }
+  #career .career_accordion .career_accordion_modal form .inputs input {
+    border-radius: 12px;
+    font-size: 14px;
+    letter-spacing: 1.4px;
+    padding-left: 16px;
+    padding-right: 0px;
+    height: 34px;
+  }
+  #career .career_accordion .career_accordion_modal form .modal_bottom .label label {
+    padding-left: 52px;
+  }
+  #career .career_accordion .career_accordion_modal form .modal_bottom .label label::before {
+    width: 30px;
+    height: 30px;
+  }
+  #career .career_accordion .career_accordion_modal form .modal_bottom .label label::after {
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+    margin-top: -3px;
+  }
+  #career .career_accordion .career_accordion_modal form .modal_bottom .label label span {
+    min-width: 250px;
+    font-size: 11px;
+    letter-spacing: 1.1px;
+  }
+  #career .last_career_accordion {
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 576px) {
+  #career .main_logo img {
+    width: 36px;
+    height: 36px;
+  }
+  #career .main_title {
+    font-size: 20px;
+    letter-spacing: 2px;
+  }
+  #career .text_card {
+    border-radius: 10px;
+  }
+  #career .text_card img {
+    -o-object-position: 80% center;
+       object-position: 80% center;
+  }
+  #career .text_card .text {
+    left: 12px;
+    width: 353px;
+    height: 250px;
+    font-size: 20px;
+    letter-spacing: 2px;
+  }
+  #career .main_description {
+    font-size: 13px;
+    letter-spacing: 1.3px;
+  }
+  #career .main_img {
+    margin-bottom: 40px;
+    border-radius: 10px;
+  }
+  #career .main_img img {
+    height: calc(100vw - 24px);
+  }
+  #career .half_card {
+    margin-bottom: 30px;
+  }
+  #career .half_card .img {
+    border-radius: 10px;
+  }
+  #career .half_card .text {
+    font-size: 12px;
+    letter-spacing: 1.2px;
+  }
+  #career .half_card_2 {
+    margin-bottom: 50px;
+  }
+  #career .text_card_2 {
+    padding-top: 12px;
+    padding-bottom: 34px;
+    padding-left: 12px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+  }
+  #career .text_card_2 .bg_img {
+    -o-object-position: 80% center;
+       object-position: 80% center;
+  }
+  #career .text_card_2 .text img {
+    margin-bottom: 6px;
+    width: 36px;
+    height: 36px;
+  }
+  #career .text_card_2 .text .text_title {
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 34px;
+    max-width: 278px;
+  }
+  #career .text_card_2 .text .text_description {
+    font-size: 12px;
+    letter-spacing: 1.2px;
+  }
+  #career .career_accordion {
+    padding: 26px 12px;
+  }
+  #career .career_accordion .accordion_title {
+    font-size: 16px;
+    letter-spacing: 1.6px;
+  }
+  #career .career_accordion .accordion_line {
+    margin: 22px 0;
+    width: 83px;
+  }
+  #career .career_accordion .data_title {
+    font-size: 13px;
+    letter-spacing: 1.3px;
+    width: 75px;
+  }
+  #career .career_accordion .data_value {
+    font-size: 13px;
+    letter-spacing: 1.3px;
+  }
+  #career .career_accordion .gap-md {
+    margin-bottom: 22px;
+  }
+  #career .career_accordion .gap {
+    gap: 8px;
+    margin-bottom: 0;
+  }
+  #career .career_accordion .accordion_btn {
+    font-size: 13px;
+    letter-spacing: 1.3px;
+  }
+  #career .career_accordion .career_accordion_body {
+    padding-top: 22px;
+  }
+  #career .career_accordion .career_accordion_body .accorion_body_title {
+    margin-bottom: 16px;
+    font-size: 13px;
+    letter-spacing: 1.3px;
+  }
+  #career .career_accordion .career_accordion_body ul {
+    margin-bottom: 16px;
+  }
+  #career .career_accordion .career_accordion_body li {
+    font-size: 12px;
+    letter-spacing: 1.2px;
+  }
+  #career .career_accordion .career_accordion_modal form {
+    padding: 24px 12px 18px 12px;
+    width: calc(100% - 24px);
+  }
+  #career .career_accordion .career_accordion_modal form .modal_title {
+    font-size: 14px;
+    letter-spacing: 1.4px;
+    padding-right: 27px;
+    margin-bottom: 36px;
+  }
+  #career .career_accordion .career_accordion_modal form .modal_close {
+    top: 17px;
+    right: 12px;
+  }
+  #career .career_accordion .career_accordion_modal form .inputs {
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+  #career .career_accordion .career_accordion_modal form .inputs input {
+    border-radius: 10px;
+    font-size: 12px;
+    letter-spacing: 1.2px;
+    padding-left: 16px;
+    padding-right: 0px;
+    height: 34px;
+  }
+  #career .career_accordion .career_accordion_modal form .modal_bottom {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+  }
+  #career .career_accordion .career_accordion_modal form .modal_bottom .submit {
+    width: 180px;
+  }
+  #career .last_career_accordion {
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 420px) {
+  #career .text_card img {
+    -o-object-position: 70% center;
+       object-position: 70% center;
+  }
+  #career .text_card .text {
+    width: 245px;
+  }
+  #career .text_card_2 .bg_img {
+    -o-object-position: 73% center;
+       object-position: 73% center;
+  }
+  #career .text_card_2 .text .text_description {
+    width: calc(100% - 12px);
+  }
 }/*# sourceMappingURL=style.css.map */

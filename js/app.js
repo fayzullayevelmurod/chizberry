@@ -364,3 +364,27 @@ if (footer_link2.length) {
         privacy_modal2.classList.add('noActive');
     }
 }
+
+let career_accordions = $('.career_accordion');
+
+if (career_accordions.length) {
+    $('.career_accordion .career_accordion_body').slideUp(0);
+    $(career_accordions).each(function (idx, el) {
+        $(el).find('.accordion_open_body').click(function (e) {
+            e.preventDefault();
+            $(this).toggleClass('opened');
+            $(el).find('.career_accordion_body').slideToggle(200);
+        })
+
+        $(el).find('.accordion_open_modal').click(function (e) {
+            e.preventDefault();
+            $(el).find('.career_accordion_modal').removeClass('noActive')
+            $(el).find('.career_accordion_modal').addClass('active')
+        })
+
+        $(el).find('.career_accordion_modal .modal_close').click(function () {
+            $(el).find('.career_accordion_modal').removeClass('active')
+            $(el).find('.career_accordion_modal').addClass('noActive')
+        })
+    })
+}
