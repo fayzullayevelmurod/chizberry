@@ -419,6 +419,14 @@ if (career_accordions.length) {
             $(el).find('.career_accordion_modal').removeClass('active')
             $(el).find('.career_accordion_modal').addClass('noActive')
         })
+
+        $(el).find(`#file_${idx + 1}`).on('change', function (e) {
+            if (e.target.files[0]) {
+                $(el).find(`label[for="file_${idx + 1}"]`).text(e.target.files[0].name);
+            } else {
+                $(el).find(`label[for="file_${idx + 1}"]`).text('Прикрепить резюме')
+            }
+        })
     })
 }
 
