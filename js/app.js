@@ -78,6 +78,13 @@ if (half) {
     
 }
 
+if ($('footer .to_top').length) {
+    console.log("ishladi");
+    $('footer .to_top').click(function () {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    })
+}
+
 let productSlider = document.querySelector('#product .product_main_cards');
 if (productSlider) {
     let product_slide = new Swiper(productSlider, {
