@@ -237,11 +237,13 @@ if (award_img.length) {
     award_img.forEach(img => {
         img.onclick = () => {
             let src = [];
-            src.push({
-                'src': img.getAttribute('src'),
-                'thumb': img.getAttribute('src'),
-                'subHtml': ''
-            });
+            award_img.forEach(item => {
+                src.push({
+                    'src': item.getAttribute('src'),
+                    'thumb': item.getAttribute('src'),
+                    'subHtml': ''
+                });
+            })
             let pdf = img.getAttribute('data-pdf');
             $('#lightgallery').remove();
             const galleryContainer = document.createElement('div');
@@ -265,11 +267,13 @@ if (certificates_img.length) {
     certificates_img.forEach(img => {
         img.onclick = () => {
             let src = [];
-            src.push({
-                'src': img.getAttribute('src'),
-                'thumb': img.getAttribute('src'),
-                'subHtml': ''
-            });
+            certificates_img.forEach(item => {
+                src.push({
+                    'src': item.getAttribute('src'),
+                    'thumb': item.getAttribute('src'),
+                    'subHtml': ''
+                });
+            })
             let pdf = img.getAttribute('data-pdf');
             $('#lightgallery').remove();
             const galleryContainer = document.createElement('div');
@@ -279,7 +283,6 @@ if (certificates_img.length) {
                 dynamic: true,
                 dynamicEl: src,
             });
-
             setTimeout(() => {
                 let download = document.querySelector('#lg-download');
                 download.setAttribute('href', pdf);

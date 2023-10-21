@@ -1209,7 +1209,6 @@ header .header_foot .header_foot_link_right .link_title {
   letter-spacing: 2.4px;
   text-transform: uppercase;
   margin-bottom: 2px;
-  white-space: nowrap;
   text-align: left;
   height: auto;
   margin-left: 0;
@@ -2011,7 +2010,6 @@ header .header_foot .header_foot_link_right .link_title {
   letter-spacing: 2.4px;
   text-transform: uppercase;
   margin-bottom: 2px;
-  white-space: nowrap;
   text-align: left;
   height: auto;
   margin-left: 0;
@@ -3298,7 +3296,6 @@ header .header_foot .header_foot_link_right .link_title {
   letter-spacing: 2.4px;
   text-transform: uppercase;
   margin-bottom: 2px;
-  white-space: nowrap;
   text-align: left;
   height: auto;
   margin-left: 0;
@@ -5670,7 +5667,6 @@ header .header_foot .header_foot_link_right .link_title {
   letter-spacing: 2.4px;
   text-transform: uppercase;
   margin-bottom: 2px;
-  white-space: nowrap;
   text-align: left;
   height: auto;
   margin-left: 0;
@@ -7482,6 +7478,9 @@ header .header_foot .header_foot_link_right .link_title {
   position: relative;
   margin-bottom: 56px;
 }
+.cheesecakes_sufle #tab .tab-content .cards .card_item a:first-child {
+  height: auto !important;
+}
 .cheesecakes_sufle #tab .tab-content .cards .card_item .xit {
   position: absolute;
   top: 0;
@@ -7702,7 +7701,7 @@ header .header_foot .header_foot_link_right .link_title {
     margin-bottom: 15px;
     height: 168px;
   }
-  .cheesecakes_sufle #tab .tab-content .cards .card_item a {
+  .cheesecakes_sufle #tab .tab-content .cards .card_item a:last-child {
     width: 224px;
     height: 40px;
     font-size: 16px;
@@ -7842,7 +7841,7 @@ header .header_foot .header_foot_link_right .link_title {
     height: auto;
     min-height: 252px;
   }
-  .cheesecakes_sufle #tab .tab-content .cards .card_item a {
+  .cheesecakes_sufle #tab .tab-content .cards .card_item a:last-child {
     width: 200px;
     height: 36px;
     font-size: 13px;
@@ -8019,7 +8018,7 @@ header .header_foot .header_foot_link_right .link_title {
     height: auto;
     min-height: 252px;
   }
-  .cheesecakes_sufle #tab .tab-content .cards .card_item a {
+  .cheesecakes_sufle #tab .tab-content .cards .card_item a:last-child {
     width: 200px;
     height: 36px;
     font-size: 13px;
@@ -8191,7 +8190,7 @@ header .header_foot .header_foot_link_right .link_title {
     min-height: 180px;
     margin-bottom: 16px;
   }
-  .cheesecakes_sufle #tab .tab-content .cards .card_item a {
+  .cheesecakes_sufle #tab .tab-content .cards .card_item a:last-child {
     width: 200px;
     height: 36px;
     font-size: 13px;
@@ -8376,9 +8375,9 @@ header .header_foot .header_foot_link_right .link_title {
     min-height: 150px;
     width: calc(100% - 10px);
   }
-  .cheesecakes_sufle #tab .tab-content .cards .card_item a {
+  .cheesecakes_sufle #tab .tab-content .cards .card_item a:last-child {
     width: calc(100% - 10px);
-    height: 36px;
+    height: 40px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -8592,7 +8591,6 @@ header .header_foot .header_foot_link_right .link_title {
   letter-spacing: 2.4px;
   text-transform: uppercase;
   margin-bottom: 2px;
-  white-space: nowrap;
   text-align: left;
   height: auto;
   margin-left: 0;
@@ -9811,7 +9809,6 @@ header .header_foot .header_foot_link_right .link_title {
   letter-spacing: 2.4px;
   text-transform: uppercase;
   margin-bottom: 2px;
-  white-space: nowrap;
   text-align: left;
   height: auto;
   margin-left: 0;
@@ -11310,7 +11307,6 @@ header .header_foot .header_foot_link_right .link_title {
   letter-spacing: 2.4px;
   text-transform: uppercase;
   margin-bottom: 2px;
-  white-space: nowrap;
   text-align: left;
   height: auto;
   margin-left: 0;
@@ -13122,6 +13118,9 @@ header .header_foot .header_foot_link_right .link_title {
   position: relative;
   margin-bottom: 56px;
 }
+.cakes #tab .tab-content .cards .card_item a:first-child {
+  height: auto !important;
+}
 .cakes #tab .tab-content .cards .card_item .xit {
   position: absolute;
   top: 0;
@@ -13342,7 +13341,7 @@ header .header_foot .header_foot_link_right .link_title {
     margin-bottom: 15px;
     height: 168px;
   }
-  .cakes #tab .tab-content .cards .card_item a {
+  .cakes #tab .tab-content .cards .card_item a:last-child {
     width: 224px;
     height: 40px;
     font-size: 16px;
@@ -13482,7 +13481,7 @@ header .header_foot .header_foot_link_right .link_title {
     height: auto;
     min-height: 252px;
   }
-  .cakes #tab .tab-content .cards .card_item a {
+  .cakes #tab .tab-content .cards .card_item a:last-child {
     width: 200px;
     height: 36px;
     font-size: 13px;
@@ -13659,7 +13658,7 @@ header .header_foot .header_foot_link_right .link_title {
     height: auto;
     min-height: 252px;
   }
-  .cakes #tab .tab-content .cards .card_item a {
+  .cakes #tab .tab-content .cards .card_item a:last-child {
     width: 200px;
     height: 36px;
     font-size: 13px;
@@ -13831,7 +13830,7 @@ header .header_foot .header_foot_link_right .link_title {
     min-height: 180px;
     margin-bottom: 16px;
   }
-  .cakes #tab .tab-content .cards .card_item a {
+  .cakes #tab .tab-content .cards .card_item a:last-child {
     width: 200px;
     height: 36px;
     font-size: 13px;
@@ -14016,9 +14015,9 @@ header .header_foot .header_foot_link_right .link_title {
     min-height: 150px;
     width: calc(100% - 10px);
   }
-  .cakes #tab .tab-content .cards .card_item a {
+  .cakes #tab .tab-content .cards .card_item a:last-child {
     width: calc(100% - 10px);
-    height: 36px;
+    height: 40px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -14232,7 +14231,6 @@ header .header_foot .header_foot_link_right .link_title {
   letter-spacing: 2.4px;
   text-transform: uppercase;
   margin-bottom: 2px;
-  white-space: nowrap;
   text-align: left;
   height: auto;
   margin-left: 0;
@@ -15451,7 +15449,6 @@ header .header_foot .header_foot_link_right .link_title {
   letter-spacing: 2.4px;
   text-transform: uppercase;
   margin-bottom: 2px;
-  white-space: nowrap;
   text-align: left;
   height: auto;
   margin-left: 0;
@@ -16950,7 +16947,6 @@ header .header_foot .header_foot_link_right .link_title {
   letter-spacing: 2.4px;
   text-transform: uppercase;
   margin-bottom: 2px;
-  white-space: nowrap;
   text-align: left;
   height: auto;
   margin-left: 0;
@@ -18762,6 +18758,9 @@ header .header_foot .header_foot_link_right .link_title {
   position: relative;
   margin-bottom: 56px;
 }
+.cookies #tab .tab-content .cards .card_item a:first-child {
+  height: auto !important;
+}
 .cookies #tab .tab-content .cards .card_item .xit {
   position: absolute;
   top: 0;
@@ -18982,7 +18981,7 @@ header .header_foot .header_foot_link_right .link_title {
     margin-bottom: 15px;
     height: 168px;
   }
-  .cookies #tab .tab-content .cards .card_item a {
+  .cookies #tab .tab-content .cards .card_item a:last-child {
     width: 224px;
     height: 40px;
     font-size: 16px;
@@ -19122,7 +19121,7 @@ header .header_foot .header_foot_link_right .link_title {
     height: auto;
     min-height: 252px;
   }
-  .cookies #tab .tab-content .cards .card_item a {
+  .cookies #tab .tab-content .cards .card_item a:last-child {
     width: 200px;
     height: 36px;
     font-size: 13px;
@@ -19299,7 +19298,7 @@ header .header_foot .header_foot_link_right .link_title {
     height: auto;
     min-height: 252px;
   }
-  .cookies #tab .tab-content .cards .card_item a {
+  .cookies #tab .tab-content .cards .card_item a:last-child {
     width: 200px;
     height: 36px;
     font-size: 13px;
@@ -19471,7 +19470,7 @@ header .header_foot .header_foot_link_right .link_title {
     min-height: 180px;
     margin-bottom: 16px;
   }
-  .cookies #tab .tab-content .cards .card_item a {
+  .cookies #tab .tab-content .cards .card_item a:last-child {
     width: 200px;
     height: 36px;
     font-size: 13px;
@@ -19656,9 +19655,9 @@ header .header_foot .header_foot_link_right .link_title {
     min-height: 150px;
     width: calc(100% - 10px);
   }
-  .cookies #tab .tab-content .cards .card_item a {
+  .cookies #tab .tab-content .cards .card_item a:last-child {
     width: calc(100% - 10px);
-    height: 36px;
+    height: 40px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -19872,7 +19871,6 @@ header .header_foot .header_foot_link_right .link_title {
   letter-spacing: 2.4px;
   text-transform: uppercase;
   margin-bottom: 2px;
-  white-space: nowrap;
   text-align: left;
   height: auto;
   margin-left: 0;
@@ -21091,7 +21089,6 @@ header .header_foot .header_foot_link_right .link_title {
   letter-spacing: 2.4px;
   text-transform: uppercase;
   margin-bottom: 2px;
-  white-space: nowrap;
   text-align: left;
   height: auto;
   margin-left: 0;
@@ -22590,7 +22587,6 @@ header .header_foot .header_foot_link_right .link_title {
   letter-spacing: 2.4px;
   text-transform: uppercase;
   margin-bottom: 2px;
-  white-space: nowrap;
   text-align: left;
   height: auto;
   margin-left: 0;
@@ -24402,6 +24398,9 @@ header .header_foot .header_foot_link_right .link_title {
   position: relative;
   margin-bottom: 56px;
 }
+.small_items #tab .tab-content .cards .card_item a:first-child {
+  height: auto !important;
+}
 .small_items #tab .tab-content .cards .card_item .xit {
   position: absolute;
   top: 0;
@@ -24622,7 +24621,7 @@ header .header_foot .header_foot_link_right .link_title {
     margin-bottom: 15px;
     height: 168px;
   }
-  .small_items #tab .tab-content .cards .card_item a {
+  .small_items #tab .tab-content .cards .card_item a:last-child {
     width: 224px;
     height: 40px;
     font-size: 16px;
@@ -24762,7 +24761,7 @@ header .header_foot .header_foot_link_right .link_title {
     height: auto;
     min-height: 252px;
   }
-  .small_items #tab .tab-content .cards .card_item a {
+  .small_items #tab .tab-content .cards .card_item a:last-child {
     width: 200px;
     height: 36px;
     font-size: 13px;
@@ -24939,7 +24938,7 @@ header .header_foot .header_foot_link_right .link_title {
     height: auto;
     min-height: 252px;
   }
-  .small_items #tab .tab-content .cards .card_item a {
+  .small_items #tab .tab-content .cards .card_item a:last-child {
     width: 200px;
     height: 36px;
     font-size: 13px;
@@ -25111,7 +25110,7 @@ header .header_foot .header_foot_link_right .link_title {
     min-height: 180px;
     margin-bottom: 16px;
   }
-  .small_items #tab .tab-content .cards .card_item a {
+  .small_items #tab .tab-content .cards .card_item a:last-child {
     width: 200px;
     height: 36px;
     font-size: 13px;
@@ -25296,9 +25295,9 @@ header .header_foot .header_foot_link_right .link_title {
     min-height: 150px;
     width: calc(100% - 10px);
   }
-  .small_items #tab .tab-content .cards .card_item a {
+  .small_items #tab .tab-content .cards .card_item a:last-child {
     width: calc(100% - 10px);
-    height: 36px;
+    height: 40px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -25512,7 +25511,6 @@ header .header_foot .header_foot_link_right .link_title {
   letter-spacing: 2.4px;
   text-transform: uppercase;
   margin-bottom: 2px;
-  white-space: nowrap;
   text-align: left;
   height: auto;
   margin-left: 0;
@@ -26731,7 +26729,6 @@ header .header_foot .header_foot_link_right .link_title {
   letter-spacing: 2.4px;
   text-transform: uppercase;
   margin-bottom: 2px;
-  white-space: nowrap;
   text-align: left;
   height: auto;
   margin-left: 0;
@@ -28230,7 +28227,6 @@ header .header_foot .header_foot_link_right .link_title {
   letter-spacing: 2.4px;
   text-transform: uppercase;
   margin-bottom: 2px;
-  white-space: nowrap;
   text-align: left;
   height: auto;
   margin-left: 0;
@@ -30042,6 +30038,9 @@ header .header_foot .header_foot_link_right .link_title {
   position: relative;
   margin-bottom: 56px;
 }
+.chees_cream #tab .tab-content .cards .card_item a:first-child {
+  height: auto !important;
+}
 .chees_cream #tab .tab-content .cards .card_item .xit {
   position: absolute;
   top: 0;
@@ -30262,7 +30261,7 @@ header .header_foot .header_foot_link_right .link_title {
     margin-bottom: 15px;
     height: 168px;
   }
-  .chees_cream #tab .tab-content .cards .card_item a {
+  .chees_cream #tab .tab-content .cards .card_item a:last-child {
     width: 224px;
     height: 40px;
     font-size: 16px;
@@ -30402,7 +30401,7 @@ header .header_foot .header_foot_link_right .link_title {
     height: auto;
     min-height: 252px;
   }
-  .chees_cream #tab .tab-content .cards .card_item a {
+  .chees_cream #tab .tab-content .cards .card_item a:last-child {
     width: 200px;
     height: 36px;
     font-size: 13px;
@@ -30579,7 +30578,7 @@ header .header_foot .header_foot_link_right .link_title {
     height: auto;
     min-height: 252px;
   }
-  .chees_cream #tab .tab-content .cards .card_item a {
+  .chees_cream #tab .tab-content .cards .card_item a:last-child {
     width: 200px;
     height: 36px;
     font-size: 13px;
@@ -30751,7 +30750,7 @@ header .header_foot .header_foot_link_right .link_title {
     min-height: 180px;
     margin-bottom: 16px;
   }
-  .chees_cream #tab .tab-content .cards .card_item a {
+  .chees_cream #tab .tab-content .cards .card_item a:last-child {
     width: 200px;
     height: 36px;
     font-size: 13px;
@@ -30936,9 +30935,9 @@ header .header_foot .header_foot_link_right .link_title {
     min-height: 150px;
     width: calc(100% - 10px);
   }
-  .chees_cream #tab .tab-content .cards .card_item a {
+  .chees_cream #tab .tab-content .cards .card_item a:last-child {
     width: calc(100% - 10px);
-    height: 36px;
+    height: 40px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -31152,7 +31151,6 @@ header .header_foot .header_foot_link_right .link_title {
   letter-spacing: 2.4px;
   text-transform: uppercase;
   margin-bottom: 2px;
-  white-space: nowrap;
   text-align: left;
   height: auto;
   margin-left: 0;
@@ -32371,7 +32369,6 @@ header .header_foot .header_foot_link_right .link_title {
   letter-spacing: 2.4px;
   text-transform: uppercase;
   margin-bottom: 2px;
-  white-space: nowrap;
   text-align: left;
   height: auto;
   margin-left: 0;
@@ -33870,7 +33867,6 @@ header .header_foot .header_foot_link_right .link_title {
   letter-spacing: 2.4px;
   text-transform: uppercase;
   margin-bottom: 2px;
-  white-space: nowrap;
   text-align: left;
   height: auto;
   margin-left: 0;
@@ -35682,6 +35678,9 @@ header .header_foot .header_foot_link_right .link_title {
   position: relative;
   margin-bottom: 56px;
 }
+.retail #tab .tab-content .cards .card_item a:first-child {
+  height: auto !important;
+}
 .retail #tab .tab-content .cards .card_item .xit {
   position: absolute;
   top: 0;
@@ -35902,7 +35901,7 @@ header .header_foot .header_foot_link_right .link_title {
     margin-bottom: 15px;
     height: 168px;
   }
-  .retail #tab .tab-content .cards .card_item a {
+  .retail #tab .tab-content .cards .card_item a:last-child {
     width: 224px;
     height: 40px;
     font-size: 16px;
@@ -36042,7 +36041,7 @@ header .header_foot .header_foot_link_right .link_title {
     height: auto;
     min-height: 252px;
   }
-  .retail #tab .tab-content .cards .card_item a {
+  .retail #tab .tab-content .cards .card_item a:last-child {
     width: 200px;
     height: 36px;
     font-size: 13px;
@@ -36219,7 +36218,7 @@ header .header_foot .header_foot_link_right .link_title {
     height: auto;
     min-height: 252px;
   }
-  .retail #tab .tab-content .cards .card_item a {
+  .retail #tab .tab-content .cards .card_item a:last-child {
     width: 200px;
     height: 36px;
     font-size: 13px;
@@ -36391,7 +36390,7 @@ header .header_foot .header_foot_link_right .link_title {
     min-height: 180px;
     margin-bottom: 16px;
   }
-  .retail #tab .tab-content .cards .card_item a {
+  .retail #tab .tab-content .cards .card_item a:last-child {
     width: 200px;
     height: 36px;
     font-size: 13px;
@@ -36576,9 +36575,9 @@ header .header_foot .header_foot_link_right .link_title {
     min-height: 150px;
     width: calc(100% - 10px);
   }
-  .retail #tab .tab-content .cards .card_item a {
+  .retail #tab .tab-content .cards .card_item a:last-child {
     width: calc(100% - 10px);
-    height: 36px;
+    height: 40px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -36792,7 +36791,6 @@ header .header_foot .header_foot_link_right .link_title {
   letter-spacing: 2.4px;
   text-transform: uppercase;
   margin-bottom: 2px;
-  white-space: nowrap;
   text-align: left;
   height: auto;
   margin-left: 0;
@@ -38011,7 +38009,6 @@ header .header_foot .header_foot_link_right .link_title {
   letter-spacing: 2.4px;
   text-transform: uppercase;
   margin-bottom: 2px;
-  white-space: nowrap;
   text-align: left;
   height: auto;
   margin-left: 0;
@@ -39510,7 +39507,6 @@ header .header_foot .header_foot_link_right .link_title {
   letter-spacing: 2.4px;
   text-transform: uppercase;
   margin-bottom: 2px;
-  white-space: nowrap;
   text-align: left;
   height: auto;
   margin-left: 0;
@@ -41322,6 +41318,9 @@ header .header_foot .header_foot_link_right .link_title {
   position: relative;
   margin-bottom: 56px;
 }
+.horeca #tab .tab-content .cards .card_item a:first-child {
+  height: auto !important;
+}
 .horeca #tab .tab-content .cards .card_item .xit {
   position: absolute;
   top: 0;
@@ -41542,7 +41541,7 @@ header .header_foot .header_foot_link_right .link_title {
     margin-bottom: 15px;
     height: 168px;
   }
-  .horeca #tab .tab-content .cards .card_item a {
+  .horeca #tab .tab-content .cards .card_item a:last-child {
     width: 224px;
     height: 40px;
     font-size: 16px;
@@ -41682,7 +41681,7 @@ header .header_foot .header_foot_link_right .link_title {
     height: auto;
     min-height: 252px;
   }
-  .horeca #tab .tab-content .cards .card_item a {
+  .horeca #tab .tab-content .cards .card_item a:last-child {
     width: 200px;
     height: 36px;
     font-size: 13px;
@@ -41859,7 +41858,7 @@ header .header_foot .header_foot_link_right .link_title {
     height: auto;
     min-height: 252px;
   }
-  .horeca #tab .tab-content .cards .card_item a {
+  .horeca #tab .tab-content .cards .card_item a:last-child {
     width: 200px;
     height: 36px;
     font-size: 13px;
@@ -42031,7 +42030,7 @@ header .header_foot .header_foot_link_right .link_title {
     min-height: 180px;
     margin-bottom: 16px;
   }
-  .horeca #tab .tab-content .cards .card_item a {
+  .horeca #tab .tab-content .cards .card_item a:last-child {
     width: 200px;
     height: 36px;
     font-size: 13px;
@@ -42216,9 +42215,9 @@ header .header_foot .header_foot_link_right .link_title {
     min-height: 150px;
     width: calc(100% - 10px);
   }
-  .horeca #tab .tab-content .cards .card_item a {
+  .horeca #tab .tab-content .cards .card_item a:last-child {
     width: calc(100% - 10px);
-    height: 36px;
+    height: 40px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -42432,7 +42431,6 @@ header .header_foot .header_foot_link_right .link_title {
   letter-spacing: 2.4px;
   text-transform: uppercase;
   margin-bottom: 2px;
-  white-space: nowrap;
   text-align: left;
   height: auto;
   margin-left: 0;
@@ -43651,7 +43649,6 @@ header .header_foot .header_foot_link_right .link_title {
   letter-spacing: 2.4px;
   text-transform: uppercase;
   margin-bottom: 2px;
-  white-space: nowrap;
   text-align: left;
   height: auto;
   margin-left: 0;
@@ -45150,7 +45147,6 @@ header .header_foot .header_foot_link_right .link_title {
   letter-spacing: 2.4px;
   text-transform: uppercase;
   margin-bottom: 2px;
-  white-space: nowrap;
   text-align: left;
   height: auto;
   margin-left: 0;
@@ -46962,6 +46958,9 @@ header .header_foot .header_foot_link_right .link_title {
   position: relative;
   margin-bottom: 56px;
 }
+.range #tab .tab-content .cards .card_item a:first-child {
+  height: auto !important;
+}
 .range #tab .tab-content .cards .card_item .xit {
   position: absolute;
   top: 0;
@@ -47182,7 +47181,7 @@ header .header_foot .header_foot_link_right .link_title {
     margin-bottom: 15px;
     height: 168px;
   }
-  .range #tab .tab-content .cards .card_item a {
+  .range #tab .tab-content .cards .card_item a:last-child {
     width: 224px;
     height: 40px;
     font-size: 16px;
@@ -47322,7 +47321,7 @@ header .header_foot .header_foot_link_right .link_title {
     height: auto;
     min-height: 252px;
   }
-  .range #tab .tab-content .cards .card_item a {
+  .range #tab .tab-content .cards .card_item a:last-child {
     width: 200px;
     height: 36px;
     font-size: 13px;
@@ -47499,7 +47498,7 @@ header .header_foot .header_foot_link_right .link_title {
     height: auto;
     min-height: 252px;
   }
-  .range #tab .tab-content .cards .card_item a {
+  .range #tab .tab-content .cards .card_item a:last-child {
     width: 200px;
     height: 36px;
     font-size: 13px;
@@ -47671,7 +47670,7 @@ header .header_foot .header_foot_link_right .link_title {
     min-height: 180px;
     margin-bottom: 16px;
   }
-  .range #tab .tab-content .cards .card_item a {
+  .range #tab .tab-content .cards .card_item a:last-child {
     width: 200px;
     height: 36px;
     font-size: 13px;
@@ -47856,9 +47855,9 @@ header .header_foot .header_foot_link_right .link_title {
     min-height: 150px;
     width: calc(100% - 10px);
   }
-  .range #tab .tab-content .cards .card_item a {
+  .range #tab .tab-content .cards .card_item a:last-child {
     width: calc(100% - 10px);
-    height: 36px;
+    height: 40px;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -48072,7 +48071,6 @@ header .header_foot .header_foot_link_right .link_title {
   letter-spacing: 2.4px;
   text-transform: uppercase;
   margin-bottom: 2px;
-  white-space: nowrap;
   text-align: left;
   height: auto;
   margin-left: 0;
@@ -49291,7 +49289,6 @@ header .header_foot .header_foot_link_right .link_title {
   letter-spacing: 2.4px;
   text-transform: uppercase;
   margin-bottom: 2px;
-  white-space: nowrap;
   text-align: left;
   height: auto;
   margin-left: 0;
@@ -50790,7 +50787,6 @@ header .header_foot .header_foot_link_right .link_title {
   letter-spacing: 2.4px;
   text-transform: uppercase;
   margin-bottom: 2px;
-  white-space: nowrap;
   text-align: left;
   height: auto;
   margin-left: 0;
@@ -53013,7 +53009,6 @@ footer .footer_bottom .footer_texts .first_text2 {
   letter-spacing: 2.4px;
   text-transform: uppercase;
   margin-bottom: 2px;
-  white-space: nowrap;
   text-align: left;
   height: auto;
   margin-left: 0;
@@ -54232,7 +54227,6 @@ footer .footer_bottom .footer_texts .first_text2 {
   letter-spacing: 2.4px;
   text-transform: uppercase;
   margin-bottom: 2px;
-  white-space: nowrap;
   text-align: left;
   height: auto;
   margin-left: 0;
@@ -55731,7 +55725,6 @@ footer .footer_bottom .footer_texts .first_text2 {
   letter-spacing: 2.4px;
   text-transform: uppercase;
   margin-bottom: 2px;
-  white-space: nowrap;
   text-align: left;
   height: auto;
   margin-left: 0;
@@ -57912,8 +57905,12 @@ footer .footer_bottom .footer_texts .first_text2 {
     position: absolute;
     bottom: 0;
     width: 95%;
-    height: 36px;
+    height: 40px;
     font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.3px;
   }
   .bestseller .bestseller_in .bestseller_card .bestseller_line {
     width: 60%;
@@ -58106,7 +58103,7 @@ footer .footer_bottom .footer_texts .first_text2 {
   }
   .bestseller .bestseller_in .bestseller_card .bestseller_btn {
     width: 95%;
-    height: 36px;
+    height: 40px;
     font-size: 13px;
   }
   .bestseller .bestseller_in .bestseller_card .bestseller_line {
@@ -62699,6 +62696,10 @@ footer .footer_bottom .footer_texts .first_text2 {
   display: flex;
   align-items: center;
   cursor: pointer;
+}
+#career .career_accordion .career_accordion_modal form .inputs label img {
+  width: 20px;
+  margin-right: 10px;
 }
 #career .career_accordion .career_accordion_modal form .modal_bottom {
   display: flex;
